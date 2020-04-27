@@ -351,10 +351,22 @@ footer {
     overflow: visible;  
 }
 
-.slide-box {
-    box-shadow: 0px 0px 45px #CAD1DD;
-    border-radius: 20px; 
-    height: 380px;
+@media (min-width: 768px) {
+
+    .slide-box {
+        box-shadow: 0px 0px 45px #CAD1DD;
+        border-radius: 20px; 
+        height: auto;
+        min-height: 450px;
+        padding-bottom: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .slide-box {
+        min-height: 380px;
+    }
 }
 
 .slide-box1 {
@@ -366,7 +378,14 @@ footer {
 
 .slide-box2 {
     background-repeat: no-repeat;
-    background-image: url(../img/slide2.jpg);
+    background-image: url(../img/slide2.png);
+    background-position: top center;
+    background-size: cover;
+}
+
+.slide-box3 {
+    background-repeat: no-repeat;
+    background-image: url(../img/slide3.png);
     background-position: top center;
     background-size: cover;
 }
@@ -383,11 +402,19 @@ footer {
     margin-top: 35px;
 }
 
-.carousel-title {
-    font-size: 40px;
-    line-height: 61px;
-    color: #fff;
-    font-weight: 450;
+@media (min-width: 768px) { 
+    .carousel-title {
+        font-size: 40px;
+        line-height: normal;
+        color: #fff;
+        font-weight: 450;
+    }
+}
+
+@media (min-width: 1025px) { 
+    .carousel-title {
+        line-height: 61px;
+    }
 }
 
 .carousel-desc {
@@ -430,18 +457,36 @@ footer {
     bottom: 2px;
 }
 
-.carousel-image {
-    position: absolute;
-    z-index: 10;
-    top: -70px;
-    right: 0;
-    padding-right: 62px;
+@media (min-width: 768px) { 
+    .carousel-image {
+        display: none;
+    }
 }
 
-#slider {
-    margin-top: 130px;
-    margin-bottom: 120px;
+@media (min-width: 1024px) { 
+    .carousel-image {
+        display: block;
+        position: absolute;
+        z-index: 10;
+        top: -15px;
+        right: 0;
+        padding-right: 62px;
+    }
 }
+
+@media (min-width: 1025px) { 
+    .carousel-image {
+        top: -55px;
+    }
+}
+
+@media (min-width: 768px) { 
+    #slider {
+        margin-top: 130px;
+        margin-bottom: 120px;
+    
+}
+
 
 .carousel-fade .carousel-item {
     opacity: 0;
@@ -467,3 +512,4 @@ footer {
     transform: translateX(0);
     transform: translate3d(0, 0, 0);
   }
+
