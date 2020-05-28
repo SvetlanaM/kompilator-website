@@ -1,8 +1,8 @@
 body {
-    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     font-size: 18px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 
@@ -97,12 +97,13 @@ h6 {
   color: #4E4C82;
 }
 
-
-.nav-bg {
-    height: 100px;
-    background-repeat: repeat-y;
-    background-image: url(../img/svg/elipse_header.svg);
-    background-position: 0% 100%;
+@media (min-width: 992px) { 
+    .nav-bg {
+        height: 100px;
+        background-repeat: no-repeat;
+        background-image: url(../img/svg/elipse_header.svg);
+        background-position: 0% 100%;
+    }
 }
 
 .nav-link {
@@ -171,6 +172,7 @@ h6 {
 
 .card-first {
     width: 90%;
+    white-space: break-spaces;
 }
 
 .service-title {
@@ -209,6 +211,21 @@ h6 {
     }
 }
 
+.service-subtitle-block {
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 42px;
+    align-items: center;
+}
+
+.service-subtitle-block::before {
+    position: relative;
+    content: url(../img/svg/notes.svg);
+    display: inline-flex;
+    margin-right: 20px;
+    height: auto;
+}
+
 ol li {
     line-height: 40px;
 }
@@ -217,6 +234,58 @@ ol li {
     font-weight: 500;
     font-size: 18px;
     color: #FF8C4A;
+}
+
+.btn-reservate {
+    text-align: left;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 25px;
+    color: #4E4C82;
+    white-space: pre-line;
+}
+
+@media (min-width: 992px) { 
+    .btn-reservate {
+        font-weight: 800;
+        font-size: 35px;
+        line-height: 42px;
+        text-align: center;
+        color: #4E4C82;
+    }
+}
+
+.btn-reservate::after {
+    position: relative;
+    content: ">";
+    color: #4E4C82;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    bottom: 3px;
+}
+
+.service-subtitle::before {
+    position: relative;
+    content: ">_";
+    color: #4E4C82;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    bottom: 3px;
+    margin-right: 6px;
+}
+
+.reservate-block {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+@media (min-width: 992px) { 
+    .reservate-block {
+        margin-top: auto;
+        margin-bottom: auto;
+        position: absolute;
+        bottom: 5%;
+    }
 }
 
 .btn-order {
@@ -257,7 +326,7 @@ footer {
     position: absolute;
     z-index: 2;
     bottom: -18px;
-    right: 27%;
+    right: 55px;
 }
 
 .card-5 {
@@ -310,6 +379,16 @@ footer {
 
 .banner .container-fluid {
         padding-right: 3rem!important;
+}
+
+.carousel-control-next {
+    justify-content: flex-end;
+    right: 15px;
+}
+
+.carousel-control-prev {
+    justify-content: flex-start;
+    left: 15px;
 }
 
 @media (min-width: 992px) { 
@@ -457,6 +536,20 @@ footer {
     bottom: 2px;
 }
 
+.card-body h6::after {
+    position: relative;
+    content: ">";
+    color: #4E4C82;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    bottom: 2px;
+}
+
+.card-body h6 {
+    cursor: pointer;
+}
+
+
 @media (min-width: 768px) { 
     .carousel-image {
         display: none;
@@ -513,3 +606,5 @@ footer {
     transform: translate3d(0, 0, 0);
   }
 
+
+ 
