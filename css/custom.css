@@ -76,6 +76,11 @@ a {
   color: #FF8C4A;
 }
 
+a:hover {
+    color: #FF8C4A;
+    text-decoration: none;
+}
+
 h1,
 h2,
 h3,
@@ -83,6 +88,10 @@ h4,
 h5,
 h6 {
   color: #4E4C82;
+}
+
+.navbar-nav {
+    background: rgba(255, 255, 255, 0.9);
 }
 
 .bg-primary {
@@ -95,6 +104,12 @@ h6 {
 
 .nav-link {
   color: #4E4C82;
+}
+
+
+
+.nav-link:hover {
+    font-weight: 600;
 }
 
 @media (min-width: 992px) { 
@@ -118,8 +133,9 @@ h6 {
     color: #4E4C82;
     margin-right: 7px;
     margin-bottom: 20px;
-    bottom: 2px;
+    bottom: 0px;
 }
+
 
 .card {
     box-shadow: 0px 0px 45px rgba(202, 209, 221, 0.47);
@@ -150,7 +166,7 @@ h6 {
     color: #FF8C4A;
     margin-left: 5px;
     margin-bottom: 0px;
-    bottom: 2px;
+    bottom: 0px;
 }
 
 .card-with-image {
@@ -212,7 +228,7 @@ h6 {
 }
 
 .service-subtitle-block {
-    font-weight: 800;
+    font-weight: 100;
     font-size: 35px;
     line-height: 42px;
     align-items: center;
@@ -238,16 +254,21 @@ ol li {
 
 .btn-reservate {
     text-align: left;
-    font-weight: 800;
+    font-weight: 400;
     font-size: 22px;
     line-height: 25px;
     color: #4E4C82;
     white-space: pre-line;
+    cursor: pointer;
+}
+
+.btn-reservate:hover {
+    color: #FF8C4A;
 }
 
 @media (min-width: 992px) { 
     .btn-reservate {
-        font-weight: 800;
+        font-weight: 500;
         font-size: 35px;
         line-height: 42px;
         text-align: center;
@@ -261,7 +282,24 @@ ol li {
     color: #4E4C82;
     margin-left: 5px;
     margin-bottom: 0px;
-    bottom: 3px;
+    bottom: -1px;
+}
+
+.btn-reservate:hover::after {
+    position: relative;
+    content: ">";
+    color: #FF8C4A;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    bottom: -1px;
+}
+
+.mb-2 a {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.mb-2 a:hover {
+    color: #FF8C4A;
 }
 
 .service-subtitle::before {
@@ -304,7 +342,7 @@ footer {
 }
 
 .hashtag {
-    font-size: 30px;
+    font-size: 22px;
     line-height: 36px;
     text-align: left;
     color: rgba(255, 255, 255, 0.5);
@@ -458,14 +496,14 @@ footer {
 .slide-box2 {
     background-repeat: no-repeat;
     background-image: url(../img/slide2.png);
-    background-position: top center;
+    background-position: center center;
     background-size: cover;
 }
 
 .slide-box3 {
     background-repeat: no-repeat;
     background-image: url(../img/slide3.png);
-    background-position: top center;
+    background-position: bottom center;
     background-size: cover;
 }
 
@@ -511,7 +549,7 @@ footer {
     color: #ffffff;
     margin-right: 4px;
     margin-bottom: 20px;
-    bottom: 2px;
+    bottom: 0px;
     font-size: 14px;
 }
 
@@ -542,10 +580,15 @@ footer {
     color: #4E4C82;
     margin-left: 5px;
     margin-bottom: 0px;
-    bottom: 2px;
+    bottom: -1px;
 }
 
-.card-body h6 {
+.card-link:hover,
+.card-body h6:hover  {
+    font-weight: 600;
+}
+
+.card-block {
     cursor: pointer;
 }
 
