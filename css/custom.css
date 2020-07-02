@@ -62,6 +62,10 @@ body {
     line-height: 45px;
 }
 
+.btn {
+    background-color: transparent;
+}
+
 @media (min-width: 576px) { 
     .banner-title {
         font-size : 40px;
