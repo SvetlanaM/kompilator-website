@@ -19,6 +19,10 @@ body {
     margin-top: 30px;
 }
 
+.mt-80 {
+    margin-top: 80px;
+}
+
 .mt-100 {
     margin-top: 100px;
 }
@@ -38,8 +42,21 @@ body {
 }
 
 .gray {
-    color: #98999a;
+    color: #818284;
 }
+
+.orange {
+    color: #FF8C4A;
+}
+
+@media (min-width: 1024px) {
+.gray {
+    color: #818284;
+}
+}
+
+
+
 
 .orange {
     color: #ff8c4a;
@@ -58,8 +75,15 @@ body {
 }
 
 .banner-title {
-    font-size : 35px;
-    line-height: 45px;
+    font-size: 28px;
+    line-height: 40px;
+}
+
+@media (min-width: 576px) {
+    .banner-title {
+        font-size : 35px;
+        line-height: 45px;
+    }
 }
 
 .btn {
@@ -168,12 +192,18 @@ h6 {
 }
 
 .card-title {
-    font-size: 18px;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 .card-text {
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.card-list li {
+    line-height: 24px;
 }
 
 .card-link {
@@ -200,16 +230,14 @@ h6 {
 
 .card-image {
     position: absolute;
-    top: -174px;
-    right: 10px;
+    top: -107px;
     z-index: 2;
+    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
 }
 
-@media (min-width: 992px) {
-    .card-image {
-        right: -35px;
-    }
-}
 
 .card-first {
     width: 90%;
@@ -253,7 +281,6 @@ h6 {
 }
 
 .service-subtitle-block {
-    font-weight: 100;
     font-size: 35px;
     line-height: 42px;
     align-items: center;
@@ -434,7 +461,7 @@ footer {
     }
  }
 
- @media (min-width: 1366px) { 
+ @media (min-width: 1280px) { 
     .who {
         margin-top: 80px;
     }
@@ -541,6 +568,13 @@ footer {
     background-size: cover;
 }
 
+.slide-box4 {
+    background-repeat: no-repeat;
+    background-image: url(../img/slide4.png);
+    background-position: bottom center;
+    background-size: cover;
+}
+
 .carousel-caption {
     position: absolute;
     right: 0px;
@@ -640,16 +674,16 @@ footer {
         top: -57px;
         right: 0;
         padding-right: 62px;
-        width: auto;
-        height: 488px;
+        max-width: auto;
+        max-height: 488px;
     }
 }
 
 @media (min-width: 1025px) { 
     .carousel-image {
         top: -55px;
-        width: auto;
-        height: 488px;
+        max-width: auto;
+        max-height: 488px;
     }
 }
 
@@ -658,15 +692,29 @@ footer {
         margin-top: 30px;
         margin-bottom: 20px;
     
+    }
 }
 
 
 @media (min-width: 1024px) { 
     #slider {
-        margin-top: 130px;
+        margin-top: 170px;
         margin-bottom: 120px;
     
+    }
+
+    .functions .custom-list:last-child {
+        margin-top: 50px;
+    }
 }
+
+
+@media (min-width: 1080px) {
+    .functions .custom-list:last-child {
+        margin-top: 0px;
+    }
+}
+
 
 .carousel-fade .carousel-item {
     opacity: 0;
@@ -693,5 +741,113 @@ footer {
     transform: translate3d(0, 0, 0);
   }
 
+  .custom-list {
+    margin-top: 40px;
+}
 
- 
+@media (min-width: 768px) { 
+    .custom-list {
+        margin-top: 0px;
+    }
+}
+
+#build,
+#dont {
+    background: rgba(242, 242, 242, 0.45);
+    padding-bottom: 50px;
+}
+
+.start-title {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.step {
+    margin-bottom: 30px;
+}
+
+.list-dont li {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) { 
+    .auto-banner {
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+
+@media (min-width: 1280px) { 
+    .auto-banner {
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        display: flex;
+        align-self: center;
+    }
+
+    .girl .auto-banner {
+        align-self: flex-end;
+    }
+}
+
+@media (min-width: 768px) { 
+    .education {
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 1024px) { 
+    .coding-banner {
+        margin-top: -115px;
+    }
+}
+
+.logos img {
+    padding-right: 20px;
+}
+
+@media (min-width: 1280px) { 
+    .change,
+    .start,
+    .education,
+    .why {
+        margin-bottom: 80px;
+    }
+
+    .coding-banner {
+        margin-top: -190px;
+    }
+
+    .start,
+    .education,
+    .why {
+        margin-top: 80px;
+    }
+
+    #build,
+    #dont {
+        padding-top: 20px;
+        padding-bottom: 80px;
+    }
+
+    .time-banner {
+        margin-top: 55px;
+    }
+}
+
+.functions div div span,
+.graphs div div span {
+    color: rgba(78, 76, 130, 0.5);
+}
+
+.price {
+    border-top: 1px solid black;
+    padding: 0px;
+}
+
+.card-body {
+    padding: 0px;
+}
