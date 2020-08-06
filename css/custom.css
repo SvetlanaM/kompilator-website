@@ -23,8 +23,8 @@ body {
     margin-top: 80px;
 }
 
-.mt-100 {
-    margin-top: 100px;
+.mt-120 {
+    margin-top: 120px;
 }
 
 .pb-100 {
@@ -193,7 +193,7 @@ h6 {
 
 .card-title {
     font-size: 22px;
-    font-weight: bold;
+    font-weight: 550;
 }
 
 .card-text {
@@ -203,7 +203,32 @@ h6 {
 }
 
 .card-list li {
-    line-height: 24px;
+    padding-top: 20px;
+}
+
+
+.card1::before {
+    position: absolute;
+    content: "";
+    bottom: -19px;
+    z-index: 300;
+    width: 50px;
+    height: 50px;
+    left: 7px;
+    /* position: relative; */
+    background-image: url(../img/svg/files.svg);
+}
+
+.card3::before {
+    position: absolute;
+    content: "";
+    top: 110px;
+    z-index: 300;
+    width: 50px;
+    height: 50px;
+    left: -24px;
+    /* position: relative; */
+    background-image: url(../img/svg/files.svg);
 }
 
 .card-link {
@@ -229,13 +254,13 @@ h6 {
 }
 
 .card-image {
-    position: absolute;
-    top: -107px;
+    position: relative;
+    top: 85px;
     z-index: 2;
     margin: auto;
     margin-right: auto;
     margin-left: auto;
-    width: 100%;
+    width: auto;
 }
 
 
@@ -752,9 +777,16 @@ footer {
 }
 
 #build,
-#dont {
+#dont,
+#estimations {
     background: rgba(242, 242, 242, 0.45);
     padding-bottom: 50px;
+}
+
+
+#estimations {
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .start-title {
@@ -805,6 +837,10 @@ footer {
     }
 }
 
+.market-banner {
+    margin-top: 40px;
+}
+
 .logos img {
     padding-right: 20px;
 }
@@ -844,10 +880,76 @@ footer {
 }
 
 .price {
-    border-top: 1px solid black;
-    padding: 0px;
+    border-top: 1px solid #F3EEEE;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    color: rgba(78, 76, 130, 0.5);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
 }
 
 .card-body {
     padding: 0px;
+}
+
+.pricing-box {
+    margin-top: 20px;
+}
+
+@media (min-width: 1024px) {
+    .pricing-box {
+        margin-top: 180px;
+    }
+}
+
+.per {
+    margin-right: 17px;
+    font-weight: 450;
+    font-size: 46px;
+    color: #98999A;
+    top: 0px;
+    margin-top: -7px;
+    margin-bottom: 30px;
+}
+
+.per-box {
+    align-items: center;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.fw-purple {
+    color: rgba(78, 76, 130, 0.5);
+    font-weight: 450;
+}
+
+.expec {
+    font-size: 24px;
+}
+
+.pricing-table {
+    margin-top: 30px;
+}
+
+.item-middle {
+    margin-top: 35px;
+}
+
+.per1 {
+    width: 65%;
+}
+
+.why1 {
+    margin-top: 40px;
+}
+
+.wizard-img {
+    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
+    display: flex;
+    margin-top: 40px;
 }
