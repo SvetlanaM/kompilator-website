@@ -898,11 +898,6 @@ footer {
     margin-top: 20px;
 }
 
-@media (min-width: 1024px) {
-    .pricing-box {
-        margin-top: 180px;
-    }
-}
 
 .per {
     margin-right: 17px;
@@ -933,6 +928,13 @@ footer {
     margin-top: 30px;
 }
 
+@media (min-width: 1024px) { 
+    .pricing-table {
+        margin-top: 80px;
+    }
+    
+}
+
 .item-middle {
     margin-top: 35px;
 }
@@ -945,6 +947,12 @@ footer {
     margin-top: 40px;
 }
 
+@media (min-width: 1280px) { 
+.why2 {
+    margin-top: 45px
+}
+}
+
 .wizard-img {
     margin: auto;
     margin-right: auto;
@@ -952,4 +960,28 @@ footer {
     width: auto;
     display: flex;
     margin-top: 40px;
+}
+
+@media (min-width: 1024px) {
+    .wizard-img {
+        margin-top: auto;
+    }
+ }
+
+
+ .main-card {
+    flex-direction: column;
+    display: inline-flex;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: space-around;
+    padding-bottom: 30px;
+ }
+
+ @media (min-width: 1280px) {
+    .col-fhd-3 {
+        -ms-flex: 0 0 28.333333%;
+        flex: 0 0 28.333333%;
+        max-width: 28.333333%;
+    }
 }
