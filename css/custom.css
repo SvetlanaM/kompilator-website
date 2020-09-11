@@ -740,6 +740,14 @@ footer {
     }
 }
 
+.est-p {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: space-around;
+    align-self: stretch;
+}
 
 .carousel-fade .carousel-item {
     opacity: 0;
@@ -778,13 +786,17 @@ footer {
 
 #build,
 #dont,
-#estimations {
+#estimations,
+#problems,
+#analyst {
     background: rgba(242, 242, 242, 0.45);
     padding-bottom: 50px;
 }
 
 
-#estimations {
+#estimations,
+#problems,
+#analyst {
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -972,10 +984,12 @@ footer {
  .main-card {
     flex-direction: column;
     display: inline-flex;
-    align-items: stretch;
+    align-items: flex-start;
     align-content: stretch;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-bottom: 30px;
+    align-self: space-between;
+
  }
 
  @media (min-width: 1280px) {
@@ -984,4 +998,34 @@ footer {
         flex: 0 0 28.333333%;
         max-width: 28.333333%;
     }
+}
+
+.img-problem {
+    margin-right: 25px;
+}
+
+.problems {
+    position: relative;
+}
+
+.problems::before {
+    position: absolute;
+    content: "";
+    bottom: -20px;
+    z-index: 300;
+    width: 50px;
+    height: 50px;
+    left: 120px;
+    background-image: url(../img/svg/files.svg);
+}
+
+.problems::after {
+    position: absolute;
+    content: "";
+    top: -28px;
+    z-index: 300;
+    width: 50px;
+    height: 50px;
+    right: 190px;
+    background-image: url(../img/svg/files.svg);
 }
