@@ -123,22 +123,34 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+a.dropdown-item {
   color: #4E4C82;
 }
 
 
 .navbar-nav,
-.navbar {
+.navbar,
+.dropdown-menu.show {
     background: #fff;
 }
 
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #FF8C4A;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #FF8C4A;
+}
+
 @media (min-width: 992px) { 
-    .navbar {
+    .navbar, 
+    .dropdown-menu.show {
         background: transparent;
     }
 
-    .navbar-nav {
+    .navbar-nav,
+    .dropdown-menu.show {
         background: rgba(255, 255, 255, 0.9);
     }
 }
@@ -795,10 +807,13 @@ footer {
 
 
 #estimations,
-#problems,
 #analyst {
     padding-top: 80px;
     padding-bottom: 80px;
+}
+
+#analyst {
+    margin-top: 80px;
 }
 
 .start-title {
@@ -807,7 +822,7 @@ footer {
 }
 
 .step {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .list-dont li {
@@ -859,7 +874,6 @@ footer {
 
 @media (min-width: 1280px) { 
     .change,
-    .start,
     .education,
     .why {
         margin-bottom: 80px;
@@ -1006,6 +1020,13 @@ footer {
 
 .problems {
     position: relative;
+    margin-top: 30px;
+}
+
+@media (min-width: 1024px) { 
+    #problems {
+        margin-top: 80px;
+    }
 }
 
 .problems::before {
@@ -1028,4 +1049,139 @@ footer {
     height: 50px;
     right: 190px;
     background-image: url(../img/svg/files.svg);
+}
+
+#problems {
+    padding-top: 80px;
+    margin-bottom: 60px;
+}
+
+.plan-image {
+    text-align: center;
+    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    vertical-align: middle;
+    display: flex;
+    margin-top: 40px;
+}
+
+@media (min-width: 1024px) { 
+    .plan-image {
+        margin-top: 0px;
+    }
+}
+
+#team {
+    margin-top: 80px;
+}
+
+    #workshop {
+        margin-top: 60px;
+    }
+
+@media (min-width: 1024x) { 
+    #workshop {
+        margin-top: 0px;
+    }
+}
+
+
+
+.team1,
+.team2 {
+    display: grid;
+}
+
+.ref {
+    margin-top: 40px;
+}
+
+@media (min-width: 1024px) { 
+    .ref {
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 768px) { 
+    .team1,
+    .team2 {
+        display: block;
+    }
+
+    .team1 img,
+    .team2 img {
+        margin-right: 15px;
+    }
+}
+
+
+.team2 {
+    margin-top: 80px;
+}
+
+@media (min-width: 1024px) { 
+    .team2 {
+        margin-top: 0px;
+    }
+}
+
+.team3 {
+    margin-top: 40px;
+}
+
+.ref-name {
+    color: #4e4e82;
+}
+
+@media (min-width: 1024px) { 
+    .how-to-title {
+        margin-bottom: 40px;
+    }
+
+    .img-problem {
+        display: none !important;
+    }
+}
+
+@media (min-width: 1025px) { 
+    .img-problem {
+        display: block !important;
+    }
+
+}
+
+.img-ref {
+    width: 100%;
+    max-width: 100%;
+    padding-bottom: 30px;
+}
+
+.help-block {
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 1280px) { 
+.how-block {
+    min-height: 150px;
+}
+
+.plan-image {
+    min-height: 595px;
+}
+.ref-title {
+    min-height: 60px;
+}
+}
+
+@media (min-width: 1920px) { 
+    .ref-title {
+        min-height: 30px;
+    }
+
+    .help-block div {
+        width: 70%;
+    }
 }
