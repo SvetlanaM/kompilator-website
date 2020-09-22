@@ -170,7 +170,7 @@ a.dropdown-item {
 
 
 .nav-link:hover {
-    font-weight: 600;
+    color: #FF8C4A !important;
 }
 
 @media (min-width: 992px) { 
@@ -195,6 +195,11 @@ a.dropdown-item {
     margin-right: 7px;
     margin-bottom: 20px;
     bottom: 0px;
+}
+
+.nav-link:hover::before{
+    content: "+";
+    color: #ff8c4a !important;
 }
 
 
@@ -817,7 +822,6 @@ footer {
 }
 
 .start-title {
-    text-align: center;
     margin-top: 10px;
 }
 
@@ -1184,4 +1188,13 @@ footer {
     .help-block div {
         width: 70%;
     }
+}
+
+.help-block img {
+    width: 60px;
+    height: 60px;
+}
+
+.btn.focus, .btn:focus {
+    box-shadow: none;
 }
