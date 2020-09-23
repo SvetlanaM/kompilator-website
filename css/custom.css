@@ -1073,6 +1073,14 @@ footer {
 
 @media (min-width: 1024px) { 
     .plan-image {
+        display: none;
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 1025px) { 
+    .plan-image {
+        display: block;
         margin-top: 0px;
     }
 }
@@ -1116,6 +1124,7 @@ footer {
 
     .team1 img,
     .team2 img {
+        margin-top: 10px;
         margin-right: 15px;
     }
 }
@@ -1197,4 +1206,8 @@ footer {
 
 .btn.focus, .btn:focus {
     box-shadow: none;
+}
+
+.idea-img {
+    margin-top: 55px;
 }
