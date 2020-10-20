@@ -1,506 +1,638 @@
-<!DOCTYPE html>
-    <head>
-
-        <!-- meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="UTF-8">
-        <meta name="description" content="Meníme nápady na reálne digitálne produkty. Zameriavame sa primárne na
-        dizajn, UI/UX a užívateľský prístup. Neustále sa pýtame a počúvame. S nami vytvoríte užitočné webové
-        a mobilné aplikácie, ktoré sú tu pre užívateľov. Už žiadne nedoruzumenia medzi IT a biznisom, všetci 
-        pracujeme ako jeden tím.">
-        <meta name="keywords" content="Web, mobilná aplikácia, iOS, Android, analýza, dizajn, UI, UX, prečo?, digitálna, inovácie, automatizácia">
-        <meta name="author" content="Nanooq IT s. r. o.">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="format-detection" content="telephone=no">
-        <title>Nanooq IT - digitálno-inovačná agentúra</title>
-
-        <!-- CSS imports -->
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/custom.css">
-
-        <!-- fonts imports -->
-        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700;900&display=swap" rel="stylesheet">
-        
-        <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-        <link rel="manifest" href="manifest.json">
-        <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
-        <meta name="theme-color" content="#ffffff">
-        
-        <!-- Twitter Card data -->
-        <meta name="twitter:card" content="summary">
-        <meta name="twitter:site" content="@publisher_handle">
-        <meta name="twitter:title" content="Nanooq IT - digitálno-inovačná agentúra">
-        <meta name="twitter:description" content="Meníme nápady na reálne digitálne produkty. Zameriavame sa primárne na
-        dizajn, UI/UX a užívateľský prístup. Neustále sa pýtame a počúvame. S nami vytvoríte užitočné webové
-        a mobilné aplikácie, ktoré sú tu pre užívateľov. Už žiadne nedoruzumenia medzi IT a biznisom, všetci 
-        pracujeme ako jeden tím.">
-        <meta name="twitter:creator" content="@author_handle">
-        <meta name="twitter:image" content="http://www.nanooq.eu/img/svg/banner_img.svg">
-
-        <!-- Open Graph data -->
-        <meta property="og:title" content="Nanooq IT - digitálno-inovačná agentúra" />
-        <meta property="og:type" content="article" />
-        <meta property="og:url" content="http://www.nanooq.eu" />
-        <meta property="og:image" content="http://www.nanooq.eu/img/svg/banner_img.svg" />
-        <meta property="og:description" content="Meníme nápady na reálne digitálne produkty. Zameriavame sa primárne na
-        dizajn, UI/UX a užívateľský prístup. Neustále sa pýtame a počúvame. S nami vytvoríte užitočné webové
-        a mobilné aplikácie, ktoré sú tu pre užívateľov. Už žiadne nedoruzumenia medzi IT a biznisom, všetci 
-        pracujeme ako jeden tím." />
-        <meta property="og:site_name" content="Nanooq IT - digitálno-inovačná agentúra" />
-    </head>
-    <body class="bg-white gray">
-        <!-- navigation menu -->
-        <header id="main-header" class="nav-bg">
-            <nav class="navbar navbar-expand-lg navbar-light pr-5 fixed-top">
-                <button type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain"
-                    aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div id="navbarMain" class="collapse navbar-collapse">
-                    <ul class="navbar-nav ml-auto purple">
-                        <!-- <li class="nav-item mr-3"><a href="" class="nav-link">Prečo?</a></li> -->
-                        <!-- <li class="nav-item mr-3"><a href="" class="nav-link">Naše hodnoty</a></li> -->
-                        <!-- <li class="nav-item dropdown mr-2">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Špeciál
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Automatizácia</a>
-                                <a class="dropdown-item" href="#">Riešenia pre eshopy</a>
-                        </li> -->
-                        <li class="nav-item mr-3"><a href="../" class="nav-link">Úvod</a></li>
-                        <li class="nav-item dropdown mr-2">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Riešenia pre
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="../corporations.html">Korporácie</a>
-                                <a class="dropdown-item" href="../small.html">Menší a strední podnikatelia</a>
-                                <a class="dropdown-item" href="../offline.html">Začínajúce firmy/startupy</a>
-                        </li>
-                        <li class="nav-item mr-3"><a href="../pricing.html" class="nav-link">Cenník</a></li>
-                        <li class="nav-item mr-3"><a href="https://medium.com/@nanooqit/%C4%8Do-rob%C3%ADme-inak-v-nanooq-it-3089c93b02c9" target="new" class="nav-link">Blogujeme</a></li>
-                        <!-- <li class="nav-item mr-3"><a href="" class="nav-link">FAQ</a></li> -->
-                        <!-- <li class="nav-item mr-3"><a href="" class="nav-link">Kontakty</a></li> -->
-                        <li class="nav-item mr-3"><a href="https://forms.gle/zDCrXjETzfTFcrxA8" target="new" class="nav-link">Free workshop</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-
-        <!-- banner -->
-        <section id="banner" class="banner">
-            <div class="container-fluid pl-md-5 pr-md-5">
-                <div class="row no-gutters">
-                    <div class="col-lg mt-50 pr-lg-5">
-                        <h1 class="purple fw-500 banner-title">Cenník</h1>
-                        <p class="mt-40">Ceny v IT nie sú <span class="fw-450">fixné</span>, ako keď si kupujete dom, či rohlík v obchode. Finálna cena vždy závisí od mnohých faktorov, ktoré spolu dohodneme na štarte spolupráce. Držíme sa kréda "radšej ubrať z funkcionality, ako vyvíjať nekvalitne za málo peňazí."
-                        <br /><br />
-                        Naša sadzba sa pohybuje v rozmedzí od <span class="fw-450 orange">850 - 1500 Kč/Hod.</span>
-                        </p>
-                    </div>
-                    <div class="col-lg d-lg-flex justify-content-end p-0 d-none">
-                        <img src="img/svg/man.svg" class="img-fluid img-banner" />
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- pricing table section -->
-        <section id="pricing-table" class="pricing-table">
-            <div class="container-fluid pr-md-5 pl-md-5">
-                <div class="row">
-                    <div class="col-lg">
-                        <h1 class="purple fw-500 banner-title">Vyberte si jeden z našich balíkov</h1>
-                        <p class="mt-40">
-                            Pre ľahšiu orientáciu v našich službách a na základe dopytu od klientov, sme vytvorili <span class="fw-450">3 typy balíkov</span>, ktoré si možete u nás objednať. <br /><br />
-                            Zároveň, čím komplexnejšie služby si objednáte, tým sa <span class="fw-450">cena na hodinu znižuje</span>. Radi by sme spolupracovali s Vami <span class="fw-450">dlhodobo</span> a pokryli vývoj a rozvoj celého produktu.</p>
-                    </div>
-                </div>
-                <div class="row text-center justify-content-between pricing-box">
-                    <div class="col-lg col-lg-4 col-fhd-3 align-items-stretch">
-                        <div class="card-image">
-                            <img src="img/svg/digitalisation.svg" class="mx-auto d-block" />
-                        </div>
-                        <div class="card card1 border-0">
-                            <div class="card-body mt-120">
-                                <h3 class="card-title text-uppercase">Design box</h3>
-                                <p class="card-text">
-                                    <ul class="list-unstyled card-list">
-                                        <li>Analýza nápadu/Konzultácia</li>
-                                        <li>UI/UX analýza</li>
-                                        <li>Biznis analýza</li>
-                                        <li>Návrh dizajnu/prototypu</li>
-                                        <li>Testovanie/Validácia</li>
-                                    </ul>
-                                </p>
-                                <div class="price">
-                                    880-1500 Kč/Hod
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg col-lg-4 col-fhd-3 align-items-stretch">
-                        <div class="card-image">
-                            <img src="img/svg/inovations.svg" class="mx-auto d-block" />
-                        </div>
-                        <div class="card border-0">
-                            <div class="card-body mt-120">
-                                <h3 class="card-title text-uppercase">Analytics Box</h3>
-                                <p class="card-text">
-                                    <ul class="list-unstyled card-list">
-                                        <li>Design Box</li>
-                                        <li>Technická analýza/Architektúra</li>
-                                        <li>Vývoj produktu</li>
-                                        <li>Dátová analýza</li>
-                                        <li>Testovanie/Validácia</li>
-                                    </ul>
-                                </p>
-                                <div class="price">
-                                    860-1400 Kč/Hod
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg col-lg-4 col-fhd-3 align-items-stretch">
-                        <div class="card-image">
-                            <img src="img/svg/offline.svg" class="mx-auto d-block" />
-                        </div>
-                        <div class="card card3 border-0">
-                            <div class="card-body mt-120">
-                                <h3 class="card-title text-uppercase">Product Box</h3>
-                                <p class="card-text">
-                                    <ul class="list-unstyled card-list">
-                                        <li>Analytics box</li>
-                                        <li>A/B testovanie</li>
-                                        <li>Inovácie/Rozvoj produktu</li>
-                                        <li>Optimalizácie</li>
-                                        <li>Testovanie/Validácia</li>
-                                    </ul>
-                                </p>
-                                <div class="price">
-                                    850-1200 Kč/Hod
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- estimations section -->
-        <section id="estimations" class="estimations mt-120">
-            <div class="container-fluid pr-md-5 pl-md-5">
-                <div class="row">
-                    <div class="order-2 order-lg-1 col-lg-4 mr-auto d-lg-flex justify-content-start p-0 girl">
-                        <img src="img/svg/wizard.svg" class="wizard-img img-fluid img-banner auto-banner" />
-                    </div>
-
-                    <div class="order-1 order-lg-2 col-lg-8 mr-auto pr-md-5">
-                        <h1 class="purple fw-500 banner-title">Ako prebieha naceňovanie?</h1>
-                        <div class="row mt-40 main-card">
-                            <div class="col-lg-6 est-p">
-                                <span class="fw-450">1. Zadanie od klienta - </span> dostanete od nás podklady, na základe ktorých lepšie vydefinujeme spolu zadanie a očakávania.
-                            </div>
-                            <div class="col-lg-6 est-p">
-                                <span class="fw-450">2. High level odhady - </span> na základe dodaného zadania vyhotovíme high level odhady, ktoré pošleme na validáciu.
-                            </div>
-                            <div class="col-lg-6 est-p">
-                                <span class="fw-450">3. Workshop/Úvodná analýza - </span> na workshope vydefinujeme presný produkt, ktorý sa bude vyvíjať.
-                            </div>
-                            <div class="col-lg-6 est-p">
-                                <span class="fw-450">4. Validácia ceny/času/zadania - </span> upravíme pôvodné high level odhady, pričom vývoj rozplánujeme do agilných sprintov.
-                            </div>
-                            <div class="col-lg-6 est-p">
-                                <span class="fw-450">5. Vývoj v sprintoch a update budgetu - </span> klient je presne informovaný, čo bude v danom sprinte dodané za dohodnutú cenu.
-                            </div>
-                            <div class="col-lg-6 est-p">
-                                <span class="fw-450">6. Zmeny vo vývoji - </span> hlásime všetky zmeny klientovi a následne hľadáme ideálne riešenie.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- pricing type section -->
-        <section class="start mt-40" id="start">
-            <div class="container-fluid pr-md-5 pl-md-5">
-                <div class="row">
-                    <div class="col-lg-12 start-title">
-                        <h1 class="purple fw-500 banner-title">Vyberte si režim, ktorý vám vyhovuje najviac</h1>
-                    </div>
-                    <div class="mt-40 d-sm-flex-inline d-lg-flex align-items-stretch text-center justify-content-between">
-                    <div class="col-sm-12 col-md-12 col-lg-3 step">
-                        <img src="img/svg/calendar.svg" />
-                        <p class="purple fw-500 mt-3">Mesačné predplatné</p>
-                        <p>Dohodneme mesačný budget/hodiny, počas, ktorých sa bude pracovať v sprintoch, až do ich vyčerpania. Záverom by mala byť vždy hotová fungujúca časť.</p>
-                    </div>
-                    <div class="col-sm-12 col-md-12 col-lg-3 step">
-                        <img src="img/svg/agile_loop.svg" />
-                        <p class="purple fw-500 mt-3">Agilné predplatné</p>
-                        <p>Cena sa dohoduje na základe sprintu (14/30 dní), počas ktorej sa vytvorí dohodnutá funkcionalita a tá je finálne na konci sprintu fakturovaná.</p>
-                    </div>
-                    <div class="col-sm-12 col-md-12 col-lg-3 step">
-                        <img src="img/svg/consult.svg" />
-                        <p class="purple fw-500 mt-3">Konzultačné predplatné</p>
-                        <p>Cena konzultácií dohodnutá variabilne podľa potreby, alebo fixne podľa počtu hodín mesačne. Neobsahuje implementáciu, iba konzultácie v rôznych oblastiach (vývoj, dizajn, riadenie tímu,...)</p>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <!-- sales section -->
-        <section class="dont mt-40" id="dont">
-            <div class="container-fluid pl-md-5">
-                <div class="row">
-                    <div class="col-lg-12 mt-40 pr-md-5">
-                        <h1 class="purple fw-500 banner-title">IT zľavy</h1>
-                        <p class="mt-40">
-                            Aby sme našich klientov motivovali a zároveň podporili, vymysleli sme rôzne balíky zľiav, ktoré je možné uplatniť aj kombinovane.
-                        </p>
-                    </div>
-                    <div class="col-md-12  col-lg-7 mt-40">
-                        <div class="row">
-                            <div class="col-md-12 col-lg-6">
-                                <div class="row d-flex per-box">  
-                                    <div class="col-xs-12 col-md-6 col-lg-12">
-                                        <div class="per float-left">
-                                            7%
-                                        </div>
-                                        <div class="per1 float-left">
-                                            za odporúčanie a <br />
-                                            novú spoluprácu
-                                        </div>
-                                    </div>
-
-                                    <div class="col-xs-12 col-md-6 col-lg-12">
-                                        <div class="per float-left">
-                                            5%
-                                        </div>
-                                        <div class="per1 float-left">
-                                            za dlhodobú spoluprácu a <br />
-                                            rozvoj projektov
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="col-md-12 col-lg-6">
-                                <div class="row d-flex per-box">  
-                                    <div class="col-xs-12 col-md-6 col-lg-12">
-                                        <div class="per float-left">
-                                            2%
-                                        </div>
-                                        <div class="per1 float-left">
-                                            za včas dodané <br />
-                                            podklady
-                                        </div>
-                                    </div>
-
-                                    <div class="col-xs-12 col-md-6 col-lg-12">
-                                        <div class="per float-left">
-                                            5%
-                                        </div>
-                                        <div class="per1 float-left">
-                                            za účasť na <br />
-                                            úvodnom workshope
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+<!DOCTYPE html>                        
+                                <head>
                             
-
-                        </div>
-                    </div>
-                    <div class="col-lg-4 ml-auto d-lg-flex p-0 justify-content-center">
-                        <img src="img/svg/market.svg" class="wizard-img img-fluid auto-banner market-banner" />
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- section why invest -->
-        <section id="why-invest" class="why-invest mt-80">
-            <div class="container-fluid pr-md-5 pl-md-5">
-                <div class="row">
-                    <div class="col-lg-12 no-gutters">
-                        <h2 class="col-md-12 service-subtitle-block d-flex text-uppercase mb-4">Prečo investovať?</h2>
-                    </div>
-                    
-                    <div class="col-md-12 col-lg-6">
-                        <div class="why1">
-                            <p class="fw-450 text-uppercase">PLÁNOVANIE A BUDÚCNOSŤ</p>
-                            <p>Na štarte sa treba zamyslieť, čo pre nás produkt, ktorý tvoríme znamená. Ako a kto ho bude používať v budúcnosti a hľadať motiváciu v dlhodobých cieľoch a klásť si tieto otázky. 
-                                <ul class="list-unstyled list-dont">
-                                    <li class="fw-450">+ Chcem vytvoriť silnú značku?</li>
-                                    <li class="fw-450">+ Jedná sa o hobby projekt?</li>
-                                    <li class="fw-450">+ Verím mu dostatočne?</li>
-                                </ul>
-                                Platená reklama v Googli a na FB to už väčšinou nezachráni. Zvalidujte si svoj nápad pomocou nášho <a href="https://forms.gle/zDCrXjETzfTFcrxA8" target="new">vstupného formuláru.</a></p>
-                        </div>
-
-                        <div class="why1">
-                            <p class="fw-450 text-uppercase">NEVYHODENÉ PENIAZE</p>
-                            <p>Isto poznáte príbehy o tom, ako sa niečo vyvíjalo mesiace/roky až sa nakoniec zistilo, že chceme niečo úplne iné? Alebo prišli prví platiaci používatelia a nami zvolené dočasné/lacné riešenie už neumožňovalo projekt ďalej rozvíjať? Prípadne zmeny boli neúmerne predražené? Alebo ešte horšie? Projekt sa nikdy ani nedokončil?</p>
-                        </div>
-                    </div>
-
-                    <div class="why1 col-md-12 col-lg-4 ml-auto expec">
-                        <p class="fw-450 text-uppercase">Očakávania</p>
-                            <p><span class="fw-purple">Správne očakávania definované na štarte</span> sa priamo odvíjajú od kvality dodaného produktu a s tým spojenou otázkou PREČO a pre KOHO.</p>
-                            <p class="why2">Na trh by sme mali prinášať nové/pekné/inovatívne produkty a tomu prispôsobiť aj finančné možnosti. Oveľa ľahšie sa následne buduje komunita/cieľoví zákazníci a platiaci zákazníci. <span class="fw-purple">Prečo inak by ste do vývoja investovali vôbec?</span></p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        
-
-        
-       
-
-        
-       
-
-        
-        
-        <!-- footer -->
-        <footer class="">
-            <div class="container-fluid pr-md-5 pl-md-5">
-                <div class="row">
-                    <div class="col-md-6 col-lg-4">
-                        <ul class="list-unstyled">
-                            <li class="mb-2">
-                                <b>Prípadové štúdie</b>
-                            </li>
-                            <li class="mb-2">
-                                <a href="https://nanooq.eu/files/pripadova_studia.pdf" target="new">Prípadová štúdia firmy</a>
-                            </li>
-                            <!-- <li class="mb-2">
-                                Od Tatier k Dunaju
-                            </li> -->
-                            <!-- <li class="mb-2">
-                                Čajovňa Setkání
-                            </li> -->
-                            <!-- <li class="mb-2">
-                                Mall.cz
-                            </li> -->
-                        </ul>
-                    </div>
-                    <div class="col-md-6 col-lg-4 footer-item">
-                        <ul class="list-unstyled">
-                            <li class="mb-2">
-                                <b>Nanooq IT s. r. o.</b>
-                            </li>
-                            <li class="mb-2">
-                                <a href="https://goo.gl/maps/bBRC8ZFGcz22k7MX8" taget="new">Rybná 24, 110 00 Praha 1, Česká republika</a>
-                            </li>
-                            <li class="mb-2">
-                                IČO: 05952247
-                            </li>
-                            <li class="mb-2">
-                                DIČ: CZ05952247
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6 col-lg-4 footer-item">
-                        <ul class="list-unstyled">
-                            <li class="mb-2">
-                                Bankové spojenie: 2201197128/2010
-                            </li>
-                            <li class="mb-2">
-                                Email: <a href="mailto:hello@nanooq.eu">hello@nanooq.eu</a>
-                            </li>
-                            <li class="mb-2">
-                                Mobil/Whatsapp: <a href="tel:+420725423538">+420 725 423 538</a>
-                            </li>
-                            <li class="mb-2">
-                                Messenger: <a href="https://www.facebook.com/nanooqit/?ref=bookmarks" target="new">Nanooq IT</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-12 col-lg-12 hastag-p">
-                        <div class="list-unstyled mt-3 d-md-flex justify-content-center align-items-stretch">
-                            <div class="mb-2 hashtag">
-                                #designthinking #problemsolving #future #together
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <img src="img/svg/magic-ball.svg" class="ball img-fluid d-none d-lg-block" />
-        </footer>
-
-        <div class="footer-bottom">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col d-flex justify-content-center footer-h">
-                        <span class="align-self-center copy text-center">2020 Nanooq IT s. r. o. Všetky práva vyhradené</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"> </script>
-    <script src="vendor/bootstrap/js/bootstrap.js"></script>
-    <script src="js/front.js"></script>
-
-    <script>
-        $(document).ready(function(){
-
-            $("#digitalisation").trigger("click");
-
-            $("#digitalisation").click(function(){
-                $(".service-subtitle").html('Digitalizácia služieb a produktov');
-                document.querySelector('#service-desc').scrollIntoView({ behavior: 'smooth' });
-                $(".service-desc-more").html('Mnoho nápadov by nemalo ostať iba v offline podobe. Zaslúžia si prezentovať sa naplno, nájsť si svoju cieľovú skupinu aj v online svete, kam naša spoločnosť čoraz viac smeruje. Pomôžeme vám <span class="fw-450">zdigitalizovať</span> vaše produkty a služby, prípadne k nim <span class="fw-450">vyvinúť doplnkovú službu</span>, ktorá vás spraví unikátnymi na trhu v danom odvetví.');
-                $( ".service-list" ).html( '<li><span class="fw-450">1.) Úvodná konzultácia - </span> analýza potrieb, financií, rizík a nápadov</li> <li><span class="fw-450">2.) Vypracovanie návrhu - </span> možnosti digitalizácie v jednotlivých krokoch</li> <li><span class="fw-450">3.) Analýza návrhu - </span> detailná biznis, technická, užívateľské analýza</li> <li><span class="fw-450">4.) Dizajnovanie - </span> návrh prototypu a vytvorenie dizajnu nového brandu</li> <li><span class="fw-450">5.) Vývoj MVP - </span> vývoj prototypu a následná validácia s užívateľmi</li> <li><span class="fw-450">6.) Vývoj, nasadenie - </span> vývoj produktu, nasadenie a ďalší vývoj/správa/li>');
-            });
-
-            $("#inovations").click(function(){
-                $(".service-subtitle").html('Inovácie existujúcich produktov a služieb');
-                document.querySelector('#service-desc').scrollIntoView({ behavior: 'smooth' });
-                $(".service-desc-more").html('Ak už máte produkt alebo službu, je dobré sa zamyslieť, čo by sme mohli priniesť <span class="fw-450">existujúcim alebo novým používateľom</span>. Je tu niečo, čo vám už dlhšie vŕta hlavou, ale nemáte parťáka, s ktorým by ste to zrealizovali? Potrebujete <span class="fw-450">externý pohľad</span> na problém z inej perspektívy? Sme tu pre vás.');
-                $( ".service-list" ).html( '<li><span class="fw-450">1.) Úvodná konzultácia - </span> analýza súčasného stavu a konkurencie</li> <li><span class="fw-450">2.) Vypracovanie návrhu - </span> napojenie do existujúceho systémov a nadväznosti na existujúci biznis model</li> <li><span class="fw-450">3.) Analýza návrhu - </span>detailná biznis, technická a používateľská analýza</li> <li><span class="fw-450">4.) Dizajnovanie - </span> návrh prototypu, vytvorenie/zjednotenie s existujúcim brandom</li> <li><span class="fw-450">5.) Vývoj MVP - </span> vývoj prototypu a následná validácia úspešnosti</li> <li><span class="fw-450">6.) Vývoj, nasadenie - </span> vývoj produktu, nasadenie a ďalší vývoj/správa</li>');
-            });
-
-            $("#offline").click(function(){
-                $(".service-subtitle").html('Vybudovanie nového produktu alebo služby');
-                document.querySelector('#service-desc').scrollIntoView({ behavior: 'smooth' });
-                $(".service-desc-more").html('Ste vizionár s nápadom, ktorý by nemal ostať iba v predstavách? Pomôžeme vám <span class="fw-450">pretvoriť váš nápad</span> na reálny digitálny produkt, vytvoriť na trhu unikátny nový brand a priniesť ho k novým používateľom. Následne spoločne na budovaní produktu ďalej <span class="fw-450">pracovať a rozvíjať ho.</span>');
-                $( ".service-list" ).html( '<li><span class="fw-450">1.) Úvodná konzultácia - </span> analýza riešenia, konkurencie, nápadov</li> <li><span class="fw-450">2.) Vypracovanie návrhu - </span> technické možnosti realizácie a plán vývoja</li> <li><span class="fw-450">3.) Analýza návrhu - </span> detailná biznis, technická a používateľská analýza</li> <li><span class="fw-450">4.) Dizajnovanie - </span> návrh prototypu a brandu produktu/služby</li> <li><span class="fw-450">5.) Vývoj MVP - </span> vývoj prototypu a následná validácia s užívateľmi</li> <li><span class="fw-450">6.) Vývoj, nasadenie - </span> vývoj produktu, nasadenie a ďalší vývoj/správa</li>');
-            });
-
-            $("#cat").click(function(){
-                $(".service-subtitle").html('Mačka vo vreci - pomocná ruka');
-                document.querySelector('#service-desc').scrollIntoView({ behavior: 'smooth' });
-                $(".service-desc-more").html('Neviete presne s čím a ako potrebujete pomôcť/poradiť? Nechcete sa púšťať do väčšieho projektu, iba <span class="fw-450">poradiť/prekonzultovať</span> nápad, existujúce riešenie, zautomatizovať opakované tasky? Radi sa s vami stretneme a na problém pozrieme.');
-                $( ".service-list" ).html( '<li><span class="fw-450">1.) Technická pomoc - </span> analýza súčasného stavu technického riešenia projektu a návrhy na optimalizácie/upgrade</li> <li><span class="fw-450">2.) Tímová pomoc - </span> nastavenie komunikácie v tíme, lepšie pochopenie všetkých zúčastnených strán</li> <li><span class="fw-450">3.) Koordinačná pomoc - </span> nastavenie firemných toolov, procesov a prechod k agilnému riadeniu tímu</li> <li><span class="fw-450">4.) IT vs. neIT - </span> konzultácie medzi technickými a netechnickými rolami a požiadavkami, vyjasnenie nedorozumení</li> <li><span class="fw-450">5.) UI/UX pomoc - </span> UI/UX analýza riešenia, analýza cieľovej skupiny a možné návrhy na úpravy</li> <li><span class="fw-450">6.) Brainstorming - </span> externý pohľad na problém</li><li><span class="fw-450">7.) Optimalizácie - </span> optimalizácie využitia zdrojov, kapacít, dátových uložísk,...</li>');
-            });
-        });
-    </script>
-
-    </body>
-</html>
+                                    <!-- meta tags -->
+                                    <meta charset="utf-8">
+                                    <meta name="viewport" content="width=device-width, initial-scale=1">
+                                    <meta charset="UTF-8">
+                                    <meta name="description" content="Meníme nápady na reálne digitálne produkty. Zameriavame sa primárne na
+                                    dizajn, UI/UX a užívateľský prístup. Neustále sa pýtame a počúvame. S nami vytvoríte užitočné webové
+                                    a mobilné aplikácie, ktoré sú tu pre užívateľov. Už žiadne nedoruzumenia medzi IT a biznisom, všetci 
+                                    pracujeme ako jeden tím.">
+                                    <meta name="keywords" content="Web, mobilná aplikácia, iOS, Android, analýza, dizajn, UI, UX, prečo?, digitálna, inovácie, automatizácia">
+                                    <meta name="author" content="Nanooq IT s. r. o.">
+                                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                    <meta name="format-detection" content="telephone=no">
+                                    <title>Nanooq IT - digitálno-inovačná agentúra</title>
+                            
+                                    <!-- CSS imports -->
+                                    <link rel="stylesheet" href="css/reset.css">
+                                    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+                                    <link rel="stylesheet" href="css/custom.css">
+                            
+                                    <!-- fonts imports -->
+                                    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700;900&display=swap" rel="stylesheet">
+                                    
+                                    <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+                                    <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+                                    <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+                                    <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+                                    <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+                                    <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+                                    <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+                                    <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+                                    <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+                                    <link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+                                    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+                                    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+                                    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+                                    <link rel="manifest" href="manifest.json">
+                                    <meta name="msapplication-TileColor" content="#ffffff">
+                                    <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+                                    <meta name="theme-color" content="#ffffff">
+                                    
+                                    <!-- Twitter Card data -->
+                                    <meta name="twitter:card" content="summary">
+                                    <meta name="twitter:site" content="@publisher_handle">
+                                    <meta name="twitter:title" content="Nanooq IT - digitálno-inovačná agentúra">
+                                    <meta name="twitter:description" content="Meníme nápady na reálne digitálne produkty. Zameriavame sa primárne na
+                                    dizajn, UI/UX a užívateľský prístup. Neustále sa pýtame a počúvame. S nami vytvoríte užitočné webové
+                                    a mobilné aplikácie, ktoré sú tu pre užívateľov. Už žiadne nedoruzumenia medzi IT a biznisom, všetci 
+                                    pracujeme ako jeden tím.">
+                                    <meta name="twitter:creator" content="@author_handle">
+                                    <meta name="twitter:image" content="http://www.nanooq.eu/img/svg/banner_img.svg">
+                            
+                                    <!-- Open Graph data -->
+                                    <meta property="og:title" content="Nanooq IT - digitálno-inovačná agentúra" />
+                                    <meta property="og:type" content="article" />
+                                    <meta property="og:url" content="http://www.nanooq.eu" />
+                                    <meta property="og:image" content="http://www.nanooq.eu/img/svg/banner_img.svg" />
+                                    <meta property="og:description" content="Meníme nápady na reálne digitálne produkty. Zameriavame sa primárne na
+                                    dizajn, UI/UX a užívateľský prístup. Neustále sa pýtame a počúvame. S nami vytvoríte užitočné webové
+                                    a mobilné aplikácie, ktoré sú tu pre užívateľov. Už žiadne nedoruzumenia medzi IT a biznisom, všetci 
+                                    pracujeme ako jeden tím." />
+                                    <meta property="og:site_name" content="Nanooq IT - digitálno-inovačná agentúra" />
+                                </head>
+                                <body class="bg-white gray">
+                                    <!-- navigation menu -->
+                                    <header id="main-header" class="nav-bg">
+                                        <nav class="navbar navbar-expand-lg navbar-light pr-5 fixed-top">
+                                            <button type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain"
+                                                aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right">
+                                                <span class="navbar-toggler-icon"></span>
+                                            </button>
+                                            <div id="navbarMain" class="collapse navbar-collapse">
+                                                <ul class="navbar-nav ml-auto purple">
+                                                    <!-- <li class="nav-item mr-3"><a href="" class="nav-link">Prečo?</a></li> -->
+                                                    <!-- <li class="nav-item mr-3"><a href="" class="nav-link">Naše hodnoty</a></li> -->
+                                                    <!-- <li class="nav-item dropdown mr-2">
+                                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Špeciál
+                                                        </a>
+                                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                            <a class="dropdown-item" href="#">Automatizácia</a>
+                                                            <a class="dropdown-item" href="#">Riešenia pre eshopy</a>
+                                                    </li> -->
+                                                    <li class="nav-item mr-3"><a href="../" class="nav-link">Úvod</a></li>
+                                                    <li class="nav-item dropdown mr-2">
+                                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Riešenia pre
+                                                        </a>
+                                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                            <a class="dropdown-item" href="../corporations.html">Korporácie</a>
+                                                            <a class="dropdown-item" href="../small.html">Menší a strední podnikatelia</a>
+                                                            <a class="dropdown-item" href="../offline.html">Začínajúce firmy/startupy</a>
+                                                    </li>
+                                                    <li class="nav-item mr-3"><a href="../pricing.html" class="nav-link">Cenník</a></li>
+                                                    <li class="nav-item mr-3"><a href="https://medium.com/@nanooqit/%C4%8Do-rob%C3%ADme-inak-v-nanooq-it-3089c93b02c9" target="new" class="nav-link">Blogujeme</a></li>
+                                                    <!-- <li class="nav-item mr-3"><a href="" class="nav-link">FAQ</a></li> -->
+                                                    <!-- <li class="nav-item mr-3"><a href="" class="nav-link">Kontakty</a></li> -->
+                                                    <li class="nav-item mr-3"><a href="https://forms.gle/zDCrXjETzfTFcrxA8" target="new" class="nav-link">Free workshop</a></li>
+                                                </ul>
+                                            </div>
+                                        </nav>
+                                    </header>
+                            
+                                    <!-- banner -->
+                                    <section id="banner" class="banner">
+                                        <div class="container-fluid pl-md-5 pr-md-5">
+                                            <div class="row no-gutters">
+                                                <div class="col-lg mt-50 pr-lg-5">
+                                                    <h1 class="purple fw-500 banner-title">Cenník</h1>
+                                                    <p class="mt-40">Ceny v IT nie sú <span class="fw-450">fixné</span>, ako keď si kupujete dom, či rohlík v obchode. Finálna cena vždy závisí od mnohých faktorov, ktoré spolu dohodneme na štarte spolupráce. Držíme sa kréda "radšej ubrať z funkcionality, ako vyvíjať nekvalitne za málo peňazí."
+                                                    <br /><br />
+                                                    Naša sadzba sa pohybuje v rozmedzí od <span class="fw-450 orange">850 - 1500 Kč/Hod.</span>
+                                                    </p>
+                                                </div>
+                                                <div class="col-lg d-lg-flex justify-content-end p-0 d-none">
+                                                    <img src="img/svg/man.svg" class="img-fluid img-banner" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                            
+                                    <!-- pricing table section -->
+                                    <section id="pricing-table" class="pricing-table">
+                                        <div class="container-fluid pr-md-5 pl-md-5">
+                                            <div class="row">
+                                                <div class="col-lg">
+                                                    <h1 class="purple fw-500 banner-title">Vyberte si jeden z našich balíkov</h1>
+                                                    <p class="mt-40">
+                                                        Pre ľahšiu orientáciu v našich službách a na základe dopytu od klientov, sme vytvorili <span class="fw-450">3 typy balíkov</span>, ktoré si možete u nás objednať. <br /><br />
+                                                        Zároveň, čím komplexnejšie služby si objednáte, tým sa <span class="fw-450">cena na hodinu znižuje</span>. Radi by sme spolupracovali s Vami <span class="fw-450">dlhodobo</span> a pokryli vývoj a rozvoj celého produktu.</p>
+                                                </div>
+                                            </div>
+                                            <div class="row text-center justify-content-between pricing-box">
+                                                <div class="col-lg col-lg-4 col-fhd-3 align-items-stretch">
+                                                    <div class="card-image">
+                                                        <img src="img/svg/digitalisation.svg" class="mx-auto d-block" />
+                                                    </div>
+                                                    <div class="card card1 border-0">
+                                                        <div class="card-body mt-120">
+                                                            <h3 class="card-title text-uppercase">Design box</h3>
+                                                            <p class="card-text">
+                                                                <ul class="list-unstyled card-list">
+                                                                    <li>Analýza nápadu/Konzultácia</li>
+                                                                    <li>UI/UX analýza</li>
+                                                                    <li>Biznis analýza</li>
+                                                                    <li>Návrh dizajnu/prototypu</li>
+                                                                    <li>Testovanie/Validácia</li>
+                                                                </ul>
+                                                            </p>
+                                                            <div class="price">
+                                                                880-1500 Kč/Hod
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="col-lg col-lg-4 col-fhd-3 align-items-stretch">
+                                                    <div class="card-image">
+                                                        <img src="img/svg/inovations.svg" class="mx-auto d-block" />
+                                                    </div>
+                                                    <div class="card border-0">
+                                                        <div class="card-body mt-120">
+                                                            <h3 class="card-title text-uppercase">Analytics Box</h3>
+                                                            <p class="card-text">
+                                                                <ul class="list-unstyled card-list">
+                                                                    <li>Design Box</li>
+                                                                    <li>Technická analýza/Architektúra</li>
+                                                                    <li>Vývoj produktu</li>
+                                                                    <li>Dátová analýza</li>
+                                                                    <li>Testovanie/Validácia</li>
+                                                                </ul>
+                                                            </p>
+                                                            <div class="price">
+                                                                860-1400 Kč/Hod
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                            
+                                                <div class="col-lg col-lg-4 col-fhd-3 align-items-stretch">
+                                                    <div class="card-image">
+                                                        <img src="img/svg/offline.svg" class="mx-auto d-block" />
+                                                    </div>
+                                                    <div class="card card3 border-0">
+                                                        <div class="card-body mt-120">
+                                                            <h3 class="card-title text-uppercase">Product Box</h3>
+                                                            <p class="card-text">
+                                                                <ul class="list-unstyled card-list">
+                                                                    <li>Analytics box</li>
+                                                                    <li>A/B testovanie</li>
+                                                                    <li>Inovácie/Rozvoj produktu</li>
+                                                                    <li>Optimalizácie</li>
+                                                                    <li>Testovanie/Validácia</li>
+                                                                </ul>
+                                                            </p>
+                                                            <div class="price">
+                                                                850-1200 Kč/Hod
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                            
+                                            </div>
+                                        </div>
+                                    </section>
+                            
+                                    <!-- estimations section -->
+                                    <section id="estimations" class="estimations mt-120">
+                                        <div class="container-fluid pr-md-5 pl-md-5">
+                                            <div class="row">
+                                                <div class="order-2 order-lg-1 col-lg-4 mr-auto d-lg-flex justify-content-start p-0 girl">
+                                                    <img src="img/svg/wizard.svg" class="wizard-img img-fluid img-banner auto-banner" />
+                                                </div>
+                            
+                                                <div class="order-1 order-lg-2 col-lg-8 mr-auto pr-md-5">
+                                                    <h1 class="purple fw-500 banner-title">Ako prebieha naceňovanie?</h1>
+                                                    <div class="row mt-40 main-card">
+                                                        <div class="col-lg-6 est-p">
+                                                            <span class="fw-450">1. Zadanie od klienta - </span> dostanete od nás podklady, na základe ktorých lepšie vydefinujeme spolu zadanie a očakávania.
+                                                        </div>
+                                                        <div class="col-lg-6 est-p">
+                                                            <span class="fw-450">2. High level odhady - </span> na základe dodaného zadania vyhotovíme high level odhady, ktoré pošleme na validáciu.
+                                                        </div>
+                                                        <div class="col-lg-6 est-p">
+                                                            <span class="fw-450">3. Workshop/Úvodná analýza - </span> na workshope vydefinujeme presný produkt, ktorý sa bude vyvíjať.
+                                                        </div>
+                                                        <div class="col-lg-6 est-p">
+                                                            <span class="fw-450">4. Validácia ceny/času/zadania - </span> upravíme pôvodné high level odhady, pričom vývoj rozplánujeme do agilných sprintov.
+                                                        </div>
+                                                        <div class="col-lg-6 est-p">
+                                                            <span class="fw-450">5. Vývoj v sprintoch a update budgetu - </span> klient je presne informovaný, čo bude v danom sprinte dodané za dohodnutú cenu.
+                                                        </div>
+                                                        <div class="col-lg-6 est-p">
+                                                            <span class="fw-450">6. Zmeny vo vývoji - </span> hlásime všetky zmeny klientovi a následne hľadáme ideálne riešenie.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                            
+                                        </div>
+                                    </section>
+                            
+                                    <!-- pricing type section -->
+                                    <section class="start mt-40" id="start">
+                                        <div class="container-fluid pr-md-5 pl-md-5">
+                                            <div class="row">
+                                                <div class="col-lg-12 start-title">
+                                                    <h1 class="purple fw-500 banner-title">Vyberte si režim, ktorý vám vyhovuje najviac</h1>
+                                                </div>
+                                                <div class="mt-40 d-sm-flex-inline d-lg-flex align-items-stretch text-center justify-content-between">
+                                                <div class="col-sm-12 col-md-12 col-lg-3 step">
+                                                    <img src="img/svg/calendar.svg" />
+                                                    <p class="purple fw-500 mt-3">Mesačné predplatné</p>
+                                                    <p>Dohodneme mesačný budget/hodiny, počas, ktorých sa bude pracovať v sprintoch, až do ich vyčerpania. Záverom by mala byť vždy hotová fungujúca časť.</p>
+                                                </div>
+                                                <div class="col-sm-12 col-md-12 col-lg-3 step">
+                                                    <img src="img/svg/agile_loop.svg" />
+                                                    <p class="purple fw-500 mt-3">Agilné predplatné</p>
+                                                    <p>Cena sa dohoduje na základe sprintu (14/30 dní), počas ktorej sa vytvorí dohodnutá funkcionalita a tá je finálne na konci sprintu fakturovaná.</p>
+                                                </div>
+                                                <div class="col-sm-12 col-md-12 col-lg-3 step">
+                                                    <img src="img/svg/consult.svg" />
+                                                    <p class="purple fw-500 mt-3">Konzultačné predplatné</p>
+                                                    <p>Cena konzultácií dohodnutá variabilne podľa potreby, alebo fixne podľa počtu hodín mesačne. Neobsahuje implementáciu, iba konzultácie v rôznych oblastiach (vývoj, dizajn, riadenie tímu,...)</p>
+                                                </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    
+                                    <!-- sales section -->
+                                    <section class="dont mt-40" id="dont">
+                                        <div class="container-fluid pl-md-5">
+                                            <div class="row">
+                                                <div class="col-lg-12 mt-40 pr-md-5">
+                                                    <h1 class="purple fw-500 banner-title">IT zľavy</h1>
+                                                    <p class="mt-40">
+                                                        Aby sme našich klientov motivovali a zároveň podporili, vymysleli sme rôzne balíky zľiav, ktoré je možné uplatniť aj kombinovane.
+                                                    </p>
+                                                </div>
+                                                <div class="col-md-12  col-lg-7 mt-40">
+                                                    <div class="row">
+                                                        <div class="col-md-12 col-lg-6">
+                                                            <div class="row d-flex per-box">  
+                                                                <div class="col-xs-12 col-md-6 col-lg-12">
+                                                                    <div class="per float-left">
+                                                                        7%
+                                                                    </div>
+                                                                    <div class="per1 float-left">
+                                                                        za odporúčanie a <br />
+                                                                        novú spoluprácu
+                                                                    </div>
+                                                                </div>
+                            
+                                                                <div class="col-xs-12 col-md-6 col-lg-12">
+                                                                    <div class="per float-left">
+                                                                        5%
+                                                                    </div>
+                                                                    <div class="per1 float-left">
+                                                                        za dlhodobú spoluprácu a <br />
+                                                                        rozvoj projektov
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                            
+                            
+                                                        <div class="col-md-12 col-lg-6">
+                                                            <div class="row d-flex per-box">  
+                                                                <div class="col-xs-12 col-md-6 col-lg-12">
+                                                                    <div class="per float-left">
+                                                                        2%
+                                                                    </div>
+                                                                    <div class="per1 float-left">
+                                                                        za včas dodané <br />
+                                                                        podklady
+                                                                    </div>
+                                                                </div>
+                            
+                                                                <div class="col-xs-12 col-md-6 col-lg-12">
+                                                                    <div class="per float-left">
+                                                                        5%
+                                                                    </div>
+                                                                    <div class="per1 float-left">
+                                                                        za účasť na <br />
+                                                                        úvodnom workshope
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        
+                            
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 ml-auto d-lg-flex p-0 justify-content-center">
+                                                    <img src="img/svg/market.svg" class="wizard-img img-fluid auto-banner market-banner" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                            
+                                    <!-- section why invest -->
+                                    <section id="why-invest" class="why-invest mt-80">
+                                        <div class="container-fluid pr-md-5 pl-md-5">
+                                            <div class="row">
+                                                <div class="col-lg-12 no-gutters">
+                                                    <h2 class="col-md-12 service-subtitle-block d-flex text-uppercase mb-4">Prečo investovať?</h2>
+                                                </div>
+                                                
+                                                <div class="col-md-12 col-lg-6">
+                                                    <div class="why1">
+                                                        <p class="fw-450 text-uppercase">PLÁNOVANIE A BUDÚCNOSŤ</p>
+                                                        <p>Na štarte sa treba zamyslieť, čo pre nás produkt, ktorý tvoríme znamená. Ako a kto ho bude používať v budúcnosti a hľadať motiváciu v dlhodobých cieľoch a klásť si tieto otázky. 
+                                                            <ul class="list-unstyled list-dont">
+                                                                <li class="fw-450">+ Chcem vytvoriť silnú značku?</li>
+                                                                <li class="fw-450">+ Jedná sa o hobby projekt?</li>
+                                                                <li class="fw-450">+ Verím mu dostatočne?</li>
+                                                            </ul>
+                                                            Platená reklama v Googli a na FB to už väčšinou nezachráni. Zvalidujte si svoj nápad pomocou nášho <a href="https://forms.gle/zDCrXjETzfTFcrxA8" target="new">vstupného formuláru.</a></p>
+                                                    </div>
+                            
+                                                    <div class="why1">
+                                                        <p class="fw-450 text-uppercase">NEVYHODENÉ PENIAZE</p>
+                                                        <p>Isto poznáte príbehy o tom, ako sa niečo vyvíjalo mesiace/roky až sa nakoniec zistilo, že chceme niečo úplne iné? Alebo prišli prví platiaci používatelia a nami zvolené dočasné/lacné riešenie už neumožňovalo projekt ďalej rozvíjať? Prípadne zmeny boli neúmerne predražené? Alebo ešte horšie? Projekt sa nikdy ani nedokončil?</p>
+                                                    </div>
+                                                </div>
+                            
+                                                <div class="why1 col-md-12 col-lg-4 ml-auto expec">
+                                                    <p class="fw-450 text-uppercase">Očakávania</p>
+                                                        <p><span class="fw-purple">Správne očakávania definované na štarte</span> sa priamo odvíjajú od kvality dodaného produktu a s tým spojenou otázkou PREČO a pre KOHO.</p>
+                                                        <p class="why2">Na trh by sme mali prinášať nové/pekné/inovatívne produkty a tomu prispôsobiť aj finančné možnosti. Oveľa ľahšie sa následne buduje komunita/cieľoví zákazníci a platiaci zákazníci. <span class="fw-purple">Prečo inak by ste do vývoja investovali vôbec?</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                            
+                            
+                                    
+                            
+                                    
+                                   
+                            
+                                    
+                                   
+                            
+                                    
+                                    
+                                    <!-- footer -->
+                                    <footer class="">
+                                        <div class="container-fluid pr-md-5 pl-md-5">
+                                            <div class="row">
+                                                <div class="col-md-6 col-lg-4">
+                                                    <ul class="list-unstyled">
+                                                        <li class="mb-2">
+                                                            <b>Prípadové štúdie</b>
+                                                        </li>
+                                                        <li class="mb-2">
+                                                            <a href="https://nanooq.eu/files/pripadova_studia.pdf" target="new">Prípadová štúdia firmy</a>
+                                                        </li>
+                                                        <!-- <li class="mb-2">
+                                                            Od Tatier k Dunaju
+                                                        </li> -->
+                                                        <!-- <li class="mb-2">
+                                                            Čajovňa Setkání
+                                                        </li> -->
+                                                        <!-- <li class="mb-2">
+                                                            Mall.cz
+                                                        </li> -->
+                                                    </ul>
+                                                </div>
+                                                <div class="col-md-6 col-lg-4 footer-item">
+                                                    <ul class="list-unstyled">
+                                                        <li class="mb-2">
+                                                            <b>Nanooq IT s. r. o.</b>
+                                                        </li>
+                                                        <li class="mb-2">
+                                                            <a href="https://goo.gl/maps/bBRC8ZFGcz22k7MX8" taget="new">Rybná 24, 110 00 Praha 1, Česká republika</a>
+                                                        </li>
+                                                        <li class="mb-2">
+                                                            IČO: 05952247
+                                                        </li>
+                                                        <li class="mb-2">
+                                                            DIČ: CZ05952247
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-md-6 col-lg-4 footer-item">
+                                                    <ul class="list-unstyled">
+                                                        <li class="mb-2">
+                                                            Bankové spojenie: 2201197128/2010
+                                                        </li>
+                                                        <li class="mb-2">
+                                                            Email: <a href="mailto:hello@nanooq.eu">hello@nanooq.eu</a>
+                                                        </li>
+                                                        <li class="mb-2">
+                                                            Mobil/Whatsapp: <a href="tel:+420725423538">+420 725 423 538</a>
+                                                        </li>
+                                                        <li class="mb-2">
+                                                            Messenger: <a href="https://www.facebook.com/nanooqit/?ref=bookmarks" target="new">Nanooq IT</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-md-12 col-lg-12 hastag-p">
+                                                    <div class="list-unstyled mt-3 d-md-flex justify-content-center align-items-stretch">
+                                                        <div class="mb-2 hashtag">
+                                                            #designthinking #problemsolving #future #together
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <img src="img/svg/magic-ball.svg" class="ball img-fluid d-none d-lg-block" />
+                                    </footer>
+                            
+                                    <div class="footer-bottom">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col d-flex justify-content-center footer-h">
+                                                    <span class="align-self-center copy text-center">2020 Nanooq IT s. r. o. Všetky práva vyhradené</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            
+                                <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+                                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"> </script>
+                                <script src="vendor/bootstrap/js/bootstrap.js"></script>
+                                <script src="js/front.js"></script>
+                            
+                                <script>
+                                    $(document).ready(function(){
+                            
+                                        $("#digitalisation").trigger("click");
+                            
+                                        $("#digitalisation").click(function(){
+                                            $(".service-subtitle").html('Digitalizácia služieb a produktov');
+                                            document.querySelector('#service-desc').scrollIntoView({ behavior: 'smooth' });
+                                            $(".service-desc-more").html('Mnoho nápadov by nemalo ostať iba v offline podobe. Zaslúžia si prezentovať sa naplno, nájsť si svoju cieľovú skupinu aj v online svete, kam naša spoločnosť čoraz viac smeruje. Pomôžeme vám <span class="fw-450">zdigitalizovať</span> vaše produkty a služby, prípadne k nim <span class="fw-450">vyvinúť doplnkovú službu</span>, ktorá vás spraví unikátnymi na trhu v danom odvetví.');
+                                            $( ".service-list" ).html( '<li><span class="fw-450">1.) Úvodná konzultácia - </span> analýza potrieb, financií, rizík a nápadov</li> <li><span class="fw-450">2.) Vypracovanie návrhu - </span> možnosti digitalizácie v jednotlivých krokoch</li> <li><span class="fw-450">3.) Analýza návrhu - </span> detailná biznis, technická, užívateľské analýza</li> <li><span class="fw-450">4.) Dizajnovanie - </span> návrh prototypu a vytvorenie dizajnu nového brandu</li> <li><span class="fw-450">5.) Vývoj MVP - </span> vývoj prototypu a následná validácia s užívateľmi</li> <li><span class="fw-450">6.) Vývoj, nasadenie - </span> vývoj produktu, nasadenie a ďalší vývoj/správa/li>');
+                                        });
+                            
+                                        $("#inovations").click(function(){
+                                            $(".service-subtitle").html('Inovácie existujúcich produktov a služieb');
+                                            document.querySelector('#service-desc').scrollIntoView({ behavior: 'smooth' });
+                                            $(".service-desc-more").html('Ak už máte produkt alebo službu, je dobré sa zamyslieť, čo by sme mohli priniesť <span class="fw-450">existujúcim alebo novým používateľom</span>. Je tu niečo, čo vám už dlhšie vŕta hlavou, ale nemáte parťáka, s ktorým by ste to zrealizovali? Potrebujete <span class="fw-450">externý pohľad</span> na problém z inej perspektívy? Sme tu pre vás.');
+                                            $( ".service-list" ).html( '<li><span class="fw-450">1.) Úvodná konzultácia - </span> analýza súčasného stavu a konkurencie</li> <li><span class="fw-450">2.) Vypracovanie návrhu - </span> napojenie do existujúceho systémov a nadväznosti na existujúci biznis model</li> <li><span class="fw-450">3.) Analýza návrhu - </span>detailná biznis, technická a používateľská analýza</li> <li><span class="fw-450">4.) Dizajnovanie - </span> návrh prototypu, vytvorenie/zjednotenie s existujúcim brandom</li> <li><span class="fw-450">5.) Vývoj MVP - </span> vývoj prototypu a následná validácia úspešnosti</li> <li><span class="fw-450">6.) Vývoj, nasadenie - </span> vývoj produktu, nasadenie a ďalší vývoj/správa</li>');
+                                        });
+                            
+                                        $("#offline").click(function(){
+                                            $(".service-subtitle").html('Vybudovanie nového produktu alebo služby');
+                                            document.querySelector('#service-desc').scrollIntoView({ behavior: 'smooth' });
+                                            $(".service-desc-more").html('Ste vizionár s nápadom, ktorý by nemal ostať iba v predstavách? Pomôžeme vám <span class="fw-450">pretvoriť váš nápad</span> na reálny digitálny produkt, vytvoriť na trhu unikátny nový brand a priniesť ho k novým používateľom. Následne spoločne na budovaní produktu ďalej <span class="fw-450">pracovať a rozvíjať ho.</span>');
+                                            $( ".service-list" ).html( '<li><span class="fw-450">1.) Úvodná konzultácia - </span> analýza riešenia, konkurencie, nápadov</li> <li><span class="fw-450">2.) Vypracovanie návrhu - </span> technické možnosti realizácie a plán vývoja</li> <li><span class="fw-450">3.) Analýza návrhu - </span> detailná biznis, technická a používateľská analýza</li> <li><span class="fw-450">4.) Dizajnovanie - </span> návrh prototypu a brandu produktu/služby</li> <li><span class="fw-450">5.) Vývoj MVP - </span> vývoj prototypu a následná validácia s užívateľmi</li> <li><span class="fw-450">6.) Vývoj, nasadenie - </span> vývoj produktu, nasadenie a ďalší vývoj/správa</li>');
+                                        });
+                            
+                                        $("#cat").click(function(){
+                                            $(".service-subtitle").html('Mačka vo vreci - pomocná ruka');
+                                            document.querySelector('#service-desc').scrollIntoView({ behavior: 'smooth' });
+                                            $(".service-desc-more").html('Neviete presne s čím a ako potrebujete pomôcť/poradiť? Nechcete sa púšťať do väčšieho projektu, iba <span class="fw-450">poradiť/prekonzultovať</span> nápad, existujúce riešenie, zautomatizovať opakované tasky? Radi sa s vami stretneme a na problém pozrieme.');
+                                            $( ".service-list" ).html( '<li><span class="fw-450">1.) Technická pomoc - </span> analýza súčasného stavu technického riešenia projektu a návrhy na optimalizácie/upgrade</li> <li><span class="fw-450">2.) Tímová pomoc - </span> nastavenie komunikácie v tíme, lepšie pochopenie všetkých zúčastnených strán</li> <li><span class="fw-450">3.) Koordinačná pomoc - </span> nastavenie firemných toolov, procesov a prechod k agilnému riadeniu tímu</li> <li><span class="fw-450">4.) IT vs. neIT - </span> konzultácie medzi technickými a netechnickými rolami a požiadavkami, vyjasnenie nedorozumení</li> <li><span class="fw-450">5.) UI/UX pomoc - </span> UI/UX analýza riešenia, analýza cieľovej skupiny a možné návrhy na úpravy</li> <li><span class="fw-450">6.) Brainstorming - </span> externý pohľad na problém</li><li><span class="fw-450">7.) Optimalizácie - </span> optimalizácie využitia zdrojov, kapacít, dátových uložísk,...</li>');
+                                        });
+                                    });
+                                </script>
+                            
+                                </body>
+                            </html>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+                                                                                                                                                    
+                                                                                                                                                                                                                                                    
+                                                                                                                                
+                                                                                                    
+                                                                                                                                                                                                                                                
+                                                                                                                            
+                                                                                                                            
+                                                                                                                            
+                                                                                                        
+                                                                                                                        
+                                                                                                                               
+                                                                                                 
+                                                                                                        
+                                                                                                                        
+                                                                                                                                                                                                                                                        
+                                                                                                                        
+                                                                                                                                                                                                                            
+                                                                            
+                                                                                                                                                    
+                                                                                                                                                    
+                                                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                                            
+                                                                                                                                
+                                                                                                                                                                                                                                                                            
+                                                                                                                                                                            
+                                                                                                                                                                        
+                                                                                                        
+                                                                                                    
+                                                                                                                                                 
+                                                                                                                               
+                                                                        
+                                                                                                                                                                            
+                                                                                                                                                                                                                                                                            
+                                                                                                                                
+                                                                                                                                                
+                                                                            
+                                                                                                                                
+                                                                                                                                                                                                
+                                                                                                                                                                                
+                                                                                                                        
+                                                                                                                                                                            
+                                                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                        
+                                                                                                                        
+                                                                                                                                                        
+                                                                                                    
+                                                                                                                        
+                                                                                                                                                                            
+                                                                                                                               
+                                                                                                                                                 
+                                                                                                                                                    
+                                                                                                                            
+                                                                                                                                                                                                    
+                                                                                                                                                    
+                                                                                                                                                                                
+                                                                                                                        
+                                                                                                                            
+                                                                                                                                                                                                        
+                                                                                                                                                                                                                        
+                                                                                                    
+                                                                            
+                                                                                                                                                    
+                                                                                                                                                                            
+                                                                                                                                                    
+                                                                                                                                                    
+                                                                                                    
+                                                                                                                                                                                                    
+                                                                                                                                                                            
+                                                                                                    
+                                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                                                                                    
+                                                                                                                                                                                
+                                                                                                                                                                            
+                                                                                                                        
+                                                                                                                                                                            
+                                                                                                    
+                                                                                                                                                                            
+                                                                                                    
+                                                                                                                                                    
+                                                                                                                                                    
+                                                                                                                                                                                                                                
+                                                                                                                                                                                                
+                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                    
+                                                                                                                                                                                                
+                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                        
+                                                                                                                        
+                                                                                                                                                    
+                                                                                                                                                                                                                                                                                
+                                                                                                    
+                                                                                                                                                
+                                                                                                                                                                                                        
+                                                                                                                                                
+                                                                                                                                                                            
+                                                                                                                                                                                                    
+                                                                                                                                                                                                    
+                                                                                                    
+                                                                                                                                                    
+                                                                            
+                                                                                                                                                                                                                                                                            
+                                                                                                    
+                                                                                                                            
+                                                                            
+                                                                                                                                                    
+                                                                                                                                                                                                                            
+                                                                                                                                                    
+                                                                                                                                                    
+                                                                                                                                                                            
+                                                                                                        
+                                                                                                                        
+                                                                                                    
+                                                                                                                                                        
+                                                                                                                        
+                                                                                                                                                                            
+                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                
+                                                                                                                                                    
+                                                                                                                                
+                                                                        
+                                                                                                                                                    
+                                                                                                                                                    
+                                                                                                                                                                                
+                                                                                                                                                                            
+                                                                                                                                                                            
+                                                                                                                        
+                                                                                                                                                                            
+                                                                                                    
+                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
