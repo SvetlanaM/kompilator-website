@@ -1590,6 +1590,7 @@
     
     @media (min-width: 1024px) {
         #section-case-study {
+            margin-top: 100px;
             padding-bottom: 90px;
         }
     }
@@ -1804,12 +1805,6 @@
         }
     }
     
-    @media (min-width: 1280px) {
-        .img-study-box {
-            align-items: center;
-        }
-    }
-    
     .img-big {
         margin-top: 60px;
     }
@@ -1824,4 +1819,19 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+    }
+    
+    .tracking-image {
+        width: 274px;
+    }
+    
+    .tracking-image-box {
+        display: flex;
+        margin-top: 60px;
+        justify-content: space-between;
+    }
+    
+    .photo-card {
+        box-shadow: 0px 0px 45px rgba(202, 209, 221, 0.47);
+        border-radius: 20px;
     }
