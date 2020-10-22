@@ -108,6 +108,10 @@
         color: #FF8C4A;
         text-decoration: none;
     }
+
+    .orange-link:hover {
+        color: #4e4e82;
+    }
     
     h1,
     h2,
@@ -201,10 +205,12 @@
         bottom: 0px;
     }
     
+    
     .nav-link:hover::before {
         content: "+";
         color: #ff8c4a !important;
     }
+
     
     .card {
         box-shadow: 0px 0px 45px rgba(202, 209, 221, 0.47);
@@ -667,6 +673,15 @@
         font-size: 16px;
         font-weight: 200;
     }
+
+    .btn-study a {
+        color: #ffffff;
+    }
+
+    .btn-study a:hover,
+    .btn-study:hover::after {
+        color: #FF8C4A;
+    }
     
     .btn {
         letter-spacing: 2px;
@@ -678,7 +693,7 @@
         color: #fff;
         margin-left: 5px;
         margin-bottom: 0px;
-        bottom: 2px;
+        bottom: 0px;
     }
     
     .card-body h6::after {
@@ -1029,7 +1044,7 @@
     }
     
     #problems {
-        padding-top: 80px;
+        padding-top: 60px;
         margin-bottom: 60px;
     }
     
@@ -1650,6 +1665,7 @@
         justify-content: flex-start;
         align-items: center;
         margin-bottom: 60px;
+        line-height: 1.3em;
     }
     
     @media (min-width: 1280px) {
@@ -1778,7 +1794,7 @@
     }
     
     .store-img {
-        width: 50%;
+        width: 100%;
     }
     
     .flex-box {
@@ -1827,11 +1843,29 @@
     
     .tracking-image-box {
         display: flex;
-        margin-top: 60px;
+        margin-top: 80px;
         justify-content: space-between;
     }
     
     .photo-card {
         box-shadow: 0px 0px 45px rgba(202, 209, 221, 0.47);
         border-radius: 20px;
+    }
+
+    .ref-icon {
+        margin-left: 10px;
+    }
+
+    .ref-icon img {
+        margin-top: -8px;
+        width: 25px;
+        height: 25px;
+    }
+
+    .main-card {
+        margin-top: 20px;
+    }
+
+    .main-card p {
+        margin-top: 15px;
     }
