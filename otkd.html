@@ -1,616 +1,534 @@
 <!DOCTYPE html>
-    <head>
 
-        <!-- meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="UTF-8">
-        <meta name="description" content="Meníme nápady na reálne digitálne produkty. Zameriavame sa primárne na
+<head>
+
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="description" content="Meníme nápady na reálne digitálne produkty. Zameriavame sa primárne na
         dizajn, UI/UX a užívateľský prístup. Neustále sa pýtame a počúvame. S nami vytvoríte užitočné webové
         a mobilné aplikácie, ktoré sú tu pre užívateľov. Už žiadne nedoruzumenia medzi IT a biznisom, všetci
         pracujeme ako jeden tím.">
-        <meta name="keywords" content="Web, mobilná aplikácia, iOS, Android, analýza, dizajn, UI, UX, prečo?, digitálna, inovácie, automatizácia">
-        <meta name="author" content="Nanooq IT s. r. o.">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="format-detection" content="telephone=no">
-        <title>Nanooq IT - digitálno-inovačná agentúra</title>
+    <meta name="keywords" content="Web, mobilná aplikácia, iOS, Android, analýza, dizajn, UI, UX, prečo?, digitálna, inovácie, automatizácia">
+    <meta name="author" content="Nanooq IT s. r. o.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <title>Nanooq IT - digitálno-inovačná agentúra</title>
 
-        <!-- CSS imports -->
-        <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/custom.css">
+    <!-- CSS imports -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
 
-        <!-- fonts imports -->
-        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700;900&display=swap" rel="stylesheet">
+    <!-- fonts imports -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700;900&display=swap" rel="stylesheet">
 
-        <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-        <link rel="manifest" href="manifest.json">
-        <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
-        <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
-        <!-- Twitter Card data -->
-        <meta name="twitter:card" content="summary">
-        <meta name="twitter:site" content="@publisher_handle">
-        <meta name="twitter:title" content="Nanooq IT - digitálno-inovačná agentúra">
-        <meta name="twitter:description" content="Meníme nápady na reálne digitálne produkty. Zameriavame sa primárne na
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@publisher_handle">
+    <meta name="twitter:title" content="Nanooq IT - digitálno-inovačná agentúra">
+    <meta name="twitter:description" content="Meníme nápady na reálne digitálne produkty. Zameriavame sa primárne na
         dizajn, UI/UX a užívateľský prístup. Neustále sa pýtame a počúvame. S nami vytvoríte užitočné webové
         a mobilné aplikácie, ktoré sú tu pre užívateľov. Už žiadne nedoruzumenia medzi IT a biznisom, všetci
         pracujeme ako jeden tím.">
-        <meta name="twitter:creator" content="@author_handle">
-        <meta name="twitter:image" content="http://www.nanooq.eu/img/svg/banner_img.svg">
+    <meta name="twitter:creator" content="@author_handle">
+    <meta name="twitter:image" content="http://www.nanooq.eu/img/svg/banner_img.svg">
 
-        <!-- Open Graph data -->
-        <meta property="og:title" content="Nanooq IT - digitálno-inovačná agentúra" />
-        <meta property="og:type" content="article" />
-        <meta property="og:url" content="http://www.nanooq.eu" />
-        <meta property="og:image" content="http://www.nanooq.eu/img/svg/banner_img.svg" />
-        <meta property="og:description" content="Meníme nápady na reálne digitálne produkty. Zameriavame sa primárne na
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Nanooq IT - digitálno-inovačná agentúra" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://www.nanooq.eu" />
+    <meta property="og:image" content="http://www.nanooq.eu/img/svg/banner_img.svg" />
+    <meta property="og:description" content="Meníme nápady na reálne digitálne produkty. Zameriavame sa primárne na
         dizajn, UI/UX a užívateľský prístup. Neustále sa pýtame a počúvame. S nami vytvoríte užitočné webové
         a mobilné aplikácie, ktoré sú tu pre užívateľov. Už žiadne nedoruzumenia medzi IT a biznisom, všetci
         pracujeme ako jeden tím." />
-        <meta property="og:site_name" content="Nanooq IT - digitálno-inovačná agentúra" />
-    </head>
-    <body class="bg-white gray">
-        <!-- navigation menu -->
-        <header id="main-header" class="nav-bg">
-            <nav class="navbar navbar-expand-lg navbar-light pr-5 fixed-top">
-                <button type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain"
-                    aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right">
+    <meta property="og:site_name" content="Nanooq IT - digitálno-inovačná agentúra" />
+</head>
+
+<body class="bg-white gray">
+    <!-- navigation menu -->
+    <header id="main-header" class="nav-bg">
+        <nav class="navbar navbar-expand-lg navbar-light pr-5 fixed-top">
+            <button type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div id="navbarMain" class="collapse navbar-collapse">
-                    <ul class="navbar-nav ml-auto purple">
-                        <!-- <li class="nav-item mr-3"><a href="" class="nav-link">Prečo?</a></li> -->
-                        <!-- <li class="nav-item mr-3"><a href="" class="nav-link">Naše hodnoty</a></li> -->
-                        <!-- <li class="nav-item dropdown mr-2">
+            <div id="navbarMain" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto purple">
+                    <!-- <li class="nav-item mr-3"><a href="" class="nav-link">Prečo?</a></li> -->
+                    <!-- <li class="nav-item mr-3"><a href="" class="nav-link">Naše hodnoty</a></li> -->
+                    <!-- <li class="nav-item dropdown mr-2">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Špeciál
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="#">Automatizácia</a>
                                 <a class="dropdown-item" href="#">Riešenia pre eshopy</a>
                         </li> -->
-                        <li class="nav-item mr-3"><a href="../" class="nav-link">Úvod</a></li>
-                        <li class="nav-item dropdown mr-2">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Riešenia pre
+                    <li class="nav-item mr-3"><a href="../" class="nav-link">Úvod</a></li>
+                    <li class="nav-item dropdown mr-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Riešenia pre
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="../corporations.html">Korporácie</a>
-                                <a class="dropdown-item" href="../small.html">Menší a strední podnikatelia</a>
-                                <a class="dropdown-item" href="../offline.html">Začínajúce firmy/startupy</a>
-                        </li>
-                        <li class="nav-item mr-3"><a href="../pricing.html" class="nav-link">Cenník</a></li>
-                        <li class="nav-item mr-3"><a href="https://medium.com/@nanooqit/%C4%8Do-rob%C3%ADme-inak-v-nanooq-it-3089c93b02c9" target="new" class="nav-link">Blogujeme</a></li>
-                        <!-- <li class="nav-item mr-3"><a href="" class="nav-link">FAQ</a></li> -->
-                        <!-- <li class="nav-item mr-3"><a href="" class="nav-link">Kontakty</a></li> -->
-                        <li class="nav-item mr-3"><a href="https://forms.gle/zDCrXjETzfTFcrxA8" target="new" class="nav-link">Free workshop</a></li>
-                    </ul>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="../corporations.html">Korporácie</a>
+                            <a class="dropdown-item" href="../small.html">Menší a strední podnikatelia</a>
+                            <a class="dropdown-item" href="../offline.html">Začínajúce firmy/startupy</a>
+                    </li>
+                    <li class="nav-item mr-3"><a href="../pricing.html" class="nav-link">Cenník</a></li>
+                    <li class="nav-item mr-3"><a href="https://medium.com/@nanooqit/%C4%8Do-rob%C3%ADme-inak-v-nanooq-it-3089c93b02c9" target="new" class="nav-link">Blogujeme</a></li>
+                    <!-- <li class="nav-item mr-3"><a href="" class="nav-link">FAQ</a></li> -->
+                    <!-- <li class="nav-item mr-3"><a href="" class="nav-link">Kontakty</a></li> -->
+                    <li class="nav-item mr-3"><a href="https://forms.gle/zDCrXjETzfTFcrxA8" target="new" class="nav-link">Free workshop</a></li>
+                </ul>
                 </div>
-            </nav>
-        </header>
+        </nav>
+    </header>
 
-        <!-- section banner -->
-        <section id="banner" class="banner">
-            <div class="container-fluid pl-md-5 pr-md-5">
-                <div class="row no-gutters">
-                  <div class="col-md-12 mt-50">
+    <!-- section banner -->
+    <section id="banner" class="banner">
+        <div class="container-fluid pl-md-5 pr-md-5">
+            <div class="row no-gutters">
+                <div class="col-md-12 mt-50">
                     <h1 class="purple fw-500 banner-title">Ešte o kilometer lepší zážitok z pretekov</h1>
-                  </div>
-                </div>
-
-                <div class="row no-gutters">
-                  <div class="col-lg-7 mt-40 d-flex">
-                        <p>OD TATIER K DUNAJU je 345 km dlhý štafetový beh družstiev. 6 alebo 9 až 12-členné tímy vyštartujú z Jasnej v Nízkych Tatrách v sobotu dopoludnia, bežia non-stop dňom aj nocou a v nedeľu poobede dobehnú do cieľa pretekov na nábreží Dunaja v Bratislave. 
-                        </p>
-                    </div>
-                    <div class="col-lg-4 d-flex banner-study-logo">
-                        <img src="img/logos/otkd.svg" class="img-fluid" />
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- section problem -->
-        <section id="section-problem" class="section-problem">
-            <div class="container-fluid pr-md-5 pl-md-5">
-                <div class="row section-problem-main">
-                    <div class="col-lg-12">
-                        <p class="case-study-title fw-450">1. Vznik nápadu a potreby klienta
-                        </p>
-                    </div>
-                    <div class="flex-box">
-                        <div class="col-lg-6">
-                            <p>
-                              Na štarte bol nápad alebo potreba, ktorú sme diskutovali s klientom Milošom. Keďže sami beháme, prvotný impuls prišiel z našej strany.<br /><br />
-                              Následne sme možnosti prekonzultovali s Milošom a obohatili návrh o jeho problémy, minuloročné skúsenosti s pretekmi a postrehmi bežcov, ktoré zozbieral za posledné 4 roky.
-                            </p>
-                            <div class="problem-icons d-flex mt-40">
-                                <div class="problem-icons-item d-flex justify-content-between">
-                                  <img src="img/svg/obstacle.svg" />
-                                  <div>Preteky 1x za rok</div>
-                                </div>
-
-                                <div class="problem-icons-item d-flex justify-content-between">
-                                    <img src="img/svg/runner.svg" />
-                                    <div>2000 bežcov</div>
-                                </div>
-
-                                <div class="problem-icons-item d-flex justify-content-between">
-                                    <img src="img/svg/collaboration.svg" />
-                                    <div>Mnoho mes. organizácie</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-5 ml-auto quote-box d-flex-inline">
-                            <p class="quote">
-                                ”Potrebujeme vytvoriť aplikáciu, ktorá bude funkčná a nezaťaží web. Bežci a rovnako aj my, sa na ňu môžeme spoľahnúť.”
-                            </p>
-                            <div class="quote-user d-flex mt-40">
-                                <img src="img/milos.png" class="milos"/>
-                                <div class="quote-user-item">
-                                    <div class="fw-450">Miloš Zágoršek</div>
-                                    <div>organizátor pretekov</div>
-                                </div>
-                          </div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
-        </section>
+            <div class="row no-gutters">
+                <div class="col-lg-7 mt-40 d-flex">
+                    <p>OD TATIER K DUNAJU je 345 km dlhý štafetový beh družstiev. 6 alebo 9 až 12-členné tímy vyštartujú z Jasnej v Nízkych Tatrách v sobotu dopoludnia, bežia non-stop dňom aj nocou a v nedeľu poobede dobehnú do cieľa pretekov na nábreží
+                        Dunaja v Bratislave.
+                    </p>
+                </div>
+                <div class="col-lg-4 d-flex banner-study-logo">
+                    <img src="img/logos/otkd.svg" class="img-fluid" />
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <!-- section idea -->
-        <section class="section-idea no-gutters" id="section-idea">
-            <div class="container-fluid pr-md-5 pl-md-5">
-                <div class="row">
-                    <div class="col-lg-6 idea-bg">
-                    </div>
-
-                    <div class="col-lg-5 d-flex-inline ml-auto idea-box">
-                        <p class="case-study-title fw-450">2. Naše nápady + workshop s klientom</p>
+    <!-- section problem -->
+    <section id="section-problem" class="section-problem">
+        <div class="container-fluid pr-md-5 pl-md-5">
+            <div class="row section-problem-main">
+                <div class="col-lg-12">
+                    <p class="case-study-title fw-450">1. Vznik nápadu a potreby klienta
+                    </p>
+                </div>
+                <div class="flex-box">
+                    <div class="col-lg-6">
                         <p>
-                            V ďalšom kroku sme s tímom vyhotovili zoznam nápadov vrátane problémov, ktoré pokrývajú podla dôležitosti. Vytvorili sme ucelenú formu, príbeh a nadväznosť na reálne potreby.
+                            Na štarte bol nápad alebo potreba, ktorú sme diskutovali s klientom Milošom. Keďže sami beháme, prvotný impuls prišiel z našej strany.<br /><br /> Následne sme možnosti prekonzultovali s Milošom a obohatili návrh o jeho problémy,
+                            minuloročné skúsenosti s pretekmi a postrehmi bežcov, ktoré zozbieral za posledné 4 roky.
                         </p>
-                        <p class="case-study-hashtag fw-purple">#designthinking #ideas #why #problems #newangle</p>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- section analyse -->
-        <section class="section-analyse" id="section-analyse">
-            <div class="container-fluid pl-md-5">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <p class="case-study-title fw-450">3. Analýza požiadaviek a vydefinovanie cieľových skupín</p>
-                    </div>
-                </div>
-                <div class="third-box d-flex row">
-                    <div class="col-lg-6">
-                        Ďalším a dôležitým krokom je analýza vybraných nápadov z pohľadu biznisu, marketingu, technickej realizácie a časovej náročnosti.<br /><br />
-                        Funkcie sú vydefinované na základe potreby každého člena nami určenej cieľovej skupiny, pokrývajúc jeho požiadavky. Zároveň je potrebné myslieť na big-picture a všetky funkcie spoločne poskladať do logického celku.
-                    </div>
-                    
-                    <div class="analyse-icons col-lg-5 d-flex ml-auto">
-                        <div class="analyse-icons-item d-flex">
-                            <img src="img/svg/runner.svg" />
-                            <div>Bežci na pretekoch</div>
-                        </div>
-
-                        <div class="analyse-icons-item d-flex">
-                            <img src="img/svg/capitan.svg" />
-                            <div>Kapitán tímu</div>
-                        </div>
-
-                        <div class="analyse-icons-item d-flex">
-                            <img src="img/svg/collaboration.svg" />
-                            <div>Organizátori pretekov</div>
-                        </div>
-
-                        <div class="analyse-icons-item d-flex">
-                            <img src="img/svg/fans.svg" />
-                            <div>Fanúšikovia doma</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- section options -->
-        <section id="section-options" class="section-options">
-            <div class="container-fluid pr-md-5 pl-md-5">
-                <div class="row section-box d-flex">
-                    <div class="col-lg-6 idea-box">
-                        <p class="case-study-title fw-450">4. Možnosti realizácie a hlavné ciele projektu</p>
-                        <ul class="case-study-list list-unstyled list-dont">
-                            <li>+ Technická realizácia projektu</li>
-                            <li>+ Analýza konkurencie</li>
-                            <li>+ Nákladové možnosti vs. prínos projektu</li>
-                            <li>+ Biznis analýza a prínosy pre organizáciu</li>
-                            <li>+ Prínosy pre používateľov</li>
-                        </ul>
-                        <div class="bigger-info d-flex">
-                            <div class="text-uppercase fw-450">Náskok pred konkurenciou</div>
-                            <div class="text-uppercase fw-450">ZNížENIE ZátažE NA EXISTUJúCI WEB</div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-5 idea-box brand-box d-flex ml-auto">
-                        <div class="row">
-                            <div class="col-md-12 case-study-title fw-450">5. Vizuálna identita a brand</div>
-                            <div class="col-md-8 col-lg-8 d-flex">Vychádzali sme z existujucého brandu a dizajnu pretekov OTKD, ktorý je daný a definovaný už na trhu viac než 4 roky a ten sme následne rozšírili.
+                        <div class="problem-icons d-flex mt-40">
+                            <div class="problem-icons-item d-flex justify-content-between">
+                                <img src="img/svg/obstacle.svg" />
+                                <div>Preteky 1x za rok</div>
                             </div>
-                            <div class="col-md-4 col-lg-4 analyse-otkd-logo">
-                                <img src="img/logo_otkd_black.png" class="img-fluid" />
+                            <div class="problem-icons-item d-flex justify-content-between">
+                                <img src="img/svg/runner.svg" />
+                                <div>2000 bežcov</div>
                             </div>
-                        </div>
-
-                        <div class="row no-gutters">
-                            <div class="case-study-title fw-450 col-lg-12">Partner projektu</div>
-                            <img src="img/logo_vub.png" class="analyse-otkd-logo col-lg-8" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- section data -->
-        <section id="section-data" class="section-data">
-            <div class="container-fluid pr-md-5 pl-md-5">
-                <div class="row">
-                    <div class="col-md-12">
-                        <p class="case-study-title fw-450">6. Data analýza a vyhodnotenie ako vstupný podklad</p>
-                        <p>Aby sme aplikáciu nestavali iba na našich domnienkach, pozreli sme sa do dostupných dát. Dáta, ktoré dostupné neboli, sme získali formou <span class="fw-450">dotazníka s cieľovými používateľmi</span>, prípadne z historických údajov <span class="fw-450">Google Analytics nad existujúcim webom</span> pretekov. Z dát sme vyhodnotili najdôležitejšie uzávery, od ktorých sme sa odpichli pri formulovaní už konkrétneho produktu.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="graph-box col-md-12">
-                        <!--
-                        <div class="col-lg-4 mt-40 graph-section d-flex flex-column text-center">
-                            <div class="graph-title fw-450 text-left">Návštevnost webu počas pretekov z mobilných zariadení</div>
-                            <img src="img/svg/graph_pie.svg" class="img-fluid graph-img"/>
-                            <p class="graph-result">+ Vytvoriť mobilnú aplikáciu pre iOS/Android</p>
-                        </div> -->
-
-                        <div class="col-lg-6 mt-40 graph-section d-flex flex-column text-center">
-                            <div class="graph-title fw-450 text-left">Návštevnosť webu podľa krajín a lokalít</div>
-                            <img src="img/svg/graph_bar.svg" class="img-fluid graph-img"/>
-                            <p class="graph-result">+ Umožniť sledovať priebeh všetkým z mobilných zariadení</p>
-                        </div>
-
-                        <div class="col-lg-6 mt-40 graph-section d-flex flex-column text-center">
-                            <div class="graph-title fw-450 text-left">Prieskum medzi užívatelmi na sociálnych sieťach</div>
-                            <img src="img/svg/graph_bubble.svg" class="img-fluid graph-img"/>
-                            <p class="graph-result">+ Najžiadanejšia funkcia požadovaná bežcami je GPS tracking</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- section case study -->
-        <section id="section-case-study" class="section-case-study">
-            <div class="container-fluid pr-md-5 pl-md-5">
-                <div class="row">
-                    <div class="col-md-12 idea-box">
-                        <p class="case-study-title fw-450">7. Tvorba UI/UX a dizajnu aplikácie</p>
-                    </div>
-                    
-                    <div class="img-study-box">
-                        <div class="col-sm-12 col-lg-3 study-image">
-                            <img class="img-fluid" srcset="img/otkd_sections@2x.png 1x, 
-                                    img/otkd_sections@2x.png 2x,
-                                    img/otkd_sections@3x.png 3x" alt="Card image cap" />
-                        </div>
-
-                        <div class="col-sm-12 col-lg-3 study-image">
-                            <img class="img-fluid" srcset="img/otkd_runner@2x.png 1x, 
-                                    img/otkd_runner@2x.png 2x,
-                                    img/otkd_runner@3x.png 3x" alt="Card image cap" />
-                        </div>
-
-                        <div class="col-sm-12 col-lg-5 d-flex-inline ml-auto list-need">
-                            <div class="list-needs">
-                                <p class="white-title case-study-title fw-450">Potreby kapitána a bežcov</p>
-                                <ul class="list-unstyled list-dont">
-                                    <li>+ Správa tímu</li>
-                                    <li>+ Správa mojich úsekov/nočných úsekov</li>
-                                    <li>+ Detail úseku pre bežca/auto</li>
-                                    <li>+ Komunikácia s organizátorom - zranený bežec</li>
-                                    <li>+ Sledovať real-time výsledky bežca, tímu a celkové výsledky</li>
-                                </ul>
+                            <div class="problem-icons-item d-flex justify-content-between">
+                                <img src="img/svg/collaboration.svg" />
+                                <div>Mnoho mes. organizácie</div>
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="needs-results text-uppercase d-flex text-center justify-content-center mt-80">
-                        <div class="needs-item">
-                            <img src="img/svg/runner_white.svg" />
-                            <div>1. TÍM VIE KEDY PRÍSť NA ĎALŠIU PREDÁVKU</div>
-                        </div>
-
-                        <div class="needs-item">
-                            <img src="img/svg/collaboration_white.svg" />
-                            <div>2. DOBROVOľNÍCI VIDIA POHYB TÍMOV NA TRATI</div>
-                        </div>
-
-                        <div class="needs-item">
-                            <img src="img/svg/fans_white.svg" />
-                            <div>3. FANÚŠIKOVA MOŽU SLEDOVAť SVOJ TÍM Z DOMU</div>
-                        </div>
-
-                        <div class="needs-item">
-                            <img src="img/svg/runner_white.svg" />
-                            <div>4. BEŽEC SI VIE POZRIEŤ, ČI BEŽÍ SPRÁVNE NA TRATI</div>
-                        </div>
-
-                    </div>
-
-                    <div class="col-sm-12 col-lg-12 tracking-image-box">
-                            <img class="img-fluid tracking-image" srcset="img/otkd_tracking_2@2x.png 1x, 
-                                    img/otkd_tracking_2@2x.png 2x,
-                                    img/otkd_tracking_2@3x.png 3x" alt="Card image cap" />
-                        
-                            <img class="img-fluid tracking-image" srcset="img/otkd_tracking_1@2x.png 1x, 
-                                    img/otkd_tracking_1@2x.png 2x,
-                                    img/otkd_tracking_1@3x.png 3x" alt="Card image cap" />
-                        
-                            <img class="img-fluid tracking-image" srcset="img/otkd_tracking_3@2x.png 1x, 
-                                    img/otkd_tracking_3@2x.png 2x,
-                                    img/otkd_tracking_3@3x.png 3x" alt="Card image cap" />
-                        </div>
-
-                    <div class="img-study-box">
-                        <div class="col-lg-5 d-flex-inline mr-auto list-need">
-                            <div class="list-needs">
-                                <p class="white-title case-study-title fw-450">Potreby organizátora</p>
-                                <ul class="list-unstyled list-dont">
-                                    <li>+ Možnosť komunikovať real-time s bežcami</li>
-                                    <li>+ Možnosť vymeniť bežca</li>
-                                    <li>+ Real-time výsledky bez narušenia chodu webu aktualizované každé 2 minúty</li>
-                                    <li>+ Získať medzičasy na predávkach pre ďalšie výpočty</li>
-                                    <li>+ Podpora socializácie a zdieľania/zaujímavé funkcie</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 ml-auto idea-box study-image">
-                            <img class="img-fluid" srcset="img/otkd_injury@2x.png 1x, 
-                                    img/otkd_injury@2x.png 2x,
-                                    img/otkd_injury@3x.png 3x" alt="Card image cap" />
-                        </div>
-
-                        <div class="col-lg-3 idea-box study-image">
-                            <img class="img-fluid" srcset="img/otkd_push@2x.png 1x, 
-                                    img/otkd_push@2x.png 2x,
-                                    img/otkd_push@3x.png 3x" alt="Card image cap" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- section result -->
-        <section id="section-result" class="section-result">
-            <div class="container-fluid pr-md-5 pl-md-5">
-                <div class="row">
-                    <div class="col-md-12">
-                        <p class="case-study-title fw-450">8. Vyhodnotenie a feedback</p>
-                    </div>
-
-                    <div class="col-lg-6">
-                        <img src="img/map.png" class="img-map img-fluid"/>
-                    </div>
-
-                    <div class="col-lg-5 d-flex-inline ml-auto">
-                        <div class="result-box flex-wrap d-flex text-center justify-content-between mt-80">
-                            <div class="result-item">
-                                <div class="result-number">3500</div>
-                                <div>stiahnutí aplikácie</div>
-                            </div>
-
-                            <div class="result-item">
-                                <div class="result-number">6000</div>
-                                <div>aktívnych používatelov</div>
-                            </div>
-
-                            <div class="result-item">
-                                <div class="result-number">8</div>
-                                <div>krajín na svete</div>
-                            </div>
-
-                            <div class="result-item">
-                                <div class="result-number">12</div>
-                                <div>poslaných notifikácií</div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- section plus -->
-        <section id="section-plus" class="section-plus">
-            <div class="container-fluid pr-md-5 pl-md-5">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <p class="case-study-title fw-450">9. Prínosy pre ogranizátora a bežcov</p>
-                        <ul class="case-study-list list-unstyled list-dont">
-                            <li>+ Bežci majú dodatočný zážitok z pretekov</li>
-                            <li>+ Informovanosť počas pretekov a zníženie stresujúcej komunikácie</li>
-                            <li>+ Nižšia zátaž na web a s tým spojené technické problémy</li>
-                            <li>+ Nižšie náklady na SMS, ktoré nahradili push-notifikácie</li>
-                            <li>+ Nové zaujímavé offline/online funkcie</li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-5 ml-auto d-flex-inline idea-box">
+                    <div class="col-lg-5 ml-auto quote-box d-flex-inline">
                         <p class="quote">
-                            ”S aplikáciou sme boli spokojní. Všetko fungovalo ako malo, vedeli sme kde je bežec a kedy sa pripraviť na ďalšiu predávku.”
+                            ”Potrebujeme vytvoriť aplikáciu, ktorá bude funkčná a nezaťaží web. Bežci a rovnako aj my, sa na ňu môžeme spoľahnúť.”
                         </p>
-                        <div class="quote-user d-flex">
-                            <img src="img/martin.png" class="milos" />
+                        <div class="quote-user d-flex mt-40">
+                            <img src="img/milos.png" class="milos" />
                             <div class="quote-user-item">
-                                <div class="fw-450">Martin Detvaj</div>
-                                <div>bežec pretekov</div>
+                                <div class="fw-450">Miloš Zágoršek</div>
+                                <div>organizátor pretekov</div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="col-md-7 col-lg-6 idea-box order-md-1 order-2">
-                        <a type="button" role="button" class="btn btn-reservate text-uppercase" href="https://forms.gle/zDCrXjETzfTFcrxA8" target="new">Objednať free workshop</a>
-                    </div>
-                    <div class="order-md-2 col-md-5 order-1 col-lg-5 ml-auto idea-box">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <a href="https://play.google.com/store/apps/details?id=eu.nanooq.otkd&hl=sk" target="new"><img src="img/svg/gp.svg" class="img-fluid store-img" /></a>
-                                </div>
-                                <div class="col-md-6">
-                                    <a href="https://apps.apple.com/cz/app/otkd-2017/id1263139345?l=cs" target="new"><img src="img/svg/as.svg" class="img-fluid store-img" /></a>
-                                </div>
-                            </div>             
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-
-
-
-
-
-
-
-        <!-- footer -->
-        <footer class="">
-            <div class="container-fluid pr-md-5 pl-md-5">
-                <div class="row">
-                    <div class="col-md-6 col-lg-4">
-                        <ul class="list-unstyled">
-                            <li class="mb-2">
-                                <b>Prípadové štúdie</b>
-                            </li>
-                            <li class="mb-2">
-                                <a href="https://nanooq.eu/files/pripadova_studia.pdf" target="new">Prípadová štúdia firmy</a>
-                            </li>
-                            <li class="mb-2">
-                                <a href="../otkd.html">Mobilná aplikácia OTKD</a>
-                            </li>
-                            <!-- <li class="mb-2">
-                                Čajovňa Setkání
-                            </li> -->
-                            <!-- <li class="mb-2">
-                                Mall.cz
-                            </li> -->
-                        </ul>
-                    </div>
-                    <div class="col-md-6 col-lg-4 footer-item">
-                        <ul class="list-unstyled">
-                            <li class="mb-2">
-                                <b>Nanooq IT s. r. o.</b>
-                            </li>
-                            <li class="mb-2">
-                                <a href="https://goo.gl/maps/bBRC8ZFGcz22k7MX8" taget="new">Rybná 24, 110 00 Praha 1, Česká republika</a>
-                            </li>
-                            <li class="mb-2">
-                                IČO: 05952247
-                            </li>
-                            <li class="mb-2">
-                                DIČ: CZ05952247
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6 col-lg-4 footer-item">
-                        <ul class="list-unstyled">
-                            <li class="mb-2">
-                                Bankové spojenie: 2201197128/2010
-                            </li>
-                            <li class="mb-2">
-                                Email: <a href="mailto:hello@nanooq.eu">hello@nanooq.eu</a>
-                            </li>
-                            <li class="mb-2">
-                                Mobil/Whatsapp: <a href="tel:+420725423538">+420 725 423 538</a>
-                            </li>
-                            <li class="mb-2">
-                                Messenger: <a href="https://www.facebook.com/nanooqit/?ref=bookmarks" target="new">Nanooq IT</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-12 col-lg-12 hastag-p">
-                        <div class="list-unstyled mt-3 d-md-flex justify-content-center align-items-stretch">
-                            <div class="mb-2 hashtag">
-                                #designthinking #problemsolving #future #together
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <img src="img/svg/magic-ball.svg" class="ball img-fluid d-none d-lg-block" />
-        </footer>
-
-        <div class="footer-bottom">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col d-flex justify-content-center footer-h">
-                        <span class="align-self-center copy text-center">2020 Nanooq IT s. r. o. Všetky práva vyhradené</span>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
+
+    <!-- section idea -->
+    <section class="section-idea no-gutters" id="section-idea">
+        <div class="container-fluid pr-md-5 pl-md-5">
+            <div class="row">
+                <div class="col-lg-6 idea-bg">
+                </div>
+                <div class="col-lg-5 d-flex-inline ml-auto idea-box">
+                    <p class="case-study-title fw-450">2. Naše nápady + workshop s klientom</p>
+                    <p>
+                        V ďalšom kroku sme s tímom vyhotovili zoznam nápadov vrátane problémov, ktoré pokrývajú podla dôležitosti. Vytvorili sme ucelenú formu, príbeh a nadväznosť na reálne potreby.
+                    </p>
+                    <p class="case-study-hashtag fw-purple">#designthinking #ideas #why #problems #newangle</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section analyse -->
+    <section class="section-analyse" id="section-analyse">
+        <div class="container-fluid pl-md-5">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="case-study-title fw-450">3. Analýza požiadaviek a vydefinovanie cieľových skupín</p>
+                </div>
+            </div>
+            <div class="third-box d-flex row">
+                <div class="col-lg-6">
+                    Ďalším a dôležitým krokom je analýza vybraných nápadov z pohľadu biznisu, marketingu, technickej realizácie a časovej náročnosti.<br /><br /> Funkcie sú vydefinované na základe potreby každého člena nami určenej cieľovej skupiny, pokrývajúc
+                    jeho požiadavky. Zároveň je potrebné myslieť na big-picture a všetky funkcie spoločne poskladať do logického celku.
+                </div>
+                <div class="analyse-icons col-lg-5 d-flex ml-auto">
+                    <div class="analyse-icons-item d-flex">
+                        <img src="img/svg/runner.svg" />
+                        <div>Bežci na pretekoch</div>
+                    </div>
+                    <div class="analyse-icons-item d-flex">
+                        <img src="img/svg/capitan.svg" />
+                        <div>Kapitán tímu</div>
+                    </div>
+                    <div class="analyse-icons-item d-flex">
+                        <img src="img/svg/collaboration.svg" />
+                        <div>Organizátori pretekov</div>
+                    </div>
+                    <div class="analyse-icons-item d-flex">
+                        <img src="img/svg/fans.svg" />
+                        <div>Fanúšikovia doma</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section options -->
+    <section id="section-options" class="section-options">
+        <div class="container-fluid pr-md-5 pl-md-5">
+            <div class="row section-box d-flex">
+                <div class="col-lg-6 idea-box">
+                    <p class="case-study-title fw-450">4. Možnosti realizácie a hlavné ciele projektu</p>
+                    <ul class="case-study-list list-unstyled list-dont">
+                        <li>+ Technická realizácia projektu</li>
+                        <li>+ Analýza konkurencie</li>
+                        <li>+ Nákladové možnosti vs. prínos projektu</li>
+                        <li>+ Biznis analýza a prínosy pre organizáciu</li>
+                        <li>+ Prínosy pre používateľov</li>
+                    </ul>
+                    <div class="bigger-info d-flex">
+                        <div class="text-uppercase fw-450">Náskok pred konkurenciou</div>
+                        <div class="text-uppercase fw-450">ZNížENIE ZátažE NA EXISTUJúCI WEB</div>
+                    </div>
+                </div>
+                <div class="col-lg-5 idea-box brand-box d-flex ml-auto">
+                    <div class="row">
+                        <div class="col-md-12 case-study-title fw-450">5. Vizuálna identita a brand</div>
+                        <div class="col-md-8 col-lg-8 d-flex">Vychádzali sme z existujucého brandu a dizajnu pretekov OTKD, ktorý je daný a definovaný už na trhu viac než 4 roky a ten sme následne rozšírili.
+                        </div>
+                        <div class="col-md-4 col-lg-4 analyse-otkd-logo">
+                            <img src="img/logo_otkd_black.png" class="img-fluid" />
+                        </div>
+                    </div>
+                    <div class="row no-gutters">
+                        <div class="case-study-title fw-450 col-lg-12">Partner projektu</div>
+                        <img src="img/logo_vub.png" class="analyse-otkd-logo col-lg-8" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section data -->
+    <section id="section-data" class="section-data">
+        <div class="container-fluid pr-md-5 pl-md-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="case-study-title fw-450">6. Data analýza a vyhodnotenie ako vstupný podklad</p>
+                    <p>Aby sme aplikáciu nestavali iba na našich domnienkach, pozreli sme sa do dostupných dát. Dáta, ktoré dostupné neboli, sme získali formou <span class="fw-450">dotazníka s cieľovými používateľmi</span>, prípadne z historických údajov
+                        <span class="fw-450">Google Analytics nad existujúcim webom</span> pretekov. Z dát sme vyhodnotili najdôležitejšie uzávery, od ktorých sme sa odpichli pri formulovaní už konkrétneho produktu.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="graph-box col-md-12">
+                    <div class="col-lg-6 mt-40 graph-section d-flex flex-column text-center">
+                        <div class="graph-title fw-450 text-left">Návštevnosť webu podľa krajín a lokalít</div>
+                        <img src="img/svg/graph_bar.svg" class="img-fluid graph-img" />
+                        <p class="graph-result">+ Umožniť sledovať priebeh všetkým z mobilných zariadení</p>
+                    </div>
+                    <div class="col-lg-6 mt-40 graph-section d-flex flex-column text-center">
+                        <div class="graph-title fw-450 text-left">Prieskum medzi užívatelmi na sociálnych sieťach</div>
+                        <img src="img/svg/graph_bubble.svg" class="img-fluid graph-img" />
+                        <p class="graph-result">+ Najžiadanejšia funkcia požadovaná bežcami je GPS tracking</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section case study -->
+    <section id="section-case-study" class="section-case-study">
+        <div class="container-fluid pr-md-5 pl-md-5">
+            <div class="row">
+                <div class="col-md-12 idea-box">
+                    <p class="case-study-title fw-450">7. Tvorba UI/UX a dizajnu aplikácie</p>
+                </div>
+                <div class="img-study-box">
+                    <div class="col-sm-12 col-lg-3 study-image">
+                        <img class="img-fluid" srcset="img/otkd_sections@2x.png 1x, 
+                                    img/otkd_sections@2x.png 2x,
+                                    img/otkd_sections@3x.png 3x" alt="Card image cap" />
+                    </div>
+                    <div class="col-sm-12 col-lg-3 study-image">
+                        <img class="img-fluid" srcset="img/otkd_runner@2x.png 1x, 
+                                    img/otkd_runner@2x.png 2x,
+                                    img/otkd_runner@3x.png 3x" alt="Card image cap" />
+                    </div>
+                    <div class="col-sm-12 col-lg-5 d-flex-inline ml-auto list-need">
+                        <div class="list-needs">
+                            <p class="white-title case-study-title fw-450">Potreby kapitána a bežcov</p>
+                            <ul class="list-unstyled list-dont">
+                                <li>+ Správa tímu</li>
+                                <li>+ Správa mojich úsekov/nočných úsekov</li>
+                                <li>+ Detail úseku pre bežca/auto</li>
+                                <li>+ Komunikácia s organizátorom - zranený bežec</li>
+                                <li>+ Sledovať real-time výsledky bežca, tímu a celkové výsledky</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="needs-results text-uppercase d-flex text-center justify-content-center mt-80">
+                    <div class="needs-item">
+                        <img src="img/svg/runner_white.svg" />
+                        <div>1. TÍM VIE KEDY PRÍSť NA ĎALŠIU PREDÁVKU</div>
+                    </div>
+                    <div class="needs-item">
+                        <img src="img/svg/collaboration_white.svg" />
+                        <div>2. DOBROVOľNÍCI VIDIA POHYB TÍMOV NA TRATI</div>
+                    </div>
+                    <div class="needs-item">
+                        <img src="img/svg/fans_white.svg" />
+                        <div>3. FANÚŠIKOVA MOŽU SLEDOVAť SVOJ TÍM Z DOMU</div>
+                    </div>
+                    <div class="needs-item">
+                        <img src="img/svg/runner_white.svg" />
+                        <div>4. BEŽEC SI VIE POZRIEŤ, ČI BEŽÍ SPRÁVNE NA TRATI</div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-12 tracking-image-box">
+                    <img class="img-fluid tracking-image" srcset="img/otkd_tracking_2@2x.png 1x, 
+                                    img/otkd_tracking_2@2x.png 2x,
+                                    img/otkd_tracking_2@3x.png 3x" alt="Card image cap" />
+                    <img class="img-fluid tracking-image" srcset="img/otkd_tracking_1@2x.png 1x, 
+                                    img/otkd_tracking_1@2x.png 2x,
+                                    img/otkd_tracking_1@3x.png 3x" alt="Card image cap" />
+                    <img class="img-fluid tracking-image" srcset="img/otkd_tracking_3@2x.png 1x, 
+                                    img/otkd_tracking_3@2x.png 2x,
+                                    img/otkd_tracking_3@3x.png 3x" alt="Card image cap" />
+                </div>
+                <div class="img-study-box">
+                    <div class="col-lg-5 d-flex-inline mr-auto list-need">
+                        <div class="list-needs">
+                            <p class="white-title case-study-title fw-450">Potreby organizátora</p>
+                            <ul class="list-unstyled list-dont">
+                                <li>+ Možnosť komunikovať real-time s bežcami</li>
+                                <li>+ Možnosť vymeniť bežca</li>
+                                <li>+ Real-time výsledky bez narušenia chodu webu aktualizované každé 2 minúty</li>
+                                <li>+ Získať medzičasy na predávkach pre ďalšie výpočty</li>
+                                <li>+ Podpora socializácie a zdieľania/zaujímavé funkcie</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 ml-auto idea-box study-image">
+                        <img class="img-fluid" srcset="img/otkd_injury@2x.png 1x, 
+                                    img/otkd_injury@2x.png 2x,
+                                    img/otkd_injury@3x.png 3x" alt="Card image cap" />
+                    </div>
+                    <div class="col-lg-3 idea-box study-image">
+                        <img class="img-fluid" srcset="img/otkd_push@2x.png 1x, 
+                                    img/otkd_push@2x.png 2x,
+                                    img/otkd_push@3x.png 3x" alt="Card image cap" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section result -->
+    <section id="section-result" class="section-result">
+        <div class="container-fluid pr-md-5 pl-md-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="case-study-title fw-450">8. Vyhodnotenie a feedback</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="img/map.png" class="img-map img-fluid" />
+                </div>
+                <div class="col-lg-5 d-flex-inline ml-auto">
+                    <div class="result-box flex-wrap d-flex text-center justify-content-between mt-80">
+                        <div class="result-item">
+                            <div class="result-number">3500</div>
+                            <div>stiahnutí aplikácie</div>
+                        </div>
+                        <div class="result-item">
+                            <div class="result-number">6000</div>
+                            <div>aktívnych používatelov</div>
+                        </div>
+                        <div class="result-item">
+                            <div class="result-number">8</div>
+                            <div>krajín na svete</div>
+                        </div>
+                        <div class="result-item">
+                            <div class="result-number">12</div>
+                            <div>poslaných notifikácií</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section plus -->
+    <section id="section-plus" class="section-plus">
+        <div class="container-fluid pr-md-5 pl-md-5">
+            <div class="row">
+                <div class="col-lg-6">
+                    <p class="case-study-title fw-450">9. Prínosy pre ogranizátora a bežcov</p>
+                    <ul class="case-study-list list-unstyled list-dont">
+                        <li>+ Bežci majú dodatočný zážitok z pretekov</li>
+                        <li>+ Informovanosť počas pretekov a zníženie stresujúcej komunikácie</li>
+                        <li>+ Nižšia zátaž na web a s tým spojené technické problémy</li>
+                        <li>+ Nižšie náklady na SMS, ktoré nahradili push-notifikácie</li>
+                        <li>+ Nové zaujímavé offline/online funkcie</li>
+                    </ul>
+                </div>
+                <div class="col-lg-5 ml-auto d-flex-inline idea-box">
+                    <p class="quote">
+                        ”S aplikáciou sme boli spokojní. Všetko fungovalo ako malo, vedeli sme kde je bežec a kedy sa pripraviť na ďalšiu predávku.”
+                    </p>
+                    <div class="quote-user d-flex">
+                        <img src="img/martin.png" class="milos" />
+                        <div class="quote-user-item">
+                            <div class="fw-450">Martin Detvaj</div>
+                            <div>bežec pretekov</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7 col-lg-6 idea-box order-md-1 order-2">
+                    <a type="button" role="button" class="btn btn-reservate text-uppercase" href="https://forms.gle/zDCrXjETzfTFcrxA8" target="new">Objednať free workshop</a>
+                </div>
+                <div class="order-md-2 col-md-5 order-1 col-lg-5 ml-auto idea-box">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a href="https://play.google.com/store/apps/details?id=eu.nanooq.otkd&hl=sk" target="new"><img src="img/svg/gp.svg" class="img-fluid store-img" /></a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="https://apps.apple.com/cz/app/otkd-2017/id1263139345?l=cs" target="new"><img src="img/svg/as.svg" class="img-fluid store-img" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="">
+        <div class="container-fluid pr-md-5 pl-md-5">
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <b>Prípadové štúdie</b>
+                        </li>
+                        <li class="mb-2">
+                            <a href="https://nanooq.eu/files/pripadova_studia.pdf" target="new">Prípadová štúdia firmy</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="../otkd.html">Mobilná aplikácia OTKD</a>
+                        </li>
+                        <!-- <li class="mb-2">
+                                Čajovňa Setkání
+                            </li> -->
+                        <!-- <li class="mb-2">
+                                Mall.cz
+                            </li> -->
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-4 footer-item">
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <b>Nanooq IT s. r. o.</b>
+                        </li>
+                        <li class="mb-2">
+                            <a href="https://goo.gl/maps/bBRC8ZFGcz22k7MX8" taget="new">Rybná 24, 110 00 Praha 1, Česká republika</a>
+                        </li>
+                        <li class="mb-2">
+                            IČO: 05952247
+                        </li>
+                        <li class="mb-2">
+                            DIČ: CZ05952247
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-4 footer-item">
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            Bankové spojenie: 2201197128/2010
+                        </li>
+                        <li class="mb-2">
+                            Email: <a href="mailto:hello@nanooq.eu">hello@nanooq.eu</a>
+                        </li>
+                        <li class="mb-2">
+                            Mobil/Whatsapp: <a href="tel:+420725423538">+420 725 423 538</a>
+                        </li>
+                        <li class="mb-2">
+                            Messenger: <a href="https://www.facebook.com/nanooqit/?ref=bookmarks" target="new">Nanooq IT</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-12 col-lg-12 hastag-p">
+                    <div class="list-unstyled mt-3 d-md-flex justify-content-center align-items-stretch">
+                        <div class="mb-2 hashtag">
+                            #designthinking #problemsolving #future #together
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="img/svg/magic-ball.svg" class="ball img-fluid d-none d-lg-block" />
+    </footer>
+
+    <div class="footer-bottom">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col d-flex justify-content-center footer-h">
+                    <span class="align-self-center copy text-center">2020 Nanooq IT s. r. o. Všetky práva vyhradené</span>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"> </script>
-    <script src="vendor/bootstrap/js/bootstrap.js"></script>
-    <script src="js/front.js"></script>
-
-    <script>
-        $(document).ready(function(){
-
-            $("#digitalisation").trigger("click");
-
-            $("#digitalisation").click(function(){
-                $(".service-subtitle").html('Digitalizácia služieb a produktov');
-                document.querySelector('#service-desc').scrollIntoView({ behavior: 'smooth' });
-                $(".service-desc-more").html('Mnoho nápadov by nemalo ostať iba v offline podobe. Zaslúžia si prezentovať sa naplno, nájsť si svoju cieľovú skupinu aj v online svete, kam naša spoločnosť čoraz viac smeruje. Pomôžeme vám <span class="fw-450">zdigitalizovať</span> vaše produkty a služby, prípadne k nim <span class="fw-450">vyvinúť doplnkovú službu</span>, ktorá vás spraví unikátnymi na trhu v danom odvetví.');
-                $( ".service-list" ).html( '<li><span class="fw-450">1.) Úvodná konzultácia - </span> analýza potrieb, financií, rizík a nápadov</li> <li><span class="fw-450">2.) Vypracovanie návrhu - </span> možnosti digitalizácie v jednotlivých krokoch</li> <li><span class="fw-450">3.) Analýza návrhu - </span> detailná biznis, technická, užívateľské analýza</li> <li><span class="fw-450">4.) Dizajnovanie - </span> návrh prototypu a vytvorenie dizajnu nového brandu</li> <li><span class="fw-450">5.) Vývoj MVP - </span> vývoj prototypu a následná validácia s užívateľmi</li> <li><span class="fw-450">6.) Vývoj, nasadenie - </span> vývoj produktu, nasadenie a ďalší vývoj/správa/li>');
-            });
-
-            $("#inovations").click(function(){
-                $(".service-subtitle").html('Inovácie existujúcich produktov a služieb');
-                document.querySelector('#service-desc').scrollIntoView({ behavior: 'smooth' });
-                $(".service-desc-more").html('Ak už máte produkt alebo službu, je dobré sa zamyslieť, čo by sme mohli priniesť <span class="fw-450">existujúcim alebo novým používateľom</span>. Je tu niečo, čo vám už dlhšie vŕta hlavou, ale nemáte parťáka, s ktorým by ste to zrealizovali? Potrebujete <span class="fw-450">externý pohľad</span> na problém z inej perspektívy? Sme tu pre vás.');
-                $( ".service-list" ).html( '<li><span class="fw-450">1.) Úvodná konzultácia - </span> analýza súčasného stavu a konkurencie</li> <li><span class="fw-450">2.) Vypracovanie návrhu - </span> napojenie do existujúceho systémov a nadväznosti na existujúci biznis model</li> <li><span class="fw-450">3.) Analýza návrhu - </span>detailná biznis, technická a používateľská analýza</li> <li><span class="fw-450">4.) Dizajnovanie - </span> návrh prototypu, vytvorenie/zjednotenie s existujúcim brandom</li> <li><span class="fw-450">5.) Vývoj MVP - </span> vývoj prototypu a následná validácia úspešnosti</li> <li><span class="fw-450">6.) Vývoj, nasadenie - </span> vývoj produktu, nasadenie a ďalší vývoj/správa</li>');
-            });
-
-            $("#offline").click(function(){
-                $(".service-subtitle").html('Vybudovanie nového produktu alebo služby');
-                document.querySelector('#service-desc').scrollIntoView({ behavior: 'smooth' });
-                $(".service-desc-more").html('Ste vizionár s nápadom, ktorý by nemal ostať iba v predstavách? Pomôžeme vám <span class="fw-450">pretvoriť váš nápad</span> na reálny digitálny produkt, vytvoriť na trhu unikátny nový brand a priniesť ho k novým používateľom. Následne spoločne na budovaní produktu ďalej <span class="fw-450">pracovať a rozvíjať ho.</span>');
-                $( ".service-list" ).html( '<li><span class="fw-450">1.) Úvodná konzultácia - </span> analýza riešenia, konkurencie, nápadov</li> <li><span class="fw-450">2.) Vypracovanie návrhu - </span> technické možnosti realizácie a plán vývoja</li> <li><span class="fw-450">3.) Analýza návrhu - </span> detailná biznis, technická a používateľská analýza</li> <li><span class="fw-450">4.) Dizajnovanie - </span> návrh prototypu a brandu produktu/služby</li> <li><span class="fw-450">5.) Vývoj MVP - </span> vývoj prototypu a následná validácia s užívateľmi</li> <li><span class="fw-450">6.) Vývoj, nasadenie - </span> vývoj produktu, nasadenie a ďalší vývoj/správa</li>');
-            });
-
-            $("#cat").click(function(){
-                $(".service-subtitle").html('Mačka vo vreci - pomocná ruka');
-                document.querySelector('#service-desc').scrollIntoView({ behavior: 'smooth' });
-                $(".service-desc-more").html('Neviete presne s čím a ako potrebujete pomôcť/poradiť? Nechcete sa púšťať do väčšieho projektu, iba <span class="fw-450">poradiť/prekonzultovať</span> nápad, existujúce riešenie, zautomatizovať opakované tasky? Radi sa s vami stretneme a na problém pozrieme.');
-                $( ".service-list" ).html( '<li><span class="fw-450">1.) Technická pomoc - </span> analýza súčasného stavu technického riešenia projektu a návrhy na optimalizácie/upgrade</li> <li><span class="fw-450">2.) Tímová pomoc - </span> nastavenie komunikácie v tíme, lepšie pochopenie všetkých zúčastnených strán</li> <li><span class="fw-450">3.) Koordinačná pomoc - </span> nastavenie firemných toolov, procesov a prechod k agilnému riadeniu tímu</li> <li><span class="fw-450">4.) IT vs. neIT - </span> konzultácie medzi technickými a netechnickými rolami a požiadavkami, vyjasnenie nedorozumení</li> <li><span class="fw-450">5.) UI/UX pomoc - </span> UI/UX analýza riešenia, analýza cieľovej skupiny a možné návrhy na úpravy</li> <li><span class="fw-450">6.) Brainstorming - </span> externý pohľad na problém</li><li><span class="fw-450">7.) Optimalizácie - </span> optimalizácie využitia zdrojov, kapacít, dátových uložísk,...</li>');
-            });
-        });
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js">
     </script>
+    <script src="vendor/bootstrap/js/bootstrap.js"></script>
+</body>
 
-    </body>
 </html>
