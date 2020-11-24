@@ -176,7 +176,6 @@ submit {
     .nav-bg {
         height: 100px;
         background-repeat: no-repeat;
-        background-image: url(../img/svg/elipse_header.svg);
         background-position: 0% 100%;
     }
 }
@@ -185,6 +184,18 @@ submit {
     font-size: 20px;
     font-weight: 400;
     color: #4E4C82 !important;
+}
+
+#main-header {
+    margin-top: 5px;
+}
+
+#navbarMain {
+    margin-top: -5px;
+}
+
+.dropdown-toggle::after {
+    vertical-align: 0.15em;
 }
 
 .nav-link::before {
