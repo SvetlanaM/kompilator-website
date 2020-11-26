@@ -124,6 +124,18 @@ a.dropdown-item {
     border: none;
 }
 
+@media (min-width: 1024px) {
+    .navbar-brand img {
+        width: 160px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .navbar-brand img {
+        width: auto;
+    }
+}
+
 input,
 button,
 submit {
@@ -579,7 +591,7 @@ footer {
         box-shadow: 0px 0px 45px #CAD1DD;
         border-radius: 20px;
         height: auto;
-        min-height: 345px;
+        min-height: 405px;
         padding-bottom: 50px;
     }
 }
@@ -632,7 +644,7 @@ footer {
 
 @media (min-width: 768px) {
     .carousel-title {
-        font-size: 40px;
+        font-size: 32px;
         line-height: normal;
         color: #fff;
         font-weight: 450;
@@ -1157,15 +1169,18 @@ footer {
     padding-bottom: 30px;
 }
 
+@media (min-width: 1024px) {
+    .ref-title {
+        min-height: 60px;
+    }
+}
+
 @media (min-width: 1280px) {
     .how-block {
         min-height: 150px;
     }
     .plan-image {
         min-height: 595px;
-    }
-    .ref-title {
-        min-height: 60px;
     }
 }
 
@@ -1925,4 +1940,8 @@ html [type=button] {
 .ref-grey-icon img {
     height: 25px;
     width: 25px;
+}
+
+.navbar-toggler {
+    padding: 0.2rem 0.2rem;
 }
