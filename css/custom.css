@@ -87,7 +87,7 @@ body {
 
 @media (min-width: 1024px) {
     #banner {
-        margin-top: 0px;
+        margin-top: 60px;
     }
 }
 
@@ -748,7 +748,7 @@ footer {
 
 @media (min-width: 1024px) {
     #slider {
-        margin-top: 170px;
+        margin-top: 135px;
         margin-bottom: 120px;
     }
     .functions .custom-list:last-child {
@@ -892,7 +892,7 @@ footer {
     .start,
     .education,
     .why {
-        margin-top: 80px;
+        margin-top: 40px;
     }
     #build,
     #dont {
@@ -1906,7 +1906,7 @@ footer {
 }
 
 .main-card {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .main-card p {
@@ -1920,4 +1920,9 @@ html [type=button] {
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
+}
+
+.ref-grey-icon img {
+    height: 25px;
+    width: 25px;
 }
