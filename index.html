@@ -27,7 +27,7 @@
     <meta name="author" content="Kompilátor s. r. o.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no">
-    <title>Kompilátor - digitálno-inovačná agentúra</title>
+    <title>Kompilátor - z reči klientov, do reči užívateľov</title>
 
     <!-- CSS imports -->
     <link rel="stylesheet" href="css/reset.css">
@@ -119,6 +119,20 @@
                 </div>
         </nav>
     </header>
+
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Zmena názvu na Kompilátor</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+				    <p>Nanooq IT sa mení na Kompilátor. Pozrite si, čo nové vám okrem názvu ponúkame.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- banner -->
     <section id="banner" class="banner">
@@ -480,6 +494,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js">
     </script>
     <script src="vendor/bootstrap/js/bootstrap.js"></script>
+    <script>
+	$(document).ready(function(){
+		$("#myModal").modal('show');
+	});
+</script>
 </body>
 
 </html>
