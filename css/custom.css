@@ -1,10 +1,10 @@
 /* basic common styles */
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-weight: 300;
     font-size: 18px;
-    letter-spacing: 1px;
+    letter-spacing: 1.1px;
 }
 
 .mt-30 {
@@ -58,11 +58,11 @@ body {
 /* font weight */
 
 .fw-450 {
-    font-weight: 450;
+    font-weight: 600;
 }
 
 .fw-500 {
-    font-weight: 500;
+    font-weight: 550;
 }
 
 .banner-title {
@@ -215,8 +215,8 @@ submit {
     content: "+";
     color: #4E4C82;
     margin-right: 7px;
-    margin-bottom: 20px;
-    bottom: 0px;
+    margin-bottom: 0px;
+    bottom: 2px;
 }
 
 .nav-link:hover::before {
@@ -392,7 +392,7 @@ ol li {
     color: #4E4C82;
     margin-left: 5px;
     margin-bottom: 0px;
-    bottom: -1px;
+    bottom: 2px;
 }
 
 .btn-reservate:hover::after {
@@ -401,7 +401,7 @@ ol li {
     color: #FF8C4A;
     margin-left: 5px;
     margin-bottom: 0px;
-    bottom: -1px;
+    bottom: 2px;
 }
 
 .mb-2 a {
@@ -672,7 +672,7 @@ footer {
     color: #ffffff;
     margin-right: 4px;
     margin-bottom: 20px;
-    bottom: 0px;
+    bottom: 1px;
     font-size: 14px;
 }
 
@@ -703,7 +703,7 @@ footer {
     color: #fff;
     margin-left: 5px;
     margin-bottom: 0px;
-    bottom: 0px;
+    bottom: 2px;
 }
 
 .card-body h6::after {
@@ -712,7 +712,7 @@ footer {
     color: #4E4C82;
     margin-left: 5px;
     margin-bottom: 0px;
-    bottom: -1px;
+    bottom: 3px;
 }
 
 .card-link:hover,
