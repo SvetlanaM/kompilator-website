@@ -113,7 +113,7 @@
                     <li class="nav-item mr-3"><a href="https://medium.com/@nanooqit/%C4%8Do-rob%C3%ADme-inak-v-nanooq-it-3089c93b02c9" target="new" class="nav-link">Blogujeme</a></li>
                     <!-- <li class="nav-item mr-3"><a href="" class="nav-link">FAQ</a></li> -->
                     <!-- <li class="nav-item mr-3"><a href="" class="nav-link">Kontakty</a></li> -->
-                    <li class="nav-item mr-3"><a href="https://forms.gle/zDCrXjETzfTFcrxA8" target="new" class="nav-link">Free workshop</a>
+                    <li class="nav-item mr-3"><a href="https://forms.gle/zDCrXjETzfTFcrxA8" target="new" class="nav-link">Objednať workshop</a>
                     </li>
                 </ul>
                 </div>
@@ -142,8 +142,10 @@
                     <h1 class="purple fw-500 banner-title">Kompilujeme vaše potreby do úspešných produktov</h1>
                     <p class="mt-40"><span class="fw-450">Kompilátor</span> - vytvárame digitálne produkty, ktoré sú tu pre užívateľov a zároveň vyčaria úsmev na tvári aj marketingovému a biznis oddeleniu. Máme radi výzvy, hľadáme problémy, ktoré je možné vyriešiť pomocou
                         <span class="fw-450">technológií, zdravého rozumu</span> a <span class="fw-450">dizajnu</span>.
-                        <br /><br />
-                        <span class="fw-450">Kompilátor + Klient + Koncový užívateľ = tímová práca</span>
+                        <div class="ca-buttons">
+                            <a href="mailto: hello@nanooq.eu"><button class="order">Nezáväzná konzultácia</button></a>
+                            <a href="#slider"><button class="show-ref">Zobraziť referencie ></button></a>
+                        </div>
                     </p>
                 </div>
                 <div class="col-lg d-lg-flex justify-content-end p-0 d-none">
@@ -494,11 +496,32 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js">
     </script>
     <script src="vendor/bootstrap/js/bootstrap.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.0/jquery.cookie.min.js"></script>
     <script>
-	$(document).ready(function(){
-		$("#myModal").modal('show');
-	});
-</script>
+            $(document).ready(function() {
+                 if ($.cookie('pop') == null) {
+                     $('#myModal').modal('show');
+                     $.cookie('pop', '30');
+                 }
+             });
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("a").on('click', function(event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+            }, 800, function(){
+            window.location.hash = hash;
+            });
+            } // End if
+        });
+        });
+    </script>  
 </body>
 
 </html>

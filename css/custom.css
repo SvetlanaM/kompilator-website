@@ -5,6 +5,7 @@ body {
     font-weight: 300;
     font-size: 18px;
     letter-spacing: 1.1px;
+    cursor: pointer !important;
 }
 
 .mt-30 {
@@ -1944,4 +1945,47 @@ html [type=button] {
 
 .navbar-toggler {
     padding: 0.2rem 0.2rem;
+}
+
+.ca-buttons {
+    margin-left: 0px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+button.order {
+    padding: 7px 10px;
+    border: 1px solid #4e4e82;
+    background: transparent;
+    color: #4e4e82;
+}
+
+.show-ref {
+    padding: 7px 10px;
+    border: none;
+    background: transparent;
+    color: #4e4e82;
+}
+
+@media (min-width: 768px) {
+    button.order {
+        padding: 7px 30px;
+        margin-right: 30px;
+    }
+    .show-ref {
+        padding: 7px 30px;
+    }
+}
+
+button.order:hover {
+    background: #4e4e82;
+    color: #fff;
+}
+
+.show-ref:hover {
+    color: #FF8C4A;
+}
+
+button:focus {
+    outline: none;
 }
