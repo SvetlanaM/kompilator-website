@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://www.kompilator.cz/sitemap.xml
