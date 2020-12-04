@@ -5,7 +5,6 @@ body {
     font-weight: 300;
     font-size: 18px;
     letter-spacing: 1.1px;
-    cursor: pointer !important;
 }
 
 .mt-30 {
@@ -63,7 +62,7 @@ body {
 }
 
 .fw-500 {
-    font-weight: 550;
+    font-weight: 600;
 }
 
 .banner-title {
@@ -82,18 +81,19 @@ body {
     }
 }
 
-#banner {
+.banner {
     margin-top: 30px;
 }
 
 @media (min-width: 1024px) {
-    #banner {
+    .banner {
         margin-top: 60px;
     }
 }
 
 a {
     color: #FF8C4A;
+    cursor: pointer;
 }
 
 a:hover {
@@ -117,7 +117,7 @@ a.dropdown-item {
 
 .navbar-nav,
 .navbar,
-.dropdown-menu.show {
+.show {
     background: #fff;
 }
 
@@ -148,7 +148,7 @@ submit {
     padding-bottom: 5px;
 }
 
-.dropdown-item.active,
+.active,
 .dropdown-item:active {
     background-color: #fff;
 }
@@ -160,17 +160,17 @@ submit {
 
 @media (min-width: 992px) {
     .navbar,
-    .dropdown-menu.show {
+    .show {
         background: transparent;
     }
     .navbar-nav,
-    .dropdown-menu.show {
+    .show {
         background: rgba(255, 255, 255, 0.9);
     }
 }
 
 .bg-primary {
-    background-color: #fff !important;
+    background-color: #fff;
 }
 
 .bg-dark {
@@ -189,7 +189,7 @@ submit {
     .nav-bg {
         height: 100px;
         background-repeat: no-repeat;
-        background-position: 0% 100%;
+        background-position: 100%;
     }
 }
 
@@ -605,28 +605,28 @@ footer {
 
 .slide-box1 {
     background-repeat: no-repeat;
-    background-image: url(../img/slide1.png);
+    background-image: url(../img/slide1.webp);
     background-position: top center;
     background-size: cover;
 }
 
 .slide-box2 {
     background-repeat: no-repeat;
-    background-image: url(../img/slide2.png);
+    background-image: url(../img/slide2.webp);
     background-position: center center;
     background-size: cover;
 }
 
 .slide-box3 {
     background-repeat: no-repeat;
-    background-image: url(../img/slide3.png);
+    background-image: url(../img/slide3.webp);
     background-position: bottom center;
     background-size: cover;
 }
 
 .slide-box4 {
     background-repeat: no-repeat;
-    background-image: url(../img/slide4.png);
+    background-image: url(../img/slide4.webp);
     background-position: bottom center;
     background-size: cover;
 }
@@ -1416,7 +1416,7 @@ footer {
 
 .idea-bg {
     min-height: 235px;
-    background-image: url(../img/otkd_sveta.png);
+    background-image: url(../img/otkd_sveta.webp);
     background-repeat: no-repeat;
     background-position: 0px 0px;
     background-size: cover;
