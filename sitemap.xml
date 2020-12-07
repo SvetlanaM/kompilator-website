@@ -9,32 +9,32 @@
 
 <url>
   <loc>https://kompilator.cz/</loc>
-  <lastmod>2020-12-02T16:20:04+00:00</lastmod>
+  <lastmod>2020-12-07T15:20:04+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://kompilator.cz/corporations.html</loc>
-  <lastmod>2020-12-02T16:12:29+00:00</lastmod>
+  <loc>https://kompilator.cz/corporations.php</loc>
+  <lastmod>2020-12-07T15:12:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://kompilator.cz/small.html</loc>
-  <lastmod>2020-12-02T16:12:33+00:00</lastmod>
+  <loc>https://kompilator.cz/small.php</loc>
+  <lastmod>2020-12-07T15:12:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://kompilator.cz/offline.html</loc>
-  <lastmod>2020-12-02T16:12:31+00:00</lastmod>
+  <loc>https://kompilator.cz/offline.php</loc>
+  <lastmod>2020-12-07T15:12:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://kompilator.cz/pricing.html</loc>
-  <lastmod>2020-12-02T16:12:34+00:00</lastmod>
+  <loc>https://kompilator.cz/pricing.php</loc>
+  <lastmod>2020-12-07T15:12:34+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://kompilator.cz/otkd.html</loc>
-  <lastmod>2020-12-02T16:12:32+00:00</lastmod>
+  <loc>https://kompilator.cz/otkd.oho</loc>
+  <lastmod>2020-12-07T15:12:32+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 

@@ -25,34 +25,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="seznam-wmt" content="7EXe6O8iBq0WvVggTh3fhgBa0M5VlTs1" />
 
-    <title>Kompilátor - z řeči klientů, do řeči uživatelů</title>
-
-    <!-- CSS imports -->
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/custom.css">
-
-    <!-- fonts imports -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap" rel="stylesheet">
-
-    <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.webp">
-    <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.webp">
-    <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.webp">
-    <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.webp">
-    <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.webp">
-    <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.webp">
-    <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.webp">
-    <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.webp">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.webp">
-    <link rel="icon" type="image/webp" sizes="192x192" href="android-icon-192x192.webp">
-    <link rel="icon" type="image/webp" sizes="32x32" href="favicon-32x32.webp">
-    <link rel="icon" type="image/webp" sizes="96x96" href="favicon-96x96.webp">
-    <link rel="icon" type="image/webp" sizes="16x16" href="favicon-16x16.webp">
-    <link rel="manifest" href="manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="ms-icon-144x144.webp">
-    <meta name="theme-color" content="#ffffff">
+    <?php include "header.html" ?>
 
     <!-- Twitter Card data -->
     <meta name="twitter:card" content="summary">
@@ -73,44 +46,8 @@
 
 <body class="bg-white gray">
     <!-- navigation menu -->
-    <header id="main-header" class="nav-bg">
-        <nav class="navbar navbar-expand-lg navbar-light pl-md-5">
-            <a class="navbar-brand" href="../"><img src="img/svg/logo.svg" alt="Kompilátor logo"/></a>
-            <button type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right">
-                    <span class="navbar-toggler-icon"></span>
-            </button>
 
-            <div id="navbarMain" class="collapse navbar-collapse">
-                <ul class="navbar-nav ml-auto purple">
-                    <!-- <li class="nav-item mr-3"><a href="" class="nav-link">Prečo?</a></li> -->
-                    <!-- <li class="nav-item mr-3"><a href="" class="nav-link">Naše hodnoty</a></li> -->
-                    <!-- <li class="nav-item dropdown mr-2">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Špeciál
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Automatizácia</a>
-                                <a class="dropdown-item" href="#">Riešenia pre eshopy</a>
-                        </li> -->
-                    <li class="nav-item mr-3"><a href="../" class="nav-link">Úvod</a></li>
-                    <li class="nav-item dropdown mr-2">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Řešení pro
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="../corporations.html">Korporace</a>
-                            <a class="dropdown-item" href="../small.html">Menší a střední podnikatele</a>
-                            <a class="dropdown-item" href="../offline.html">Začínající firmy / startupy</a>
-                        </div>
-                    </li>
-                    <li class="nav-item mr-3"><a href="../pricing.html" class="nav-link">Ceník</a></li>
-                    <li class="nav-item mr-3"><a href="https://kompilator.medium.com/" target="new" class="nav-link">Blogujeme</a></li>
-                    <!-- <li class="nav-item mr-3"><a href="" class="nav-link">FAQ</a></li> -->
-                    <!-- <li class="nav-item mr-3"><a href="" class="nav-link">Kontakty</a></li> -->
-                    <li class="nav-item mr-3"><a href="https://forms.gle/zDCrXjETzfTFcrxA8" target="new" class="nav-link">Objednat workshop</a>
-                    </li>
-                </ul>
-                </div>
-        </nav>
-    </header>
+	<?php include "menu.html" ?>
 
     <!-- banner -->
     <section id="banner" class="banner">
@@ -205,29 +142,7 @@
         </div>
     </section>
 
-    <!-- section how to -->
-    <section class="how-to mt-40" id="how-to">
-        <div class="container-fluid pl-md-5 pr-md-5">
-            <div class="row no-gutters">
-                <div class="col-lg-12 how-to-title">
-                    <h1 class="purple fw-500 banner-title">Inteligentně, bezpečně a postupnými kroky</h1>
-                </div>
-                <div class="col-lg-5 mt-40">
-                    <p class="how-block"><span class="fw-450">1. Analýza současného stavu</span> - na startu se setkáme a zanalyzujeme současný stav firmy/projektu/týmu. Zrevidujeme stav vašeho podnikání, vaše očekávání, náklady a konkurenci.</p><br />
-                    <p class="how-block"><span class="fw-450">2. Vydefinování potřeb</span> - po úvodní analýze, vydefinujeme spolu potřeby/problémy a možnosti realizace nebo jejich odstranění. Součástí je i dlouhodobý strategický plán naplnění cíle, cenový a časový odhad.</p><br />
-                    <p class="how-block"><span class="fw-450">3. Návrh řešení</span> - vyhotovíme řešení, které je možné zrealizovat v daném budgetu. Řešení vždy obsahuje dlouhodobý plán po letech a možnosti neustálého rozvoje.</p>
-                </div>
-                <div class="col-lg-2">
-                    <img src="img/svg/circles.svg" class="plan-image" alt="Online strategie a rozvoj produktu"/>
-                </div>
-                <div class="col-lg-5 mt-40">
-                    <p class="how-block"><span class="fw-450">4. Vydefinování milníku</span> - společné vydefinování prvního milníku, kterého chceme dosáhnout, včetně konkrétních kroků, odpovědností a osob potřebných k jeho naplnění.</p><br />
-                    <p class="how-block"><span class="fw-450">5. Společná práce na naplnění cíle</span> - práce na naplnění cíle, během níž probíhá pravidelná kontrola ve sprintech a validace týmem odpovědným za kontrolu a kvalitu. Průběžné menší změny vyplývající z práce se zapracovávají dle potřeby projektu.</p><br />
-                    <p class="how-block"><span class="fw-450">6. Vyhodnocení úspěšnosti a další rozvoj</span> - vyhodnocení výsledného produktu/projektu z pohledu kvality, času, ceny a efektivity. Na základě toho se přechází k rozvoji nebo následnému vzdělávání dle potřeby projektu.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php include "howto.html" ?>
 
     <!-- analyst section -->
     <section id="analyst" class="analyst mt-120">
@@ -253,38 +168,7 @@
         </div>
     </section>
 
-    <!-- section team -->
-    <section id="team" class="team">
-        <div class="container-fluid pr-md-5 pl-md-5">
-            <div class="row">
-                <div class="col-lg-6 team1">
-                    <span><img src="img/svg/cloud.svg" alt="Vývojáři v cloudu" class="float-left" /></span><span class="fw-450">Vývojáři v cloudu</span> - naši vývojáři jsou dostupní dle potřeby daného projektu. Máte zaručený support kdykoliv v případě výpadku služby.
-                </div>
-                <div class="col-lg-6 team2">
-                    <span><img src="img/svg/together.svg" alt="Součást vašeho týmu a projektu" class="float-left" /></span><span class="fw-450">Součást vašeho týmu a projektu</span> - víme, že ne vždy je efektivní vše řešit externě na dálku, proto můžeme spolupracovat s Vámi a vaším týmem.
-                </div>
-                <div class="col-lg-12 team3">
-                    <div class="row mt-40 d-sm-flex-inline d-lg-flex align-items-stretch text-center justify-content-between">
-                        <div class="col-sm-12 col-md-4 col-lg-3 step">
-                            <img src="img/svg/ondra.svg" alt="Ondřej Mařík - Vývojár"/>
-                            <p class="purple fw-500 mt-3">Architekt/Vývojář</p>
-                            <p>Ondra Mařík</p>
-                        </div>
-                        <div class="col-sm-12 col-md-4 col-lg-3 step">
-                            <img src="img/svg/tomi.svg" alt="Tomáš Habrman - Konzultant"/>
-                            <p class="purple fw-500 mt-3">Konzultant</p>
-                            <p>Tomáš Habrman</p>
-                        </div>
-                        <div class="col-sm-12 col-md-4 col-lg-3 step">
-                            <img src="img/svg/sveta.svg" alt="Svetlana Margetová - Analytik"/>
-                            <p class="purple fw-500 mt-3">IT Analytik / UI Designér</p>
-                            <p>Sveťa Margetová</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+	<?php include "team.html" ?>
 
     <!-- section references -->
     <section id="project-references" class="project-references">
@@ -339,87 +223,8 @@
         </div>
     </section>
 
-    <!-- footer -->
-    <footer class="">
-        <div class="container-fluid pr-md-5 pl-md-5">
-            <div class="row">
-                <div class="col-md-6 col-lg-4">
-                    <ul class="list-unstyled">
-                        <li class="mb-2">
-                            <b>Případové studie</b>
-                        </li>
-                        <li class="mb-2">
-                            <a href="https://kompilator.cz/files/case_study.pdf" target="new">Případová studie firmy</a>
-                        </li>
-                        <li class="mb-2">
-                            <a href="../otkd.html">Mobilní aplikace OTKD</a>
-                        </li>
-                        <!-- <li class="mb-2">
-                                Čajovňa Setkání
-                            </li> -->
-                        <!-- <li class="mb-2">
-                                Mall.cz
-                            </li> -->
-                    </ul>
-                </div>
-                <div class="col-md-6 col-lg-4 footer-item">
-                    <ul class="list-unstyled">
-                        <li class="mb-2">
-                            <b>Kompilátor s. r. o.</b>
-                        </li>
-                        <li class="mb-2">
-                            <a href="https://goo.gl/maps/bBRC8ZFGcz22k7MX8" target="new">Rybná 24, 110 00 Praha 1, Česká republika</a>
-                        </li>
-                        <li class="mb-2">
-                            IČO: 05952247
-                        </li>
-                        <li class="mb-2">
-                            DIČ: CZ05952247
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-6 col-lg-4 footer-item">
-                    <ul class="list-unstyled">
-                        <li class="mb-2">
-                            Bankovní spojení: 2201197128/2010
-                        </li>
-                        <li class="mb-2">
-                            Email: <a href="mailto:svetlana@kompilator.cz">svetlana@kompilator.cz</a>
-                        </li>
-                        <li class="mb-2">
-                            Mobil/Whatsapp: <a href="tel:+420725423538">+420 725 423 538</a>
-                        </li>
-                        <li class="mb-2">
-                            Messenger: <a href="m.me/kompilatornapadu" target="new">Kompilátor</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-12 col-lg-12 hastag-p">
-                    <div class="list-unstyled mt-3 d-md-flex justify-content-center align-items-stretch">
-                        <div class="mb-2 hashtag">
-                            #designthinking #problemsolving #future #together
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <img src="img/svg/magic-ball.svg" class="ball img-fluid d-none d-lg-block" />
-    </footer>
+	<?php include "footer.html" ?>
 
-    <div class="footer-bottom">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col d-flex justify-content-center footer-h">
-                    <span class="align-self-center copy text-center">Copyright &copy; 2017-<script>document.write(new Date().getFullYear())</script> Všechna práva vyhrazena Kompilátor s. r. o.</span>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js">
-    </script>
-    <script src="vendor/bootstrap/js/bootstrap.js"></script>
 </body>
 
 </html>
