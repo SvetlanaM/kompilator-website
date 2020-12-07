@@ -18,7 +18,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <meta name="description" content="OD TATIER K DUNAJU je 345 km dlouhý štafetový běh družstev. 6 nebo 9 až 12-členné týmy vystartují z Jasné v Nízkých Tatrách v sobotu dopoledne, běží non-stop dnem i nocí a v neděli odpoledne doběhnou do cíle závodu na nábřeží
+    <meta name="description" content="OD TATIER K DUNAJU je 345 km dlouhý štafetový běh družstev. 6 nebo 9 až 12-členné týmy vystartují z Jasné v Nízkých Tatrách v sobotu dopoledne, běží non-stop dnem i nocí a v neděli odpoledne doběhnou do cíle závodu na nábřeží
                          Dunaje v Bratislavě.">
     <meta name="keywords" content="mobilní aplikace, závody, běh, od tatier k dunaju, firebase, vývoj, fanoušci, gps tracking, real-time">
     <meta name="author" content="Kompilátor s. r. o.">
@@ -32,7 +32,7 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@publisher_handle">
     <meta name="twitter:title" content="Kompilátor - digitálně-inovační agentura">
-    <meta name="twitter:description" content="OD TATIER K DUNAJU je 345 km dlouhý štafetový běh družstev. 6 nebo 9 až 12-členné týmy vystartují z Jasné v Nízkých Tatrách v sobotu dopoledne, běží non-stop dnem i nocí a v neděli odpoledne doběhnou do cíle závodu na nábřeží
+    <meta name="twitter:description" content="OD TATIER K DUNAJU je 345 km dlouhý štafetový běh družstev. 6 nebo 9 až 12-členné týmy vystartují z Jasné v Nízkých Tatrách v sobotu dopoledne, běží non-stop dnem i nocí a v neděli odpoledne doběhnou do cíle závodu na nábřeží
                          Dunaje v Bratislavě.">
     <meta name="twitter:creator" content="@author_handle">
     <meta name="twitter:image" content="http://www.kompilator.cz/img/svg/banner_img.svg">
@@ -42,7 +42,7 @@
     <meta property="og:type" content="article" />
     <meta property="og:url" content="http://www.kompilator.cz" />
     <meta property="og:image" content="http://www.kompilator.cz/img/svg/banner_img.svg" />
-    <meta property="og:description" content="OD TATIER K DUNAJU je 345 km dlouhý štafetový běh družstev. 6 nebo 9 až 12-členné týmy vystartují z Jasné v Nízkých Tatrách v sobotu dopoledne, běží non-stop dnem i nocí a v neděli odpoledne doběhnou do cíle závodu na nábřeží
+    <meta property="og:description" content="OD TATIER K DUNAJU je 345 km dlouhý štafetový běh družstev. 6 nebo 9 až 12-členné týmy vystartují z Jasné v Nízkých Tatrách v sobotu dopoledne, běží non-stop dnem i nocí a v neděli odpoledne doběhnou do cíle závodu na nábřeží
                          Dunaje v Bratislavě." />
     <meta property="og:site_name" content="Kompilátor - digitálno-inovačná agentúra" />
 </head>
@@ -62,7 +62,7 @@
             </div>
             <div class="row no-gutters">
                 <div class="col-lg-7 mt-40 d-flex">
-                    <p>OD TATIER K DUNAJU je 345 km dlouhý štafetový běh družstev. 6 nebo 9 až 12-členné týmy vystartují z Jasné v Nízkých Tatrách v sobotu dopoledne, běží non-stop dnem i nocí a v neděli odpoledne doběhnou do cíle závodu na nábřeží Dunaje v Bratislavě.
+                    <p>OD TATIER K DUNAJU je 345 km dlouhý štafetový běh družstev. 6 nebo 9 až 12-členné týmy vystartují z Jasné v Nízkých Tatrách v sobotu dopoledne, běží non-stop dnem i nocí a v neděli odpoledne doběhnou do cíle závodu na nábřeží Dunaje v Bratislavě.
                     </p>
                 </div>
                 <div class="col-lg-4 d-flex banner-study-logo">
@@ -83,7 +83,7 @@
                 <div class="flex-box">
                     <div class="col-lg-6">
                         <p>
-                            Na startu byl nápad nebo potřeba, kterou jsme diskutovali s klientem Milošem. Jelikož sami běháme, prvotní impuls přišel z naší strany.<br /><br />
+                            Na startu byl nápad nebo potřeba, kterou jsme diskutovali s klientem Milošem. Jelikož sami běháme, prvotní impuls přišel z naší strany.<br /><br />
                             Následně jsme možnosti konzultovali s Milošem a obohatili návrh o jeho problémy, loňské zkušenosti s závodem a postřehy běžců, které sesbíral za poslední 4 roky.
                         </p>
                         <div class="problem-icons d-flex mt-40">
@@ -145,7 +145,7 @@
             </div>
             <div class="third-box d-flex row">
                 <div class="col-lg-6">
-                    Dalším a důležitým krokem je analýza vybraných nápadů z pohledu byznysu, marketingu, technické realizace a časové náročnosti.<br /><br />
+                    Dalším a důležitým krokem je analýza vybraných nápadů z pohledu byznysu, marketingu, technické realizace a časové náročnosti.<br /><br />
                     Funkce jsou vydefinované na základě potřeby každého člena námi určené cílové skupiny, zahrnující jeho požadavky. Zároveň je třeba myslet na big-picture a všechny funkce společně poskládat do logického celku.
                 </div>
                 <div class="analyse-icons col-lg-5 d-flex ml-auto">
@@ -162,7 +162,7 @@
                         <div>Organizátoři závodů</div>
                     </div>
                     <div class="analyse-icons-item d-flex">
-                        <img src="img/svg/fans.svg" alt="Fanoušci sledují své známé z domova z různých koutů světa"/>
+                        <img src="img/svg/fans.svg" alt="Fanoušci sledují své známé z domova z různých koutů světa"/>
                         <div>Fanoušci doma</div>
                     </div>
                 </div>
@@ -191,7 +191,7 @@
                 <div class="col-lg-5 idea-box brand-box d-flex ml-auto">
                     <div class="row">
                         <div class="col-md-12 case-study-title fw-450">5. Vizuální identita a brand</div>
-                        <div class="col-md-8 col-lg-8 d-flex">Vycházeli jsme z existujícího brandu a designu závodů OTKD, který je dán a definován na trhu již více než 4 roky a ten jsme následně rozšířili.
+                        <div class="col-md-8 col-lg-8 d-flex">Vycházeli jsme z existujícího brandu a designu závodů OTKD, který je dán a definován na trhu již více než 4 roky a ten jsme následně rozšířili.
                         </div>
                         <div class="col-md-4 col-lg-4 analyse-otkd-logo">
                             <img src="img/logo_otkd_black.webp" class="img-fluid" alt="Logo závodů Od Tatier k Dunaju"/>
@@ -212,8 +212,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <p class="case-study-title fw-450">6. Datová analýza a vyhodnocení jako vstupní podklad</p>
-                    <p>Abychom aplikaci nestavěli pouze na našich domněnkách, podívali jsme se do dostupných dat. Data, která dostupná nebyla, jsme získali formou <span class="fw-450">dotazníku s cílovými uživateli</span>, případně z historických údajů
-                        <span class="fw-450">Google Analytics nad existujícím webem</span> závodů. Z dat jsme vyhodnotili nejdůležitější závěry, od kterých jsme se odpíchli při formulování již konkrétního produktu.</p>
+                    <p>Abychom aplikaci nestavěli pouze na našich domněnkách, podívali jsme se do dostupných dat. Data, která dostupná nebyla, jsme získali formou <span class="fw-450">dotazníku s cílovými uživateli</span>, případně z historických údajů
+                        <span class="fw-450">Google Analytics nad existujícím webem</span> závodů. Z dat jsme vyhodnotili nejdůležitější závěry, od kterých jsme se odpíchli při formulování již konkrétního produktu.</p>
                 </div>
             </div>
             <div class="row">
@@ -221,7 +221,7 @@
                     <div class="col-lg-6 mt-40 graph-section d-flex flex-column text-center">
                         <div class="graph-title fw-450 text-left">Návštěvnost webu podle zemí a lokalit</div>
                         <img src="img/svg/graph_bar.svg" class="img-fluid graph-img" alt="Návštěvnost webu Od Tatier k Dunaju podle zemí z webu nebo mobilního zařízení"/>
-                        <p class="graph-result">+ Umožnit sledovat průběh všem z mobilních zařízení</p>
+                        <p class="graph-result">+ Umožnit sledovat průběh všem z mobilních zařízení</p>
                     </div>
                     <div class="col-lg-6 mt-40 graph-section d-flex flex-column text-center">
                         <div class="graph-title fw-450 text-left">Průzkum mezi uživateli na sociálních sítích</div>
@@ -274,8 +274,8 @@
                         <div>2. ORGANIZÁTOŘI VIDÍ POHYB TÝMŮ NA TRATI</div>
                     </div>
                     <div class="needs-item">
-                        <img src="img/svg/fans_white.svg" alt="Fanoučci sledují bežce z domova prostřednictvím mobilní aplikace OTKD"/>
-                        <div>3. FANOUŠCI SLEDUJÍ SVŮJ TÝM Z DOMOVA</div>
+                        <img src="img/svg/fans_white.svg" alt="Fanoučci sledují bežce z domova prostřednictvím mobilní aplikace OTKD"/>
+                        <div>3. FANOUŠCI SLEDUJÍ SVŮJ TÝM Z DOMOVA</div>
                     </div>
                     <div class="needs-item">
                         <img src="img/svg/runner_white.svg" alt="Bežci si môžu skontrolovať svoju pozíciu na trati"/>

@@ -64,7 +64,7 @@
             <div class="row no-gutters">
                 <div class="col-lg pr-lg-5">
                     <h1 class="purple fw-500 banner-title">Ceník</h1>
-                    <p class="mt-40">Ceny v IT nejsou <span class="fw-450">fixní</span>, jako když si kupujete dům, či rohlík v obchodě. Finální cena vždy závisí na mnoha faktorech, které spolu dohodneme na startu spolupráce. Držíme se kréda "raději ubrat z funkcionality, než vyvíjet nekvalitně za málo peněz."
+                    <p class="mt-40">Ceny v IT nejsou <span class="fw-450">fixní</span>, jako když si kupujete dům, či rohlík v obchodě. Finální cena vždy závisí na mnoha faktorech, které spolu dohodneme na startu spolupráce. Držíme se kréda "raději ubrat z funkcionality, než vyvíjet nekvalitně za málo peněz."
                         <br /><br />Naše sazba se pohybuje v rozmezí <span class="fw-450 orange">850 - 1500 Kč/Hod.</span>
                     </p>
                 </div>
@@ -80,7 +80,7 @@
         <div class="container-fluid pr-md-5 pl-md-5">
             <div class="row">
                 <div class="col-lg">
-                    <h1 class="purple fw-500 banner-title">Vyberte si jeden z našich balíčků</h1>
+                    <h1 class="purple fw-500 banner-title">Vyberte si jeden z našich balíčků</h1>
                     <p class="mt-40">
                         Pro snadnější orientaci v našich službách a na základě poptávky od klientů, jsme vytvořili <span class="fw-450">3 typy balíčků</span>, které si můžete u nás objednat.<br /><br /> Zároveň platí, že čím komplexnější služby si objednáte,
                         tím se <span class="fw-450">cena na hodinu snižuje</span>. Rádi bychom s Vámi spolupracovali <span class="fw-450">dlouhodobě</span> a pokryli vývoj a rozvoj celého produktu.
@@ -182,10 +182,10 @@
                             <span class="fw-450">4. Validace ceny/času/zadání - </span> upravíme původní high level odhady, přičemž vývoj rozplánujeme do agilních sprintů.
                         </div>
                         <div class="col-lg-6 est-p">
-                            <span class="fw-450">5. Vývoj ve sprintech a update budgetu - </span> klient je přesně informován, co bude v daném sprintu dodáno za dohodnutou cenu.
+                            <span class="fw-450">5. Vývoj ve sprintech a update budgetu - </span> klient je přesně informován, co bude v daném sprintu dodáno za dohodnutou cenu.
                         </div>
                         <div class="col-lg-6 est-p">
-                            <span class="fw-450">6. Změny ve vývoji - </span> hlásíme veškeré změny klientovi a následně hledáme ideální řešení.
+                            <span class="fw-450">6. Změny ve vývoji - </span> hlásíme veškeré změny klientovi a následně hledáme ideální řešení.
                         </div>
                     </div>
                 </div>
@@ -204,7 +204,7 @@
                     <div class="col-sm-12 col-md-12 col-lg-3 step">
                         <img src="img/svg/calendar.svg" alt="Mesíční předplatné za služby" />
                         <p class="purple fw-500 mt-3">Měsíční předplatné</p>
-                        <p>Dohodneme měsíční budget/hodiny, během kterých se bude pracovat ve sprintech, až do jeho vyčerpání. Závěrem by měla být vždy hotová fungující část.</p>
+                        <p>Dohodneme měsíční budget/hodiny, během kterých se bude pracovat ve sprintech, až do jeho vyčerpání. Závěrem by měla být vždy hotová fungující část.</p>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-3 step">
                         <img src="img/svg/agile_loop.svg" alt="Agilní předplatné za služby"/>

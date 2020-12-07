@@ -57,7 +57,7 @@
         <div class="container-fluid pl-md-5 pr-md-5">
             <div class="row no-gutters">
                 <div class="col-lg pr-lg-5">
-                    <h1 class="purple fw-500 banner-title">Zrychlíme váš náskok před konkurencí</h1>
+                    <h1 class="purple fw-500 banner-title">Zrychlíme Váš náskok před konkurencí</h1>
                     <p class="mt-40">Náš tým nabízí komplexní řešení pro <span class="fw-450">větší firmy</span> a <span class="fw-450">korporace</span>. Víme, jaké problémy nejčastěji vznikají, opakují se a s čím potřebujete pomoci. Věnovali jsme roky sbírání zkušeností a návrhu optimalizací nejčastějších use-casů.
                         <br /><br />
                         <div class="d-none d-lg-flex justify-content-between">
@@ -93,11 +93,11 @@
                         </div>
                         <div class="help-block col-lg-6">
                             <img src="img/svg/problems/team.svg" alt="Odstranit nejasnosti v komunikaci mezi tým" class="d-none d-lg-flex float-left img-problem" />
-                            <div><span class="fw-450">+ Odstranit nejasnosti v komunikaci mezi týmy</span> - pomáháme pochopit požadavky všech stran a efektivně je komunikovat v týmu.</div>
+                            <div><span class="fw-450">+ Odstranit nejasnosti v komunikaci mezi týmy</span> - pomáháme pochopit požadavky všech stran a efektivně je komunikovat v týmu.</div>
                         </div>
                         <div class="help-block col-lg-6">
                             <img src="img/svg/problems/analyse.svg" alt="Doplnit chybějící/nedostatečnou úvodní analýzu" class="d-none d-lg-flex float-left img-problem" />
-                            <div><span class="fw-450">+ Doplnit chybějící/nedostatečnou úvodní analýzu</span> - ať už se jedná o agile nebo waterfall, klademe důraz na úvodní analýzu stanovující základní zadání z pohledu byznysu, IT a bezpečnosti.</div>
+                            <div><span class="fw-450">+ Doplnit chybějící/nedostatečnou úvodní analýzu</span> - ať už se jedná o agile nebo waterfall, klademe důraz na úvodní analýzu stanovující základní zadání z pohledu byznysu, IT a bezpečnosti.</div>
                         </div>
                         <div class="help-block col-lg-6">
                             <img src="img/svg/problems/database.svg" alt="Vybrat vhodné technologické řešení a architekturu" class="d-none d-lg-flex float-left img-problem" />
@@ -128,12 +128,12 @@
                     <div class="col-sm-12 col-md-12 col-lg-3 step">
                         <img src="img/svg/agile_loop.svg" alt="Naučte se s námi agilitě"/>
                         <p class="purple fw-500 mt-3">Agilitě</p>
-                        <p>Naučíme se efektivně řídit agilní týmy a projekty bez zbytečné byrokracie, standupů a prostojů ve sprintech a na projektech napříč více týmy a odděleními firmy.</p>
+                        <p>Naučíme se efektivně řídit agilní týmy a projekty bez zbytečné byrokracie, standupů a prostojů ve sprintech a na projektech napříč více týmy a odděleními firmy.</p>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-3 step">
                         <img src="img/svg/bulb_ideas.svg" alt="Naučte sa s námi designovat a inovovat" />
                         <p class="purple fw-500 mt-3">Inovovat/Design</p>
-                        <p>Pomáháme s pohledem na různé produkty/problémy z jiného a nezaujatého úhlu. Děláme workshopy produktového brainstormingu, směrování firmy a pochopení základních inovačních technik.</p>
+                        <p>Pomáháme s pohledem na různé produkty/problémy z jiného a nezaujatého úhlu. Děláme workshopy produktového brainstormingu, směrování firmy a pochopení základních inovačních technik.</p>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-3 step">
                         <img src="img/svg/performance.svg" alt="Optimalizace přebytečných nákladů" />
@@ -163,8 +163,8 @@
                 </div>
                 <div class="col-lg-5 mt-40">
                     <p class="how-block"><span class="fw-450">4. Vydefinování milníku</span> - společné vydefinování prvního milníku, kterého chceme dosáhnout, včetně konkrétních kroků, odpovědností a osob potřebných k jeho naplnění.</p><br />
-                    <p class="how-block"><span class="fw-450">5. Společná práce na naplnění cíle</span> - práce na naplnění cíle, během níž probíhá pravidelná kontrola ve sprintu a validace týmem odpovědným za kontrolu a kvalitu. Průběžné menší změny vyplývající z práce se zapracovávají dle potřeby projektu.</p><br />
-                    <p class="how-block"><span class="fw-450">6. Vyhodnocení úspěšnosti a další rozvoj</span> - vyhodnocení výsledného produktu/projektu z pohledu kvality, času, ceny a efektivity. Na základě toho se přechází k rozvoji nebo následnému vzdělávání dle potřeby projektu.</p>
+                    <p class="how-block"><span class="fw-450">5. Společná práce na naplnění cíle</span> - práce na naplnění cíle, během níž probíhá pravidelná kontrola ve sprintu a validace týmem odpovědným za kontrolu a kvalitu. Průběžné menší změny vyplývající z práce se zapracovávají dle potřeby projektu.</p><br />
+                    <p class="how-block"><span class="fw-450">6. Vyhodnocení úspěšnosti a další rozvoj</span> - vyhodnocení výsledného produktu/projektu z pohledu kvality, času, ceny a efektivity. Na základě toho se přechází k rozvoji nebo následnému vzdělávání dle potřeby projektu.</p>
                 </div>
             </div>
         </div>
@@ -181,13 +181,13 @@
                     <h1 class="purple fw-500 banner-title">Poskytneme vám IT-Byznys analytika</h1>
                     <div class="row">
                         <div class="col-lg-12 main-card">
-                            <h5 class="fw-450 gray">KLÍČOVÁ POZICE A ROLE V TÝMU</h5>
-                            <p>Analytici, kteří zároveň rozumějí a dokáží zpracovat požadavky byznysu, marketingu a přetvořit je do IT zadání hrají důležitou roli v týmu a zejména na nich závisí úspěšnost a ziskovost celého projektu. Zejména proto, že minimalizují nedorozumění v týmu mezi IT a neIT obory.</p>
+                            <h5 class="fw-450 gray">KLÍČOVÁ POZICE A ROLE V TÝMU</h5>
+                            <p>Analytici, kteří zároveň rozumějí a dokáží zpracovat požadavky byznysu, marketingu a přetvořit je do IT zadání hrají důležitou roli v týmu a zejména na nich závisí úspěšnost a ziskovost celého projektu. Zejména proto, že minimalizují nedorozumění v týmu mezi IT a neIT obory.</p>
                         </div>
 
                         <div class="col-lg-12 main-card">
                             <h5 class="fw-450 gray">VZÁCNÍ NA IT TRHU JAKO UNICORNI</h5>
-                            <p>Na IT trhu je téměř nemožné najít technicko-byznysově orientovanou osobu. U nás v týmu se však na tyto pozice specializujeme, protože nás baví, sledujeme okolní svět a spojujeme technologie s běžným životem.</p>
+                            <p>Na IT trhu je téměř nemožné najít technicko-byznysově orientovanou osobu. U nás v týmu se však na tyto pozice specializujeme, protože nás baví, sledujeme okolní svět a spojujeme technologie s běžným životem.</p>
                         </div>
                     </div>
                 </div>
@@ -211,7 +211,7 @@
                     <h3 class="ref-title">Datovou transformací firmy</h3><br />
                     <div>
                         <span class="fw-450">Co? Pro koho?</span>
-                        <a href="https://www.mall.cz/sledovani-objednavky" target="new"><span class="float-right ref-grey-icon"><img src="img/svg/web_grey.svg" /></span></a> <br /><br /> Součástí řešení byl návrh a vydefinování požadavků na data, jejich zobrazení, vizualizaci a aktuálnost. Požadavky byly shromážděny napříč několika odděleními a připravené pro různé potřeby různých členy týmu. Řešení obsahovalo poměrně značnou optimalizaci nákladů i času, z důvodu velkého množství dat.<br /><br />
+                        <a href="https://www.mall.cz/sledovani-objednavky" target="new"><span class="float-right ref-grey-icon"><img src="img/svg/web_grey.svg" /></span></a> <br /><br /> Součástí řešení byl návrh a vydefinování požadavků na data, jejich zobrazení, vizualizaci a aktuálnost. Požadavky byly shromážděny napříč několika odděleními a připravené pro různé potřeby různých členy týmu. Řešení obsahovalo poměrně značnou optimalizaci nákladů i času, z důvodu velkého množství dat.<br /><br />
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-4 mt-50">

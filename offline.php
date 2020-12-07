@@ -18,7 +18,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <meta name="description" content="Pomáháme vám budovat váš byznys od základů, tuningovat ho a vytvářet uživatelskou základnu. Je jedno, jestli prodáváte čaje, poskytujete ubytování nebo vrtáte zuby. Nemáme problém zanalyzovat jakýkoliv use-case a pomoci vám ho posunout na další level.">
+    <meta name="description" content="Pomáháme vám budovat Váš byznys od základů, tuningovat ho a vytvářet uživatelskou základnu. Je jedno, jestli prodáváte čaje, poskytujete ubytování nebo vrtáte zuby. Nemáme problém zanalyzovat jakýkoliv use-case a pomoci vám ho posunout na další level.">
     <meta name="keywords" content="web, mobilní aplikace, brand, rebrand, redesign, startup, nový web, podnikání, pomoc, konzultace, UI/UX">
     <meta name="author" content="Kompilátor s. r. o.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,7 +31,7 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@publisher_handle">
     <meta name="twitter:title" content="Kompilátor - digitálně-inovační agentura">
-    <meta name="twitter:description" content="Pomáháme vám budovat váš byznys od základů, tuningovat ho a vytvářet uživatelskou základnu. Je jedno, jestli prodáváte čaje, poskytujete ubytování nebo vrtáte zuby. Nemáme problém zanalyzovat jakýkoliv use-case a pomoci vám ho posunout na další level.">
+    <meta name="twitter:description" content="Pomáháme vám budovat Váš byznys od základů, tuningovat ho a vytvářet uživatelskou základnu. Je jedno, jestli prodáváte čaje, poskytujete ubytování nebo vrtáte zuby. Nemáme problém zanalyzovat jakýkoliv use-case a pomoci vám ho posunout na další level.">
     <meta name="twitter:creator" content="@author_handle">
     <meta name="twitter:image" content="http://www.kompilator.cz/img/svg/banner_img.svg">
 
@@ -40,7 +40,7 @@
     <meta property="og:type" content="article" />
     <meta property="og:url" content="http://www.kompilator.cz" />
     <meta property="og:image" content="http://www.kompilator.cz/img/svg/banner_img.svg" />
-    <meta property="og:description" content="Pomáháme vám budovat váš byznys od základů, tuningovat ho a vytvářet uživatelskou základnu. Je jedno, jestli prodáváte čaje, poskytujete ubytování nebo vrtáte zuby. Nemáme problém zanalyzovat jakýkoliv use-case a pomoci vám ho posunout na další level." />
+    <meta property="og:description" content="Pomáháme vám budovat Váš byznys od základů, tuningovat ho a vytvářet uživatelskou základnu. Je jedno, jestli prodáváte čaje, poskytujete ubytování nebo vrtáte zuby. Nemáme problém zanalyzovat jakýkoliv use-case a pomoci vám ho posunout na další level." />
     <meta property="og:site_name" content="Kompilátor - digitálně-inovační agentura" />
 </head>
 
@@ -55,7 +55,7 @@
             <div class="row no-gutters">
                 <div class="col-lg pr-lg-5">
                     <h1 class="purple fw-500 banner-title">Transformujme nápady ze sprchy v užitečné digitální produkty</h1>
-                    <p class="mt-40">Náš tým nabízí komplexní řešení pro <span class="fw-450">začínající firmy</span> a <span class="fw-450">podnikatele</span>. Pomáháme vám budovat váš byznys od základů, tuningovat ho a vytvářet uživatelskou základnu. Je jedno, jestli prodáváte čaje, poskytujete ubytování nebo vrtáte zuby. Nemáme problém zanalyzovat jakýkoliv use-case a pomoci vám ho posunout na další level.
+                    <p class="mt-40">Náš tým nabízí komplexní řešení pro <span class="fw-450">začínající firmy</span> a <span class="fw-450">podnikatele</span>. Pomáháme vám budovat Váš byznys od základů, tuningovat ho a vytvářet uživatelskou základnu. Je jedno, jestli prodáváte čaje, poskytujete ubytování nebo vrtáte zuby. Nemáme problém zanalyzovat jakýkoliv use-case a pomoci vám ho posunout na další level.
                         <br /><br />
                         <div class="d-none d-lg-flex justify-content-between">
                             <div class="mr-5">
@@ -90,7 +90,7 @@
                         </div>
                         <div class="help-block col-lg-6">
                             <img src="img/svg/problems/brand.svg" alt="Vybudovat na trhu silný brand, strategii rozvoje a komunitu" class="d-none d-lg-flex float-left img-problem" />
-                            <div><span class="fw-450">+ Vybudovat na trhu silný brand, strategii rozvoje a komunitu</span> - budujeme s vámi komunitu zákazníků využívajících vaše produkty a s tím v ruku v ruce branding celé značky.</div>
+                            <div><span class="fw-450">+ Vybudovat na trhu silný brand, strategii rozvoje a komunitu</span> - budujeme s vámi komunitu zákazníků využívajících Vaše produkty a s tím v ruku v ruce branding celé značky.</div>
                         </div>
                         <div class="help-block col-lg-6">
                             <img src="img/svg/problems/competitor.svg" alt="Zanalyzovat konkurenci a vyniknout" class="d-none d-lg-flex float-left img-problem" />
@@ -98,11 +98,11 @@
                         </div>
                         <div class="help-block col-lg-6">
                             <img src="img/svg/problems/idea.svg" alt="Přetvořit nápad v užitečný produkt" class="d-none d-lg-flex float-left img-problem" />
-                            <div><span class="fw-450">+ Přetvořit nápad v užitečný produkt</span> - Váš nápad zpracujeme, vytuningujeme a převedeme do produktu, který nemá problém vydělávat a podporovat další činnosti spojené s vaším podnikáním.</div>
+                            <div><span class="fw-450">+ Přetvořit nápad v užitečný produkt</span> - Váš nápad zpracujeme, vytuningujeme a převedeme do produktu, který nemá problém vydělávat a podporovat další činnosti spojené s Vaším podnikáním.</div>
                         </div>
                         <div class="help-block col-lg-6">
                             <img src="img/svg/problems/innovation.svg" alt="Zvalidovat nápad, konzultovat" class="d-none d-lg-flex float-left img-problem" />
-                            <div><span class="fw-450">+ Zvalidovat nápad, konzultovat</span> - pomůžeme Vám váš nápad zvalidovat formou brainstormingu a z pohledu různých faktorů s našimi odborníky. Následně konzultujeme možnosti úpravy, změny MVP a požadavků.</div>
+                            <div><span class="fw-450">+ Zvalidovat nápad, konzultovat</span> - pomůžeme Vám Váš nápad zvalidovat formou brainstormingu a z pohledu různých faktorů s našimi odborníky. Následně konzultujeme možnosti úpravy, změny MVP a požadavků.</div>
                         </div>
                         <div class="help-block col-lg-6">
                             <img src="img/svg/problems/costs.svg" alt="Odstranit přebytečné náklady, zvyšovat efektivitu" class="d-none d-lg-flex float-left img-problem" />
@@ -130,7 +130,7 @@
                     <div class="col-sm-12 col-md-12 col-lg-3 step">
                         <img src="img/svg/bulb_ideas.svg" alt="Inovujte a designujte Vaše produkty a služby"/>
                         <p class="purple fw-500 mt-3">Inovovat/Designovat</p>
-                        <p>Pomáháme s pohledem na různé produkty/problémy z jiného a nezaujatého úhlu. Děláme workshopy produktového brainstormingu, směrování firmy a pochopení základních inovačních technik.</p>
+                        <p>Pomáháme s pohledem na různé produkty/problémy z jiného a nezaujatého úhlu. Děláme workshopy produktového brainstormingu, směrování firmy a pochopení základních inovačních technik.</p>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-3 step">
                         <img src="img/svg/performance.svg" alt="Optimalizujte náklady a čas"/>
@@ -160,7 +160,7 @@
                         </div>
                         <div class="col-lg-12 main-card">
                             <h5 class="fw-450 gray">INOVACE A DLOUHODOBÝ PLÁN</h5>
-                            <p>Sledujeme trendy na trhu a umíme se ponořit do jakéhokoli problému v každém odvětví. Neustále přinášíme k vašemu podnikání různé nápady, inovace a možnosti, jak vyniknout. Stejně jako se inovuje svět kolem nás, je potřeba inovovat produkty, služby a předběhnout tím všude číhající konkurenci.</p>
+                            <p>Sledujeme trendy na trhu a umíme se ponořit do jakéhokoli problému v každém odvětví. Neustále přinášíme k Vašemu podnikání různé nápady, inovace a možnosti, jak vyniknout. Stejně jako se inovuje svět kolem nás, je potřeba inovovat produkty, služby a předběhnout tím všude číhající konkurenci.</p>
                         </div>
                     </div>
                 </div>
@@ -185,7 +185,7 @@
                     <div>
                         <span class="fw-450">Co? Pro koho?</span>
                         <a href="https://apps.apple.com/cz/app/otkd-2017/id1263139345?l=cs" target="new"><span class="float-right ref-grey-icon"><img src="img/svg/apple_grey.svg" /></span></a>
-                        <a href="https://play.google.com/store/apps/details?id=eu.nanooq.otkd&hl=sk" target="new"><span class="float-right ref-grey-icon"><img src="img/svg/android_grey.svg" /></span></a> <br /><br /> Projekt vznikl z naší vlastní iniciativy, protože sami běháme. Analyzovali jsme si požadavky běžců, přinesli návrh a aplikace byla na světě. Výrazně podpořila běh a celkový zážitek ze závodů. Už čtvrtý rok po sobě ji neustále rozvíjíme a tuningujeme.<br /><br />
+                        <a href="https://play.google.com/store/apps/details?id=eu.nanooq.otkd&hl=sk" target="new"><span class="float-right ref-grey-icon"><img src="img/svg/android_grey.svg" /></span></a> <br /><br /> Projekt vznikl z naší vlastní iniciativy, protože sami běháme. Analyzovali jsme si požadavky běžců, přinesli návrh a aplikace byla na světě. Výrazně podpořila běh a celkový zážitek ze závodů. Už čtvrtý rok po sobě ji neustále rozvíjíme a tuningujeme.<br /><br />
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-4 mt-50">
@@ -195,7 +195,7 @@
                     <h3 class="ref-title">Webovou stránkou</h3><br />
                     <div>
                         <span class="fw-450">Co? Pro koho?</span>
-                        <a href="https://klingerkaoffices.sk/" target="new"><span class="float-right ref-grey-icon"><img src="img/svg/web_grey.svg" /></span></a> <br /><br /> Interaktivní webová stránka umožňující prezentovat nově vznikající budovu. Řešení obsahovalo interaktivní klikací prototyp budovy a kanceláří. Zakládali jsme si na pěkném a rychlém vykreslení a zobrazení vizualizací v přívětivé podobě.<br /><br />
+                        <a href="https://klingerkaoffices.sk/" target="new"><span class="float-right ref-grey-icon"><img src="img/svg/web_grey.svg" /></span></a> <br /><br /> Interaktivní webová stránka umožňující prezentovat nově vznikající budovu. Řešení obsahovalo interaktivní klikací prototyp budovy a kanceláří. Zakládali jsme si na pěkném a rychlém vykreslení a zobrazení vizualizací v přívětivé podobě.<br /><br />
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-4 mt-50">

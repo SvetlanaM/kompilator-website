@@ -18,7 +18,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <meta name="description" content="Pomáháme vám budovat váš byznys od základů, tuningovat ho a vytvářet uživatelskou základnu. Je jedno, jestli prodáváte čaje, poskytujete ubytování nebo vrtáte zuby. Nemáme problém zanalyzovat jakýkoliv use case a pomoci vám ho posunout na další level.">
+    <meta name="description" content="Pomáháme vám budovat Váš byznys od základů, tuningovat ho a vytvářet uživatelskou základnu. Je jedno, jestli prodáváte čaje, poskytujete ubytování nebo vrtáte zuby. Nemáme problém zanalyzovat jakýkoliv use case a pomoci vám ho posunout na další level.">
     <meta name="keywords" content="firma, podnikatel, brand, redesign, tuning, online, nový">
     <meta name="author" content="Kompilátor s. r. o.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,7 +31,7 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@publisher_handle">
     <meta name="twitter:title" content="Kompilátor - digitálně-inovační agentura">
-    <meta name="twitter:description" content="Pomáháme vám budovat váš byznys od základů, tuningovat ho a vytvářet uživatelskou základnu. Je jedno, jestli prodáváte čaje, poskytujete ubytování nebo vrtáte zuby. Nemáme problém zanalyzovat jakýkoliv use case a pomoci vám ho posunout na další level.">
+    <meta name="twitter:description" content="Pomáháme vám budovat Váš byznys od základů, tuningovat ho a vytvářet uživatelskou základnu. Je jedno, jestli prodáváte čaje, poskytujete ubytování nebo vrtáte zuby. Nemáme problém zanalyzovat jakýkoliv use case a pomoci vám ho posunout na další level.">
     <meta name="twitter:creator" content="@author_handle">
     <meta name="twitter:image" content="http://www.kompilator.cz/img/svg/banner_img.svg">
 
@@ -40,7 +40,7 @@
     <meta property="og:type" content="article" />
     <meta property="og:url" content="http://www.kompilator.cz" />
     <meta property="og:image" content="http://www.kompilator.cz/img/svg/banner_img.svg" />
-    <meta property="og:description" content="Pomáháme vám budovat váš byznys od základů, tuningovat ho a vytvářet uživatelskou základnu. Je jedno, jestli prodáváte čaje, poskytujete ubytování nebo vrtáte zuby. Nemáme problém zanalyzovat jakýkoliv use case a pomoci vám ho posunout na další level."
+    <meta property="og:description" content="Pomáháme vám budovat Váš byznys od základů, tuningovat ho a vytvářet uživatelskou základnu. Je jedno, jestli prodáváte čaje, poskytujete ubytování nebo vrtáte zuby. Nemáme problém zanalyzovat jakýkoliv use case a pomoci vám ho posunout na další level."
     />
     <meta property="og:site_name" content="Kompilátor - digitálně-inovační agentura" />
 </head>
@@ -57,7 +57,7 @@
                 <div class="col-lg pr-lg-5">
                     <h1 class="purple fw-500 banner-title">Detaily tvoří dokonalý produkt, který vydělává</h1>
                     <p class="mt-40">Náš tým nabízí komplexní řešení pro <span class="fw-450">malé a střední firmy</span> a <span class="fw-450">podnikatele</span>.
-                        Pomáháme vám budovat váš byznys od základů, tuningovat ho a vytvářet uživatelskou základnu. Je jedno, jestli prodáváte čaje, poskytujete ubytování nebo vrtáte zuby. Nemáme problém zanalyzovat jakýkoliv use case a pomoci Vám ho posunout na další level.
+                        Pomáháme vám budovat Váš byznys od základů, tuningovat ho a vytvářet uživatelskou základnu. Je jedno, jestli prodáváte čaje, poskytujete ubytování nebo vrtáte zuby. Nemáme problém zanalyzovat jakýkoliv use case a pomoci Vám ho posunout na další level.
                         <br /><br />
                         <div class="d-none d-lg-flex justify-content-between">
                             <div class="mr-5">
@@ -92,7 +92,7 @@
                         </div>
                         <div class="help-block col-lg-6">
                             <img src="img/svg/problems/brand.svg" class="d-none d-lg-flex float-left img-problem" alt="Vybudovat na trhu silný brand, stategii rozvoje a komunitu" />
-                            <div><span class="fw-450">+ Vybudovat na trhu silný brand, stategii rozvoje a komunitu</span> - budujeme s vámi komunitu zákazníků využívajících vaše produkty as tím v ruku v ruce branding celé značky.</div>
+                            <div><span class="fw-450">+ Vybudovat na trhu silný brand, stategii rozvoje a komunitu</span> - budujeme s vámi komunitu zákazníků využívajících Vaše produkty as tím v ruku v ruce branding celé značky.</div>
                         </div>
                         <div class="help-block col-lg-6">
                             <img src="img/svg/problems/competitor.svg" class="d-none d-lg-flex float-left img-problem" alt="Zanalyzovat konkurenci a vyniknout" />
@@ -100,7 +100,7 @@
                         </div>
                         <div class="help-block col-lg-6">
                             <img src="img/svg/problems/idea.svg" class="d-none d-lg-flex float-left img-problem" alt="Přetvořit nápad v užitečný produkt" />
-                            <div><span class="fw-450">+ Přetvořit nápad v užitečný produkt</span> - váš nápad zpracujeme, vytuningujeme a převedeme do produktu, který nemá problém vydělávat a podporovat další činnosti spojené s vašim podnikáním.</div>
+                            <div><span class="fw-450">+ Přetvořit nápad v užitečný produkt</span> - Váš nápad zpracujeme, vytuningujeme a převedeme do produktu, který nemá problém vydělávat a podporovat další činnosti spojené s vašim podnikáním.</div>
                         </div>
                         <div class="help-block col-lg-6">
                             <img src="img/svg/problems/innovation.svg" class="d-none d-lg-flex float-left img-problem" alt="Rozšířit portfolio služeb a inovovat" />
@@ -125,14 +125,14 @@
                 </div>
                 <div class="mt-40 d-sm-flex-inline d-lg-flex align-items-stretch text-center justify-content-between">
                     <div class="col-sm-12 col-md-12 col-lg-3 step">
-                        <img src="img/svg/sales.svg" alt="Prodávajte vaše produkty s námi" />
+                        <img src="img/svg/sales.svg" alt="Prodávajte Vaše produkty s námi" />
                         <p class="purple fw-500 mt-3">Prodávat</p>
                         <p>Naučíme vás, jak budovat produkty, které prodávají. Vytvořit si uživatelskou komunitu, důvěryhodnost produktu a jeho digitální podobu online, která vydělává i bez předražené reklamy.</p>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-3 step">
-                        <img src="img/svg/bulb_ideas.svg" alt="Inovujte služby a produkty. Design pro vaše uživatele" />
+                        <img src="img/svg/bulb_ideas.svg" alt="Inovujte služby a produkty. Design pro Vaše uživatele" />
                         <p class="purple fw-500 mt-3">Inovovat/Designovat</p>
-                        <p>Pomáháme s pohledem na různé produkty/problémy z jiného a nezaujatého úhlu. Děláme různé workshopy produktového brainstormingu, směrování firmy a pochopení základních inovačních technik.</p>
+                        <p>Pomáháme s pohledem na různé produkty/problémy z jiného a nezaujatého úhlu. Děláme různé workshopy produktového brainstormingu, směrování firmy a pochopení základních inovačních technik.</p>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-3 step">
                         <img src="img/svg/performance.svg" alt="Optimalizaca nákladů" />
@@ -158,11 +158,11 @@
                     <div class="row">
                         <div class="col-lg-12 main-card">
                             <h5 class="fw-450 gray">NEZAUJATÝ EXTERNÍ POHLED NA PROBLÉM</h5>
-                            <p>Je jedno, zda podnikáte delší dobu, nebo zakládáte nový startup, či projekt. Mnohokrát jsou členové týmu poměrně úzce zahledění do problematiky, kterou žijí. Pomáháme nahlížet na problémy z větší perspektivy.</p>
+                            <p>Je jedno, zda podnikáte delší dobu, nebo zakládáte nový startup, či projekt. Mnohokrát jsou členové týmu poměrně úzce zahledění do problematiky, kterou žijí. Pomáháme nahlížet na problémy z větší perspektivy.</p>
                         </div>
                         <div class="col-lg-12 main-card">
                             <h5 class="fw-450 gray">INOVACE A DLOUHODOBÝ PLÁN</h5>
-                            <p>Na budování dlouhodobých strategických plánů se specializujeme. Sledujeme trendy na trhu a umíme se ponořit do jakéhokoliv problému v každém odvětví. Neustále přinášíme vašemu podnikání různé nápady jak vyniknout.</p>
+                            <p>Na budování dlouhodobých strategických plánů se specializujeme. Sledujeme trendy na trhu a umíme se ponořit do jakéhokoliv problému v každém odvětví. Neustále přinášíme Vašemu podnikání různé nápady jak vyniknout.</p>
                         </div>
                     </div>
                 </div>
@@ -186,7 +186,7 @@
                     <h3 class="ref-title">Inovacemi a rozvojem</h3><br />
                     <div>
                         <span class="fw-450">Co? Pro koho?</span>
-                        <a href="https://www.cajovnasetkani.cz/" target="new"><span class="float-right ref-grey-icon"><img src="img/svg/web_grey.svg" /></span></a> <br /><br /> Pro Karla z Čajovny Setkání vyvíjíme více produktů - webové stránky, eshop a implementujeme dle potřeby různé nápady. Čajoven je v Praze poměrně dost, proto jsme s ním přemýšleli, co jiné přinést na trh. Vymysleli jsme mobilní aplikaci na degustace a další funkce, které uvítá mnoho uživatelů.
+                        <a href="https://www.cajovnasetkani.cz/" target="new"><span class="float-right ref-grey-icon"><img src="img/svg/web_grey.svg" /></span></a> <br /><br /> Pro Karla z Čajovny Setkání vyvíjíme více produktů - webové stránky, eshop a implementujeme dle potřeby různé nápady. Čajoven je v Praze poměrně dost, proto jsme s ním přemýšleli, co jiné přinést na trh. Vymysleli jsme mobilní aplikaci na degustace a další funkce, které uvítá mnoho uživatelů.
                         <br /><br />
                     </div>
                 </div>

@@ -67,7 +67,7 @@
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
-				    <p>Nanooq IT se mění na Kompilátor. Podívejte se, co nového vám kromě názvu nabízíme.</p>
+				    <p>Nanooq IT se mění na Kompilátor. Podívejte se, co nového Vám kromě názvu nabízíme.</p>
                 </div>
             </div>
         </div>
@@ -78,7 +78,7 @@
         <div class="container-fluid pl-md-5 pr-md-5">
             <div class="row no-gutters">
                 <div class="col-lg pr-lg-5">
-                    <h1 class="purple fw-500 banner-title">Překládáme vaše podnikatelské potřeby do úspěšných produktů</h1>
+                    <h1 class="purple fw-500 banner-title">Překládáme Vaše podnikatelské potřeby do úspěšných produktů</h1>
                     <p class="mt-40"><span class="fw-450">Kompilátor</span> - vytváříme digitální produkty, které jsou zde pro uživatele a zároveň vykouzlí úsměv na tváři i marketingovému a obchodnímu oddělení. Máme rádi výzvy, hledáme problémy, které lze vyřešit pomocí
                         <span class="fw-450">technologií, zdravého rozumu</span> a <span class="fw-450">designu</span>.
                         <div class="ca-buttons">
@@ -125,7 +125,7 @@
         <div class="container-fluid pr-md-5 pl-md-5">
             <div class="row">
                 <div class="col-lg-12 mr-auto pr-md-5">
-                    <h1 class="purple fw-500 banner-title">Vyberte si z našich služeb</h1>
+                    <h1 class="purple fw-500 banner-title">Vyberte si z našich služeb</h1>
                     <div class="row mt-50 main-card">
                         <div class="help-block col-lg-6">
                             <img src="img/svg/services/revision.svg" alt="Revize podnikání / produktů" class="d-none d-lg-flex float-left img-problem" />
@@ -141,7 +141,7 @@
                         </div>
                         <div class="help-block col-lg-6">
                             <img src="img/svg/services/innovation.svg" alt="Inovace a automatizace" class="d-none d-lg-flex float-left img-problem" />
-                            <div><span class="fw-450">+ Inovace a automatizace</span> - pomáháme vám na problém nahlížet z jiného úhlu pohledu a tím přinášet inovace do firmy/služeb a konkurovat nimi na trhu. Automatizujeme ruční činnosti.</div>
+                            <div><span class="fw-450">+ Inovace a automatizace</span> - pomáháme vám na problém nahlížet z jiného úhlu pohledu a tím přinášet inovace do firmy/služeb a konkurovat nimi na trhu. Automatizujeme ruční činnosti.</div>
                         </div>
                     </div>
                 </div>
@@ -154,16 +154,16 @@
         <div class="container-fluid pr-md-5 pl-md-5">
             <div class="row">
                 <div class="col-lg-12 start-title">
-                    <h1 class="purple fw-500 banner-title">a začněte ve 3 jednoduchých krocích</h1>
+                    <h1 class="purple fw-500 banner-title">a začněte ve 3 jednoduchých krocích</h1>
                 </div>
                 <div class="mt-40 d-sm-flex-inline d-lg-flex align-items-stretch text-center justify-content-between">
                     <div class="col-sm-12 col-md-12 col-lg-3 step">
                         <img src="img/svg/bulb.svg" alt="Pošlete nápad, který chcete zdigitalizovat"/>
                         <p class="purple fw-500 mt-3">1. Pošlete nápad</p>
-                        <p>Na začátek nám stačí poslat nápad / problém, který řešíte a my v týmu zpracujeme návrhy, zjistíme stav, rizika a úspěšnost nápadu na trhu.</p>
+                        <p>Na začátek nám stačí poslat nápad/problém, který řešíte a my v týmu zpracujeme návrhy, zjistíme stav, rizika a úspěšnost nápadu na trhu.</p>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-3 step">
-                        <img src="img/svg/conversation.svg" alt="Zanalyzujeme, prokonzultujeme vaše nápady"/>
+                        <img src="img/svg/conversation.svg" alt="Zanalyzujeme, prokonzultujeme Vaše nápady"/>
                         <p class="purple fw-500 mt-3">2. Návrh a analýza</p>
                         <p>Následně si zanalyzujeme designové, technologické, konkurenční možnosti a vyhotovíme možná řešení a jejich formu realizace.</p>
                     </div>
@@ -231,7 +231,7 @@
                                     </span>
                             </h2>
                             <p class="carousel-desc mt-4">
-                                Mobilní aplikace Od Tatier k Dunaju je využívána každoročně během běžeckých závodů více než 2500 běžci současně. Zpříjemňuje zážitek z běhu a umocňuje týmové zapojení zejména díky real-time GPS Trackingu a komunikaci s organizátorem.
+                                Mobilní aplikace Od Tatier k Dunaju je využívána každoročně během běžeckých závodů více než 2500 běžci současně. Zpříjemňuje zážitek z běhu a umocňuje týmové zapojení zejména díky real-time GPS Trackingu a komunikaci s organizátorem.
                             </p>
                             <ul class="list-inline list-unstyled carousel-tags mt-4">
                                 <li class="carousel-tag-item list-inline-item">Analýza</li>
@@ -340,7 +340,7 @@
                 <div class="col-lg-8 order-1 order-lg-2 pb-5 pl-md-5">
                     <h1 class="purple fw-500 banner-title">Tvořte, vzdělávejte se s námi</h1>
                     <p class="mt-40">
-                        Aby mohli na trhu vznikat užitečné, kvalitní a technologické produkty, je třeba, aby technologiím rozuměli všichni. IT již není výhradou podivínů ve sklepě, IT je již dostupné každému a my Vám ho zpřístupníme ve srozumitelné podobě.
+                        Aby mohli na trhu vznikat užitečné, kvalitní a technologické produkty, je třeba, aby technologiím rozuměli všichni. IT již není výhradou podivínů ve sklepě, IT je již dostupné každému a my Vám ho zpřístupníme ve srozumitelné podobě.
                         <span class="fw-450">Rádi vás IT trendy během vývoje s námi naučíme.</span> <br /><br /> Naučíme vás myslet technologicky, analyticky, využívat agilní a designově-produktové přístupy. Naše <span class="fw-450">know-how</span> je součástí Vás a Vašeho nového produktu.
                     </p>
                     <div class="logos mt-40 d-none d-md-flex flex-wrap justify-content-between">
