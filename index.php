@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="cs">
+
 <head>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -57,21 +58,7 @@
 <body class="bg-white gray">
     <!-- navigation menu -->
 
-	<?php include "menu.html" ?>
-
-    <div id="myModal" class="modal fade">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Změna názvu na Kompilátor</h5>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class="modal-body">
-				    <p>Nanooq IT se mění na Kompilátor. Podívejte se, co nového Vám kromě názvu nabízíme.</p>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php include "menu.html" ?>
 
     <!-- banner -->
     <section id="banner" class="banner">
@@ -88,7 +75,7 @@
                     </p>
                 </div>
                 <div class="col-lg d-lg-flex justify-content-end p-0 d-none">
-                    <img src="img/svg/banner_img.svg" class="img-fluid img-banner" alt="Produkty, které vydělávají"/>
+                    <img src="img/svg/banner_img.svg" class="img-fluid img-banner" alt="Produkty, které vydělávají" />
                 </div>
             </div>
         </div>
@@ -99,22 +86,22 @@
         <div class="container-fluid pl-md-5 pr-md-5">
             <div class="d-none d-lg-flex justify-content-between">
                 <div class="mr-5">
-                    <img src="img/logos/chuf.svg" class="img-fluid" alt="Chuf.com - Vysokozdvižné vozíky"/>
+                    <img src="img/logos/chuf.svg" class="img-fluid" alt="Chuf.com - Vysokozdvižné vozíky" />
                 </div>
                 <div class="mr-5">
-                    <img src="img/logos/kiwi.svg" class="img-fluid" alt="Kiwi.com - letenky"/>
+                    <img src="img/logos/kiwi.svg" class="img-fluid" alt="Kiwi.com - letenky" />
                 </div>
                 <div class="mr-5">
                     <img src="img/logos/ulekare.svg" class="img-fluid" alt="uLekáře.cz" />
                 </div>
                 <div class="mr-5">
-                    <img src="img/logos/mall.svg" class="img-fluid" alt="Mall - online eshop"/>
+                    <img src="img/logos/mall.svg" class="img-fluid" alt="Mall - online eshop" />
                 </div>
                 <div class="mr-5">
-                    <img src="img/logos/cajovna_setkani.svg" class="img-fluid" alt="Čajovna Setkání v Praze"/>
+                    <img src="img/logos/cajovna_setkani.svg" class="img-fluid" alt="Čajovna Setkání v Praze" />
                 </div>
                 <div class="">
-                    <img src="img/logos/economia.svg" class="img-fluid" alt="Economia, Centrum email"/>
+                    <img src="img/logos/economia.svg" class="img-fluid" alt="Economia, Centrum email" />
                 </div>
             </div>
         </div>
@@ -158,17 +145,17 @@
                 </div>
                 <div class="mt-40 d-sm-flex-inline d-lg-flex align-items-stretch text-center justify-content-between">
                     <div class="col-sm-12 col-md-12 col-lg-3 step">
-                        <img src="img/svg/bulb.svg" alt="Pošlete nápad, který chcete zdigitalizovat"/>
+                        <img src="img/svg/bulb.svg" alt="Pošlete nápad, který chcete zdigitalizovat" />
                         <p class="purple fw-500 mt-3">1. Pošlete nápad</p>
                         <p>Na začátek nám stačí poslat nápad/problém, který řešíte a my v týmu zpracujeme návrhy, zjistíme stav, rizika a úspěšnost nápadu na trhu.</p>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-3 step">
-                        <img src="img/svg/conversation.svg" alt="Zanalyzujeme, prokonzultujeme Vaše nápady"/>
+                        <img src="img/svg/conversation.svg" alt="Zanalyzujeme, prokonzultujeme Vaše nápady" />
                         <p class="purple fw-500 mt-3">2. Návrh a analýza</p>
                         <p>Následně si zanalyzujeme designové, technologické, konkurenční možnosti a vyhotovíme možná řešení a jejich formu realizace.</p>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-3 step">
-                        <img src="img/svg/concept.svg" alt="Navrhneme koncept řešení webu nebo aplikace"/>
+                        <img src="img/svg/concept.svg" alt="Navrhneme koncept řešení webu nebo aplikace" />
                         <p class="purple fw-500 mt-3">3. Koncept řešení a workshop</p>
                         <p>Pokud se na řešení shodneme, vyhotovíme základní prototyp, začneme testovat a validovat jeho úspěšnost na společném úvodním workshopu.</p>
                     </div>
@@ -226,9 +213,9 @@
                         <div class="carousel-caption col-md-11 col-lg-8 pl-5">
                             <h2 class="carousel-title">Příběh aplikace pro bežce
                                 <span class="ref-icon">
-                                        <a href="https://apps.apple.com/cz/app/otkd-2017/id1263139345?l=cs" target="new"><img src="img/svg/apple_white.svg" alt="iOS aplikace OTKD"/></a>
-                                        <a href="https://play.google.com/store/apps/details?id=eu.nanooq.otkd&hl=sk" target="new"><img src="img/svg/android_white.svg" alt="Android aplikace OTKD"/></a>
-                                    </span>
+                                    <a href="https://apps.apple.com/cz/app/otkd-2017/id1263139345?l=cs" target="new"><img src="img/svg/apple_white.svg" alt="iOS aplikace OTKD" /></a>
+                                    <a href="https://play.google.com/store/apps/details?id=eu.nanooq.otkd&hl=sk" target="new"><img src="img/svg/android_white.svg" alt="Android aplikace OTKD" /></a>
+                                </span>
                             </h2>
                             <p class="carousel-desc mt-4">
                                 Mobilní aplikace Od Tatier k Dunaju je využívána každoročně během běžeckých závodů více než 2500 běžci současně. Zpříjemňuje zážitek z běhu a umocňuje týmové zapojení zejména díky real-time GPS Trackingu a komunikaci s organizátorem.
@@ -257,8 +244,8 @@
                         <div class="carousel-caption col-md-11 col-lg-8 pl-5">
                             <h2 class="carousel-title">Limuzíny pro všechny
                                 <span class="ref-icon">
-                                        <a href="https://www.prolimoservice.sk/" target="new"><img src="img/svg/web_white.svg" alt="Webová aplikace Pro Limo Services"/></a>
-                                    </span>
+                                    <a href="https://www.prolimoservice.sk/" target="new"><img src="img/svg/web_white.svg" alt="Webová aplikace Pro Limo Services" /></a>
+                                </span>
                             </h2>
                             <p class="carousel-desc mt-4">Responzivní webová aplikace umožňující online rezervaci limuzíny pro různé účely, včetně objednání doplňkových služeb a rychlé komunikaci s Vaším řidičem. Díky aplikaci je možné začít výlet v novém městě již na letišti
                                 a nestresovat se čekáním na taxi v předražených turistických cenách.</p>
@@ -297,9 +284,9 @@
                         <div class="carousel-caption col-md-11 col-lg-8 pl-5">
                             <h2 class="carousel-title">Najdi svoji hvězdu
                                 <span class="ref-icon">
-                                        <a href="https://apps.apple.com/us/app/find-my-star/id1350451496" target="new"><img src="img/svg/apple_white.svg" alt="iOS aplikace Find my Star"/></a>
-                                        <a href="https://play.google.com/store/apps/details?id=com.nanooq.findmystar&hl=sk" target="new"><img src="img/svg/android_white.svg" alt="Android aplikace Find my Star"/></a>
-                                    </span>
+                                    <a href="https://apps.apple.com/us/app/find-my-star/id1350451496" target="new"><img src="img/svg/apple_white.svg" alt="iOS aplikace Find my Star" /></a>
+                                    <a href="https://play.google.com/store/apps/details?id=com.nanooq.findmystar&hl=sk" target="new"><img src="img/svg/android_white.svg" alt="Android aplikace Find my Star" /></a>
+                                </span>
                             </h2>
                             <p class="carousel-desc mt-4">Nativní mobilní aplikace umožňující vyhledávat zakoupené hvězdy. Není romantičtějšího dárku pro Vaši polovičku. V aplikaci je možné si dokoupit prostřednictvím In-App nákupů hvězdnou mapu s Vaší hvězdou a za tmavých nocí
                                 ji vyhledat na krásné hvězdné obloze.
@@ -354,17 +341,9 @@
         </div>
     </section>
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
     <?php include "footer.html" ?>
-
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.0/jquery.cookie.min.js"></script>
-    <script>
-            $(document).ready(function() {
-                 if ($.cookie('pop') == null) {
-                     $('#myModal').modal('show');
-                     $.cookie('pop', '30');
-                 }
-             });
-    </script> 
 </body>
 
 </html>
