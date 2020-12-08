@@ -180,15 +180,13 @@
                     <h1 class="purple fw-500 banner-title">Ukázky naší práce, kdy jsme klientům pomohli s</h1>
                 </div>
                 <div class="col-md-12 col-lg-4 mt-50">
-					<picture>
-						<source srcset="img/references/cajovna@2.webp 1x,
-										img/references/cajovna@2.webp 2x,
-										img/references/cajovna@3.webp 3x" type="image/webp">
-						<source srcset="img/references/cajovna@2.jpg 1x,
-										img/references/cajovna@2.jpg 2x,
-										img/references/cajovna@3.jpg 3x" type="image/jpeg">
-						<img class="img-fluid img-ref" src="img/references/cajovna@2.jpg" alt="Rozvoj eshopu a webu pro Čajovnu Setkání - Praha" />
-					</picture>
+                    <picture>
+                        <source srcset="img/references/cajovna@2.webp 1x,
+										img/references/cajovna@2.webp 2x" type="image/webp">
+                        <source srcset="img/references/cajovna@2.jpg 1x,
+										img/references/cajovna@2.jpg 2x" type="image/jpeg">
+                        <img class="img-fluid img-ref" src="img/references/cajovna@2.jpg" alt="Rozvoj eshopu a webu pro Čajovnu Setkání - Praha" />
+                    </picture>
                     <h3 class="ref-title">Inovacemi a rozvojem</h3><br />
                     <div>
                         <span class="fw-450">Co? Pro koho?</span>
@@ -197,15 +195,13 @@
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-4 mt-50">
-					<picture>
-						<source srcset="img/references/meditorial@2.webp 1x,
-										img/references/meditorial@2.webp 2x,
-										img/references/meditorial@3.webp 3x" type="image/webp">
-						<source srcset="img/references/meditorial@2.png 1x,
-										img/references/meditorial@2.png 2x,
-										img/references/meditorial@3.png 3x" type="image/png">
-						<img class="img-fluid img-ref" src="img/references/meditorial@2.png" alt="Mobilní aplikace umožňující spravovat výpočty léků" />
-					</picture>
+                    <picture>
+                        <source srcset="img/references/meditorial@2.webp 1x,
+										img/references/meditorial@2.webp 2x" type="image/webp">
+                        <source srcset="img/references/meditorial@2.png 1x,
+										img/references/meditorial@2.png 2x" type="image/png">
+                        <img class="img-fluid img-ref" src="img/references/meditorial@2.png" alt="Mobilní aplikace umožňující spravovat výpočty léků" />
+                    </picture>
                     <h3 class="ref-title">Vývojem interní mobilní aplikace</h3><br />
                     <div>
                         <span class="fw-450">Co? Pro koho?</span>
@@ -214,15 +210,13 @@
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-4 mt-50">
-					<picture>
-						<source srcset="img/references/alchemy@2.webp 1x,
-										img/references/alchemy@2.webp 2x,
-										img/references/alchemy@3.webp 3x" type="image/webp">
-						<source srcset="img/references/alchemy@2.jpg 1x,
-										img/references/alchemy@2.jpg 2x,
-										img/references/alchemy@3.jpg 3x" type="image/jpeg">
-						<img class="img-fluid img-ref" src="img/references/alchemy@2.jpg" alt="Vybudování nového produktu a komunity pro alchymisty" />
-					</picture>
+                    <picture>
+                        <source srcset="img/references/alchemy@2.webp 1x,
+										img/references/alchemy@2.webp 2x" type="image/webp">
+                        <source srcset="img/references/alchemy@2.jpg 1x,
+										img/references/alchemy@2.jpg 2x" type="image/jpeg">
+                        <img class="img-fluid img-ref" src="img/references/alchemy@2.jpg" alt="Vybudování nového produktu a komunity pro alchymisty" />
+                    </picture>
                     <h3 class="ref-title">Vybudováním nového produktu a komunity</h3><br />
                     <div>
                         <span class="fw-450">Co? Pro koho?</span>

@@ -205,15 +205,13 @@
                     <h1 class="purple fw-500 banner-title">Ukázky naší práce, kdy jsme klientům pomohli s</h1>
                 </div>
                 <div class="col-md-12 col-lg-4 mt-50">
-					<picture>
-						<source srcset="img/references/mall@2.webp 1x,
-										img/references/mall@2.webp 2x,
-										img/references/mall@3.webp 3x" type="image/webp">
-						<source srcset="img/references/mall@2.jpg 1x,
-										img/references/mall@2.jpg 2x,
-										img/references/mall@3.jpg 3x" type="image/jpeg">
-						<img class="img-fluid img-ref" src="img/references/mall@2.jpg" alt="Datová transformací firmy" />
-					</picture>
+                    <picture>
+                        <source srcset="img/references/mall@2.webp 1x,
+										img/references/mall@2.webp 2x" type="image/webp">
+                        <source srcset="img/references/mall@2.jpg 1x,
+										img/references/mall@2.jpg 2x" type="image/jpeg">
+                        <img class="img-fluid img-ref" src="img/references/mall@2.jpg" alt="Datová transformací firmy" />
+                    </picture>
                     <h3 class="ref-title">Datovou transformací firmy</h3><br />
                     <div>
                         <span class="fw-450">Co? Pro koho?</span>
@@ -221,15 +219,13 @@
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-4 mt-50">
-					<picture>
-						<source srcset="img/references/eco@2.webp 1x,
-										img/references/eco@2.webp 2x,
-										img/references/eco@3.webp 3x" type="image/webp">
-						<source srcset="img/references/eco@2.png 1x,
-										img/references/eco@2.png 2x,
-										img/references/eco@3.png 3x" type="image/png">
-						<img class="img-fluid img-ref" src="img/references/eco@2.png" alt="Mobilní aplikace Centrum.cz" />
-					</picture>
+                    <picture>
+                        <source srcset="img/references/eco@2.webp 1x,
+										img/references/eco@2.webp 2x" type="image/webp">
+                        <source srcset="img/references/eco@2.png 1x,
+										img/references/eco@2.png 2x" type="image/png">
+                        <img class="img-fluid img-ref" src="img/references/eco@2.png" alt="Mobilní aplikace Centrum.cz" />
+                    </picture>
                     <h3 class="ref-title">Mobilním vývojem interní aplikace</h3><br />
                     <div>
                         <span class="fw-450">Co? Pro koho?</span>
@@ -237,15 +233,13 @@
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-4 mt-50">
-					<picture>
-						<source srcset="img/references/genius@2.webp 1x,
-										img/references/genius@2.webp 2x,
-										img/references/genius@3.webp 3x" type="image/webp">
-						<source srcset="img/references/genius@2.jpg 1x,
-										img/references/genius@2.jpg 2x,
-										img/references/genius@3.jpg 3x" type="image/jpeg">
-						<img class="img-fluid img-ref" src="img/references/genius@2.jpg" alt="Inovace a transformace v oblasti UI a UX" />
-					</picture>
+                    <picture>
+                        <source srcset="img/references/genius@2.webp 1x,
+										img/references/genius@2.webp 2x" type="image/webp">
+                        <source srcset="img/references/genius@2.jpg 1x,
+										img/references/genius@2.jpg 2x" type="image/jpeg">
+                        <img class="img-fluid img-ref" src="img/references/genius@2.jpg" alt="Inovace a transformace v oblasti UI a UX" />
+                    </picture>
                     <h3 class="ref-title">Inovacemi a UI / UX transformací</h3><br />
                     <div>
                         <span class="fw-450">Co? Pro koho?</span>

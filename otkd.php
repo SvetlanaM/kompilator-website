@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="cs">
+
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXJJ9QHN6Z"></script>
@@ -26,7 +27,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="seznam-wmt" content="7EXe6O8iBq0WvVggTh3fhgBa0M5VlTs1" />
 
-	<?php include "header.html" ?>
+    <?php include "header.html" ?>
 
     <!-- Twitter Card data -->
     <meta name="twitter:card" content="summary">
@@ -50,7 +51,7 @@
 <body class="bg-white gray">
     <!-- navigation menu -->
 
-	<?php include "menu.html" ?>
+    <?php include "menu.html" ?>
 
     <!-- section banner -->
     <section id="banner" class="banner">
@@ -96,7 +97,7 @@
                                 <div>2000 běžců</div>
                             </div>
                             <div class="problem-icons-item d-flex justify-content-between">
-                                <img src="img/svg/collaboration.svg" alt="Za organizací závodu Od Tatier k Dunaju stojí 7 měsíců práce mnoha dobrovolníků"/>
+                                <img src="img/svg/collaboration.svg" alt="Za organizací závodu Od Tatier k Dunaju stojí 7 měsíců práce mnoha dobrovolníků" />
                                 <div>Mnoho měs. organizace</div>
                             </div>
                         </div>
@@ -106,10 +107,10 @@
                             ”Potrebujeme vytvoriť aplikáciu, ktorá bude funkčná a nezaťaží web. Bežci a rovnako aj my, sa na ňu môžeme spoľahnúť.”
                         </p>
                         <div class="quote-user d-flex mt-40">
-							<picture>
-								<source srcset="img/milos.webp 1x" type="image/webp">
-								<img src="img/milos.png" class="milos" alt="Miloš Zágoršek - organizátor závodů Od Tatier k Dunaju"/>
-							</picture>
+                            <picture>
+                                <source srcset="img/milos.webp 1x" type="image/webp">
+                                <img src="img/milos.png" class="milos" alt="Miloš Zágoršek - organizátor závodů Od Tatier k Dunaju" />
+                            </picture>
                             <div class="quote-user-item">
                                 <div class="fw-450">Miloš Zágoršek</div>
                                 <div>organizátor závodů</div>
@@ -153,19 +154,19 @@
                 </div>
                 <div class="analyse-icons col-lg-5 d-flex ml-auto">
                     <div class="analyse-icons-item d-flex">
-                        <img src="img/svg/runner.svg" alt="Bežci na závodu sa střídají ve štafetě po 6ti"/>
+                        <img src="img/svg/runner.svg" alt="Bežci na závodu sa střídají ve štafetě po 6ti" />
                         <div>Běžci na závodech</div>
                     </div>
                     <div class="analyse-icons-item d-flex">
-                        <img src="img/svg/capitan.svg" alt="Kapitán týmu má na starosti organizaci"/>
+                        <img src="img/svg/capitan.svg" alt="Kapitán týmu má na starosti organizaci" />
                         <div>Kapitán týmu</div>
                     </div>
                     <div class="analyse-icons-item d-flex">
-                        <img src="img/svg/collaboration.svg" alt="Organizátori během 2 dní koordinují závody na trati"/>
+                        <img src="img/svg/collaboration.svg" alt="Organizátori během 2 dní koordinují závody na trati" />
                         <div>Organizátoři závodů</div>
                     </div>
                     <div class="analyse-icons-item d-flex">
-                        <img src="img/svg/fans.svg" alt="Fanoušci sledují své známé z domova z různých koutů světa"/>
+                        <img src="img/svg/fans.svg" alt="Fanoušci sledují své známé z domova z různých koutů světa" />
                         <div>Fanoušci doma</div>
                     </div>
                 </div>
@@ -197,18 +198,18 @@
                         <div class="col-md-8 col-lg-8 d-flex">Vycházeli jsme z existujícího brandu a designu závodů OTKD, který je dán a definován na trhu již více než 4 roky a ten jsme následně rozšířili.
                         </div>
                         <div class="col-md-4 col-lg-4 analyse-otkd-logo">
-							<picture>
-								<source srcset="img/logo_otkd_black.webp 1x" type="image/webp">
-                            	<img src="img/logo_otkd_black.png" class="img-fluid" alt="Logo závodů Od Tatier k Dunaju"/>
-							</picture>
+                            <picture>
+                                <source srcset="img/logo_otkd_black.webp 1x" type="image/webp">
+                                <img src="img/logo_otkd_black.png" class="img-fluid" alt="Logo závodů Od Tatier k Dunaju" />
+                            </picture>
                         </div>
                     </div>
                     <div class="no-gutters">
                         <div class="case-study-title fw-450 col-lg-12">Partner projektu</div>
-						<picture>
-							<source srcset="img/logo_vub.webp 1x" type="image/webp">
-                        	<img src="img/logo_vub.png" class="analyse-otkd-logo col-lg-8" alt="Logo partnera projektu Od Tatier k Dunaju - VÚB banka"/>
-						</picture>
+                        <picture>
+                            <source srcset="img/logo_vub.webp 1x" type="image/webp">
+                            <img src="img/logo_vub.png" class="analyse-otkd-logo col-lg-8" alt="Logo partnera projektu Od Tatier k Dunaju - VÚB banka" />
+                        </picture>
                     </div>
                 </div>
             </div>
@@ -229,12 +230,12 @@
                 <div class="graph-box col-md-12">
                     <div class="col-lg-6 mt-40 graph-section d-flex flex-column text-center">
                         <div class="graph-title fw-450 text-left">Návštěvnost webu podle zemí a lokalit</div>
-                        <img src="img/svg/graph_bar.svg" class="img-fluid graph-img" alt="Návštěvnost webu Od Tatier k Dunaju podle zemí z webu nebo mobilního zařízení"/>
+                        <img src="img/svg/graph_bar.svg" class="img-fluid graph-img" alt="Návštěvnost webu Od Tatier k Dunaju podle zemí z webu nebo mobilního zařízení" />
                         <p class="graph-result">+ Umožnit sledovat průběh všem z mobilních zařízení</p>
                     </div>
                     <div class="col-lg-6 mt-40 graph-section d-flex flex-column text-center">
                         <div class="graph-title fw-450 text-left">Průzkum mezi uživateli na sociálních sítích</div>
-                        <img src="img/svg/graph_bubble.svg" class="img-fluid graph-img" alt="Dotazník nejžádanější funkcionality závodů Od Tatier k Dunaju vyhodnotil jako nejoblíbenější funkcionalitu - GPS tracking v reálném čase"/>
+                        <img src="img/svg/graph_bubble.svg" class="img-fluid graph-img" alt="Dotazník nejžádanější funkcionality závodů Od Tatier k Dunaju vyhodnotil jako nejoblíbenější funkcionalitu - GPS tracking v reálném čase" />
                         <p class="graph-result">+ Běžci nejžádanější funkce je GPS tracking</p>
                     </div>
                 </div>
@@ -251,26 +252,22 @@
                 </div>
                 <div class="img-study-box">
                     <div class="col-sm-12 col-lg-3 study-image">
-						<picture>
-							<source srcset="img/otkd_sections@2x.webp 1x,
-										img/otkd_sections@2x.webp 2x,
-										img/otkd_sections@3x.webp 3x" type="image/webp">
-							<source srcset="img/otkd_sections@2x.png 1x,
-										img/otkd_sections@2x.png 2x,
-										img/otkd_sections@3x.png 3x" type="image/png">
-							<img class="img-fluid" src="img/otkd_sections@2x.png" alt="Seznam úseků a členů týmu přiřazených na ně v rámci závodů Od Tatier k Dunaju" />
-						</picture>
+                        <picture>
+                            <source srcset="img/otkd_sections@2x.webp 1x,
+										img/otkd_sections@2x.webp 2x" type="image/webp">
+                            <source srcset="img/otkd_sections@2x.png 1x,
+										img/otkd_sections@2x.png 2x" type="image/png">
+                            <img class="img-fluid" src="img/otkd_sections@2x.png" alt="Seznam úseků a členů týmu přiřazených na ně v rámci závodů Od Tatier k Dunaju" />
+                        </picture>
                     </div>
                     <div class="col-sm-12 col-lg-3 study-image">
-						<picture>
-							<source srcset="img/otkd_runner@2x.webp 1x,
-										img/otkd_runner@2x.webp 2x,
-										img/otkd_runner@3x.webp 3x" type="image/webp">
-							<source srcset="img/otkd_runner@2x.png 1x,
-										img/otkd_runner@2x.png 2x,
-										img/otkd_runner@3x.png 3x" type="image/png">
-							<img class="img-fluid" src="img/otkd_runner@2x.png" alt="Výsledky bežce závodů Od Tatier k Dunaju na vybraném úseku" />
-						</picture>
+                        <picture>
+                            <source srcset="img/otkd_runner@2x.webp 1x,
+										img/otkd_runner@2x.webp 2x" type="image/webp">
+                            <source srcset="img/otkd_runner@2x.png 1x,
+										img/otkd_runner@2x.png 2x" type="image/png">
+                            <img class="img-fluid" src="img/otkd_runner@2x.png" alt="Výsledky bežce závodů Od Tatier k Dunaju na vybraném úseku" />
+                        </picture>
                     </div>
                     <div class="col-sm-12 col-lg-5 d-flex-inline ml-auto list-need">
                         <div class="list-needs">
@@ -287,50 +284,44 @@
                 </div>
                 <div class="needs-results text-uppercase d-flex text-center justify-content-center mt-80">
                     <div class="needs-item">
-                        <img src="img/svg/runner_white.svg" alt="Identifikace ďalší předávky"/>
+                        <img src="img/svg/runner_white.svg" alt="Identifikace ďalší předávky" />
                         <div>1. TÝM VÍ KDY PŘIJÍT NA DALŠÍ PŘEDÁVKU</div>
                     </div>
                     <div class="needs-item">
-                        <img src="img/svg/collaboration_white.svg" alt="Dobrovolníci využívají aplikaci na sledování týmů na trati"/>
+                        <img src="img/svg/collaboration_white.svg" alt="Dobrovolníci využívají aplikaci na sledování týmů na trati" />
                         <div>2. ORGANIZÁTOŘI VIDÍ POHYB TÝMŮ NA TRATI</div>
                     </div>
                     <div class="needs-item">
-                        <img src="img/svg/fans_white.svg" alt="Fanoučci sledují bežce z domova prostřednictvím mobilní aplikace OTKD"/>
+                        <img src="img/svg/fans_white.svg" alt="Fanoučci sledují bežce z domova prostřednictvím mobilní aplikace OTKD" />
                         <div>3. FANOUŠCI SLEDUJÍ SVŮJ TÝM Z DOMOVA</div>
                     </div>
                     <div class="needs-item">
-                        <img src="img/svg/runner_white.svg" alt="Bežci si môžu skontrolovať svoju pozíciu na trati"/>
+                        <img src="img/svg/runner_white.svg" alt="Bežci si môžu skontrolovať svoju pozíciu na trati" />
                         <div>4. BĚŽEC KONTROLUJE POZICI NA TRATI</div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-lg-12 tracking-image-box">
-					<picture>
-						<source srcset="img/otkd_tracking_2@2x.webp 1x,
-										img/otkd_tracking_2@2x.webp 2x,
-										img/otkd_tracking_2@3x.webp 3x" type="image/webp">
-						<source srcset="img/otkd_tracking_2@2x.png 1x,
-										img/otkd_tracking_2@2x.png 2x,
-										img/otkd_tracking_2@3x.png 3x" type="image/png">
-						<img class="img-fluid tracking-image" src="img/otkd_tracking_2@2x.png" alt="Real-time GPS tracking" />
-					</picture>
-					<picture>
-						<source srcset="img/otkd_tracking_1@2x.webp 1x,
-										img/otkd_tracking_1@2x.webp 2x,
-										img/otkd_tracking_1@3x.webp 3x" type="image/webp">
-						<source srcset="img/otkd_tracking_1@2x.png 1x,
-										img/otkd_tracking_1@2x.png 2x,
-										img/otkd_tracking_1@3x.png 3x" type="image/png">
-						<img class="img-fluid tracking-image" src="img/otkd_tracking_1@2x.png" alt="Sledování bežce a jeho reálné polohy na mapě" />
-					</picture>
-					<picture>
-						<source srcset="img/otkd_tracking_3@2x.webp 1x,
-										img/otkd_tracking_3@2x.webp 2x,
-										img/otkd_tracking_3@3x.webp 3x" type="image/webp">
-						<source srcset="img/otkd_tracking_3@2x.png 1x,
-										img/otkd_tracking_3@2x.png 2x,
-										img/otkd_tracking_3@3x.png 3x" type="image/png">
-						<img class="img-fluid tracking-image" src="img/otkd_tracking_3@2x.png" alt="Sledování průměrného času běhu bežcě pomocí GPS trackingu" />
-					</picture>
+                    <picture>
+                        <source srcset="img/otkd_tracking_2@2x.webp 1x,
+										img/otkd_tracking_2@2x.webp 2x" type="image/webp">
+                        <source srcset="img/otkd_tracking_2@2x.png 1x,
+										img/otkd_tracking_2@2x.png 2x" type="image/png">
+                        <img class="img-fluid tracking-image" src="img/otkd_tracking_2@2x.png" alt="Real-time GPS tracking" />
+                    </picture>
+                    <picture>
+                        <source srcset="img/otkd_tracking_1@2x.webp 1x,
+										img/otkd_tracking_1@2x.webp 2x" type="image/webp">
+                        <source srcset="img/otkd_tracking_1@2x.png 1x,
+										img/otkd_tracking_1@2x.png 2x" type="image/png">
+                        <img class="img-fluid tracking-image" src="img/otkd_tracking_1@2x.png" alt="Sledování bežce a jeho reálné polohy na mapě" />
+                    </picture>
+                    <picture>
+                        <source srcset="img/otkd_tracking_3@2x.webp 1x,
+										img/otkd_tracking_3@2x.webp 2x" type="image/webp">
+                        <source srcset="img/otkd_tracking_3@2x.png 1x,
+										img/otkd_tracking_3@2x.png 2x" type="image/png">
+                        <img class="img-fluid tracking-image" src="img/otkd_tracking_3@2x.png" alt="Sledování průměrného času běhu bežcě pomocí GPS trackingu" />
+                    </picture>
                 </div>
                 <div class="img-study-box">
                     <div class="col-lg-5 d-flex-inline mr-auto list-need">
@@ -346,26 +337,22 @@
                         </div>
                     </div>
                     <div class="col-lg-3 ml-auto idea-box study-image">
-						<picture>
-							<source srcset="img/otkd_injury@2x.webp 1x,
-										img/otkd_injury@2x.webp 2x,
-										img/otkd_injury@3x.webp 3x" type="image/webp">
-							<source srcset="img/otkd_injury@2x.png 1x,
-										img/otkd_injury@2x.png 2x,
-										img/otkd_injury@3x.png 3x" type="image/png">
-							<img class="img-fluid" src="img/otkd_injury.png" alt="Možnost nahlásit zraněného bežce organizátorovi závodů OTKD" />
-						</picture>
+                        <picture>
+                            <source srcset="img/otkd_injury@2x.webp 1x,
+										img/otkd_injury@2x.webp 2x" type="image/webp">
+                            <source srcset="img/otkd_injury@2x.png 1x,
+										img/otkd_injury@2x.png 2x" type="image/png">
+                            <img class="img-fluid" src="img/otkd_injury.png" alt="Možnost nahlásit zraněného bežce organizátorovi závodů OTKD" />
+                        </picture>
                     </div>
                     <div class="col-lg-3 idea-box study-image">
-						<picture>
-							<source srcset="img/otkd_push@2x.webp 1x,
-										img/otkd_push@2x.webp 2x,
-										img/otkd_push@3x.webp 3x" type="image/webp">
-							<source srcset="img/otkd_push@2x.png 1x,
-										img/otkd_push@2x.png 2x,
-										img/otkd_push@3x.png 3x" type="image/png">
-							<img class="img-fluid" src="img/otkd_push.png" alt="Možnost poslat push notifikaci bežcům od organizátora OTKD" />
-						</picture>
+                        <picture>
+                            <source srcset="img/otkd_push@2x.webp 1x,
+										img/otkd_push@2x.webp 2x" type="image/webp">
+                            <source srcset="img/otkd_push@2x.png 1x,
+										img/otkd_push@2x.png 2x" type="image/png">
+                            <img class="img-fluid" src="img/otkd_push.png" alt="Možnost poslat push notifikaci bežcům od organizátora OTKD" />
+                        </picture>
                     </div>
                 </div>
             </div>
@@ -380,10 +367,10 @@
                     <p class="case-study-title fw-450">8. Vyhodnocení a feedback</p>
                 </div>
                 <div class="col-lg-6">
-					<picture>
-						<source srcset="img/map.webp 1x" type="image/webp">
-                    	<img src="img/map.png" class="img-map img-fluid" alt="Mapa uživatelů sledujících závody prostřednictvím mobilní aplikace Od Tatier k Dunaju"/>
-					</picture>
+                    <picture>
+                        <source srcset="img/map.webp 1x" type="image/webp">
+                        <img src="img/map.png" class="img-map img-fluid" alt="Mapa uživatelů sledujících závody prostřednictvím mobilní aplikace Od Tatier k Dunaju" />
+                    </picture>
                 </div>
                 <div class="col-lg-5 d-flex-inline ml-auto">
                     <div class="result-box flex-wrap d-flex text-center justify-content-between mt-80">
@@ -430,10 +417,10 @@
                         ”S aplikáciou sme boli spokojní. Všetko fungovalo ako malo, vedeli sme kde je bežec a kedy sa pripraviť na ďalšiu predávku.”
                     </p>
                     <div class="quote-user d-flex">
-						<picture>
-							<source srcset="img/martin.webp 1x" type="image/webp">
-                        	<img src="img/martin.png" class="milos" alt="Martin Detvaj - běžec na závodu Od Tatier k Dunaju"/>
-						</picture>
+                        <picture>
+                            <source srcset="img/martin.webp 1x" type="image/webp">
+                            <img src="img/martin.png" class="milos" alt="Martin Detvaj - běžec na závodu Od Tatier k Dunaju" />
+                        </picture>
                         <div class="quote-user-item">
                             <div class="fw-450">Martin Detvaj</div>
                             <div>běžec závodů</div>
@@ -457,7 +444,7 @@
         </div>
     </section>
 
-	<?php include "footer.html" ?>
+    <?php include "footer.html" ?>
 
 </body>
 

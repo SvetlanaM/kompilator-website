@@ -1909,3 +1909,7 @@ button:focus {
 .svg-grey:hover {
     filter: invert(0.5) saturate(0.5);
 }
+
+.team-photo {
+    height: 192px;
+}

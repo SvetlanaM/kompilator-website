@@ -234,15 +234,13 @@
                             <button type="button" class="btn-study btn col-auto p-0">
                                 <a href="otkd.php">ZOBRAZIT PŘÍPADOVOU STUDII</a></button>
                         </div>
-						<picture>
-							<source srcset="img/slide1@1.webp 1x,
-										img/slide1@2.webp 2x,
-										img/slide1@3.webp 3x" type="image/webp">
-							<source srcset="img/slide1@1.png 1x,
-										img/slide1@2.png 2x,
-										img/slide1@3.png 3x" type="image/png">
-							<img class="carousel-image" src="img/slide1@2.png" alt="Mobilní aplikace pro závody Od Tatier k Dunaju" />
-						</picture>
+                        <picture>
+                            <source srcset="img/slide1@1.webp 1x,
+										img/slide1@2.webp 2x" type="image/webp">
+                            <source srcset="img/slide1@1.png 1x,
+										img/slide1@2.png 2x" type="image/png">
+                            <img class="carousel-image" src="img/slide1@2.png" alt="Mobilní aplikace pro závody Od Tatier k Dunaju" />
+                        </picture>
                     </div>
 
                     <div class="carousel-item">
@@ -264,15 +262,13 @@
                             </ul>
                             <!-- <button type="button" class="btn-study btn col-auto p-0">ZOBRAZIT CASE STUDY</button> -->
                         </div>
-						<picture>
-							<source srcset="img/slide2@1.webp 1x,
-										img/slide2@2.webp 2x,
-										img/slide2@3.webp 3x" type="image/webp">
-							<source srcset="img/slide2@2.png 1x,
-										img/slide2@2.png 2x,
-										img/slide2@3.png 3x" type="image/png">
-                        	<img class="carousel-image" src="img/slide2@2.png" alt="Pro limo services - online limuzíny" />
-						</picture>
+                        <picture>
+                            <source srcset="img/slide2@1.webp 1x,
+										img/slide2@2.webp 2x" type="image/webp">
+                            <source srcset="img/slide2@2.png 1x,
+										img/slide2@2.png 2x" type="image/png">
+                            <img class="carousel-image" src="img/slide2@2.png" alt="Pro limo services - online limuzíny" />
+                        </picture>
                     </div>
                     <div class="carousel-item">
                         <div class="d-block w-100 slide-box slide-box4"></div>
@@ -287,15 +283,13 @@
                             </ul>
                             <!-- <button type="button" class="btn-study btn col-auto p-0">ZOBRAZIT CASE STUDY</button> -->
                         </div>
-						<picture>
-							<source srcset="img/mockup_slide3x2.webp 1x,
-										img/mockup_slide3x2.webp 2x,
-										img/mockup_slide3x3.webp 3x" type="image/webp">
-							<source srcset="img/mockup_slide3x2.png 1x,
-										img/mockup_slide3x2.png 2x,
-										img/mockup_slide3x3.png 3x" type="image/png">
-							<img class="carousel-image" src="img/mockup_slide3x2.png" alt="Mobilná aplikace pro degustace v Čajovně Setkání" />
-						</picture>
+                        <picture>
+                            <source srcset="img/mockup_slide3x2.webp 1x,
+										img/mockup_slide3x2.webp 2x" type="image/webp">
+                            <source srcset="img/mockup_slide3x2.png 1x,
+										img/mockup_slide3x2.png 2x" type="image/png">
+                            <img class="carousel-image" src="img/mockup_slide3x2.png" alt="Mobilná aplikace pro degustace v Čajovně Setkání" />
+                        </picture>
                     </div>
                     <div class="carousel-item">
                         <div class="d-block w-100 slide-box slide-box3"></div>
@@ -318,15 +312,13 @@
                             </ul>
                             <!-- <button type="button" class="btn-study btn col-auto p-0">ZOBRAZIT CASE STUDY</button> -->
                         </div>
-						<picture>
-							<source srcset="img/slide3@1.webp 1x,
-										img/slide3@2.webp 2x,
-										img/slide3@3.webp 3x" type="image/webp">
-							<source srcset="img/slide3@2.png 1x,
-										img/slide3@2.png 2x,
-										img/slide3@3.png 3x" type="image/png">
-							<img class="carousel-image" src="img/slide3@1.png" alt="Find my Star - mobilní aplikace na vyhledávání hvězd" />
-						</picture>
+                        <picture>
+                            <source srcset="img/slide3@1.webp 1x,
+										img/slide3@2.webp 2x" type="image/webp">
+                            <source srcset="img/slide3@2.png 1x,
+										img/slide3@2.png 2x" type="image/png">
+                            <img class="carousel-image" src="img/slide3@1.png" alt="Find my Star - mobilní aplikace na vyhledávání hvězd" />
+                        </picture>
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carousel-fade" role="button" data-slide="prev">
