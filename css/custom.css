@@ -555,28 +555,28 @@ footer {
 
 .slide-box1 {
     background-repeat: no-repeat;
-    background-image: url(../img/slide1.webp);
+    background-image: url(../img/slide1.png);
     background-position: top center;
     background-size: cover
 }
 
 .slide-box2 {
     background-repeat: no-repeat;
-    background-image: url(../img/slide2.webp);
+    background-image: url(../img/slide2.png);
     background-position: center center;
     background-size: cover
 }
 
 .slide-box3 {
     background-repeat: no-repeat;
-    background-image: url(../img/slide3.webp);
+    background-image: url(../img/slide3.png);
     background-position: bottom center;
     background-size: cover
 }
 
 .slide-box4 {
     background-repeat: no-repeat;
-    background-image: url(../img/slide4.webp);
+    background-image: url(../img/slide4.png);
     background-position: bottom center;
     background-size: cover
 }
