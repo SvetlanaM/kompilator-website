@@ -179,9 +179,15 @@
                     <h1 class="purple fw-500 banner-title">Ukázky naší práce, kdy jsme klientům pomohli s</h1>
                 </div>
                 <div class="col-md-12 col-lg-4 mt-50">
-                    <img class="img-fluid img-ref" srcset="img/references/otkd@2.webp 1x,
-                                img/references/otkd@2.webp 2x,
-                                img/references/otkd@3.webp 3x" alt="Mobilní aplikace pro bežce závodu Od Tatier k Dunaju" />
+					<picture>
+						<source srcset="img/references/otkd@2.webp 1x,
+										img/references/otkd@2.webp 2x,
+										img/references/otkd@3.webp 3x" type="image/webp">
+						<source srcset="img/references/otkd@2.jpg 1x,
+										img/references/otkd@2.jpg 2x,
+										img/references/otkd@3.jpg 3x" type="image/jpeg">
+						<img class="img-fluid img-ref" srcset="img/references/otkd@2.jpg" alt="Mobilní aplikace pro bežce závodu Od Tatier k Dunaju" />
+					</picture>
                     <h3 class="ref-title">Mobilní aplikací pro běžce</h3><br />
                     <div>
                         <span class="fw-450">Co? Pro koho?</span>
@@ -190,9 +196,15 @@
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-4 mt-50">
-                    <img class="img-fluid img-ref" srcset="img/references/star@2.webp 1x, 
-                                img/references/star@2.webp 2x,
-                                img/references/star@3.webp 3x" alt="Webová stránka pre nově vznikající administrativní budovu Klingerka" />
+					<picture>
+						<source srcset="img/references/star@2.webp 1x,
+										img/references/star@2.webp 2x,
+										img/references/star@3.webp 3x" type="image/webp">
+						<source srcset="img/references/star@2.png 1x,
+										img/references/star@2.png 2x,
+										img/references/star@3.png 3x" type="image/png">
+						<img class="img-fluid img-ref" src="img/references/star@2.png" alt="Webová stránka pre nově vznikající administrativní budovu Klingerka" />
+					</picture>
                     <h3 class="ref-title">Webovou stránkou</h3><br />
                     <div>
                         <span class="fw-450">Co? Pro koho?</span>
@@ -200,9 +212,15 @@
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-4 mt-50">
-                    <img class="img-fluid img-ref" srcset="img/references/limo@2.webp 1x,
-                                img/references/limo@2.webp 2x,
-                                img/references/limo@3.webp 3x" alt="Webová aplikace umožňující online rezervaci limuzíny" />
+					<picture>
+						<source srcset="img/references/limo@2.webp 1x,
+										img/references/limo@2.webp 2x,
+										img/references/limo@3.webp 3x" type="image/webp">
+						<source srcset="img/references/limo@2.jpg 1x,
+										img/references/limo@2.jpg 2x,
+										img/references/limo@3.jpg 3x" type="image/jpeg">
+						<img class="img-fluid img-ref" srcset="img/references/limo@2.jpg" alt="Webová aplikace umožňující online rezervaci limuzíny" />
+					</picture>
                     <h3 class="ref-title">Webovou aplikací pro offline byznys</h3><br />
                     <div>
                         <span class="fw-450">Co? Pro koho?</span>
