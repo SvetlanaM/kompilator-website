@@ -28,34 +28,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="seznam-wmt" content="7EXe6O8iBq0WvVggTh3fhgBa0M5VlTs1" />
 
-    <title>Kompilátor - z řeči klientů, do řeči uživatelů</title>
-
-    <!-- CSS imports -->
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/custom.css">
-
-    <!-- fonts imports -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap" rel="stylesheet">
-
-    <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.webp">
-    <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.webp">
-    <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.webp">
-    <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.webp">
-    <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.webp">
-    <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.webp">
-    <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.webp">
-    <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.webp">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.webp">
-    <link rel="icon" type="image/webp" sizes="192x192" href="android-icon-192x192.webp">
-    <link rel="icon" type="image/webp" sizes="32x32" href="favicon-32x32.webp">
-    <link rel="icon" type="image/webp" sizes="96x96" href="favicon-96x96.webp">
-    <link rel="icon" type="image/webp" sizes="16x16" href="favicon-16x16.webp">
-    <link rel="manifest" href="manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="ms-icon-144x144.webp">
-    <meta name="theme-color" content="#ffffff">
+	<?php include "header.html" ?>
 
     <!-- Twitter Card data -->
     <meta name="twitter:card" content="summary">
@@ -82,44 +55,8 @@
 
 <body class="bg-white gray">
     <!-- navigation menu -->
-    <header id="main-header" class="nav-bg">
-        <nav class="navbar navbar-expand-lg navbar-light pl-md-5">
-            <a class="navbar-brand" href="../"><img src="img/svg/logo.svg" alt="Logo Kompilátor"/></a>
-            <button type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right">
-                    <span class="navbar-toggler-icon"></span>
-            </button>
 
-            <div id="navbarMain" class="collapse navbar-collapse">
-                <ul class="navbar-nav ml-auto purple">
-                    <!-- <li class="nav-item mr-3"><a href="" class="nav-link">Prečo?</a></li> -->
-                    <!-- <li class="nav-item mr-3"><a href="" class="nav-link">Naše hodnoty</a></li> -->
-                    <!-- <li class="nav-item dropdown mr-2">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Špeciál
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Automatizácia</a>
-                                <a class="dropdown-item" href="#">Riešenia pre eshopy</a>
-                        </li> -->
-                    <li class="nav-item mr-3"><a href="../" class="nav-link">Úvod</a></li>
-                    <li class="nav-item dropdown mr-2">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Řešení pro
-                            </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="../corporations.html">Korporace</a>
-                            <a class="dropdown-item" href="../small.html">Menší a střední podnikatele</a>
-                            <a class="dropdown-item" href="../offline.html">Začínající firmy / startupy</a>
-                        </div>
-                    </li>
-                    <li class="nav-item mr-3"><a href="../pricing.html" class="nav-link">Ceník</a></li>
-                    <li class="nav-item mr-3"><a href="https://kompilator.medium.com/" target="new" class="nav-link">Blogujeme</a></li>
-                    <!-- <li class="nav-item mr-3"><a href="" class="nav-link">FAQ</a></li> -->
-                    <!-- <li class="nav-item mr-3"><a href="" class="nav-link">Kontakty</a></li> -->
-                    <li class="nav-item mr-3"><a href="https://forms.gle/zDCrXjETzfTFcrxA8" target="new" class="nav-link">Objednat workshop</a>
-                    </li>
-                </ul>
-                </div>
-        </nav>
-    </header>
+	<?php include "menu.html" ?>
 
     <!-- banner -->
     <section id="banner" class="banner">
@@ -127,7 +64,7 @@
             <div class="row no-gutters">
                 <div class="col-lg pr-lg-5">
                     <h1 class="purple fw-500 banner-title">Ceník</h1>
-                    <p class="mt-40">Ceny v IT nejsou <span class="fw-450">fixní</span>, jako když si kupujete dům, či rohlík v obchodě. Finální cena vždy závisí na mnoha faktorech, které spolu dohodneme na startu spolupráce. Držíme se kréda "raději ubrat z funkcionality, než vyvíjet nekvalitně za málo peněz."
+                    <p class="mt-40">Ceny v IT nejsou <span class="fw-450">fixní</span>, jako když si kupujete dům, či rohlík v obchodě. Finální cena vždy závisí na mnoha faktorech, které spolu dohodneme na startu spolupráce. Držíme se kréda "raději ubrat z funkcionality, než vyvíjet nekvalitně za málo peněz."
                         <br /><br />Naše sazba se pohybuje v rozmezí <span class="fw-450 orange">850 - 1500 Kč/Hod.</span>
                     </p>
                 </div>
@@ -143,7 +80,7 @@
         <div class="container-fluid pr-md-5 pl-md-5">
             <div class="row">
                 <div class="col-lg">
-                    <h1 class="purple fw-500 banner-title">Vyberte si jeden z našich balíčků</h1>
+                    <h1 class="purple fw-500 banner-title">Vyberte si jeden z našich balíčků</h1>
                     <p class="mt-40">
                         Pro snadnější orientaci v našich službách a na základě poptávky od klientů, jsme vytvořili <span class="fw-450">3 typy balíčků</span>, které si můžete u nás objednat.<br /><br /> Zároveň platí, že čím komplexnější služby si objednáte,
                         tím se <span class="fw-450">cena na hodinu snižuje</span>. Rádi bychom s Vámi spolupracovali <span class="fw-450">dlouhodobě</span> a pokryli vývoj a rozvoj celého produktu.
@@ -245,10 +182,10 @@
                             <span class="fw-450">4. Validace ceny/času/zadání - </span> upravíme původní high level odhady, přičemž vývoj rozplánujeme do agilních sprintů.
                         </div>
                         <div class="col-lg-6 est-p">
-                            <span class="fw-450">5. Vývoj ve sprintech a update budgetu - </span> klient je přesně informován, co bude v daném sprintu dodáno za dohodnutou cenu.
+                            <span class="fw-450">5. Vývoj ve sprintech a update budgetu - </span> klient je přesně informován, co bude v daném sprintu dodáno za dohodnutou cenu.
                         </div>
                         <div class="col-lg-6 est-p">
-                            <span class="fw-450">6. Změny ve vývoji - </span> hlásíme veškeré změny klientovi a následně hledáme ideální řešení.
+                            <span class="fw-450">6. Změny ve vývoji - </span> hlásíme veškeré změny klientovi a následně hledáme ideální řešení.
                         </div>
                     </div>
                 </div>
@@ -267,7 +204,7 @@
                     <div class="col-sm-12 col-md-12 col-lg-3 step">
                         <img src="img/svg/calendar.svg" alt="Mesíční předplatné za služby" />
                         <p class="purple fw-500 mt-3">Měsíční předplatné</p>
-                        <p>Dohodneme měsíční budget/hodiny, během kterých se bude pracovat ve sprintech, až do jeho vyčerpání. Závěrem by měla být vždy hotová fungující část.</p>
+                        <p>Dohodneme měsíční budget/hodiny, během kterých se bude pracovat ve sprintech, až do jeho vyčerpání. Závěrem by měla být vždy hotová fungující část.</p>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-3 step">
                         <img src="img/svg/agile_loop.svg" alt="Agilní předplatné za služby"/>
@@ -377,87 +314,8 @@
         </div>
     </section>
 
-    <!-- footer -->
-    <footer class="">
-        <div class="container-fluid pr-md-5 pl-md-5">
-            <div class="row">
-                <div class="col-md-6 col-lg-4">
-                    <ul class="list-unstyled">
-                        <li class="mb-2">
-                            <b>Případové studie</b>
-                        </li>
-                        <li class="mb-2">
-                            <a href="https://kompilator.cz/files/case_study.pdf" target="new">Případová studie firmy</a>
-                        </li>
-                        <li class="mb-2">
-                            <a href="./otkd.html">Mobilní aplikace OTKD</a>
-                        </li>
-                        <!-- <li class="mb-2">
-                                                            Čajovňa Setkání
-                                                        </li> -->
-                        <!-- <li class="mb-2">
-                                                            Mall.cz
-                                                        </li> -->
-                    </ul>
-                </div>
-                <div class="col-md-6 col-lg-4 footer-item">
-                    <ul class="list-unstyled">
-                        <li class="mb-2">
-                            <b>Kompilátor s. r. o.</b>
-                        </li>
-                        <li class="mb-2">
-                            <a href="https://goo.gl/maps/bBRC8ZFGcz22k7MX8" target="new">Rybná 24, 110 00 Praha 1, Česká republika</a>
-                        </li>
-                        <li class="mb-2">
-                            IČO: 05952247
-                        </li>
-                        <li class="mb-2">
-                            DIČ: CZ05952247
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-6 col-lg-4 footer-item">
-                    <ul class="list-unstyled">
-                        <li class="mb-2">
-                            Bankovní spojení: 2201197128/2010
-                        </li>
-                        <li class="mb-2">
-                            Email: <a href="mailto:svetlana@kompilator.cz">svetlana@kompilator.cz</a>
-                        </li>
-                        <li class="mb-2">
-                            Mobil/Whatsapp: <a href="tel:+420725423538">+420 725 423 538</a>
-                        </li>
-                        <li class="mb-2">
-                            Messenger: <a href="m.me/kompilatornapadu" target="new">Kompilátor</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-12 col-lg-12 hastag-p">
-                    <div class="list-unstyled mt-3 d-md-flex justify-content-center align-items-stretch">
-                        <div class="mb-2 hashtag">
-                            #designthinking #problemsolving #future #together
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <img src="img/svg/magic-ball.svg" class="ball img-fluid d-none d-lg-block" />
-    </footer>
+	<?php include "footer.html" ?>
 
-    <div class="footer-bottom">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col d-flex justify-content-center footer-h">
-                    <span class="align-self-center copy text-center">Copyright &copy; 2017-<script>document.write(new Date().getFullYear())</script> Všechna práva vyhrazena Kompilátor s. r. o.</span>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js">
-    </script>
-    <script src="vendor/bootstrap/js/bootstrap.js"></script>
 </body>
 
 </html>

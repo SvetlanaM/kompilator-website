@@ -29,34 +29,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="seznam-wmt" content="7EXe6O8iBq0WvVggTh3fhgBa0M5VlTs1" />
 
-    <title>Kompilátor - z řeči klientů, do řeči uživatelů</title>
-
-    <!-- CSS imports -->
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/custom.css">
-
-    <!-- fonts imports -->
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap" rel="stylesheet">
-
-    <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.webp">
-    <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.webp">
-    <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.webp">
-    <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.webp">
-    <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.webp">
-    <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.webp">
-    <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.webp">
-    <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.webp">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.webp">
-    <link rel="icon" type="image/webp" sizes="192x192" href="android-icon-192x192.webp">
-    <link rel="icon" type="image/webp" sizes="32x32" href="favicon-32x32.webp">
-    <link rel="icon" type="image/webp" sizes="96x96" href="favicon-96x96.webp">
-    <link rel="icon" type="image/webp" sizes="16x16" href="favicon-16x16.webp">
-    <link rel="manifest" href="manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="ms-icon-144x144.webp">
-    <meta name="theme-color" content="#ffffff">
+    <?php include "header.html" ?>
 
     <!-- Twitter Card data -->
     <meta name="twitter:card" content="summary">
@@ -83,44 +56,8 @@
 
 <body class="bg-white gray">
     <!-- navigation menu -->
-    <header id="main-header" class="nav-bg">
-        <nav class="navbar navbar-expand-lg navbar-light pl-md-5">
-            <a class="navbar-brand" href="../"><img src="img/svg/logo.svg" alt="Logo Kompilátor"/></a>
-            <button type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right">
-                    <span class="navbar-toggler-icon"></span>
-            </button>
 
-            <div id="navbarMain" class="collapse navbar-collapse">
-                <ul class="navbar-nav ml-auto purple">
-                    <!-- <li class="nav-item mr-3"><a href="" class="nav-link">Prečo?</a></li> -->
-                    <!-- <li class="nav-item mr-3"><a href="" class="nav-link">Naše hodnoty</a></li> -->
-                    <!-- <li class="nav-item dropdown mr-2">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Špeciál
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Automatizácia</a>
-                                <a class="dropdown-item" href="#">Riešenia pre eshopy</a>
-                        </li> -->
-                    <li class="nav-item mr-3"><a href="../" class="nav-link">Úvod</a></li>
-                    <li class="nav-item dropdown mr-2">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Řešení pro
-                            </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="./corporations.html">Korporace</a>
-                            <a class="dropdown-item" href="./small.html">Menší a střední podnikatele</a>
-                            <a class="dropdown-item" href="./offline.html">Začínající firmy / startupy</a>
-                        </div>
-                    </li>
-                    <li class="nav-item mr-3"><a href="./pricing.html" class="nav-link">Ceník</a></li>
-                    <li class="nav-item mr-3"><a href="https://kompilator.medium.com/" target="new" class="nav-link">Blogujeme</a></li>
-                    <!-- <li class="nav-item mr-3"><a href="" class="nav-link">FAQ</a></li> -->
-                    <!-- <li class="nav-item mr-3"><a href="" class="nav-link">Kontakty</a></li> -->
-                    <li class="nav-item mr-3"><a href="https://forms.gle/zDCrXjETzfTFcrxA8" target="new" class="nav-link">Objednat workshop</a>
-                    </li>
-                </ul>
-                </div>
-        </nav>
-    </header>
+	<?php include "menu.html" ?>
 
     <div id="myModal" class="modal fade">
         <div class="modal-dialog">
@@ -130,7 +67,7 @@
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
-				    <p>Nanooq IT se mění na Kompilátor. Podívejte se, co nového vám kromě názvu nabízíme.</p>
+				    <p>Nanooq IT se mění na Kompilátor. Podívejte se, co nového Vám kromě názvu nabízíme.</p>
                 </div>
             </div>
         </div>
@@ -141,7 +78,7 @@
         <div class="container-fluid pl-md-5 pr-md-5">
             <div class="row no-gutters">
                 <div class="col-lg pr-lg-5">
-                    <h1 class="purple fw-500 banner-title">Překládáme vaše podnikatelské potřeby do úspěšných produktů</h1>
+                    <h1 class="purple fw-500 banner-title">Překládáme Vaše podnikatelské potřeby do úspěšných produktů</h1>
                     <p class="mt-40"><span class="fw-450">Kompilátor</span> - vytváříme digitální produkty, které jsou zde pro uživatele a zároveň vykouzlí úsměv na tváři i marketingovému a obchodnímu oddělení. Máme rádi výzvy, hledáme problémy, které lze vyřešit pomocí
                         <span class="fw-450">technologií, zdravého rozumu</span> a <span class="fw-450">designu</span>.
                         <div class="ca-buttons">
@@ -188,7 +125,7 @@
         <div class="container-fluid pr-md-5 pl-md-5">
             <div class="row">
                 <div class="col-lg-12 mr-auto pr-md-5">
-                    <h1 class="purple fw-500 banner-title">Vyberte si z našich služeb</h1>
+                    <h1 class="purple fw-500 banner-title">Vyberte si z našich služeb</h1>
                     <div class="row mt-50 main-card">
                         <div class="help-block col-lg-6">
                             <img src="img/svg/services/revision.svg" alt="Revize podnikání / produktů" class="d-none d-lg-flex float-left img-problem" />
@@ -204,7 +141,7 @@
                         </div>
                         <div class="help-block col-lg-6">
                             <img src="img/svg/services/innovation.svg" alt="Inovace a automatizace" class="d-none d-lg-flex float-left img-problem" />
-                            <div><span class="fw-450">+ Inovace a automatizace</span> - pomáháme vám na problém nahlížet z jiného úhlu pohledu a tím přinášet inovace do firmy/služeb a konkurovat nimi na trhu. Automatizujeme ruční činnosti.</div>
+                            <div><span class="fw-450">+ Inovace a automatizace</span> - pomáháme vám na problém nahlížet z jiného úhlu pohledu a tím přinášet inovace do firmy/služeb a konkurovat nimi na trhu. Automatizujeme ruční činnosti.</div>
                         </div>
                     </div>
                 </div>
@@ -217,16 +154,16 @@
         <div class="container-fluid pr-md-5 pl-md-5">
             <div class="row">
                 <div class="col-lg-12 start-title">
-                    <h1 class="purple fw-500 banner-title">a začněte ve 3 jednoduchých krocích</h1>
+                    <h1 class="purple fw-500 banner-title">a začněte ve 3 jednoduchých krocích</h1>
                 </div>
                 <div class="mt-40 d-sm-flex-inline d-lg-flex align-items-stretch text-center justify-content-between">
                     <div class="col-sm-12 col-md-12 col-lg-3 step">
                         <img src="img/svg/bulb.svg" alt="Pošlete nápad, který chcete zdigitalizovat"/>
                         <p class="purple fw-500 mt-3">1. Pošlete nápad</p>
-                        <p>Na začátek nám stačí poslat nápad / problém, který řešíte a my v týmu zpracujeme návrhy, zjistíme stav, rizika a úspěšnost nápadu na trhu.</p>
+                        <p>Na začátek nám stačí poslat nápad/problém, který řešíte a my v týmu zpracujeme návrhy, zjistíme stav, rizika a úspěšnost nápadu na trhu.</p>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-3 step">
-                        <img src="img/svg/conversation.svg" alt="Zanalyzujeme, prokonzultujeme vaše nápady"/>
+                        <img src="img/svg/conversation.svg" alt="Zanalyzujeme, prokonzultujeme Vaše nápady"/>
                         <p class="purple fw-500 mt-3">2. Návrh a analýza</p>
                         <p>Následně si zanalyzujeme designové, technologické, konkurenční možnosti a vyhotovíme možná řešení a jejich formu realizace.</p>
                     </div>
@@ -294,7 +231,7 @@
                                     </span>
                             </h2>
                             <p class="carousel-desc mt-4">
-                                Mobilní aplikace Od Tatier k Dunaju je využívána každoročně během běžeckých závodů více než 2500 běžci současně. Zpříjemňuje zážitek z běhu a umocňuje týmové zapojení zejména díky real-time GPS Trackingu a komunikaci s organizátorem.
+                                Mobilní aplikace Od Tatier k Dunaju je využívána každoročně během běžeckých závodů více než 2500 běžci současně. Zpříjemňuje zážitek z běhu a umocňuje týmové zapojení zejména díky real-time GPS Trackingu a komunikaci s organizátorem.
                             </p>
                             <ul class="list-inline list-unstyled carousel-tags mt-4">
                                 <li class="carousel-tag-item list-inline-item">Analýza</li>
@@ -403,7 +340,7 @@
                 <div class="col-lg-8 order-1 order-lg-2 pb-5 pl-md-5">
                     <h1 class="purple fw-500 banner-title">Tvořte, vzdělávejte se s námi</h1>
                     <p class="mt-40">
-                        Aby mohli na trhu vznikat užitečné, kvalitní a technologické produkty, je třeba, aby technologiím rozuměli všichni. IT již není výhradou podivínů ve sklepě, IT je již dostupné každému a my Vám ho zpřístupníme ve srozumitelné podobě.
+                        Aby mohli na trhu vznikat užitečné, kvalitní a technologické produkty, je třeba, aby technologiím rozuměli všichni. IT již není výhradou podivínů ve sklepě, IT je již dostupné každému a my Vám ho zpřístupníme ve srozumitelné podobě.
                         <span class="fw-450">Rádi vás IT trendy během vývoje s námi naučíme.</span> <br /><br /> Naučíme vás myslet technologicky, analyticky, využívat agilní a designově-produktové přístupy. Naše <span class="fw-450">know-how</span> je součástí Vás a Vašeho nového produktu.
                     </p>
                     <div class="logos mt-40 d-none d-md-flex flex-wrap justify-content-between">
@@ -417,87 +354,8 @@
         </div>
     </section>
 
-    <!-- footer -->
-    <footer class="">
-        <div class="container-fluid pr-md-5 pl-md-5">
-            <div class="row">
-                <div class="col-md-6 col-lg-4">
-                    <ul class="list-unstyled">
-                        <li class="mb-2">
-                            <b>Případové studie</b>
-                        </li>
-                        <li class="mb-2">
-                            <a href="https://kompilator.cz/files/case_study.pdf" target="new">Případová studie firmy</a>
-                        </li>
-                        <li class="mb-2">
-                            <a href="./otkd.html">Mobilní aplikace OTKD</a>
-                        </li>
-                        <!-- <li class="mb-2">
-                                Čajovňa Setkání
-                            </li> -->
-                        <!-- <li class="mb-2">
-                                Mall.cz
-                            </li> -->
-                    </ul>
-                </div>
-                <div class="col-md-6 col-lg-4 footer-item">
-                    <ul class="list-unstyled">
-                        <li class="mb-2">
-                            <b>Kompilátor s. r. o.</b>
-                        </li>
-                        <li class="mb-2">
-                            <a href="https://goo.gl/maps/bBRC8ZFGcz22k7MX8" target="new">Rybná 24, 110 00 Praha 1, Česká republika</a>
-                        </li>
-                        <li class="mb-2">
-                            IČO: 05952247
-                        </li>
-                        <li class="mb-2">
-                            DIČ: CZ05952247
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-6 col-lg-4 footer-item">
-                    <ul class="list-unstyled">
-                        <li class="mb-2">
-                            Bankovní spojení: 2201197128/2010
-                        </li>
-                        <li class="mb-2">
-                            Email: <a href="mailto:svetlana@kompilator.cz">svetlana@kompilator.cz</a>
-                        </li>
-                        <li class="mb-2">
-                            Mobil/Whatsapp: <a href="tel:+420725423538">+420 725 423 538</a>
-                        </li>
-                        <li class="mb-2">
-                            Messenger: <a href="m.me/kompilatornapadu" target="new">Kompilátor</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-12 col-lg-12 hastag-p">
-                    <div class="list-unstyled mt-3 d-md-flex justify-content-center align-items-stretch">
-                        <div class="mb-2 hashtag">
-                            #designthinking #problemsolving #future #together
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <img src="img/svg/magic-ball.svg" class="ball img-fluid d-none d-lg-block" />
-    </footer>
+    <?php include "footer.html" ?>
 
-    <div class="footer-bottom">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col d-flex justify-content-center footer-h">
-                    <span class="align-self-center copy text-center">Copyright &copy; 2017-<script>document.write(new Date().getFullYear())</script> Všechna práva vyhrazena Kompilátor s. r. o.</span>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js">
-    </script>
-    <script src="vendor/bootstrap/js/bootstrap.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.0/jquery.cookie.min.js"></script>
     <script>
             $(document).ready(function() {

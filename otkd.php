@@ -18,7 +18,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <meta name="description" content="OD TATIER K DUNAJU je 345 km dlouhý štafetový běh družstev. 6 nebo 9 až 12-členné týmy vystartují z Jasné v Nízkých Tatrách v sobotu dopoledne, běží non-stop dnem i nocí a v neděli odpoledne doběhnou do cíle závodu na nábřeží
+    <meta name="description" content="OD TATIER K DUNAJU je 345 km dlouhý štafetový běh družstev. 6 nebo 9 až 12-členné týmy vystartují z Jasné v Nízkých Tatrách v sobotu dopoledne, běží non-stop dnem i nocí a v neděli odpoledne doběhnou do cíle závodu na nábřeží
                          Dunaje v Bratislavě.">
     <meta name="keywords" content="mobilní aplikace, závody, běh, od tatier k dunaju, firebase, vývoj, fanoušci, gps tracking, real-time">
     <meta name="author" content="Kompilátor s. r. o.">
@@ -26,39 +26,13 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="seznam-wmt" content="7EXe6O8iBq0WvVggTh3fhgBa0M5VlTs1" />
 
-    <title>Kompilátor - z řeči klientů, do řeči uživatelů</title>
-
-    <!-- CSS imports -->
-    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/custom.css">
-
-    <!-- fonts imports -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap" rel="stylesheet">
-
-    <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.webp">
-    <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.webp">
-    <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.webp">
-    <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.webp">
-    <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.webp">
-    <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.webp">
-    <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.webp">
-    <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.webp">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.webp">
-    <link rel="icon" type="image/webp" sizes="192x192" href="android-icon-192x192.webp">
-    <link rel="icon" type="image/webp" sizes="32x32" href="favicon-32x32.webp">
-    <link rel="icon" type="image/webp" sizes="96x96" href="favicon-96x96.webp">
-    <link rel="icon" type="image/webp" sizes="16x16" href="favicon-16x16.webp">
-    <link rel="manifest" href="manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="ms-icon-144x144.webp">
-    <meta name="theme-color" content="#ffffff">
+	<?php include "header.html" ?>
 
     <!-- Twitter Card data -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@publisher_handle">
     <meta name="twitter:title" content="Kompilátor - digitálně-inovační agentura">
-    <meta name="twitter:description" content="OD TATIER K DUNAJU je 345 km dlouhý štafetový běh družstev. 6 nebo 9 až 12-členné týmy vystartují z Jasné v Nízkých Tatrách v sobotu dopoledne, běží non-stop dnem i nocí a v neděli odpoledne doběhnou do cíle závodu na nábřeží
+    <meta name="twitter:description" content="OD TATIER K DUNAJU je 345 km dlouhý štafetový běh družstev. 6 nebo 9 až 12-členné týmy vystartují z Jasné v Nízkých Tatrách v sobotu dopoledne, běží non-stop dnem i nocí a v neděli odpoledne doběhnou do cíle závodu na nábřeží
                          Dunaje v Bratislavě.">
     <meta name="twitter:creator" content="@author_handle">
     <meta name="twitter:image" content="http://www.kompilator.cz/img/svg/banner_img.svg">
@@ -68,51 +42,15 @@
     <meta property="og:type" content="article" />
     <meta property="og:url" content="http://www.kompilator.cz" />
     <meta property="og:image" content="http://www.kompilator.cz/img/svg/banner_img.svg" />
-    <meta property="og:description" content="OD TATIER K DUNAJU je 345 km dlouhý štafetový běh družstev. 6 nebo 9 až 12-členné týmy vystartují z Jasné v Nízkých Tatrách v sobotu dopoledne, běží non-stop dnem i nocí a v neděli odpoledne doběhnou do cíle závodu na nábřeží
+    <meta property="og:description" content="OD TATIER K DUNAJU je 345 km dlouhý štafetový běh družstev. 6 nebo 9 až 12-členné týmy vystartují z Jasné v Nízkých Tatrách v sobotu dopoledne, běží non-stop dnem i nocí a v neděli odpoledne doběhnou do cíle závodu na nábřeží
                          Dunaje v Bratislavě." />
     <meta property="og:site_name" content="Kompilátor - digitálno-inovačná agentúra" />
 </head>
 
 <body class="bg-white gray">
     <!-- navigation menu -->
-    <header id="main-header" class="nav-bg">
-        <nav class="navbar navbar-expand-lg navbar-light pl-md-5">
-            <a class="navbar-brand" href="../"><img src="img/svg/logo.svg" alt="Logo Kompilátor"/></a>
-            <button type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right">
-                    <span class="navbar-toggler-icon"></span>
-            </button>
 
-            <div id="navbarMain" class="collapse navbar-collapse">
-                <ul class="navbar-nav ml-auto purple">
-                    <!-- <li class="nav-item mr-3"><a href="" class="nav-link">Prečo?</a></li> -->
-                    <!-- <li class="nav-item mr-3"><a href="" class="nav-link">Naše hodnoty</a></li> -->
-                    <!-- <li class="nav-item dropdown mr-2">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Špeciál
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Automatizácia</a>
-                                <a class="dropdown-item" href="#">Riešenia pre eshopy</a>
-                        </li> -->
-                    <li class="nav-item mr-3"><a href="../" class="nav-link">Úvod</a></li>
-                    <li class="nav-item dropdown mr-2">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Řešení pro
-                            </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="./corporations.html">Korporace</a>
-                            <a class="dropdown-item" href="./small.html">Menší a střední podnikatele</a>
-                            <a class="dropdown-item" href="./offline.html">Začínající firmy / startupy</a>
-                        </div>
-                    </li>
-                    <li class="nav-item mr-3"><a href="./pricing.html" class="nav-link">Ceník</a></li>
-                    <li class="nav-item mr-3"><a href="https://kompilator.medium.com/" target="new" class="nav-link">Blogujeme</a></li>
-                    <!-- <li class="nav-item mr-3"><a href="" class="nav-link">FAQ</a></li> -->
-                    <!-- <li class="nav-item mr-3"><a href="" class="nav-link">Kontakty</a></li> -->
-                    <li class="nav-item mr-3"><a href="https://forms.gle/zDCrXjETzfTFcrxA8" target="new" class="nav-link">Objednat workshop</a>
-                    </li>
-                </ul>
-                </div>
-        </nav>
-    </header>
+	<?php include "menu.html" ?>
 
     <!-- section banner -->
     <section id="banner" class="banner">
@@ -124,7 +62,7 @@
             </div>
             <div class="row no-gutters">
                 <div class="col-lg-7 mt-40 d-flex">
-                    <p>OD TATIER K DUNAJU je 345 km dlouhý štafetový běh družstev. 6 nebo 9 až 12-členné týmy vystartují z Jasné v Nízkých Tatrách v sobotu dopoledne, běží non-stop dnem i nocí a v neděli odpoledne doběhnou do cíle závodu na nábřeží Dunaje v Bratislavě.
+                    <p>OD TATIER K DUNAJU je 345 km dlouhý štafetový běh družstev. 6 nebo 9 až 12-členné týmy vystartují z Jasné v Nízkých Tatrách v sobotu dopoledne, běží non-stop dnem i nocí a v neděli odpoledne doběhnou do cíle závodu na nábřeží Dunaje v Bratislavě.
                     </p>
                 </div>
                 <div class="col-lg-4 d-flex banner-study-logo">
@@ -145,7 +83,7 @@
                 <div class="flex-box">
                     <div class="col-lg-6">
                         <p>
-                            Na startu byl nápad nebo potřeba, kterou jsme diskutovali s klientem Milošem. Jelikož sami běháme, prvotní impuls přišel z naší strany.<br /><br />
+                            Na startu byl nápad nebo potřeba, kterou jsme diskutovali s klientem Milošem. Jelikož sami běháme, prvotní impuls přišel z naší strany.<br /><br />
                             Následně jsme možnosti konzultovali s Milošem a obohatili návrh o jeho problémy, loňské zkušenosti s závodem a postřehy běžců, které sesbíral za poslední 4 roky.
                         </p>
                         <div class="problem-icons d-flex mt-40">
@@ -207,7 +145,7 @@
             </div>
             <div class="third-box d-flex row">
                 <div class="col-lg-6">
-                    Dalším a důležitým krokem je analýza vybraných nápadů z pohledu byznysu, marketingu, technické realizace a časové náročnosti.<br /><br />
+                    Dalším a důležitým krokem je analýza vybraných nápadů z pohledu byznysu, marketingu, technické realizace a časové náročnosti.<br /><br />
                     Funkce jsou vydefinované na základě potřeby každého člena námi určené cílové skupiny, zahrnující jeho požadavky. Zároveň je třeba myslet na big-picture a všechny funkce společně poskládat do logického celku.
                 </div>
                 <div class="analyse-icons col-lg-5 d-flex ml-auto">
@@ -224,7 +162,7 @@
                         <div>Organizátoři závodů</div>
                     </div>
                     <div class="analyse-icons-item d-flex">
-                        <img src="img/svg/fans.svg" alt="Fanoušci sledují své známé z domova z různých koutů světa"/>
+                        <img src="img/svg/fans.svg" alt="Fanoušci sledují své známé z domova z různých koutů světa"/>
                         <div>Fanoušci doma</div>
                     </div>
                 </div>
@@ -253,7 +191,7 @@
                 <div class="col-lg-5 idea-box brand-box d-flex ml-auto">
                     <div class="row">
                         <div class="col-md-12 case-study-title fw-450">5. Vizuální identita a brand</div>
-                        <div class="col-md-8 col-lg-8 d-flex">Vycházeli jsme z existujícího brandu a designu závodů OTKD, který je dán a definován na trhu již více než 4 roky a ten jsme následně rozšířili.
+                        <div class="col-md-8 col-lg-8 d-flex">Vycházeli jsme z existujícího brandu a designu závodů OTKD, který je dán a definován na trhu již více než 4 roky a ten jsme následně rozšířili.
                         </div>
                         <div class="col-md-4 col-lg-4 analyse-otkd-logo">
                             <img src="img/logo_otkd_black.webp" class="img-fluid" alt="Logo závodů Od Tatier k Dunaju"/>
@@ -274,8 +212,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <p class="case-study-title fw-450">6. Datová analýza a vyhodnocení jako vstupní podklad</p>
-                    <p>Abychom aplikaci nestavěli pouze na našich domněnkách, podívali jsme se do dostupných dat. Data, která dostupná nebyla, jsme získali formou <span class="fw-450">dotazníku s cílovými uživateli</span>, případně z historických údajů
-                        <span class="fw-450">Google Analytics nad existujícím webem</span> závodů. Z dat jsme vyhodnotili nejdůležitější závěry, od kterých jsme se odpíchli při formulování již konkrétního produktu.</p>
+                    <p>Abychom aplikaci nestavěli pouze na našich domněnkách, podívali jsme se do dostupných dat. Data, která dostupná nebyla, jsme získali formou <span class="fw-450">dotazníku s cílovými uživateli</span>, případně z historických údajů
+                        <span class="fw-450">Google Analytics nad existujícím webem</span> závodů. Z dat jsme vyhodnotili nejdůležitější závěry, od kterých jsme se odpíchli při formulování již konkrétního produktu.</p>
                 </div>
             </div>
             <div class="row">
@@ -283,7 +221,7 @@
                     <div class="col-lg-6 mt-40 graph-section d-flex flex-column text-center">
                         <div class="graph-title fw-450 text-left">Návštěvnost webu podle zemí a lokalit</div>
                         <img src="img/svg/graph_bar.svg" class="img-fluid graph-img" alt="Návštěvnost webu Od Tatier k Dunaju podle zemí z webu nebo mobilního zařízení"/>
-                        <p class="graph-result">+ Umožnit sledovat průběh všem z mobilních zařízení</p>
+                        <p class="graph-result">+ Umožnit sledovat průběh všem z mobilních zařízení</p>
                     </div>
                     <div class="col-lg-6 mt-40 graph-section d-flex flex-column text-center">
                         <div class="graph-title fw-450 text-left">Průzkum mezi uživateli na sociálních sítích</div>
@@ -336,8 +274,8 @@
                         <div>2. ORGANIZÁTOŘI VIDÍ POHYB TÝMŮ NA TRATI</div>
                     </div>
                     <div class="needs-item">
-                        <img src="img/svg/fans_white.svg" alt="Fanoučci sledují bežce z domova prostřednictvím mobilní aplikace OTKD"/>
-                        <div>3. FANOUŠCI SLEDUJÍ SVŮJ TÝM Z DOMOVA</div>
+                        <img src="img/svg/fans_white.svg" alt="Fanoučci sledují bežce z domova prostřednictvím mobilní aplikace OTKD"/>
+                        <div>3. FANOUŠCI SLEDUJÍ SVŮJ TÝM Z DOMOVA</div>
                     </div>
                     <div class="needs-item">
                         <img src="img/svg/runner_white.svg" alt="Bežci si môžu skontrolovať svoju pozíciu na trati"/>
@@ -462,87 +400,8 @@
         </div>
     </section>
 
-    <!-- footer -->
-    <footer class="">
-        <div class="container-fluid pr-md-5 pl-md-5">
-            <div class="row">
-                <div class="col-md-6 col-lg-4">
-                    <ul class="list-unstyled">
-                        <li class="mb-2">
-                            <b>Případové studie</b>
-                        </li>
-                        <li class="mb-2">
-                            <a href="https://kompilator.cz/files/case_study.pdf" target="new">Případová studie firmy</a>
-                        </li>
-                        <li class="mb-2">
-                            <a href="./otkd.html">Mobilní aplikace OTKD</a>
-                        </li>
-                        <!-- <li class="mb-2">
-                                Čajovňa Setkání
-                            </li> -->
-                        <!-- <li class="mb-2">
-                                Mall.cz
-                            </li> -->
-                    </ul>
-                </div>
-                <div class="col-md-6 col-lg-4 footer-item">
-                    <ul class="list-unstyled">
-                        <li class="mb-2">
-                            <b>Kompilátor s. r. o.</b>
-                        </li>
-                        <li class="mb-2">
-                            <a href="https://goo.gl/maps/bBRC8ZFGcz22k7MX8" target="new">Rybná 24, 110 00 Praha 1, Česká republika</a>
-                        </li>
-                        <li class="mb-2">
-                            IČO: 05952247
-                        </li>
-                        <li class="mb-2">
-                            DIČ: CZ05952247
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-6 col-lg-4 footer-item">
-                    <ul class="list-unstyled">
-                        <li class="mb-2">
-                            Bankovní spojení: 2201197128/2010
-                        </li>
-                        <li class="mb-2">
-                            Email: <a href="mailto:svetlana@kompilator.cz">svetlana@kompilator.cz</a>
-                        </li>
-                        <li class="mb-2">
-                            Mobil/Whatsapp: <a href="tel:+420725423538">+420 725 423 538</a>
-                        </li>
-                        <li class="mb-2">
-                            Messenger: <a href="m.me/kompilatornapadu" target="new">Kompilátor</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-12 col-lg-12 hastag-p">
-                    <div class="list-unstyled mt-3 d-md-flex justify-content-center align-items-stretch">
-                        <div class="mb-2 hashtag">
-                            #designthinking #problemsolving #future #together
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <img src="img/svg/magic-ball.svg" class="ball img-fluid d-none d-lg-block" />
-    </footer>
+	<?php include "footer.html" ?>
 
-    <div class="footer-bottom">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col d-flex justify-content-center footer-h">
-                    <span class="align-self-center copy text-center">Copyright &copy; 2017-<script>document.write(new Date().getFullYear())</script> Všechna práva vyhrazena Kompilátor s. r. o.</span>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js">
-    </script>
-    <script src="vendor/bootstrap/js/bootstrap.js"></script>
 </body>
 
 </html>
