@@ -1,248 +1,230 @@
-/* basic common styles */
-
 body {
     font-family: 'Titillium Web', sans-serif;
     font-weight: 300;
     font-size: 18px;
-    letter-spacing: 1.1px;
+    letter-spacing: 1.1px
 }
 
 .mt-30 {
-    margin-top: 30px;
+    margin-top: 30px
 }
 
 .mt-40 {
-    margin-top: 40px;
+    margin-top: 40px
 }
 
 .mt-50 {
-    margin-top: 50px;
+    margin-top: 50px
 }
 
 .mt-80 {
-    margin-top: 80px;
+    margin-top: 80px
 }
 
 .mt-120 {
-    margin-top: 120px;
+    margin-top: 120px
 }
 
 .pb-100 {
-    padding-bottom: 100px;
+    padding-bottom: 100px
 }
 
-
-/* colors */
-
 .purple {
-    color: #4e4e82;
+    color: #4e4e82
 }
 
 .white {
-    color: #ffffff;
+    color: #fff
 }
 
 .gray {
-    color: #818284;
+    color: #818284
 }
 
 .orange {
-    color: #FF8C4A;
+    color: #ff8c4a
 }
 
 .bg-light {
-    background-color: #ffffff;
+    background-color: #fff
 }
 
-
-/* font weight */
-
 .fw-450 {
-    font-weight: 600;
+    font-weight: 600
 }
 
 .fw-500 {
-    font-weight: 600;
+    font-weight: 600
 }
 
 .banner-title {
     font-size: 28px;
-    line-height: 40px;
+    line-height: 40px
 }
 
 .btn {
-    background-color: transparent;
+    background-color: transparent
 }
 
-@media (min-width: 576px) {
+@media (min-width:576px) {
     .banner-title {
         font-size: 40px;
-        line-height: 60px;
+        line-height: 60px
     }
 }
 
 .banner {
-    margin-top: 30px;
+    margin-top: 30px
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     .banner {
-        margin-top: 60px;
+        margin-top: 60px
     }
 }
 
 a {
-    color: #FF8C4A;
-    cursor: pointer;
+    color: #ff8c4a;
+    cursor: pointer
 }
 
 a:hover {
-    color: #FF8C4A;
-    text-decoration: none;
+    color: #ff8c4a;
+    text-decoration: none
 }
 
 .orange-link:hover {
-    color: #4e4e82;
+    color: #4e4e82
 }
 
+a.dropdown-item,
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,
-a.dropdown-item {
-    color: #4E4C82;
+h6 {
+    color: #4e4c82
 }
 
-.navbar-nav,
 .navbar,
+.navbar-nav,
 .show {
-    background: #fff;
+    background: #fff
 }
 
 .dropdown-menu {
-    border: none;
+    border: none
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     .navbar-brand img {
-        width: 160px;
+        width: 160px
     }
 }
 
-@media (min-width: 1280px) {
+@media (min-width:1280px) {
     .navbar-brand img {
-        width: auto;
+        width: auto
     }
 }
 
-input,
-button,
-submit {
-    border: none;
+button {
+    border: none
 }
 
 .dropdown-item {
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 5px
 }
 
 .active,
 .dropdown-item:active {
-    background-color: #fff;
+    background-color: #fff
 }
 
 .dropdown-item:focus,
 .dropdown-item:hover {
-    color: #FF8C4A;
+    color: #ff8c4a
 }
 
-@media (min-width: 992px) {
+@media (min-width:992px) {
     .navbar,
     .show {
-        background: transparent;
+        background: 0 0
     }
     .navbar-nav,
     .show {
-        background: rgba(255, 255, 255, 0.9);
+        background: rgba(255, 255, 255, .9)
     }
 }
 
-.bg-primary {
-    background-color: #fff;
-}
-
-.bg-dark {
-    background-color: #072735;
-}
-
 .nav-link {
-    color: #4E4C82;
+    color: #4e4c82
 }
 
 .nav-link:hover {
-    color: #FF8C4A !important;
+    color: #ff8c4a!important
 }
 
-@media (min-width: 992px) {
+@media (min-width:992px) {
     .nav-bg {
         height: 100px;
         background-repeat: no-repeat;
-        background-position: 100%;
+        background-position: 100%
     }
 }
 
 .nav-link {
     font-size: 20px;
     font-weight: 400;
-    color: #4E4C82 !important;
+    color: #4e4c82!important
 }
 
 #main-header {
-    margin-top: 5px;
+    margin-top: 5px
 }
 
 #navbarMain {
-    margin-top: -5px;
+    margin-top: -5px
 }
 
 .dropdown-toggle::after {
-    vertical-align: 0.15em;
+    vertical-align: .15em
 }
 
 .nav-link::before {
     position: relative;
     content: "+";
-    color: #4E4C82;
+    color: #4e4c82;
     margin-right: 7px;
-    margin-bottom: 0px;
-    bottom: 2px;
+    margin-bottom: 0;
+    bottom: 2px
 }
 
 .nav-link:hover::before {
     content: "+";
-    color: #ff8c4a !important;
+    color: #ff8c4a!important
 }
 
 .card {
-    box-shadow: 0px 0px 45px rgba(202, 209, 221, 0.47);
-    border-radius: 20px;
+    box-shadow: 0 0 45px rgba(202, 209, 221, .47);
+    border-radius: 20px
 }
 
 .card-title {
     font-size: 22px;
-    font-weight: 550;
+    font-weight: 550
 }
 
 .card-text {
     font-size: 20px;
     line-height: 24px;
-    text-align: center;
+    text-align: center
 }
 
 .card-list li {
-    padding-top: 20px;
+    padding-top: 20px
 }
 
 .card1::before {
@@ -253,7 +235,7 @@ submit {
     width: 50px;
     height: 50px;
     left: 7px;
-    background-image: url(../img/svg/files.svg);
+    background-image: url(../img/svg/files.svg)
 }
 
 .card3::before {
@@ -264,30 +246,29 @@ submit {
     width: 50px;
     height: 50px;
     left: -24px;
-    background-image: url(../img/svg/files.svg);
+    background-image: url(../img/svg/files.svg)
 }
 
 .card-link {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 16px
 }
 
 .card-body h6 {
-    line-height: 20px;
-    ;
+    line-height: 20px
 }
 
 .card-link::after {
     position: relative;
     content: ">";
-    color: #FF8C4A;
+    color: #ff8c4a;
     margin-left: 5px;
-    margin-bottom: 0px;
-    bottom: 0px;
+    margin-bottom: 0;
+    bottom: 0
 }
 
 .card-with-image {
-    position: relative;
+    position: relative
 }
 
 .card-image {
@@ -297,52 +278,47 @@ submit {
     margin: auto;
     margin-right: auto;
     margin-left: auto;
-    width: auto;
-}
-
-.card-first {
-    width: 90%;
-    white-space: break-spaces;
+    width: auto
 }
 
 .service-title {
     font-weight: 450;
     font-size: 22px;
     text-align: center;
-    line-height: 30px;
+    line-height: 30px
 }
 
-@media (min-width: 576px) {
+@media (min-width:576px) {
     .service-title {
         font-weight: 450;
         font-size: 24px;
-        text-align: left;
+        text-align: left
     }
 }
 
 .service-subtitle {
     line-height: 30px;
     font-size: 22px;
-    text-align: center;
+    text-align: center
 }
 
-@media (min-width: 576px) {
+@media (min-width:576px) {
     .service-subtitle {
         font-weight: 500;
-        font-size: 22px;
+        font-size: 22px
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width:992px) {
     .service-subtitle {
-        text-align: left;
+        text-align: left
     }
 }
 
 .service-subtitle-block {
     font-size: 35px;
     line-height: 42px;
-    align-items: center;
+    align-items: center
 }
 
 .service-subtitle-block::before {
@@ -350,17 +326,13 @@ submit {
     content: url(../img/svg/notes.svg);
     display: inline-flex;
     margin-right: 20px;
-    height: auto;
-}
-
-ol li {
-    line-height: 40px;
+    height: auto
 }
 
 .btn-ref {
     font-weight: 500;
     font-size: 18px;
-    color: #FF8C4A;
+    color: #ff8c4a
 }
 
 .btn-reservate {
@@ -368,122 +340,122 @@ ol li {
     font-weight: 400;
     font-size: 22px;
     line-height: 25px;
-    color: #4E4C82;
+    color: #4e4c82;
     white-space: pre-line;
-    cursor: pointer;
+    cursor: pointer
 }
 
 .btn-reservate:hover {
-    color: #FF8C4A;
+    color: #ff8c4a
 }
 
-@media (min-width: 992px) {
+@media (min-width:992px) {
     .btn-reservate {
         font-weight: 500;
         font-size: 35px;
         line-height: 42px;
         text-align: left;
-        color: #4E4C82;
+        color: #4e4c82
     }
 }
 
 .btn-reservate::after {
     position: relative;
     content: ">";
-    color: #4E4C82;
+    color: #4e4c82;
     margin-left: 5px;
-    margin-bottom: 0px;
-    bottom: 2px;
+    margin-bottom: 0;
+    bottom: 2px
 }
 
 .btn-reservate:hover::after {
     position: relative;
     content: ">";
-    color: #FF8C4A;
+    color: #ff8c4a;
     margin-left: 5px;
-    margin-bottom: 0px;
-    bottom: 2px;
+    margin-bottom: 0;
+    bottom: 2px
 }
 
 .mb-2 a {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, .5)
 }
 
 .mb-2 a:hover {
-    color: #FF8C4A;
+    color: #ff8c4a
 }
 
 .service-subtitle::before {
     position: relative;
     content: ">_";
-    color: #4E4C82;
-    margin-left: 0px;
-    margin-bottom: 0px;
+    color: #4e4c82;
+    margin-left: 0;
+    margin-bottom: 0;
     bottom: 3px;
-    margin-right: 6px;
+    margin-right: 6px
 }
 
 .reservate-block {
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 40px
 }
 
-@media (min-width: 992px) {
+@media (min-width:992px) {
     .reservate-block {
         margin-top: auto;
         margin-bottom: auto;
         position: absolute;
-        bottom: 5%;
+        bottom: 5%
     }
 }
 
 .btn-order {
-    color: #4E4C82;
+    color: #4e4c82;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 18px
 }
 
 footer {
-    background: #34334B;
+    background: #34334b;
     color: #fff;
     padding-top: 50px;
     padding-bottom: 30px;
     position: relative;
-    margin-top: 80px;
+    margin-top: 80px
 }
 
 .hashtag {
     font-size: 22px;
     line-height: 36px;
     text-align: left;
-    color: rgba(255, 255, 255, 0.5);
-    font-weight: 300;
+    color: rgba(255, 255, 255, .5);
+    font-weight: 300
 }
 
-@media (min-width: 992px) {
+@media (min-width:992px) {
     .hashtag {
-        text-align: right;
+        text-align: right
     }
 }
 
 .hashtag-p {
-    position: relative;
+    position: relative
 }
 
 .ball {
     position: absolute;
     z-index: 2;
     bottom: -18px;
-    right: 55px;
+    right: 55px
 }
 
 .card-5 {
-    margin-bottom: 3rem;
+    margin-bottom: 3rem
 }
 
-@media (min-width: 992px) {
+@media (min-width:992px) {
     .card-5 {
-        margin-bottom: 0px;
+        margin-bottom: 0
     }
 }
 
@@ -491,115 +463,93 @@ footer {
     height: auto;
     background-repeat: no-repeat;
     background-image: url(../img/svg/ellipse_footer.svg);
-    background-position: 100% 125%;
+    background-position: 100% 125%
 }
 
 .copy {
-    font-size: 16px;
+    font-size: 16px
 }
 
 .footer-h {
-    height: 80px;
-}
-
-.who {
-    margin-top: 3rem;
-}
-
-@media (min-width: 768px) {
-    .who {
-        margin-top: 150px;
-    }
-}
-
-@media (min-width: 992px) {
-    .who {
-        margin-top: 200px;
-    }
-}
-
-@media (min-width: 1280px) {
-    .who {
-        margin-top: 80px;
-    }
+    height: 80px
 }
 
 .banner .container-fluid {
-    padding-right: 3rem!important;
+    padding-right: 3rem!important
 }
 
 .carousel-control-next {
     justify-content: flex-end;
-    right: 15px;
+    right: 15px
 }
 
 .carousel-control-prev {
     justify-content: flex-start;
-    left: 15px;
+    left: 15px
 }
 
-@media (min-width: 992px) {
+@media (min-width:992px) {
     .banner .container-fluid {
-        padding-right: 0rem!important;
+        padding-right: 0!important
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width:992px) {
     .banner .container-fluid {
-        padding-right: 0rem!important;
+        padding-right: 0!important
     }
 }
 
 .why-section {
-    margin-top: 30px;
+    margin-top: 30px
 }
 
-@media (min-width: 768px) {
+@media (min-width:768px) {
     .why-section {
-        margin-top: 0px;
+        margin-top: 0
     }
 }
 
 .why-image {
     display: flex;
     align-self: center;
-    margin: auto;
+    margin: auto
 }
 
 .footer-item {
-    margin-top: 20px;
+    margin-top: 20px
 }
 
-@media (min-width: 768px) {
+@media (min-width:768px) {
     .footer-item {
-        margin-top: 0px;
+        margin-top: 0
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width:768px) {
     .references {
         margin-top: 80px;
-        margin-bottom: 80px;
+        margin-bottom: 80px
     }
 }
 
 .carousel-inner {
-    overflow: visible;
+    overflow: visible
 }
 
-@media (min-width: 768px) {
+@media (min-width:768px) {
     .slide-box {
-        box-shadow: 0px 0px 45px #CAD1DD;
+        box-shadow: 0 0 45px #cad1dd;
         border-radius: 20px;
         height: auto;
         min-height: 405px;
-        padding-bottom: 50px;
+        padding-bottom: 50px
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width:992px) {
     .slide-box {
-        min-height: 380px;
+        min-height: 380px
     }
 }
 
@@ -607,95 +557,95 @@ footer {
     background-repeat: no-repeat;
     background-image: url(../img/slide1.webp);
     background-position: top center;
-    background-size: cover;
+    background-size: cover
 }
 
 .slide-box2 {
     background-repeat: no-repeat;
     background-image: url(../img/slide2.webp);
     background-position: center center;
-    background-size: cover;
+    background-size: cover
 }
 
 .slide-box3 {
     background-repeat: no-repeat;
     background-image: url(../img/slide3.webp);
     background-position: bottom center;
-    background-size: cover;
+    background-size: cover
 }
 
 .slide-box4 {
     background-repeat: no-repeat;
     background-image: url(../img/slide4.webp);
     background-position: bottom center;
-    background-size: cover;
+    background-size: cover
 }
 
 .carousel-caption {
     position: absolute;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
+    right: 0;
+    bottom: 0;
+    left: 0;
     z-index: 10;
     color: #fff;
     text-align: left;
-    top: 0px;
-    margin-top: 35px;
+    top: 0;
+    margin-top: 35px
 }
 
-@media (min-width: 768px) {
+@media (min-width:768px) {
     .carousel-title {
         font-size: 32px;
         line-height: normal;
         color: #fff;
-        font-weight: 450;
+        font-weight: 450
     }
 }
 
-@media (min-width: 1025px) {
+@media (min-width:1025px) {
     .carousel-title {
-        line-height: 61px;
+        line-height: 61px
     }
 }
 
 .carousel-desc {
-    font-size: 16px;
+    font-size: 16px
 }
 
 .carousel-tags {
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 600
 }
 
 .carousel-tag-item::before {
     position: relative;
     content: "+";
-    color: #ffffff;
+    color: #fff;
     margin-right: 4px;
     margin-bottom: 20px;
     bottom: 1px;
-    font-size: 14px;
+    font-size: 14px
 }
 
 .btn-study {
     background-color: transparent;
     margin-top: 30px;
-    color: #ffffff;
+    color: #fff;
     font-size: 16px;
-    font-weight: 200;
+    font-weight: 200
 }
 
 .btn-study a {
-    color: #ffffff;
+    color: #fff
 }
 
 .btn-study a:hover,
 .btn-study:hover::after {
-    color: #FF8C4A;
+    color: #ff8c4a
 }
 
 .btn {
-    letter-spacing: 2px;
+    letter-spacing: 2px
 }
 
 .btn-study::after {
@@ -703,35 +653,35 @@ footer {
     content: ">";
     color: #fff;
     margin-left: 5px;
-    margin-bottom: 0px;
-    bottom: 2px;
+    margin-bottom: 0;
+    bottom: 2px
 }
 
 .card-body h6::after {
     position: relative;
     content: ">";
-    color: #4E4C82;
+    color: #4e4c82;
     margin-left: 5px;
-    margin-bottom: 0px;
-    bottom: 3px;
+    margin-bottom: 0;
+    bottom: 3px
 }
 
-.card-link:hover,
-.card-body h6:hover {
-    font-weight: 600;
+.card-body h6:hover,
+.card-link:hover {
+    font-weight: 600
 }
 
 .card-block {
-    cursor: pointer;
+    cursor: pointer
 }
 
-@media (min-width: 768px) {
+@media (min-width:768px) {
     .carousel-image {
-        display: none;
+        display: none
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     .carousel-image {
         display: block;
         position: absolute;
@@ -740,255 +690,234 @@ footer {
         right: 0;
         padding-right: 62px;
         max-width: auto;
-        max-height: 488px;
+        max-height: 488px
     }
 }
 
-@media (min-width: 1025px) {
+@media (min-width:1025px) {
     .carousel-image {
         top: -55px;
         max-width: auto;
-        max-height: 488px;
+        max-height: 488px
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width:768px) {
     #slider {
         margin-top: 30px;
-        margin-bottom: 20px;
+        margin-bottom: 20px
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     #slider {
         margin-top: 135px;
-        margin-bottom: 120px;
-    }
-    .functions .custom-list:last-child {
-        margin-top: 50px;
-    }
-}
-
-@media (min-width: 1080px) {
-    .functions .custom-list:last-child {
-        margin-top: 0px;
+        margin-bottom: 120px
     }
 }
 
 .carousel-fade .carousel-item {
     opacity: 0;
-    transition: opacity ease-out .7s;
+    transition: opacity ease-out .7s
 }
 
-.carousel-fade .carousel-item.active,
 .carousel-fade .carousel-item-next.carousel-item-left,
-.carousel-fade .carousel-item-prev.carousel-item-right {
-    opacity: 1;
+.carousel-fade .carousel-item-prev.carousel-item-right,
+.carousel-fade .carousel-item.active {
+    opacity: 1
 }
 
 .carousel-fade .active.carousel-item-left,
 .carousel-fade .active.carousel-item-right {
-    opacity: 0;
+    opacity: 0
 }
 
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-prev,
 .carousel-fade .carousel-item-next,
 .carousel-fade .carousel-item-prev,
-.carousel-fade .carousel-item.active,
-.carousel-fade .active.carousel-item-left,
-.carousel-fade .active.carousel-item-prev {
+.carousel-fade .carousel-item.active {
     transform: translateX(0);
-    transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0)
 }
 
 .custom-list {
-    margin-top: 40px;
+    margin-top: 40px
 }
 
-@media (min-width: 768px) {
+@media (min-width:768px) {
     .custom-list {
-        margin-top: 0px;
+        margin-top: 0
     }
 }
 
-#build,
+#analyst,
 #dont,
 #estimations,
 #problems,
-#analyst,
 #section-options {
-    background: rgba(242, 242, 242, 0.45);
-    padding-bottom: 50px;
+    background: rgba(242, 242, 242, .45);
+    padding-bottom: 50px
 }
 
 #section-options {
     padding-bottom: 90px;
-    padding-top: 10px;
+    padding-top: 10px
 }
 
 #section-idea {
-    background: rgba(242, 242, 242, 0.45);
+    background: rgba(242, 242, 242, .45)
 }
 
-#estimations,
-#analyst {
+#analyst,
+#estimations {
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 80px
 }
 
 #analyst {
-    margin-top: 80px;
+    margin-top: 80px
 }
 
 .start-title {
-    margin-top: 10px;
+    margin-top: 10px
 }
 
 .step {
-    margin-bottom: 50px;
+    margin-bottom: 50px
 }
 
 .list-dont li {
-    margin-bottom: 20px;
+    margin-bottom: 20px
 }
 
-@media (min-width: 768px) {
+@media (min-width:768px) {
     .auto-banner {
         margin-top: 30px;
         margin-left: auto;
         margin-right: auto;
-        display: block;
+        display: block
     }
 }
 
-@media (min-width: 1280px) {
+@media (min-width:1280px) {
     .auto-banner {
-        margin-top: 0px;
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
         display: flex;
-        align-self: center;
+        align-self: center
     }
     .girl .auto-banner {
-        align-self: flex-end;
+        align-self: flex-end
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width:768px) {
     .education {
-        margin-top: 50px;
+        margin-top: 50px
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     .coding-banner {
-        margin-top: -115px;
+        margin-top: -115px
     }
 }
 
 .market-banner {
-    margin-top: 40px;
+    margin-top: 40px
 }
 
 .logos img {
-    padding-right: 20px;
+    padding-right: 20px
 }
 
-@media (min-width: 1280px) {
-    .change,
+@media (min-width:1280px) {
     .education,
     .why {
-        margin-bottom: 80px;
+        margin-bottom: 80px
     }
     .coding-banner {
-        margin-top: -190px;
+        margin-top: -190px
     }
-    .start,
     .education,
+    .start,
     .why {
-        margin-top: 40px;
+        margin-top: 40px
     }
-    #build,
     #dont {
         padding-top: 20px;
-        padding-bottom: 80px;
+        padding-bottom: 80px
     }
     .time-banner {
-        margin-top: 55px;
+        margin-top: 55px
     }
-}
-
-.functions div div span,
-.graphs div div span {
-    color: rgba(78, 76, 130, 0.5);
 }
 
 .price {
-    border-top: 1px solid #F3EEEE;
+    border-top: 1px solid #f3eeee;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-top: 30px;
-    color: rgba(78, 76, 130, 0.5);
+    color: rgba(78, 76, 130, .5);
     font-weight: 600;
     font-size: 22px;
-    line-height: 27px;
+    line-height: 27px
 }
 
 .card-body {
-    padding: 0px;
+    padding: 0
 }
 
 .pricing-box {
-    margin-top: 20px;
+    margin-top: 20px
 }
 
 .per {
     margin-right: 17px;
     font-weight: 450;
     font-size: 46px;
-    color: #98999A;
-    top: 0px;
+    color: #98999a;
+    top: 0;
     margin-top: -7px;
-    margin-bottom: 30px;
+    margin-bottom: 30px
 }
 
 .per-box {
     align-items: center;
     height: auto;
-    padding-bottom: 30px;
+    padding-bottom: 30px
 }
 
 .fw-purple {
-    color: rgba(78, 76, 130, 0.5);
-    font-weight: 450;
+    color: rgba(78, 76, 130, .5);
+    font-weight: 450
 }
 
 .expec {
-    font-size: 24px;
+    font-size: 24px
 }
 
 .pricing-table {
-    margin-top: 30px;
+    margin-top: 30px
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     .pricing-table {
-        margin-top: 80px;
+        margin-top: 80px
     }
 }
 
-.item-middle {
-    margin-top: 35px;
-}
-
 .per1 {
-    width: 65%;
+    width: 65%
 }
 
 .why1 {
-    margin-top: 40px;
+    margin-top: 40px
 }
 
-@media (min-width: 1280px) {
+@media (min-width:1280px) {
     .why2 {
         margin-top: 45px
     }
@@ -1000,35 +929,35 @@ footer {
     margin-left: auto;
     width: auto;
     display: flex;
-    margin-top: 40px;
+    margin-top: 40px
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     .wizard-img {
-        margin-top: auto;
+        margin-top: auto
     }
 }
 
-@media (min-width: 1280px) {
+@media (min-width:1280px) {
     .col-fhd-3 {
         -ms-flex: 0 0 28.333333%;
         flex: 0 0 28.333333%;
-        max-width: 28.333333%;
+        max-width: 28.333333%
     }
 }
 
 .img-problem {
-    margin-right: 25px;
+    margin-right: 25px
 }
 
 .problems {
     position: relative;
-    margin-top: 30px;
+    margin-top: 30px
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     #problems {
-        margin-top: 80px;
+        margin-top: 80px
     }
 }
 
@@ -1040,7 +969,7 @@ footer {
     width: 50px;
     height: 50px;
     left: 120px;
-    background-image: url(../img/svg/files.svg);
+    background-image: url(../img/svg/files.svg)
 }
 
 .problems::after {
@@ -1051,12 +980,12 @@ footer {
     width: 50px;
     height: 50px;
     right: 190px;
-    background-image: url(../img/svg/files.svg);
+    background-image: url(../img/svg/files.svg)
 }
 
 #problems {
     padding-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 60px
 }
 
 .plan-image {
@@ -1067,227 +996,226 @@ footer {
     position: relative;
     vertical-align: middle;
     display: flex;
-    margin-top: 40px;
+    margin-top: 40px
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     .plan-image {
         display: none;
-        margin-top: 0px;
+        margin-top: 0
     }
 }
 
-@media (min-width: 1025px) {
+@media (min-width:1025px) {
     .plan-image {
         display: block;
-        margin-top: 0px;
+        margin-top: 0
     }
 }
 
 #team {
-    margin-top: 80px;
+    margin-top: 80px
 }
 
 #workshop {
-    margin-top: 60px;
+    margin-top: 60px
 }
 
-@media (min-width: 1024x) {
+@media (min-width:1024x) {
     #workshop {
-        margin-top: 0px;
+        margin-top: 0
     }
 }
 
 .team1,
 .team2 {
-    display: grid;
+    display: grid
 }
 
 .ref {
-    margin-top: 40px;
+    margin-top: 40px
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     .ref {
-        margin-top: 0px;
+        margin-top: 0
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width:768px) {
     .team1,
     .team2 {
-        display: block;
+        display: block
     }
     .team1 img,
     .team2 img {
         margin-top: 10px;
-        margin-right: 15px;
+        margin-right: 15px
     }
 }
 
 .team2 {
-    margin-top: 80px;
+    margin-top: 80px
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     .team2 {
-        margin-top: 0px;
+        margin-top: 0
     }
 }
 
 .team3 {
-    margin-top: 40px;
+    margin-top: 40px
 }
 
 .ref-name {
-    color: #4e4e82;
+    color: #4e4e82
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     .how-to-title {
-        margin-bottom: 40px;
+        margin-bottom: 40px
     }
     .img-problem {
-        display: none !important;
+        display: none!important
     }
 }
 
-@media (min-width: 1025px) {
+@media (min-width:1025px) {
     .img-problem {
-        display: block !important;
+        display: block!important
     }
 }
 
 .img-ref {
     width: 100%;
     max-width: 100%;
-    padding-bottom: 30px;
+    padding-bottom: 30px
 }
 
 .help-block {
     display: flex;
     align-items: stretch;
-    padding-bottom: 30px;
+    padding-bottom: 30px
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     .ref-title {
-        min-height: 60px;
+        min-height: 60px
     }
 }
 
-@media (min-width: 1280px) {
+@media (min-width:1280px) {
     .how-block {
-        min-height: 150px;
+        min-height: 150px
     }
     .plan-image {
-        min-height: 595px;
+        min-height: 595px
     }
 }
 
-@media (min-width: 1920px) {
+@media (min-width:1920px) {
     .ref-title {
-        min-height: 30px;
+        min-height: 30px
     }
     .help-block div {
-        width: 70%;
+        width: 70%
     }
 }
 
 .help-block img {
     width: 60px;
     height: 60px;
-    margin-top: 8px;
+    margin-top: 8px
 }
 
-.btn.focus,
 .btn:focus {
-    box-shadow: none;
+    box-shadow: none
 }
 
 .idea-img {
-    margin-top: 55px;
+    margin-top: 55px
 }
 
 .est-p {
-    padding-bottom: 30px;
+    padding-bottom: 30px
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     .est-p:nth-child(6n+1) {
-        order: 1;
+        order: 1
     }
     .est-p:nth-child(6n+2) {
-        order: 3;
+        order: 3
     }
     .est-p:nth-child(6n+3) {
-        order: 5;
+        order: 5
     }
     .est-p:nth-child(6n+4) {
-        order: 2;
+        order: 2
     }
     .est-p:nth-child(6n+5) {
-        order: 4;
+        order: 4
     }
     .est-p:nth-child(6n+6) {
-        order: 6;
+        order: 6
     }
 }
 
 .case-study-title {
     font-size: 22px;
     margin-bottom: 25px;
-    font-weight: 600;
+    font-weight: 600
 }
 
 .problem-icons-item>div {
     width: 67%;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 20px
 }
 
-@media (min-width: 768px) {
+@media (min-width:768px) {
     .problem-icons-item>div {
-        width: 60%;
+        width: 60%
     }
 }
 
 .problem-icons {
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: flex-start
 }
 
-@media (min-width: 1920px) {
+@media (min-width:1920px) {
     .problem-icons {
-        justify-content: space-between;
+        justify-content: space-between
     }
     .problem-icons-item>div {
-        width: 100%;
+        width: 100%
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width:768px) {
     .problem-icons {
-        flex-direction: row;
+        flex-direction: row
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     .problem-icons {
         width: 100%;
-        margin-top: 60px;
+        margin-top: 60px
     }
 }
 
 .problem-icons-item {
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 30px
 }
 
-@media (min-width: 768px) {
+@media (min-width:768px) {
     .problem-icons-item {
         align-items: center;
-        margin-bottom: 0px;
+        margin-bottom: 0
     }
 }
 
@@ -1295,122 +1223,116 @@ footer {
     font-style: italic;
     font-size: 16px;
     line-height: 40px;
-    font-weight: 300;
+    font-weight: 300
 }
 
-@media (min-width: 768px) {
+@media (min-width:768px) {
     .quote {
-        font-size: 30px;
+        font-size: 30px
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     .quote {
-        margin-top: 0px;
+        margin-top: 0
     }
 }
 
 .idea-box,
 .quote-box {
-    margin-top: 40px;
+    margin-top: 40px
 }
 
 .quote-box {
     justify-content: space-between;
     align-items: stretch;
     display: flex;
-    flex-direction: column;
+    flex-direction: column
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     .idea-box {
-        margin-top: 60px;
+        margin-top: 60px
     }
     .quote-box {
-        margin-top: 0px;
+        margin-top: 0
     }
 }
 
 .quote-user {
     align-items: center;
-    margin-top: 0px;
+    margin-top: 0
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     .quote-user {
-        margin-top: 40px;
+        margin-top: 40px
     }
 }
 
 .quote-user-item {
-    margin-left: 20px;
+    margin-left: 20px
 }
 
 .section-idea {
     margin-top: 65px;
     height: auto;
-    padding-bottom: 35px;
+    padding-bottom: 35px
 }
 
-@media (min-width: 768px) {
+@media (min-width:768px) {
     .section-idea {
-        padding-bottom: 30px;
+        padding-bottom: 30px
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     .section-idea {
-        padding-bottom: 50px;
+        padding-bottom: 50px
     }
 }
 
-@media (min-width: 1280px) {
+@media (min-width:1280px) {
     .section-idea {
         margin-top: 120px;
-        height: 350px;
+        height: 350px
     }
 }
 
 .section-options {
-    margin-top: 0px;
+    margin-top: 0
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     .section-options {
-        margin-top: 80px;
+        margin-top: 80px
     }
 }
 
-@media (min-width: 1280px) {
+@media (min-width:1280px) {
     .section-options {
         margin-top: 120px;
-        padding-bottom: 80px;
+        padding-bottom: 80px
     }
 }
 
-.section-data,
-.section-architecture,
 .section-case-study,
-.section-result,
-.section-plus {
-    margin-top: 40px;
-}
-
-.section-architecture {
-    padding-bottom: 40px;
+.section-data,
+.section-plus,
+.section-result {
+    margin-top: 40px
 }
 
 #section-case-study {
-    padding-top: 20px;
+    padding-top: 20px
 }
 
-@media (min-width: 1024px) {
-    .section-data,
-    .section-architecture,
+@media (min-width:1024px) {
     .section-case-study,
-    .section-result,
-    .section-plus {
-        margin-top: 80px;
+    .section-data,
+    .section-plus,
+    .section-result {
+        margin-top: 80px
     }
 }
 
@@ -1418,63 +1340,63 @@ footer {
     min-height: 235px;
     background-image: url(../img/otkd_sveta.webp);
     background-repeat: no-repeat;
-    background-position: 0px 0px;
+    background-position: 0 0;
     background-size: cover;
     overflow-y: visible;
     width: 100%;
     height: 100%;
-    border-radius: 10px;
+    border-radius: 10px
 }
 
-@media (min-width: 768px) {
+@media (min-width:768px) {
     .idea-bg {
-        height: 300px;
+        height: 300px
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     .idea-bg {
         height: auto;
-        margin-bottom: -50px;
+        margin-bottom: -50px
     }
 }
 
-@media (min-width: 1280px) {
+@media (min-width:1280px) {
     .idea-bg {
-        height: 400px;
+        height: 400px
     }
 }
 
-@media (min-width: 1920px) {
+@media (min-width:1920px) {
     .idea-bg {
-        height: 420px;
+        height: 420px
     }
 }
 
 .mt-60 {
-    margin-top: 60px;
+    margin-top: 60px
 }
 
 .case-study-hashtag {
     font-weight: 500;
     font-size: 18px;
     line-height: 30px;
-    margin-top: 20px;
+    margin-top: 20px
 }
 
 .section-analyse {
-    margin-top: 50px;
+    margin-top: 50px
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     .section-analyse {
-        margin-top: 80px;
+        margin-top: 80px
     }
 }
 
-@media (min-width: 1280px) {
+@media (min-width:1280px) {
     .section-analyse {
-        margin-top: 150px;
+        margin-top: 150px
     }
 }
 
@@ -1487,19 +1409,19 @@ footer {
     width: 100%;
     flex-wrap: wrap;
     align-content: space-between;
-    margin-top: 40px;
+    margin-top: 40px
 }
 
-@media (min-width: 768px) {
+@media (min-width:768px) {
     .analyse-icons {
         flex-direction: row;
-        margin-bottom: 0px;
+        margin-bottom: 0
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     .analyse-icons {
-        margin-top: 0px;
+        margin-top: 0
     }
 }
 
@@ -1507,18 +1429,18 @@ footer {
     width: 50%;
     align-items: center;
     justify-content: flex-start;
-    margin-bottom: 50px;
+    margin-bottom: 50px
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     .analyse-icons-item {
-        margin-bottom: 0px;
+        margin-bottom: 0
     }
 }
 
 .analyse-icons-item>div {
     width: 50%;
-    margin-left: 20px;
+    margin-left: 20px
 }
 
 .bigger-info {
@@ -1528,70 +1450,70 @@ footer {
     margin-top: 40px;
     font-size: 22px;
     font-style: normal;
-    line-height: 30px;
+    line-height: 30px
 }
 
 .bigger-info div {
-    margin-bottom: 30px;
+    margin-bottom: 30px
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     .bigger-info {
         flex-direction: row;
-        height: auto;
+        height: auto
     }
     .bigger-info div {
-        margin-bottom: 0px;
+        margin-bottom: 0
     }
 }
 
 .analyse-otkd-logo {
     margin-top: 10px;
     margin-bottom: 15px;
-    width: 100%;
+    width: 100%
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     .analyse-otkd-logo {
-        width: 40%;
+        width: 40%
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width:768px) {
     .analyse-otkd-logo {
-        margin-top: 0px;
-        margin-bottom: 0px;
+        margin-top: 0;
+        margin-bottom: 0
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     .vub-box>img {
-        width: 100%;
+        width: 100%
     }
     .vub-box {
-        display: none;
+        display: none
     }
 }
 
-@media (min-width: 1280px) {
-    .vub-box,
-    .analyse-otkd-logo {
-        display: block;
+@media (min-width:1280px) {
+    .analyse-otkd-logo,
+    .vub-box {
+        display: block
     }
 }
 
 .img-bigger {
-    width: 100%;
+    width: 100%
 }
 
-@media (min-width: 1920px) {
+@media (min-width:1920px) {
     .img-bigger {
-        width: 60%;
+        width: 60%
     }
 }
 
 .vub-box {
-    margin-top: 65px;
+    margin-top: 65px
 }
 
 .graph-result {
@@ -1600,86 +1522,75 @@ footer {
     font-size: 22px;
     line-height: 30px;
     text-align: center;
-    color: #4E4C82;
-    margin-top: 20px;
+    color: #4e4c82;
+    margin-top: 20px
 }
 
 .graph-title {
-    margin-bottom: 40px;
+    margin-bottom: 40px
 }
 
 .graph-section {
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between
 }
 
-.img-architecture {
-    margin-top: 20px;
-}
-
-@media (min-width: 768px) {
-    .img-architecture {
-        margin-top: 60px;
-    }
-}
-
-@media (min-width: 1920px) {
-    .img-architecture,
+@media (min-width:1920px) {
     .img-big,
     .img-map {
         width: 100%;
-        height: 100%;
+        height: 100%
     }
 }
 
 #section-case-study {
-    background-color: #1C1D35;
-    color: #ffffff;
-    padding-bottom: 20px;
+    background-color: #1c1d35;
+    color: #fff;
+    padding-bottom: 20px
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     #section-case-study {
-        padding-bottom: 80px;
+        padding-bottom: 80px
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     #section-case-study {
         margin-top: 100px;
-        padding-bottom: 90px;
+        padding-bottom: 90px
     }
 }
 
 .list-needs:nth-child(2) {
-    margin-top: 40px;
+    margin-top: 40px
 }
 
-@media (min-width: 1280px) {
+@media (min-width:1280px) {
     .list-needs:nth-child(2) {
-        margin-top: 130px;
+        margin-top: 130px
     }
 }
 
 .orange {
-    color: #FF8C4A;
+    color: #ff8c4a
 }
 
 .needs-results {
     flex-direction: column;
-    width: 100%;
+    width: 100%
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     .needs-results {
-        flex-direction: row;
+        flex-direction: row
     }
 }
 
-@media (min-width: 1280px) {
+@media (min-width:1280px) {
     .needs-results {
         flex-direction: row;
-        margin-top: 100px;
+        margin-top: 100px
     }
 }
 
@@ -1694,38 +1605,38 @@ footer {
     justify-content: flex-start;
     align-items: center;
     margin-bottom: 60px;
-    line-height: 1.3em;
+    line-height: 1.3em
 }
 
-@media (min-width: 1280px) {
+@media (min-width:1280px) {
     .needs-item {
-        margin-bottom: 0px;
+        margin-bottom: 0
     }
 }
 
 .needs-item img {
-    margin-bottom: 20px;
+    margin-bottom: 20px
 }
 
 .needs-item div {
-    width: 80%;
+    width: 80%
 }
 
-@media (min-width: 768px) {
+@media (min-width:768px) {
     .needs-item div {
-        width: 60%;
+        width: 60%
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     .needs-item div {
-        width: 80%;
+        width: 80%
     }
 }
 
-@media (min-width: 1280px) {
+@media (min-width:1280px) {
     .needs-item div {
-        width: 60%;
+        width: 60%
     }
 }
 
@@ -1733,12 +1644,12 @@ footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: stretch;
+    align-items: stretch
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     .graph-box {
-        flex-direction: row;
+        flex-direction: row
     }
 }
 
@@ -1746,122 +1657,122 @@ footer {
     width: 100%;
     align-items: stretch;
     justify-content: center;
-    margin-bottom: 45px;
+    margin-bottom: 45px
 }
 
-@media (min-width: 768px) {
+@media (min-width:768px) {
     .result-item {
-        width: 40%;
+        width: 40%
     }
 }
 
 .result-number {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 30px;
     line-height: 23px;
-    margin-bottom: 10px;
+    margin-bottom: 10px
 }
 
 .mt-100 {
-    margin-top: 100px;
+    margin-top: 100px
 }
 
 .banner-study-logo {
     margin-right: auto;
-    margin-top: 30px;
+    margin-top: 30px
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     .banner-study-logo {
-        margin-top: 0px;
-        margin-left: auto;
+        margin-top: 0;
+        margin-left: auto
     }
 }
 
-@media (min-width: 1280px) {
+@media (min-width:1280px) {
     .banner-study-logo img {
-        margin-left: auto;
+        margin-left: auto
     }
 }
 
 .section-problem {
-    margin-top: 40px;
+    margin-top: 40px
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     .section-problem {
-        margin-top: 80px;
+        margin-top: 80px
     }
 }
 
 .study-image {
-    margin-bottom: 60px;
+    margin-bottom: 60px
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     .study-image {
-        margin-bottom: 80px;
+        margin-bottom: 80px
     }
 }
 
 .study-image img {
-    width: 100%;
+    width: 100%
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     .study-image {
         display: inline-flex;
         height: auto;
         justify-content: center;
         flex-direction: column-reverse;
         margin-right: 30px;
-        margin-bottom: 0px;
+        margin-bottom: 0
     }
 }
 
-@media (min-width: 1280px) {
+@media (min-width:1280px) {
     .store-icons img {
-        margin-right: 20px;
+        margin-right: 20px
     }
     .idea-box .btn-reservate {
-        margin-top: 10px;
+        margin-top: 10px
     }
 }
 
 .store-img {
-    width: 100%;
+    width: 100%
 }
 
 .flex-box {
-    flex-direction: column;
+    flex-direction: column
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     .flex-box {
         display: flex;
-        flex-direction: row;
+        flex-direction: row
     }
 }
 
 .img-study-box {
     display: block;
-    width: 100%;
+    width: 100%
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     .img-study-box {
         display: flex;
         align-items: flex-start;
-        margin-top: 80px;
+        margin-top: 80px
     }
 }
 
 .img-big {
-    margin-top: 60px;
+    margin-top: 60px
 }
 
 .milos {
-    width: 60px;
+    width: 60px
 }
 
 .brand-box {
@@ -1869,64 +1780,59 @@ footer {
     justify-content: space-between;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: wrap
 }
 
 .tracking-image {
     margin-bottom: 60px;
-    width: 100%;
+    width: 100%
 }
 
-@media (min-width: 1920px) {
+@media (min-width:1920px) {
     .tracking-image {
-        width: 25%;
+        width: 25%
     }
 }
 
 .tracking-image-box {
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
+    flex-direction: column
 }
 
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
     .tracking-image-box {
         flex-direction: row;
-        margin-top: 20px;
+        margin-top: 20px
     }
     .tracking-image {
-        margin-bottom: 0px;
-        width: 274px;
+        margin-bottom: 0;
+        width: 274px
     }
 }
 
-@media (min-width: 1280px) {
+@media (min-width:1280px) {
     .tracking-image-box {
-        margin-top: 80px;
+        margin-top: 80px
     }
-}
-
-.photo-card {
-    box-shadow: 0px 0px 45px rgba(202, 209, 221, 0.47);
-    border-radius: 20px;
 }
 
 .ref-icon {
-    margin-left: 10px;
+    margin-left: 10px
 }
 
 .ref-icon img {
     margin-top: -8px;
     width: 25px;
-    height: 25px;
+    height: 25px
 }
 
 .main-card {
-    margin-top: 40px;
+    margin-top: 40px
 }
 
 .main-card p {
-    margin-top: 15px;
+    margin-top: 15px
 }
 
 [type=reset],
@@ -1935,30 +1841,30 @@ button,
 html [type=button] {
     appearance: none;
     -moz-appearance: none;
-    -webkit-appearance: none;
+    -webkit-appearance: none
 }
 
 .ref-grey-icon img {
     height: 25px;
-    width: 25px;
+    width: 25px
 }
 
 .navbar-toggler {
-    padding: 0.2rem 0.2rem;
+    padding: .2rem .2rem
 }
 
 .ca-buttons {
-    margin-left: 0px;
+    margin-left: 0;
     margin-bottom: 20px;
-    margin-top: 30px;
+    margin-top: 30px
 }
 
 button.order {
     width: 100%;
     padding: 7px 10px;
     border: 1px solid #4e4e82;
-    background: transparent;
-    color: #4e4e82;
+    background: 0 0;
+    color: #4e4e82
 }
 
 .show-ref {
@@ -1966,32 +1872,32 @@ button.order {
     margin-top: 20px;
     padding: 7px 10px;
     border: none;
-    background: transparent;
-    color: #4e4e82;
+    background: 0 0;
+    color: #4e4e82
 }
 
-@media (min-width: 768px) {
+@media (min-width:768px) {
     button.order {
         width: auto;
         padding: 7px 30px;
-        margin-right: 30px;
+        margin-right: 30px
     }
     .show-ref {
         width: auto;
-        margin-top: 0px;
-        padding: 7px 30px;
+        margin-top: 0;
+        padding: 7px 30px
     }
 }
 
 button.order:hover {
     background: #4e4e82;
-    color: #fff;
+    color: #fff
 }
 
 .show-ref:hover {
-    color: #FF8C4A;
+    color: #ff8c4a
 }
 
 button:focus {
-    outline: none;
+    outline: 0
 }

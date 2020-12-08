@@ -86,7 +86,10 @@
 				<span class="align-self-center copy text-center"
 					>Copyright &copy; 2017-
 					<script>
-						document.write(new Date().getFullYear());
+						document.currentScript.insertAdjacentHTML(
+							"beforebegin",
+							new Date().getFullYear()
+						);
 					</script>
 					Všechna práva vyhrazena Kompilátor s. r. o.</span
 				>
@@ -95,4 +98,8 @@
 	</div>
 </div>
 
-<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script
+	src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+	integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+	crossorigin="anonymous"
+></script>
