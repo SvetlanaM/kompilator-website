@@ -2,3 +2,6 @@ RewriteEngine on
 RewriteCond %{HTTP:X-Forwarded-Proto} !=https
 RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [L,R]
 ErrorDocument 404 /404.php
+<filesMatch ".(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf|webp|svg)$">
+    Header set Cache-Control: "max-age=31536000, public"
+</filesMatch>
