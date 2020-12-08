@@ -147,9 +147,9 @@
                     <div class="col-sm-12 col-md-12 col-lg-3 step">
                         <img src="img/svg/bulb.svg" alt="Pošlete nápad, který chcete zdigitalizovat" />
                         <p class="purple fw-500 mt-3">1. Pošlete nápad</p>
-                        <p>Na začátek nám stačí poslat nápad/problém, který řešíte a my v týmu zpracujeme návrhy, zjistíme stav, rizika a úspěšnost nápadu na trhu.</p>
+                        <p>Na začátek nám stačí poslat <a href="https://forms.gle/zDCrXjETzfTFcrxA8" target="new">poslat nápad/problém</a>, který řešíte a my v týmu zpracujeme návrhy, zjistíme stav, rizika a úspěšnost nápadu na trhu.</p>
                     </div>
-                    <div class="col-sm-12 col-md-12 col-lg-3 step">
+                    <div class=" col-sm-12 col-md-12 col-lg-3 step">
                         <img src="img/svg/conversation.svg" alt="Zanalyzujeme, prokonzultujeme Vaše nápady" />
                         <p class="purple fw-500 mt-3">2. Návrh a analýza</p>
                         <p>Následně si zanalyzujeme designové, technologické, konkurenční možnosti a vyhotovíme možná řešení a jejich formu realizace.</p>
@@ -213,8 +213,8 @@
                         <div class="carousel-caption col-md-11 col-lg-8 pl-5">
                             <h2 class="carousel-title">Příběh aplikace pro bežce
                                 <span class="ref-icon">
-                                    <a href="https://apps.apple.com/cz/app/otkd-2017/id1263139345?l=cs" target="new"><img src="img/svg/apple_white.svg" alt="iOS aplikace OTKD" /></a>
-                                    <a href="https://play.google.com/store/apps/details?id=eu.nanooq.otkd&hl=sk" target="new"><img src="img/svg/android_white.svg" alt="Android aplikace OTKD" /></a>
+                                    <a href="https://apps.apple.com/cz/app/otkd-2017/id1263139345?l=cs" target="new"><img class="svg-white" src="img/svg/apple_white.svg" alt="iOS aplikace OTKD" /></a>
+                                    <a href="https://play.google.com/store/apps/details?id=eu.nanooq.otkd&hl=sk" target="new"><img class="svg-white" src="img/svg/android_white.svg" alt="Android aplikace OTKD" /></a>
                                 </span>
                             </h2>
                             <p class="carousel-desc mt-4">
@@ -244,7 +244,7 @@
                         <div class="carousel-caption col-md-11 col-lg-8 pl-5">
                             <h2 class="carousel-title">Limuzíny pro všechny
                                 <span class="ref-icon">
-                                    <a href="https://www.prolimoservice.sk/" target="new"><img src="img/svg/web_white.svg" alt="Webová aplikace Pro Limo Services" /></a>
+                                    <a href="https://www.prolimoservice.sk/" target="new"><img src="img/svg/web_white.svg" class="svg-white" alt="Webová aplikace Pro Limo Services" /></a>
                                 </span>
                             </h2>
                             <p class="carousel-desc mt-4">Responzivní webová aplikace umožňující online rezervaci limuzíny pro různé účely, včetně objednání doplňkových služeb a rychlé komunikaci s Vaším řidičem. Díky aplikaci je možné začít výlet v novém městě již na letišti
@@ -284,8 +284,8 @@
                         <div class="carousel-caption col-md-11 col-lg-8 pl-5">
                             <h2 class="carousel-title">Najdi svoji hvězdu
                                 <span class="ref-icon">
-                                    <a href="https://apps.apple.com/us/app/find-my-star/id1350451496" target="new"><img src="img/svg/apple_white.svg" alt="iOS aplikace Find my Star" /></a>
-                                    <a href="https://play.google.com/store/apps/details?id=com.nanooq.findmystar&hl=sk" target="new"><img src="img/svg/android_white.svg" alt="Android aplikace Find my Star" /></a>
+                                    <a href="https://apps.apple.com/us/app/find-my-star/id1350451496" target="new"><img class="svg-white" src="img/svg/apple_white.svg" alt="iOS aplikace Find my Star" /></a>
+                                    <a href="https://play.google.com/store/apps/details?id=com.nanooq.findmystar&hl=sk" target="new"><img class="svg-white" src="img/svg/android_white.svg" alt="Android aplikace Find my Star" /></a>
                                 </span>
                             </h2>
                             <p class="carousel-desc mt-4">Nativní mobilní aplikace umožňující vyhledávat zakoupené hvězdy. Není romantičtějšího dárku pro Vaši polovičku. V aplikaci je možné si dokoupit prostřednictvím In-App nákupů hvězdnou mapu s Vaší hvězdou a za tmavých nocí

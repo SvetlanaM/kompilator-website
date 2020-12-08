@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="cs">
+
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXJJ9QHN6Z"></script>
@@ -25,7 +26,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="seznam-wmt" content="7EXe6O8iBq0WvVggTh3fhgBa0M5VlTs1" />
 
-	<?php include "header.html" ?>
+    <?php include "header.html" ?>
 
     <!-- Twitter Card data -->
     <meta name="twitter:card" content="summary">
@@ -40,15 +41,14 @@
     <meta property="og:type" content="article" />
     <meta property="og:url" content="http://www.kompilator.cz" />
     <meta property="og:image" content="http://www.kompilator.cz/img/svg/banner_img.svg" />
-    <meta property="og:description" content="Pomáháme vám budovat Váš byznys od základů, tuningovat ho a vytvářet uživatelskou základnu. Je jedno, jestli prodáváte čaje, poskytujete ubytování nebo vrtáte zuby. Nemáme problém zanalyzovat jakýkoliv use case a pomoci vám ho posunout na další level."
-    />
+    <meta property="og:description" content="Pomáháme vám budovat Váš byznys od základů, tuningovat ho a vytvářet uživatelskou základnu. Je jedno, jestli prodáváte čaje, poskytujete ubytování nebo vrtáte zuby. Nemáme problém zanalyzovat jakýkoliv use case a pomoci vám ho posunout na další level." />
     <meta property="og:site_name" content="Kompilátor - digitálně-inovační agentura" />
 </head>
 
 <body class="bg-white gray">
     <!-- navigation menu -->
 
-	<?php include "menu.html" ?>
+    <?php include "menu.html" ?>
 
     <!-- banner -->
     <section id="banner" class="banner">
@@ -170,7 +170,7 @@
         </div>
     </section>
 
-	<?php include "team.html" ?>
+    <?php include "team.html" ?>
 
     <!-- section references -->
     <section id="project-references" class="project-references">
@@ -186,7 +186,7 @@
                     <h3 class="ref-title">Inovacemi a rozvojem</h3><br />
                     <div>
                         <span class="fw-450">Co? Pro koho?</span>
-                        <a href="https://www.cajovnasetkani.cz/" target="new"><span class="float-right ref-grey-icon"><img src="img/svg/web_grey.svg" /></span></a> <br /><br /> Pro Karla z Čajovny Setkání vyvíjíme více produktů - webové stránky, eshop a implementujeme dle potřeby různé nápady. Čajoven je v Praze poměrně dost, proto jsme s ním přemýšleli, co jiné přinést na trh. Vymysleli jsme mobilní aplikaci na degustace a další funkce, které uvítá mnoho uživatelů.
+                        <a href="https://www.cajovnasetkani.cz/" target="new"><span class="float-right ref-grey-icon"><img class="svg-grey" src="img/svg/web_grey.svg" /></span></a> <br /><br /> Pro Karla z Čajovny Setkání vyvíjíme více produktů - webové stránky, eshop a implementujeme dle potřeby různé nápady. Čajoven je v Praze poměrně dost, proto jsme s ním přemýšleli, co jiné přinést na trh. Vymysleli jsme mobilní aplikaci na degustace a další funkce, které uvítá mnoho uživatelů.
                         <br /><br />
                     </div>
                 </div>
@@ -208,7 +208,7 @@
                     <h3 class="ref-title">Vybudováním nového produktu a komunity</h3><br />
                     <div>
                         <span class="fw-450">Co? Pro koho?</span>
-                        <a href="https://alchymistka.com/" target="new"><span class="float-right ref-grey-icon"><img src="img/svg/web_grey.svg" /></span></a> <br /><br /> Nebojíme se výzev a proto jsme odkývli ano zajímavému projektu - vytvoření webové stránky a komunity platících zákazníků v oblasti alchymie. Byl to oříšek, ale podařilo se nám pochopit potřeby cílové skupiny, poskytnout jim to, co potřebují a s klientem zapracovat dlouhodobý plán.
+                        <a href="https://alchymistka.com/" target="new"><span class="float-right ref-grey-icon"><img class="svg-grey" src="img/svg/web_grey.svg" /></span></a> <br /><br /> Nebojíme se výzev a proto jsme odkývli ano zajímavému projektu - vytvoření webové stránky a komunity platících zákazníků v oblasti alchymie. Byl to oříšek, ale podařilo se nám pochopit potřeby cílové skupiny, poskytnout jim to, co potřebují a s klientem zapracovat dlouhodobý plán.
                         <br /><br />
                     </div>
                 </div>

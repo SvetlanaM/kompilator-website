@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="cs">
+
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXJJ9QHN6Z"></script>
@@ -26,7 +27,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="seznam-wmt" content="7EXe6O8iBq0WvVggTh3fhgBa0M5VlTs1" />
 
-	<?php include "header.html" ?>
+    <?php include "header.html" ?>
 
     <!-- Twitter Card data -->
     <meta name="twitter:card" content="summary">
@@ -50,7 +51,7 @@
 <body class="bg-white gray">
     <!-- navigation menu -->
 
-	<?php include "menu.html" ?>
+    <?php include "menu.html" ?>
 
     <!-- banner -->
     <section id="banner" class="banner">
@@ -65,10 +66,10 @@
                                 <img src="img/logos/ulekare.svg" class="img-fluid" alt="Logo uLekáře.cz" />
                             </div>
                             <div class="mr-5">
-                                <img src="img/logos/mall.svg" class="img-fluid" alt="Logo Mall - online eshop"/>
+                                <img src="img/logos/mall.svg" class="img-fluid" alt="Logo Mall - online eshop" />
                             </div>
                             <div class="">
-                                <img src="img/logos/economia.svg" class="img-fluid" alt="Logo Economie"/>
+                                <img src="img/logos/economia.svg" class="img-fluid" alt="Logo Economie" />
                             </div>
                         </div>
                     </p>
@@ -126,7 +127,7 @@
                 </div>
                 <div class="mt-40 d-sm-flex-inline d-lg-flex align-items-stretch text-center justify-content-between">
                     <div class="col-sm-12 col-md-12 col-lg-3 step">
-                        <img src="img/svg/agile_loop.svg" alt="Naučte se s námi agilitě"/>
+                        <img src="img/svg/agile_loop.svg" alt="Naučte se s námi agilitě" />
                         <p class="purple fw-500 mt-3">Agilitě</p>
                         <p>Naučíme se efektivně řídit agilní týmy a projekty bez zbytečné byrokracie, standupů a prostojů ve sprintech a na projektech napříč více týmy a odděleními firmy.</p>
                     </div>
@@ -154,12 +155,11 @@
                 </div>
                 <div class="col-lg-5 mt-40">
                     <p class="how-block"><span class="fw-450">1. Analýza současného stavu</span> - na startu se setkáme a zanalyzujeme současný stav firmy/projektu/týmu. Zrevidujeme technologické řešení, nové možnosti rozvoje produktu, slabá místa a podobně.</p><br />
-                    <p class="how-block"><span class="fw-450">2. Vydefinování potřeb</span> - po úvodní analýze spolu vydefinujeme potřeby/problémy a možnosti realizace nebo jejich odstranění. Součástí je i dlouhodobý strategický plán naplnění cíle, cenový a časový odhad.</p><br
-                    />
+                    <p class="how-block"><span class="fw-450">2. Vydefinování potřeb</span> - po úvodní analýze spolu vydefinujeme potřeby/problémy a možnosti realizace nebo jejich odstranění. Součástí je i dlouhodobý strategický plán naplnění cíle, cenový a časový odhad.</p><br />
                     <p class="how-block"><span class="fw-450">3. Zapojení týmu</span> - zapojení do chodu organizace / poznání prostředí a týmů, se kterým budeme spolupracovat. Nastavení očekávání a formy spolupráce mezi námi, ale i mezi týmy samotnými.</p>
                 </div>
                 <div class="col-lg-2">
-                    <img src="img/svg/circles.svg" class="plan-image" alt="Analýza stavu firmy a konzultace v oblasti IT"/>
+                    <img src="img/svg/circles.svg" class="plan-image" alt="Analýza stavu firmy a konzultace v oblasti IT" />
                 </div>
                 <div class="col-lg-5 mt-40">
                     <p class="how-block"><span class="fw-450">4. Vydefinování milníku</span> - společné vydefinování prvního milníku, kterého chceme dosáhnout, včetně konkrétních kroků, odpovědností a osob potřebných k jeho naplnění.</p><br />
@@ -195,7 +195,7 @@
         </div>
     </section>
 
-	<?php include "team.html" ?>
+    <?php include "team.html" ?>
 
     <!-- section references -->
     <section id="project-references" class="project-references">
@@ -211,7 +211,7 @@
                     <h3 class="ref-title">Datovou transformací firmy</h3><br />
                     <div>
                         <span class="fw-450">Co? Pro koho?</span>
-                        <a href="https://www.mall.cz/sledovani-objednavky" target="new"><span class="float-right ref-grey-icon"><img src="img/svg/web_grey.svg" /></span></a> <br /><br /> Součástí řešení byl návrh a vydefinování požadavků na data, jejich zobrazení, vizualizaci a aktuálnost. Požadavky byly shromážděny napříč několika odděleními a připravené pro různé potřeby různých členy týmu. Řešení obsahovalo poměrně značnou optimalizaci nákladů i času, z důvodu velkého množství dat.<br /><br />
+                        <a href="https://www.mall.cz/sledovani-objednavky" target="new"><span class="float-right ref-grey-icon"><img class="svg-grey" src="img/svg/web_grey.svg" /></span></a> <br /><br /> Součástí řešení byl návrh a vydefinování požadavků na data, jejich zobrazení, vizualizaci a aktuálnost. Požadavky byly shromážděny napříč několika odděleními a připravené pro různé potřeby různých členy týmu. Řešení obsahovalo poměrně značnou optimalizaci nákladů i času, z důvodu velkého množství dat.<br /><br />
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-4 mt-50">
@@ -221,7 +221,7 @@
                     <h3 class="ref-title">Mobilním vývojem interní aplikace</h3><br />
                     <div>
                         <span class="fw-450">Co? Pro koho?</span>
-                        <a href="https://play.google.com/store/apps/details?id=com.nanooqit.economiaemail&hl=sk" target="new"><span class="float-right ref-grey-icon"><img src="img/svg/android_grey.svg" /></span></a> <br /><br /> Ne každá firma má nebo je pro ni efektivní mít svůj vlastní mobilní tým. Proto jsme se zapojili, jako externisti spolupracující s interním týmem, na vývoji mobilní aplikace pro správu emailů. Součástí řešení byly i návrhy, optimalizace, sběr požadavků od uživatelů a návrhy na jejich řešení.<br /><br />
+                        <a href="https://play.google.com/store/apps/details?id=com.nanooqit.economiaemail&hl=sk" target="new"><span class="float-right ref-grey-icon"><img class="svg-grey" src="img/svg/android_grey.svg" /></span></a> <br /><br /> Ne každá firma má nebo je pro ni efektivní mít svůj vlastní mobilní tým. Proto jsme se zapojili, jako externisti spolupracující s interním týmem, na vývoji mobilní aplikace pro správu emailů. Součástí řešení byly i návrhy, optimalizace, sběr požadavků od uživatelů a návrhy na jejich řešení.<br /><br />
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-4 mt-50">
@@ -231,7 +231,7 @@
                     <h3 class="ref-title">Inovacemi a UI / UX transformací</h3><br />
                     <div>
                         <span class="fw-450">Co? Pro koho?</span>
-                        <a href="https://gformations.uk/" target="new"><span class="float-right ref-grey-icon"><img src="img/svg/web_grey.svg" /></span></a> <br /><br /> Ne každý státní a korporátní systém musí být ošklivý, uživatelsky nepřívětivý a neintuitivní. Rozhodli jsme se graficky a technologicky přetvořit "nudné" formulářové stránky na zakládání firem, do interaktivního, graficky pěkného pomocníka. Řešení obsahovalo návrhy na inovace, kterým se klient odliší od konkurence.<br /><br />
+                        <a href="https://gformations.uk/" target="new"><span class="float-right ref-grey-icon"><img class="svg-grey" src="img/svg/web_grey.svg" /></span></a> <br /><br /> Ne každý státní a korporátní systém musí být ošklivý, uživatelsky nepřívětivý a neintuitivní. Rozhodli jsme se graficky a technologicky přetvořit "nudné" formulářové stránky na zakládání firem, do interaktivního, graficky pěkného pomocníka. Řešení obsahovalo návrhy na inovace, kterým se klient odliší od konkurence.<br /><br />
                     </div>
                 </div>
             </div>
@@ -249,7 +249,7 @@
         </div>
     </section>
 
-	<?php include "footer.html" ?>
+    <?php include "footer.html" ?>
 
 </body>
 

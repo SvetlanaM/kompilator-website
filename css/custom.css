@@ -84,13 +84,13 @@ body {
 }
 
 a {
-    color: #ff8c4a;
-    cursor: pointer
+    color: #4e4e82;
+    cursor: pointer;
 }
 
 a:hover {
     color: #ff8c4a;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .orange-link:hover {
@@ -1900,4 +1900,12 @@ button.order:hover {
 
 button:focus {
     outline: 0
+}
+
+.svg-white:hover {
+    filter: invert(0.2) saturate(0.1);
+}
+
+.svg-grey:hover {
+    filter: invert(0.5) saturate(0.5);
 }

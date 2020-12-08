@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="cs">
+
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXJJ9QHN6Z"></script>
@@ -47,7 +48,7 @@
 <body class="bg-white gray">
     <!-- navigation menu -->
 
-	<?php include "menu.html" ?>
+    <?php include "menu.html" ?>
 
     <!-- banner -->
     <section id="banner" class="banner">
@@ -59,13 +60,13 @@
                         <br /><br />
                         <div class="d-none d-lg-flex justify-content-between">
                             <div class="mr-5">
-                                <img src="img/logos/otkd.svg" class="img-fluid" alt="Závody Od Tatier k Dunaju"/>
+                                <img src="img/logos/otkd.svg" class="img-fluid" alt="Závody Od Tatier k Dunaju" />
                             </div>
                             <div class="mr-5">
-                                <img src="img/logos/limo.svg" class="img-fluid" alt="Půjčovna a odvoz limuzín Pro Limo Services"/>
+                                <img src="img/logos/limo.svg" class="img-fluid" alt="Půjčovna a odvoz limuzín Pro Limo Services" />
                             </div>
                             <div class="">
-                                <img src="img/logos/star.svg" class="img-fluid" alt="Najdi svoji hvězdu"/>
+                                <img src="img/logos/star.svg" class="img-fluid" alt="Najdi svoji hvězdu" />
                             </div>
                         </div>
                     </p>
@@ -123,17 +124,17 @@
                 </div>
                 <div class="mt-40 d-sm-flex-inline d-lg-flex align-items-stretch text-center justify-content-between">
                     <div class="col-sm-12 col-md-12 col-lg-3 step">
-                        <img src="img/svg/sales.svg" alt="Prodávejte s námi Vaše produkty"/>
+                        <img src="img/svg/sales.svg" alt="Prodávejte s námi Vaše produkty" />
                         <p class="purple fw-500 mt-3">Prodávat</p>
                         <p>Naučíme vás, jak budovat produkty, které prodávají. Vytvořit si uživatelskou komunitu, důvěryhodnost produktu a jeho digitální podobu online, která vydělává i bez předražené reklamy.</p>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-3 step">
-                        <img src="img/svg/bulb_ideas.svg" alt="Inovujte a designujte Vaše produkty a služby"/>
+                        <img src="img/svg/bulb_ideas.svg" alt="Inovujte a designujte Vaše produkty a služby" />
                         <p class="purple fw-500 mt-3">Inovovat/Designovat</p>
                         <p>Pomáháme s pohledem na různé produkty/problémy z jiného a nezaujatého úhlu. Děláme workshopy produktového brainstormingu, směrování firmy a pochopení základních inovačních technik.</p>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-3 step">
-                        <img src="img/svg/performance.svg" alt="Optimalizujte náklady a čas"/>
+                        <img src="img/svg/performance.svg" alt="Optimalizujte náklady a čas" />
                         <p class="purple fw-500 mt-3">Optimalizovat</p>
                         <p>Prostor na optimalizaci se najde vždy. Pomáháme najít slabá místa, které zbytečně zabírají náklady na budget, čas a zaměstnance a následně je spolu zautomatizujeme nebo zoptimalizujeme.</p>
                     </div>
@@ -168,7 +169,7 @@
         </div>
     </section>
 
-	<?php include "team.html" ?>
+    <?php include "team.html" ?>
 
     <!-- section references -->
     <section id="project-references" class="project-references">
@@ -184,8 +185,8 @@
                     <h3 class="ref-title">Mobilní aplikací pro běžce</h3><br />
                     <div>
                         <span class="fw-450">Co? Pro koho?</span>
-                        <a href="https://apps.apple.com/cz/app/otkd-2017/id1263139345?l=cs" target="new"><span class="float-right ref-grey-icon"><img src="img/svg/apple_grey.svg" /></span></a>
-                        <a href="https://play.google.com/store/apps/details?id=eu.nanooq.otkd&hl=sk" target="new"><span class="float-right ref-grey-icon"><img src="img/svg/android_grey.svg" /></span></a> <br /><br /> Projekt vznikl z naší vlastní iniciativy, protože sami běháme. Analyzovali jsme si požadavky běžců, přinesli návrh a aplikace byla na světě. Výrazně podpořila běh a celkový zážitek ze závodů. Už čtvrtý rok po sobě ji neustále rozvíjíme a tuningujeme.<br /><br />
+                        <a href="https://apps.apple.com/cz/app/otkd-2017/id1263139345?l=cs" target="new"><span class="float-right ref-grey-icon"><img class="svg-grey" src="img/svg/apple_grey.svg" /></span></a>
+                        <a href="https://play.google.com/store/apps/details?id=eu.nanooq.otkd&hl=sk" target="new"><span class="float-right ref-grey-icon"><img class="svg-grey" src="img/svg/android_grey.svg" /></span></a> <br /><br /> Projekt vznikl z naší vlastní iniciativy, protože sami běháme. Analyzovali jsme si požadavky běžců, přinesli návrh a aplikace byla na světě. Výrazně podpořila běh a celkový zážitek ze závodů. Už čtvrtý rok po sobě ji neustále rozvíjíme a tuningujeme.<br /><br />
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-4 mt-50">
@@ -195,7 +196,7 @@
                     <h3 class="ref-title">Webovou stránkou</h3><br />
                     <div>
                         <span class="fw-450">Co? Pro koho?</span>
-                        <a href="https://klingerkaoffices.sk/" target="new"><span class="float-right ref-grey-icon"><img src="img/svg/web_grey.svg" /></span></a> <br /><br /> Interaktivní webová stránka umožňující prezentovat nově vznikající budovu. Řešení obsahovalo interaktivní klikací prototyp budovy a kanceláří. Zakládali jsme si na pěkném a rychlém vykreslení a zobrazení vizualizací v přívětivé podobě.<br /><br />
+                        <a href="https://klingerkaoffices.sk/" target="new"><span class="float-right ref-grey-icon"><img class="svg-grey" src="img/svg/web_grey.svg" /></span></a> <br /><br /> Interaktivní webová stránka umožňující prezentovat nově vznikající budovu. Řešení obsahovalo interaktivní klikací prototyp budovy a kanceláří. Zakládali jsme si na pěkném a rychlém vykreslení a zobrazení vizualizací v přívětivé podobě.<br /><br />
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-4 mt-50">
@@ -205,7 +206,7 @@
                     <h3 class="ref-title">Webovou aplikací pro offline byznys</h3><br />
                     <div>
                         <span class="fw-450">Co? Pro koho?</span>
-                        <a href="http://prolimoservice.sk/" target="new"><span class="float-right ref-grey-icon"><img src="img/svg/web_grey.svg" /></span></a> <br /><br /> Během cesty vlakem jsme poznali dalšího super klienta, kterému jsme se rozhodli pomoci s rozjezdem jeho podnikání formou webové aplikace umožňující efektivně rezervovat limuzíny a komunikovat s řidičem.<br /><br />
+                        <a href="http://prolimoservice.sk/" target="new"><span class="float-right ref-grey-icon"><img class="svg-grey" src="img/svg/web_grey.svg" /></span></a> <br /><br /> Během cesty vlakem jsme poznali dalšího super klienta, kterému jsme se rozhodli pomoci s rozjezdem jeho podnikání formou webové aplikace umožňující efektivně rezervovat limuzíny a komunikovat s řidičem.<br /><br />
                     </div>
                 </div>
             </div>
@@ -223,7 +224,7 @@
         </div>
     </section>
 
-	<?php include "footer.html" ?>
+    <?php include "footer.html" ?>
 
 </body>
 
