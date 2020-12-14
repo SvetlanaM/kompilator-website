@@ -19,30 +19,33 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <meta name="description" content="Pomáháme vám budovat Váš byznys od základů, tuningovat ho a vytvářet uživatelskou základnu. Je jedno, jestli prodáváte čaje, poskytujete ubytování nebo vrtáte zuby. Nemáme problém zanalyzovat jakýkoliv use-case a pomoci vám ho posunout na další level.">
-    <meta name="keywords" content="web, mobilní aplikace, brand, rebrand, redesign, startup, nový web, podnikání, pomoc, konzultace, UI/UX">
+    <title>Kompilátor - Transformujme nápady ze sprchy v užitečné digitální produkty</title>
+    <meta name="title" content="Kompilátor - Transformujme nápady ze sprchy v užitečné digitální produkty">
+    <meta name="description" content="Analýza konkurence, uživatelské požadavek a návrh vhodné technické realizace webu, či aplikace. Tvorme vydělávající, užitečné produkty.">
     <meta name="author" content="Kompilátor s. r. o.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="telephone=yes">
     <meta name="seznam-wmt" content="7EXe6O8iBq0WvVggTh3fhgBa0M5VlTs1" />
+    <meta name="keywords" content="web, aplikace, design, vývoj, brand, rebrand, inovace, optimalizace, startup">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kompilator.cz/startups.php">
+    <meta property="og:title" content="Kompilátor - Transformujme nápady ze sprchy v užitečné digitální produkty">
+    <meta property=" og:description" content="Analýza konkurence, uživatelské požadavek a návrh vhodné technické realizace webu, či aplikace. Tvorme vydělávající, užitečné produkty.">
+    <meta property="og:image" content="https://www.kompilator.cz/img/meta_offline.jpg">
+    <meta property="og:site_name" content="Kompilátor - Transformujme nápady ze sprchy v užitečné digitální produkty" />
+    <meta property=" og:type" content="article" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://kompilator.cz/startups.php">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="https://kompilator.cz/startups.php">
+    <meta property="twitter:title" content="Kompilátor - Transformujme nápady ze sprchy v užitečné digitální produkty">
+    <meta property=" twitter:description" content="Analýza konkurence, uživatelské požadavek a návrh vhodné technické realizace webu, či aplikace. Tvorme vydělávající, užitečné produkty.">
+    <meta property="twitter:image" content="https://www.kompilator.cz/img/meta_offline.jpg">
 
     <?php include "header.html" ?>
-
-    <!-- Twitter Card data -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@publisher_handle">
-    <meta name="twitter:title" content="Kompilátor - digitálně-inovační agentura">
-    <meta name="twitter:description" content="Pomáháme vám budovat Váš byznys od základů, tuningovat ho a vytvářet uživatelskou základnu. Je jedno, jestli prodáváte čaje, poskytujete ubytování nebo vrtáte zuby. Nemáme problém zanalyzovat jakýkoliv use-case a pomoci vám ho posunout na další level.">
-    <meta name="twitter:creator" content="@author_handle">
-    <meta name="twitter:image" content="http://www.kompilator.cz/img/svg/banner_img.svg">
-
-    <!-- Open Graph data -->
-    <meta property="og:title" content="Kompilátor - digitálně-inovační agentura" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="http://www.kompilator.cz" />
-    <meta property="og:image" content="http://www.kompilator.cz/img/svg/banner_img.svg" />
-    <meta property="og:description" content="Pomáháme vám budovat Váš byznys od základů, tuningovat ho a vytvářet uživatelskou základnu. Je jedno, jestli prodáváte čaje, poskytujete ubytování nebo vrtáte zuby. Nemáme problém zanalyzovat jakýkoliv use-case a pomoci vám ho posunout na další level." />
-    <meta property="og:site_name" content="Kompilátor - digitálně-inovační agentura" />
 </head>
 
 <body class="bg-white gray">

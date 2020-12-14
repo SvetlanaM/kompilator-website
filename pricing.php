@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="cs">
+
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXJJ9QHN6Z"></script>
@@ -18,45 +19,39 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <meta name="description" content="Měníme nápady na reálné digitální produkty. Zaměřujeme se primárně na
-                                     design, UI/UX a uživatelský přístup. Neustále se ptáme a posloucháme. S námi vytvoříte užitečné webové
-                                     a mobilní aplikace, které jsou zde pro uživatele. Už žádné nedorozumění mezi IT a byznysem, všichni
-                                     pracujeme jako jeden tým.">
-    <meta name="keywords" content="Web, mobilní aplikace, iOS, Android, analýza, design, UI, UX, proč?, digitální, inovace, automatizace">
+    <title>Kompilátor - Ceník</title>
+    <meta name="title" content="Kompilátor - Ceník">
+    <meta name=" description" content="Naše sazba se pohybuje v rozmezí 850 - 1500 Kč / Hod. Nabízíme 3 typy balíčků - design box, analytics box, product box.">
     <meta name="author" content="Kompilátor s. r. o.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="telephone=yes">
     <meta name="seznam-wmt" content="7EXe6O8iBq0WvVggTh3fhgBa0M5VlTs1" />
+    <meta name="keywords" content="cena, kvalita, balíky, produkty">
 
-	<?php include "header.html" ?>
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kompilator.cz/pricing.php">
+    <meta property="og:title" content="Kompilátor - Ceník">
+    <meta property=" og:description" content="Naše sazba se pohybuje v rozmezí 850 - 1500 Kč / Hod. Nabízíme 3 typy balíčků - design box, analytics box, product box.">
+    <meta property="og:image" content="https://www.kompilator.cz/img/meta_pricing.jpg">
+    <meta property="og:site_name" content="Kompilátor - Ceník" />
+    <meta property=" og:type" content="article" />
 
-    <!-- Twitter Card data -->
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://kompilator.cz/pricing.php">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@publisher_handle">
-    <meta name="twitter:title" content="Kompilátor - digitálně-inovační agentura">
-    <meta name="twitter:description" content="Měníme nápady na reálné digitální produkty. Zaměřujeme se primárně na
-                                     design, UI/UX a uživatelský přístup. Neustále se ptáme a posloucháme. S námi vytvoříte užitečné webové
-                                     a mobilní aplikace, které jsou zde pro uživatele. Už žádné nedorozumění mezi IT a byznysem, všichni
-                                     pracujeme jako jeden tým.">
-    <meta name="twitter:creator" content="@author_handle">
-    <meta name="twitter:image" content="http://www.kompilator.cz/img/svg/banner_img.svg">
+    <meta name="twitter:site" content="https://kompilator.cz/pricing.php">
+    <meta property="twitter:title" content="Kompilátor - Ceník">
+    <meta property=" twitter:description" content="Naše sazba se pohybuje v rozmezí 850 - 1500 Kč / Hod. Nabízíme 3 typy balíčků - design box, analytics box, product box.">
+    <meta property="twitter:image" content="https://www.kompilator.cz/img/meta_pricing.jpg">
 
-    <!-- Open Graph data -->
-    <meta property="og:title" content="Kompilátor - digitálně-inovační agentura" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="http://www.kompilator.cz" />
-    <meta property="og:image" content="http://www.kompilator.cz/img/svg/banner_img.svg" />
-    <meta property="og:description" content="Měníme nápady na reálné digitální produkty. Zaměřujeme se primárně na
-                                     design, UI/UX a uživatelský přístup. Neustále se ptáme a posloucháme. S námi vytvoříte užitečné webové
-                                     a mobilní aplikace, které jsou zde pro uživatele. Už žádné nedorozumění mezi IT a byznysem, všichni
-                                     pracujeme jako jeden tým." />
-    <meta property="og:site_name" content="Kompilátor - digitálno-inovačná agentúra" />
+    <?php include "header.html" ?>
 </head>
 
 <body class="bg-white gray">
     <!-- navigation menu -->
 
-	<?php include "menu.html" ?>
+    <?php include "menu.html" ?>
 
     <!-- banner -->
     <section id="banner" class="banner">
@@ -90,7 +85,7 @@
             <div class="row text-center justify-content-between pricing-box">
                 <div class="col-lg col-lg-4 col-fhd-3 align-items-stretch">
                     <div class="card-image">
-                        <img src="img/svg/digitalisation.svg" class="mx-auto d-block" alt="Digitalizace produktů - Design Box"/>
+                        <img src="img/svg/digitalisation.svg" class="mx-auto d-block" alt="Digitalizace produktů - Design Box" />
                     </div>
                     <div class="card card1 border-0">
                         <div class="card-body mt-120">
@@ -112,7 +107,7 @@
                 </div>
                 <div class="col-lg col-lg-4 col-fhd-3 align-items-stretch">
                     <div class="card-image">
-                        <img src="img/svg/inovations.svg" class="mx-auto d-block" alt="Analýza produktů - Analytics Box"/>
+                        <img src="img/svg/inovations.svg" class="mx-auto d-block" alt="Analýza produktů - Analytics Box" />
                     </div>
                     <div class="card border-0">
                         <div class="card-body mt-120">
@@ -134,7 +129,7 @@
                 </div>
                 <div class="col-lg col-lg-4 col-fhd-3 align-items-stretch">
                     <div class="card-image">
-                        <img src="img/svg/offline.svg" class="mx-auto d-block" alt="Produktový vývoj - Product Box"/>
+                        <img src="img/svg/offline.svg" class="mx-auto d-block" alt="Produktový vývoj - Product Box" />
                     </div>
                     <div class="card card3 border-0">
                         <div class="card-body mt-120">
@@ -207,12 +202,12 @@
                         <p>Dohodneme měsíční budget/hodiny, během kterých se bude pracovat ve sprintech, až do jeho vyčerpání. Závěrem by měla být vždy hotová fungující část.</p>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-3 step">
-                        <img src="img/svg/agile_loop.svg" alt="Agilní předplatné za služby"/>
+                        <img src="img/svg/agile_loop.svg" alt="Agilní předplatné za služby" />
                         <p class="purple fw-500 mt-3">Agilní předplatné</p>
                         <p>Cena se sjednává na základě sprintu (14/30 dní), během něhož se vytvoří dohodnutá funkcionalita a ta je finálně na konci sprintu fakturována.</p>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-3 step">
-                        <img src="img/svg/consult.svg" alt="Konzultační předplatné za poradenství"/>
+                        <img src="img/svg/consult.svg" alt="Konzultační předplatné za poradenství" />
                         <p class="purple fw-500 mt-3">Konzultační předplatné</p>
                         <p>Cena konzultací sjednána variabilně podle potřeby nebo fixně podle počtu hodin měsíčně. Neobsahuje implementaci, pouze konzultace v různých oblastech (vývoj, design, řízení týmu, ...)</p>
                     </div>
@@ -276,7 +271,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 ml-auto d-lg-flex p-0 justify-content-center">
-                    <img src="img/svg/market.svg" class="wizard-img img-fluid auto-banner market-banner" alt="Trh v oblasti informačních technologií, slevy na vývoji"/>
+                    <img src="img/svg/market.svg" class="wizard-img img-fluid auto-banner market-banner" alt="Trh v oblasti informačních technologií, slevy na vývoji" />
                 </div>
             </div>
         </div>
@@ -298,7 +293,7 @@
                                 <li class="fw-450">+ Jedná se o hobby projekt?</li>
                                 <li class="fw-450">+ Věřím mu dostatečně?</li>
                             </ul>
-                        Placená reklama v Googlu a na FB to už většinou nezachrání. Zvalidujte si svůj nápad pomocí našeho <a href="https://forms.gle/zDCrXjETzfTFcrxA8" target="new" class="orange-link">vstupního formuláře.</a></p>
+                            Placená reklama v Googlu a na FB to už většinou nezachrání. Zvalidujte si svůj nápad pomocí našeho <a href="https://forms.gle/zDCrXjETzfTFcrxA8" target="new" class="orange-link">vstupního formuláře.</a></p>
                     </div>
                     <div class="why1">
                         <p class="fw-450 text-uppercase">NEVYHOZENÉ PENÍZE</p>
@@ -314,7 +309,7 @@
         </div>
     </section>
 
-	<?php include "footer.html" ?>
+    <?php include "footer.html" ?>
 
 </body>
 

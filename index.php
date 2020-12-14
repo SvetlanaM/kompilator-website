@@ -2,7 +2,7 @@
 <html lang="cs">
 
 <head>
-    <title>Kompilátor - z řeči klientů, do řeči uživatelů</title>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXJJ9QHN6Z"></script>
     <script>
@@ -20,39 +20,37 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <meta name="description" content="Měníme nápady na reálné digitální produkty. Pomáháme s rebrandingem, redesignem a tvorbou nového brandu. Zaměřujeme se primárně na
-         design, UI / UX a uživatelský přístup. Neustále se ptáme a posloucháme. S námi vytvoříte užitečné webové
-         a mobilní aplikace, které jsou zde pro uživatele. Už žádné nedorozumění mezi IT a byznysem, všichni
-         pracujeme jako jeden tým.">
-    <meta name="keywords" content="brand, rebrand, použitelnost, Web, mobilní aplikace, iOS, Android, analýza, design, UI, UX, proč?, digitální, inovace, automatizace">
+    <title>Kompilátor - z řeči klientů, do řeči uživatelů</title>
+    <meta name="title" content="Kompilátor - z řeči klientů, do řeči uživatelů">
+    <meta name="description" content="Měníme nápady na reálné digitální produkty. Už žádné nedorozumění mezi IT a byznysem, všichni pracujeme jako jeden tým.">
     <meta name="author" content="Kompilátor s. r. o.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="telephone=yes">
     <meta name="seznam-wmt" content="7EXe6O8iBq0WvVggTh3fhgBa0M5VlTs1" />
+    <meta name="keywords" content="web, aplikace, rebrand, redesign, produkt, proč?, design">
+    <meta name="application-name" content="Kompilator.cz">
+    <link rel="canonical" href="https://kompilator.cz/" />
+
+
+    <!-- Open Graph / Facebook -->
+    <meta property=" og:type" content="website">
+    <meta property="og:url" content="https://kompilator.cz/">
+    <meta property="og:title" content="Kompilátor - z řeči klientů, do řeči uživatelů">
+    <meta property="og:description" content="Měníme nápady na reálné digitální produkty. Už žádné nedorozumění mezi IT a byznysem, všichni pracujeme jako jeden tým.">
+    <meta property="og:image" content="https://www.kompilator.cz/img/kompilator_meta_image.jpg">
+    <meta property="og:site_name" content="Kompilátor - z řeči klientů, do řeči uživatelů" />
+    <meta property="og:type" content="article" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://kompilator.cz/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="https://kompilator.cz/">
+    <meta property="twitter:title" content="Kompilátor - z řeči klientů, do řeči uživatelů">
+    <meta property="twitter:description" content="Měníme nápady na reálné digitální produkty. Už žádné nedorozumění mezi IT a byznysem, všichni pracujeme jako jeden tým.">
+    <meta property="twitter:image" content="https://www.kompilator.cz/img/kompilator_meta_image.jpg">
 
     <?php include "header.html" ?>
-
-    <!-- Twitter Card data -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@publisher_handle">
-    <meta name="twitter:title" content="Kompilátor - digitálně-inovační agentura">
-    <meta name="twitter:description" content="Měníme nápady na reálné digitální produkty. Zaměřujeme se primárně na
-         design, UI / UX a uživatelský přístup. Neustále se ptáme a posloucháme. S námi vytvoříte užitečné webové
-         a mobilní aplikace, které jsou zde pro uživatele. Už žádné nedorozumění mezi IT a byznysem, všichni
-         pracujeme jako jeden tým.">
-    <meta name="twitter:creator" content="@author_handle">
-    <meta name="twitter:image" content="http://www.kompilator.cz/img/svg/banner_img.svg">
-
-    <!-- Open Graph data -->
-    <meta property="og:title" content="Kompilátor - digitálně-inovační agentura" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="http://www.kompilator.cz" />
-    <meta property="og:image" content="http://www.kompilator.cz/img/svg/banner_img.svg" />
-    <meta property="og:description" content="Měníme nápady na reálné digitální produkty. Zaměřujeme se primárně na
-         design, UI / UX a uživatelský přístup. Neustále se ptáme a posloucháme. S námi vytvoříte užitečné webové
-         a mobilní aplikace, které jsou zde pro uživatele. Už žádné nedorozumění mezi IT a byznysem, všichni
-         pracujeme jako jeden tým." />
-    <meta property="og:site_name" content="Kompilátor - digitálně-inovační agentura" />
 </head>
 
 <body class="bg-white gray">

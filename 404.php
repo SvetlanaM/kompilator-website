@@ -20,6 +20,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
+    <title>Kompilátor - z řeči klientů, do řeči uživatelů</title>
     <meta name="description" content="Měníme nápady na reálné digitální produkty. Pomáháme s rebrandingem, redesignem a tvorbou nového brandu. Zaměřujeme se primárně na
          design, UI / UX a uživatelský přístup. Neustále se ptáme a posloucháme. S námi vytvoříte užitečné webové
          a mobilní aplikace, které jsou zde pro uživatele. Už žádné nedorozumění mezi IT a byznysem, všichni

@@ -19,33 +19,33 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <meta name="description" content="OD TATIER K DUNAJU je 345 km dlouhý štafetový běh družstev. 6 nebo 9 až 12-členné týmy vystartují z Jasné v Nízkých Tatrách v sobotu dopoledne, běží non-stop dnem i nocí a v neděli odpoledne doběhnou do cíle závodu na nábřeží
-                         Dunaje v Bratislavě.">
-    <meta name="keywords" content="mobilní aplikace, závody, běh, od tatier k dunaju, firebase, vývoj, fanoušci, gps tracking, real-time">
+    <title>Případová studie - Mobilní aplikace Od Tater k Dunaji</title>
+    <meta name="title" content="Případová studie - Mobilní aplikace Od Tater k Dunaji">
+    <meta name=" description" content="Postup při vývoji a návrhu mobilní aplikace pro běžecké štafetové závody na Slovensku.">
     <meta name="author" content="Kompilátor s. r. o.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="telephone=yes">
     <meta name="seznam-wmt" content="7EXe6O8iBq0WvVggTh3fhgBa0M5VlTs1" />
+    <meta name="keywords" content="studie, mobilní aplikace, od tatier k dunaju, gps, tracking, real-time">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kompilator.cz/otkd.php">
+    <meta property="og:title" content="Případová studie - Mobilní aplikace Od Tater k Dunaji">
+    <meta property=" og:description" content="Postup při vývoji a návrhu mobilní aplikace pro běžecké štafetové závody na Slovensku.">
+    <meta property="og:image" content="https://www.kompilator.cz/img/meta_otkd.png">
+    <meta property="og:site_name" content="Případová studie - Mobilní aplikace Od Tater k Dunaji" />
+    <meta property=" og:type" content="article" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://kompilator.cz/otkd.php">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="https://kompilator.cz/otkd.php">
+    <meta property="twitter:title" content="Případová studie - Mobilní aplikace Od Tater k Dunaji">
+    <meta property=" twitter:description" content="Postup při vývoji a návrhu mobilní aplikace pro běžecké štafetové závody na Slovensku.">
+    <meta property="twitter:image" content="https://www.kompilator.cz/img/meta_otkd.png">
 
     <?php include "header.html" ?>
-
-    <!-- Twitter Card data -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@publisher_handle">
-    <meta name="twitter:title" content="Kompilátor - digitálně-inovační agentura">
-    <meta name="twitter:description" content="OD TATIER K DUNAJU je 345 km dlouhý štafetový běh družstev. 6 nebo 9 až 12-členné týmy vystartují z Jasné v Nízkých Tatrách v sobotu dopoledne, běží non-stop dnem i nocí a v neděli odpoledne doběhnou do cíle závodu na nábřeží
-                         Dunaje v Bratislavě.">
-    <meta name="twitter:creator" content="@author_handle">
-    <meta name="twitter:image" content="http://www.kompilator.cz/img/svg/banner_img.svg">
-
-    <!-- Open Graph data -->
-    <meta property="og:title" content="Kompilátor - digitálně-inovační agentura" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="http://www.kompilator.cz" />
-    <meta property="og:image" content="http://www.kompilator.cz/img/svg/banner_img.svg" />
-    <meta property="og:description" content="OD TATIER K DUNAJU je 345 km dlouhý štafetový běh družstev. 6 nebo 9 až 12-členné týmy vystartují z Jasné v Nízkých Tatrách v sobotu dopoledne, běží non-stop dnem i nocí a v neděli odpoledne doběhnou do cíle závodu na nábřeží
-                         Dunaje v Bratislavě." />
-    <meta property="og:site_name" content="Kompilátor - digitálno-inovačná agentúra" />
 </head>
 
 <body class="bg-white gray">
