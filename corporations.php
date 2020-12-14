@@ -20,20 +20,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>Kompilátor - Zrychlíme Váš náskok před konkurencí</title>
-    <meta name="title" content="Kompilátor - Zrychlíme Váš náskok před konkurencí">
-    <meta name="description" content="Pomáháme s datovou transformací firmy, nastavením priorit, agilitou a inovacemi. Vynikejte před konkurencí s námi.">
-    <meta name="author" content="Kompilátor s. r. o.">
-    <meta name="format-detection" content="telephone=yes">
-    <meta name="seznam-wmt" content="7EXe6O8iBq0WvVggTh3fhgBa0M5VlTs1" />
-    <meta name="keywords" content="korporace, priority, agilita, produkt, deadline, inovace, optimalizace">
-
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://kompilator.cz/corporations.php">
     <meta property="og:title" content="Kompilátor - Zrychlíme Váš náskok před konkurencí">
     <meta property="og:description" content="Pomáháme s datovou transformací firmy, nastavením priorit, agilitou a inovacemi. Vynikejte před konkurencí s námi.">
     <meta property="og:image" content="https://www.kompilator.cz/img/meta_corp.png">
-    <meta property="og:site_name" content="Kompilátor - Zrychlíme Váš náskok před konkurencí" />
+    <meta property="og:site_name" content="Kompilátor" />
     <meta property="og:type" content="article" />
 
     <!-- Twitter -->
@@ -44,6 +37,13 @@
     <meta property="twitter:title" content="Kompilátor - Zrychlíme Váš náskok před konkurencí">
     <meta property="twitter:description" content="Pomáháme s datovou transformací firmy, nastavením priorit, agilitou a inovacemi. Vynikejte před konkurencí s námi.">
     <meta property="twitter:image" content="https://www.kompilator.cz/img/meta_corp.png">
+
+    <meta name="title" content="Kompilátor - Zrychlíme Váš náskok před konkurencí">
+    <meta name="description" content="Pomáháme s datovou transformací firmy, nastavením priorit, agilitou a inovacemi. Vynikejte před konkurencí s námi.">
+    <meta name="author" content="Kompilátor s. r. o.">
+    <meta name="format-detection" content="telephone=yes">
+    <meta name="seznam-wmt" content="7EXe6O8iBq0WvVggTh3fhgBa0M5VlTs1" />
+    <meta name="keywords" content="korporace, priority, agilita, produkt, deadline, inovace, optimalizace">
 
     <?php include "header.html" ?>
 </head>

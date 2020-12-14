@@ -20,12 +20,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>Kompilátor - Transformujme nápady ze sprchy v užitečné digitální produkty</title>
-    <meta name="title" content="Kompilátor - Transformujme nápady ze sprchy v užitečné digitální produkty">
-    <meta name="description" content="Analýza konkurence, uživatelské požadavek a návrh vhodné technické realizace webu, či aplikace. Tvorme vydělávající, užitečné produkty.">
-    <meta name="author" content="Kompilátor s. r. o.">
-    <meta name="format-detection" content="telephone=yes">
-    <meta name="seznam-wmt" content="7EXe6O8iBq0WvVggTh3fhgBa0M5VlTs1" />
-    <meta name="keywords" content="web, aplikace, design, vývoj, brand, rebrand, inovace, optimalizace, startup">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -33,7 +27,7 @@
     <meta property="og:title" content="Kompilátor - Transformujme nápady ze sprchy v užitečné digitální produkty">
     <meta property=" og:description" content="Analýza konkurence, uživatelské požadavek a návrh vhodné technické realizace webu, či aplikace. Tvorme vydělávající, užitečné produkty.">
     <meta property="og:image" content="https://www.kompilator.cz/img/meta_offline.jpg">
-    <meta property="og:site_name" content="Kompilátor - Transformujme nápady ze sprchy v užitečné digitální produkty" />
+    <meta property="og:site_name" content="Kompilátor" />
     <meta property=" og:type" content="article" />
 
     <!-- Twitter -->
@@ -44,6 +38,13 @@
     <meta property="twitter:title" content="Kompilátor - Transformujme nápady ze sprchy v užitečné digitální produkty">
     <meta property=" twitter:description" content="Analýza konkurence, uživatelské požadavek a návrh vhodné technické realizace webu, či aplikace. Tvorme vydělávající, užitečné produkty.">
     <meta property="twitter:image" content="https://www.kompilator.cz/img/meta_offline.jpg">
+
+    <meta name="title" content="Kompilátor - Transformujme nápady ze sprchy v užitečné digitální produkty">
+    <meta name="description" content="Analýza konkurence, uživatelské požadavek a návrh vhodné technické realizace webu, či aplikace. Tvorme vydělávající, užitečné produkty.">
+    <meta name="author" content="Kompilátor s. r. o.">
+    <meta name="format-detection" content="telephone=yes">
+    <meta name="seznam-wmt" content="7EXe6O8iBq0WvVggTh3fhgBa0M5VlTs1" />
+    <meta name="keywords" content="web, aplikace, design, vývoj, brand, rebrand, inovace, optimalizace, startup">
 
     <?php include "header.html" ?>
 </head>
@@ -221,7 +222,7 @@
                     <h3 class="ref-title">Webovou aplikací pro offline byznys</h3><br />
                     <div>
                         <span class="fw-450">Co? Pro koho?</span>
-                        <a href="http://prolimoservice.sk/" target="new"><span class="float-right ref-grey-icon"><img class="svg-grey" src="img/svg/web_grey.svg" /></span></a> <br /><br /> Během cesty vlakem jsme poznali dalšího super klienta, kterému jsme se rozhodli pomoci s rozjezdem jeho podnikání formou webové aplikace umožňující efektivně rezervovat limuzíny a komunikovat s řidičem.<br /><br />
+                        <a href="https://prolimoservice.kompilator.cz/" target="new"><span class="float-right ref-grey-icon"><img class="svg-grey" src="img/svg/web_grey.svg" /></span></a> <br /><br /> Během cesty vlakem jsme poznali dalšího super klienta, kterému jsme se rozhodli pomoci s rozjezdem jeho podnikání formou webové aplikace umožňující efektivně rezervovat limuzíny a komunikovat s řidičem.<br /><br />
                     </div>
                 </div>
             </div>

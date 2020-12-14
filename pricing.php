@@ -20,20 +20,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>Kompilátor - Ceník</title>
-    <meta name="title" content="Kompilátor - Ceník">
-    <meta name=" description" content="Naše sazba se pohybuje v rozmezí 850 - 1500 Kč / Hod. Nabízíme 3 typy balíčků - design box, analytics box, product box.">
-    <meta name="author" content="Kompilátor s. r. o.">
-    <meta name="format-detection" content="telephone=yes">
-    <meta name="seznam-wmt" content="7EXe6O8iBq0WvVggTh3fhgBa0M5VlTs1" />
-    <meta name="keywords" content="cena, kvalita, balíky, produkty">
-
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://kompilator.cz/pricing.php">
     <meta property="og:title" content="Kompilátor - Ceník">
     <meta property=" og:description" content="Naše sazba se pohybuje v rozmezí 850 - 1500 Kč / Hod. Nabízíme 3 typy balíčků - design box, analytics box, product box.">
     <meta property="og:image" content="https://www.kompilator.cz/img/meta_pricing.jpg">
-    <meta property="og:site_name" content="Kompilátor - Ceník" />
+    <meta property="og:site_name" content="Kompilátor" />
     <meta property=" og:type" content="article" />
 
     <!-- Twitter -->
@@ -44,6 +37,12 @@
     <meta property="twitter:title" content="Kompilátor - Ceník">
     <meta property=" twitter:description" content="Naše sazba se pohybuje v rozmezí 850 - 1500 Kč / Hod. Nabízíme 3 typy balíčků - design box, analytics box, product box.">
     <meta property="twitter:image" content="https://www.kompilator.cz/img/meta_pricing.jpg">
+    <meta name="title" content="Kompilátor - Ceník">
+    <meta name=" description" content="Naše sazba se pohybuje v rozmezí 850 - 1500 Kč / Hod. Nabízíme 3 typy balíčků - design box, analytics box, product box.">
+    <meta name="author" content="Kompilátor s. r. o.">
+    <meta name="format-detection" content="telephone=yes">
+    <meta name="seznam-wmt" content="7EXe6O8iBq0WvVggTh3fhgBa0M5VlTs1" />
+    <meta name="keywords" content="cena, kvalita, balíky, produkty">
 
     <?php include "header.html" ?>
 </head>

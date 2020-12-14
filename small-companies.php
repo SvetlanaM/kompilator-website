@@ -20,12 +20,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>Kompilátor - Detaily tvoří dokonalý produkt, který vydělává</title>
-    <meta name="title" content="Kompilátor - Detaily tvoří dokonalý produkt, který vydělává">
-    <meta name="description" content="Komplexní webový a mobilní vývoj z produktového pohledu. Tvoříme jeden brand od analýzy až po uživatelské testování.">
-    <meta name="author" content="Kompilátor s. r. o.">
-    <meta name="format-detection" content="telephone=yes">
-    <meta name="seznam-wmt" content="7EXe6O8iBq0WvVggTh3fhgBa0M5VlTs1" />
-    <meta name="keywords" content="web, aplikace, design, vývoj, brand, rebrand, inovace, optimalizace">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -33,7 +27,7 @@
     <meta property="og:title" content="Kompilátor - Detaily tvoří dokonalý produkt, který vydělává">
     <meta property=" og:description" content="Komplexní webový a mobilní vývoj z produktového pohledu. Tvoříme jeden brand od analýzy až po uživatelské testování.">
     <meta property="og:image" content="https://www.kompilator.cz/img/meta_small.jpg">
-    <meta property="og:site_name" content="Kompilátor - Detaily tvoří dokonalý produkt, který vydělává" />
+    <meta property="og:site_name" content="Kompilátor" />
     <meta property=" og:type" content="article" />
 
     <!-- Twitter -->
@@ -44,6 +38,13 @@
     <meta property="twitter:title" content="Kompilátor - Detaily tvoří dokonalý produkt, který vydělává">
     <meta property="twitter:description" content="Komplexní webový a mobilní vývoj z produktového pohledu. Tvoříme jeden brand od analýzy až po uživatelské testování.">
     <meta property="twitter:image" content="https://www.kompilator.cz/img/meta_small.jpg">
+
+    <meta name="title" content="Kompilátor - Detaily tvoří dokonalý produkt, který vydělává">
+    <meta name="description" content="Komplexní webový a mobilní vývoj z produktového pohledu. Tvoříme jeden brand od analýzy až po uživatelské testování.">
+    <meta name="author" content="Kompilátor s. r. o.">
+    <meta name="format-detection" content="telephone=yes">
+    <meta name="seznam-wmt" content="7EXe6O8iBq0WvVggTh3fhgBa0M5VlTs1" />
+    <meta name="keywords" content="web, aplikace, design, vývoj, brand, rebrand, inovace, optimalizace">
 
     <?php include "header.html" ?>
 </head>

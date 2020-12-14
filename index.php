@@ -21,24 +21,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>Kompilátor - z řeči klientů, do řeči uživatelů</title>
-    <meta name="title" content="Kompilátor - z řeči klientů, do řeči uživatelů">
-    <meta name="description" content="Měníme nápady na reálné digitální produkty. Už žádné nedorozumění mezi IT a byznysem, všichni pracujeme jako jeden tým.">
-    <meta name="author" content="Kompilátor s. r. o.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="format-detection" content="telephone=yes">
-    <meta name="seznam-wmt" content="7EXe6O8iBq0WvVggTh3fhgBa0M5VlTs1" />
-    <meta name="keywords" content="web, aplikace, rebrand, redesign, produkt, proč?, design">
-    <meta name="application-name" content="Kompilator.cz">
-    <link rel="canonical" href="https://kompilator.cz/" />
-
-
     <!-- Open Graph / Facebook -->
     <meta property=" og:type" content="website">
     <meta property="og:url" content="https://kompilator.cz/">
     <meta property="og:title" content="Kompilátor - z řeči klientů, do řeči uživatelů">
     <meta property="og:description" content="Měníme nápady na reálné digitální produkty. Už žádné nedorozumění mezi IT a byznysem, všichni pracujeme jako jeden tým.">
     <meta property="og:image" content="https://www.kompilator.cz/img/kompilator_meta_image.jpg">
-    <meta property="og:site_name" content="Kompilátor - z řeči klientů, do řeči uživatelů" />
+    <meta property="og:site_name" content="Kompilátor" />
     <meta property="og:type" content="article" />
 
     <!-- Twitter -->
@@ -49,6 +38,16 @@
     <meta property="twitter:title" content="Kompilátor - z řeči klientů, do řeči uživatelů">
     <meta property="twitter:description" content="Měníme nápady na reálné digitální produkty. Už žádné nedorozumění mezi IT a byznysem, všichni pracujeme jako jeden tým.">
     <meta property="twitter:image" content="https://www.kompilator.cz/img/kompilator_meta_image.jpg">
+
+    <meta name="title" content="Kompilátor - z řeči klientů, do řeči uživatelů">
+    <meta name="description" content="Měníme nápady na reálné digitální produkty. Už žádné nedorozumění mezi IT a byznysem, všichni pracujeme jako jeden tým.">
+    <meta name="author" content="Kompilátor s. r. o.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=yes">
+    <meta name="seznam-wmt" content="7EXe6O8iBq0WvVggTh3fhgBa0M5VlTs1" />
+    <meta name="keywords" content="web, aplikace, rebrand, redesign, produkt, proč?, design">
+    <meta name="application-name" content="Kompilator.cz">
+    <link rel="canonical" href="https://kompilator.cz/" />
 
     <?php include "header.html" ?>
 </head>
@@ -206,7 +205,36 @@
         <div class="container-fluid pl-md-5 pr-md-5">
             <div id="carousel-fade" class="carousel slide carousel-fade mt-40" data-interval="false" data-ride="carousel" data-pause="hover">
                 <div class="carousel-inner">
+
                     <div class="carousel-item active">
+                        <div class="d-block w-100 slide-box slide-box2"></div>
+                        <div class="carousel-caption col-md-11 col-lg-8 pl-5">
+                            <h2 class="carousel-title">Limuzíny pro všechny
+                                <span class="ref-icon">
+                                    <a href="https://prolimoservice.kompilator.cz/" target="new"><img src="img/svg/web_white.svg" class="svg-white" alt="Webová aplikace Pro Limo Services" /></a>
+                                </span>
+                            </h2>
+                            <p class="carousel-desc mt-4">Responzivní webová aplikace umožňující online rezervaci limuzíny pro různé účely, včetně objednání doplňkových služeb a rychlé komunikaci s Vaším řidičem. Díky aplikaci je možné začít výlet v novém městě již na letišti
+                                a nestresovat se čekáním na taxi v předražených turistických cenách.</p>
+                            <ul class="list-inline list-unstyled carousel-tags mt-4">
+                                <li class="carousel-tag-item list-inline-item">Analýza</li>
+                                <li class="carousel-tag-item list-inline-item">Design</li>
+                                <li class="carousel-tag-item list-inline-item">UI/UX</li>
+                                <li class="carousel-tag-item list-inline-item">Drupal</li>
+                                <li class="carousel-tag-item list-inline-item">Marketing</li>
+                            </ul>
+                            <!-- <button type="button" class="btn-study btn col-auto p-0">ZOBRAZIT CASE STUDY</button> -->
+                        </div>
+                        <picture>
+                            <source srcset="img/slide2@1.webp 1x,
+										img/slide2@2.webp 2x" type="image/webp">
+                            <source srcset="img/slide2@2.png 1x,
+										img/slide2@2.png 2x" type="image/png">
+                            <img class="carousel-image" src="img/slide2@2.png" alt="Pro limo services - online limuzíny" />
+                        </picture>
+                    </div>
+
+                    <div class="carousel-item">
                         <div class="d-block w-100 slide-box slide-box1"></div>
                         <div class="carousel-caption col-md-11 col-lg-8 pl-5">
                             <h2 class="carousel-title">Příběh aplikace pro bežce
@@ -241,33 +269,6 @@
                         </picture>
                     </div>
 
-                    <div class="carousel-item">
-                        <div class="d-block w-100 slide-box slide-box2"></div>
-                        <div class="carousel-caption col-md-11 col-lg-8 pl-5">
-                            <h2 class="carousel-title">Limuzíny pro všechny
-                                <span class="ref-icon">
-                                    <a href="https://www.prolimoservice.sk/" target="new"><img src="img/svg/web_white.svg" class="svg-white" alt="Webová aplikace Pro Limo Services" /></a>
-                                </span>
-                            </h2>
-                            <p class="carousel-desc mt-4">Responzivní webová aplikace umožňující online rezervaci limuzíny pro různé účely, včetně objednání doplňkových služeb a rychlé komunikaci s Vaším řidičem. Díky aplikaci je možné začít výlet v novém městě již na letišti
-                                a nestresovat se čekáním na taxi v předražených turistických cenách.</p>
-                            <ul class="list-inline list-unstyled carousel-tags mt-4">
-                                <li class="carousel-tag-item list-inline-item">Analýza</li>
-                                <li class="carousel-tag-item list-inline-item">Design</li>
-                                <li class="carousel-tag-item list-inline-item">UI/UX</li>
-                                <li class="carousel-tag-item list-inline-item">Drupal</li>
-                                <li class="carousel-tag-item list-inline-item">Marketing</li>
-                            </ul>
-                            <!-- <button type="button" class="btn-study btn col-auto p-0">ZOBRAZIT CASE STUDY</button> -->
-                        </div>
-                        <picture>
-                            <source srcset="img/slide2@1.webp 1x,
-										img/slide2@2.webp 2x" type="image/webp">
-                            <source srcset="img/slide2@2.png 1x,
-										img/slide2@2.png 2x" type="image/png">
-                            <img class="carousel-image" src="img/slide2@2.png" alt="Pro limo services - online limuzíny" />
-                        </picture>
-                    </div>
                     <div class="carousel-item">
                         <div class="d-block w-100 slide-box slide-box4"></div>
                         <div class="carousel-caption col-md-11 col-lg-8 pl-5">
