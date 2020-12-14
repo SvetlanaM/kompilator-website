@@ -2,7 +2,7 @@
 <html lang="cs">
 
 <head>
-
+    <title>Kompilátor - z řeči klientů, do řeči uživatelů</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXJJ9QHN6Z"></script>
     <script>
@@ -69,7 +69,7 @@
                     <p class="mt-40"><span class="fw-450">Kompilátor</span> - vytváříme digitální produkty, které jsou zde pro uživatele a zároveň vykouzlí úsměv na tváři i marketingovému a obchodnímu oddělení. Máme rádi výzvy, hledáme problémy, které lze vyřešit pomocí
                         <span class="fw-450">technologií, zdravého rozumu</span> a <span class="fw-450">designu</span>.
                         <div class="ca-buttons">
-                            <a href="mailto: svetlana@kompilator.cz"><button class="order">Zvalidovat nápad</button></a>
+                            <a href="tel:+420725423538"><button class="order">Zavolejme si :)</button></a>
                             <a href="https://kompilator.cz/files/references.pdf" target="new"><button class="show-ref">Zobrazit reference ></button></a>
                         </div>
                     </p>
