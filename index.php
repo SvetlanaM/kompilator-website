@@ -3,18 +3,7 @@
 
 <head>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXJJ9QHN6Z"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'G-XXJJ9QHN6Z');
-    </script>
+    <?php include "header.html" ?>
 
     <!-- meta tags -->
     <meta charset="utf-8">
@@ -49,7 +38,6 @@
     <meta name="application-name" content="Kompilator.cz">
     <link rel="canonical" href="https://kompilator.cz/" />
 
-    <?php include "header.html" ?>
 </head>
 
 <body class="bg-white gray">
@@ -63,10 +51,10 @@
             <div class="row no-gutters">
                 <div class="col-lg pr-lg-5">
                     <h1 class="purple fw-500 banner-title">Překládáme Vaše podnikatelské potřeby do úspěšných produktů</h1>
-                    <p class="mt-40"><span class="fw-450">Kompilátor</span> - vytváříme digitální produkty, které jsou zde pro uživatele a zároveň vykouzlí úsměv na tváři i marketingovému a obchodnímu oddělení. Máme rádi výzvy, hledáme problémy, které lze vyřešit pomocí
-                        <span class="fw-450">technologií, zdravého rozumu</span> a <span class="fw-450">designu</span>.
+                    <p class="mt-40"><span class="fw-450">Kompilátor</span> - vytváříme digitální produkty, které jsou zde pro uživatele a zároveň vykouzlí úsměv na tváři i marketingovému a obchodnímu oddělení. <br /><br />
+                        <span class="fw-450">Klient + Koncový uživatel + Kompilátor = týmová práce</span>
                         <div class="ca-buttons">
-                            <a href="tel:+420725423538"><button class="order">Zavolejme si :)</button></a>
+                            <a href="tel:+420725423538"><button class="order">Zkušební spolupráce :)</button></a>
                             <a href="https://kompilator.cz/files/references.pdf" target="new"><button class="show-ref">Zobrazit reference ></button></a>
                         </div>
                     </p>
@@ -200,6 +188,66 @@
         </div>
     </section>
 
+    <!-- section references -->
+    <section id="project-references" class="project-references references-hp">
+        <div class="container-fluid pr-md-5 pl-md-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="purple fw-500 banner-title">Vynikáme v těchto oblastech</h1>
+                </div>
+                <div class="col-md-12 col-lg-4 mt-50">
+                    <picture>
+                        <source srcset="img/references/mall@2.webp 1x,
+										img/references/mall@2.webp 2x" type="image/webp">
+                        <source srcset="img/references/mall@2.jpg 1x,
+										img/references/mall@2.jpg 2x" type="image/jpeg">
+                        <img class="img-fluid img-ref" src="img/references/mall@2.jpg" alt="Datová transformací firmy" />
+                    </picture>
+                    <h3 class="ref-title">Datová transformace firmy a analýza</h3><br />
+                    <div>
+                        <span class="fw-450">Ukázka projektu =></span>
+                        <a href="https://www.mall.cz/sledovani-objednavky" target="new"><span class="float-right ref-grey-icon"><img class="svg-grey" src="img/svg/web_grey.svg" /></span></a> <br /><br />
+                        Na data třeba nahlížet už od prvotního návrhu. Umět se správně rozhodovat, měnit MVP a vyhodnocovat správně byznys use-casy a požadavky.<br /><br />
+                        <a href="mailto:svetlana@kompilator.cz"><button class="order">Úvodní analýza zdarma</button></a>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4 mt-50">
+                    <picture>
+                        <source srcset="img/references/eco@2.webp 1x,
+										img/references/eco@2.webp 2x" type="image/webp">
+                        <source srcset="img/references/eco@2.png 1x,
+										img/references/eco@2.png 2x" type="image/png">
+                        <img class="img-fluid img-ref" src="img/references/eco@2.png" alt="Mobilní aplikace Centrum.cz" />
+                    </picture>
+                    <h3 class="ref-title">Optimalizace webů, aplikací, SEO, marketing</h3><br />
+                    <div>
+                        <span class="fw-450">Ukázka projektu =></span>
+                        <a href="https://play.google.com/store/apps/details?id=com.nanooqit.economiaemail&hl=sk" target="new"><span class="float-right ref-grey-icon"><img class="svg-grey" src="img/svg/android_grey.svg" /></span></a> <br /><br />
+                        Na optimalizace rychlosti je třeba myslet z mnoha důvodů - SEO, spokojenost uživatele, konverze webu a optimalizace dat na mobilech.<br /><br />
+                        <a href="https://developers.google.com/speed/pagespeed/insights/" target="new"><button class=" order">Test rychlosti mého webu</button></a>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4 mt-50">
+                    <picture>
+                        <source srcset="img/references/cajovna@2.webp 1x,
+										img/references/cajovna@2.webp 2x" type="image/webp">
+                        <source srcset="img/references/cajovna@2.jpg 1x,
+										img/references/cajovna@2.jpg 2x" type="image/jpeg">
+                        <img class="img-fluid img-ref" src="img/references/cajovna@2.jpg" alt="Rozvoj eshopu a webu pro Čajovnu Setkání - Praha" />
+                    </picture>
+                    <h3 class="ref-title">Inovace a UI / UX transformace</h3><br />
+                    <div>
+                        <span class="fw-450">Ukázka projektu => </span>
+                        <a href="https://www.cajovnasetkani.cz/" target="new"><span class="float-right ref-grey-icon"><img class="svg-grey" src="img/svg/web_grey.svg" /></span></a> <br /><br />
+                        Každý web, nebo aplikace by měly splňovat uživatelské standardy. Ke každému projektu přistupujeme individuálně, testujeme a přinášíme vlastní nápady a inovace.<br /><br />
+                        <a href="https://www.onlinetoro.sk/online-workshop-na-90-minut/" target="new"><button class="order">Test použitelnosti mého webu</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <!-- slider section -->
     <section id="slider" class="d-none d-md-block">
         <div class="container-fluid pl-md-5 pr-md-5">
@@ -269,27 +317,6 @@
                         </picture>
                     </div>
 
-                    <div class="carousel-item">
-                        <div class="d-block w-100 slide-box slide-box4"></div>
-                        <div class="carousel-caption col-md-11 col-lg-8 pl-5">
-                            <h2 class="carousel-title">Online degustace</h2>
-                            <p class="carousel-desc mt-4">Mobilní a webová aplikace umožňující interagovat s čajovnou moderněji a rychleji. Přináší mnoho výhod pro čajové fanoušky a usnadňuje podnikání majiteli čajovny. Součástí řešení je přehledný dashboard s potřebnými
-                                analýzami pro další rozhodování.</p>
-                            <ul class="list-inline list-unstyled carousel-tags mt-4">
-                                <li class="carousel-tag-item list-inline-item">Analýza</li>
-                                <li class="carousel-tag-item list-inline-item">Design</li>
-                                <li class="carousel-tag-item list-inline-item">UI/UX</li>
-                            </ul>
-                            <!-- <button type="button" class="btn-study btn col-auto p-0">ZOBRAZIT CASE STUDY</button> -->
-                        </div>
-                        <picture>
-                            <source srcset="img/mockup_slide3x2.webp 1x,
-										img/mockup_slide3x2.webp 2x" type="image/webp">
-                            <source srcset="img/mockup_slide3x2.png 1x,
-										img/mockup_slide3x2.png 2x" type="image/png">
-                            <img class="carousel-image" src="img/mockup_slide3x2.png" alt="Mobilná aplikace pro degustace v Čajovně Setkání" />
-                        </picture>
-                    </div>
                     <div class="carousel-item">
                         <div class="d-block w-100 slide-box slide-box3"></div>
                         <div class="carousel-caption col-md-11 col-lg-8 pl-5">

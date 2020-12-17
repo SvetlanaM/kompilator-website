@@ -2,19 +2,7 @@
 <html lang="cs">
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXJJ9QHN6Z"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'G-XXJJ9QHN6Z');
-    </script>
-
+    <?php include "header.html" ?>
     <!-- meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -44,8 +32,6 @@
     <meta name="format-detection" content="telephone=yes">
     <meta name="seznam-wmt" content="7EXe6O8iBq0WvVggTh3fhgBa0M5VlTs1" />
     <meta name="keywords" content="studie, mobilní aplikace, od tatier k dunaju, gps, tracking, real-time">
-
-    <?php include "header.html" ?>
 </head>
 
 <body class="bg-white gray">
