@@ -149,45 +149,6 @@
         </div>
     </section>
 
-
-    <!-- section dont -->
-    <section class="dont mt-40" id="dont">
-        <div class="container-fluid pl-md-5">
-            <div class="row">
-                <div class="order-1 order-lg-1 col-lg-7 mt-40 pr-md-5">
-                    <h1 class="purple fw-500 banner-title">Spoluprací s námi získáte</h1>
-                    <p class="mt-40">
-                        IT firem je na trhu nespočet. My však chceme přinášet produkty, které nevytváří každá a ledajaká IT firma.<br /><br />
-                        Klademe důraz na to, abychom mohli každému projektu věnovat dostatek času a udělat ho na trhu unikátním a odlišným.
-                    </p>
-                </div>
-                <div class="order-3 order-lg-2 col-lg-7 mt-40">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <ul class="list-unstyled list-dont">
-                                <li class="fw-450">+ Úvodní analýzu a brainstorming</li>
-                                <li class="fw-450">+ Dlouhodobý plán a strategii</li>
-                                <li class="fw-450">+ Real-time přehled budgetu</li>
-                                <li class="fw-450">+ Vzdělávání a inovativní přístupy</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6">
-                            <ul class="list-unstyled list-dont">
-                                <li class="fw-450">+ Rychlou, agilní realizaci</li>
-                                <li class="fw-450">+ Unikátní custom design</li>
-                                <li class="fw-450">+ Otevřené, přátelské jednání</li>
-                                <li class="fw-450">+ Dlouhodobého IT parťáka</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="order-2 order-lg-3 col-lg-5 d-lg-flex p-0 justify-content-end">
-                    <img src="img/svg/coding.svg" alt="Nevyvíjíme nad CRM řešeními" class="img-fluid auto-banner coding-banner" />
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- section references -->
     <section id="project-references" class="project-references references-hp">
         <div class="container-fluid pr-md-5 pl-md-5">
@@ -247,6 +208,43 @@
         </div>
     </section>
 
+    <!-- section dont -->
+    <section class="dont mt-40" id="dont">
+        <div class="container-fluid pl-md-5">
+            <div class="row">
+                <div class="order-1 order-lg-1 col-lg-7 mt-40 pr-md-5">
+                    <h1 class="purple fw-500 banner-title">Spoluprací s námi získáte</h1>
+                    <p class="mt-40">
+                        IT firem je na trhu nespočet. My však chceme přinášet produkty, které nevytváří každá a ledajaká IT firma.<br /><br />
+                        Klademe důraz na to, abychom mohli každému projektu věnovat dostatek času a udělat ho na trhu unikátním a odlišným.
+                    </p>
+                </div>
+                <div class="order-3 order-lg-2 col-lg-7 mt-40">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="list-unstyled list-dont">
+                                <li class="fw-450">+ Úvodní analýzu a brainstorming</li>
+                                <li class="fw-450">+ Dlouhodobý plán a strategii</li>
+                                <li class="fw-450">+ Real-time přehled budgetu</li>
+                                <li class="fw-450">+ Vzdělávání a inovativní přístupy</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="list-unstyled list-dont">
+                                <li class="fw-450">+ Rychlou, agilní realizaci</li>
+                                <li class="fw-450">+ Unikátní custom design</li>
+                                <li class="fw-450">+ Otevřené, přátelské jednání</li>
+                                <li class="fw-450">+ Dlouhodobého IT parťáka</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-2 order-lg-3 col-lg-5 d-lg-flex p-0 justify-content-end">
+                    <img src="img/svg/coding.svg" alt="Nevyvíjíme nad CRM řešeními" class="img-fluid auto-banner coding-banner" />
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- slider section -->
     <section id="slider" class="d-none d-md-block">
