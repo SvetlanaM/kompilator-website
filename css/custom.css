@@ -2,7 +2,8 @@ body {
     font-family: 'Titillium Web', sans-serif;
     font-weight: 300;
     font-size: 18px;
-    letter-spacing: 1.1px
+    letter-spacing: 1.1px;
+    max-width: 1600px;
 }
 
 .mt-30 {
@@ -533,7 +534,7 @@ footer {
 @media (min-width:768px) {
     .references {
         margin-top: 80px;
-        margin-bottom: 80px
+        margin-bottom: 40px
     }
 }
 

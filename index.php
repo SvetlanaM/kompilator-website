@@ -51,8 +51,7 @@
             <div class="row no-gutters">
                 <div class="col-lg pr-lg-5">
                     <h1 class="purple fw-500 banner-title">Překládáme Vaše podnikatelské potřeby do úspěšných produktů</h1>
-                    <p class="mt-40"><span class="fw-450">Kompilátor</span> - vytváříme digitální produkty, které jsou zde pro uživatele a zároveň vykouzlí úsměv na tváři i marketingovému a obchodnímu oddělení. <br /><br />
-                        <span class="fw-450">Klient + Koncový uživatel + Kompilátor = týmová práce</span>
+                    <p class="mt-40"><span class="fw-450">Kompilátor nápadů</span> - vytváříme digitální produkty, které jsou zde pro uživatele a zároveň vykouzlí úsměv na tváři i marketingovému a obchodnímu oddělení. <br /><br />
                         <div class="ca-buttons">
                             <a href="tel:+420725423538"><button class="order">Zkušební spolupráce :)</button></a>
                             <a href="https://kompilator.cz/files/references.pdf" target="new"><button class="show-ref">Zobrazit reference ></button></a>
@@ -60,7 +59,7 @@
                     </p>
                 </div>
                 <div class="col-lg d-lg-flex justify-content-end p-0 d-none">
-                    <img src="img/svg/banner_img.svg" class="img-fluid img-banner" alt="Produkty, které vydělávají" />
+                    <img src="img/svg/banner_img.png" class="img-fluid img-banner" alt="Produkty, které vydělávají" />
                 </div>
             </div>
         </div>
@@ -92,30 +91,31 @@
         </div>
     </section>
 
-    <!-- problems section -->
     <section id="problems" class="problems">
-        <div class="container-fluid pr-md-5 pl-md-5">
+        <div class=" container-fluid pr-md-5 pl-md-5">
             <div class="row">
-                <div class="col-lg-12 mr-auto pr-md-5">
-                    <h1 class="purple fw-500 banner-title">Vyberte si z našich služeb</h1>
-                    <div class="row mt-50 main-card">
-                        <div class="help-block col-lg-6">
-                            <img src="img/svg/services/revision.svg" alt="Revize podnikání / produktů" class="d-none d-lg-flex float-left img-problem" />
-                            <div><span class="fw-450">+ Revize podnikání / produktů</span> - máte pocit, že v podnikání a prodeji stagnujete? Hledáte způsoby efektivnějšího pokroku, případně nápadů na rozvoj?</div>
-                        </div>
-                        <div class="help-block col-lg-6">
-                            <img src="img/svg/services/rebranding.svg" alt="Rebranding / Redizajn služeb/produktů" class="d-none d-lg-flex float-left img-problem" />
-                            <div><span class="fw-450">+ Rebranding / Redizajn služeb/produktů</span> - pomáháme redesignovat služby a produkty podle potřeb trhu a novodobých technik v designu a vývoji. Pomůžeme vám změnu nasadit na existujícího trh.</div>
-                        </div>
-                        <div class="help-block col-lg-6">
-                            <img src="img/svg/services/startup.svg" alt="Nový produkt/startup/projekt a digitální podoba" class="d-none d-lg-flex float-left img-problem" />
-                            <div><span class="fw-450">+ Nový produkt/startup/projekt a digitální podoba</span> - vytvoříme s vámi nové produkty, kde se už od prvního kroku zaměřujeme na jednotný brand, komunitu, uživatele a design.</div>
-                        </div>
-                        <div class="help-block col-lg-6">
-                            <img src="img/svg/services/innovation.svg" alt="Inovace a automatizace" class="d-none d-lg-flex float-left img-problem" />
-                            <div><span class="fw-450">+ Inovace a automatizace</span> - pomáháme vám na problém nahlížet z jiného úhlu pohledu a tím přinášet inovace do firmy/služeb a konkurovat nimi na trhu. Automatizujeme ruční činnosti.</div>
-                        </div>
+                <div class="col-md-12 col-lg-6">
+                    <div>
+                        <p class="fw-450 text-uppercase">
+                            co vlastně nabízíme a proč</p>
+                        <p>Po letech práce v IT jsme se rozhodli, že nechceme primárně nabízet "pouze" vývoj mobilních či webových aplikací.<br /><br />Pokud však hledáte partnera, který vám pomůže s komplexnějším řešením, jste tady správně. Vynikáme v těchto oblastech:
+                            <ul class="list-unstyled list-dont">
+                                <li class="fw-450">+ Analýza požadavků klienta a uživatelů</li>
+                                <li class="fw-450">+ Datová analýza na vstupu a během vývoje</li>
+                                <li class="fw-450">+ Tvorba analytického, byznys a technického zadání</li>
+                                <li class="fw-450">+ Analýza konkurence a strategie vývoje</li>
+                                <li class="fw-450">+ Tvorba designu a uživatelské testování</li>
+                                <li class="fw-450">+ Vývoj produktu a jeho inovace společne ako jeden tým</li>
+                            </ul>
                     </div>
+                </div>
+                <div class="col-md-12 col-lg-4 ml-auto">
+                    <p class="fw-450 text-uppercase">OČEKÁVÁNÍ</p>
+                    <p><span class="fw-purple">Správná očekávání definovaná na startu</span> se přímo odvíjejí od kvality dodaného produktu a s tím spojenými otázkami PROČ a pro KOHO.</p><br />
+                    <p class="fw-450 text-uppercase">NEVYHOZENÉ PENÍZE</p>
+                    <p>Jistě znáte příběhy o tom, jak se něco vyvíjelo měsíce/roky, až se nakonec zjistilo, že chceme něco úplně jiného? Projekt se nikdy ani nedokončil? S námi podobným problémům předejdete.</p>
+                    <br />
+                    <a href="https://kompilator.cz/files/case_study.pdf" target="new"><button class="order">Ukázka spolupráce</button></a>
                 </div>
             </div>
         </div>
@@ -126,7 +126,7 @@
         <div class="container-fluid pr-md-5 pl-md-5">
             <div class="row">
                 <div class="col-lg-12 start-title">
-                    <h1 class="purple fw-500 banner-title">a začněte ve 3 jednoduchých krocích</h1>
+                    <h1 class="purple fw-500 banner-title">Začněte ve 3 jednoduchých krocích</h1>
                 </div>
                 <div class="mt-40 d-sm-flex-inline d-lg-flex align-items-stretch text-center justify-content-between">
                     <div class="col-sm-12 col-md-12 col-lg-3 step">
@@ -144,103 +144,6 @@
                         <p class="purple fw-500 mt-3">3. Koncept řešení a workshop</p>
                         <p>Pokud se na řešení shodneme, vyhotovíme základní prototyp, začneme testovat a validovat jeho úspěšnost na společném úvodním workshopu.</p>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- section references -->
-    <section id="project-references" class="project-references references-hp">
-        <div class="container-fluid pr-md-5 pl-md-5">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1 class="purple fw-500 banner-title">Vynikáme v těchto oblastech</h1>
-                </div>
-                <div class="col-md-12 col-lg-4 mt-50">
-                    <picture>
-                        <source srcset="img/references/mall@2.webp 1x,
-										img/references/mall@2.webp 2x" type="image/webp">
-                        <source srcset="img/references/mall@2.jpg 1x,
-										img/references/mall@2.jpg 2x" type="image/jpeg">
-                        <img class="img-fluid img-ref" src="img/references/mall@2.jpg" alt="Datová transformací firmy" />
-                    </picture>
-                    <h3 class="ref-title">Datová transformace firmy a analýza</h3><br />
-                    <div>
-                        <span class="fw-450">Ukázka projektu =></span>
-                        <a href="https://www.mall.cz/sledovani-objednavky" target="new"><span class="float-right ref-grey-icon"><img class="svg-grey" src="img/svg/web_grey.svg" /></span></a> <br /><br />
-                        Na data třeba nahlížet už od prvotního návrhu. Umět se správně rozhodovat, měnit MVP a vyhodnocovat správně byznys use-casy a požadavky.<br /><br />
-                        <a href="mailto:svetlana@kompilator.cz"><button class="order">Úvodní analýza zdarma</button></a>
-                    </div>
-                </div>
-                <div class="col-md-12 col-lg-4 mt-50">
-                    <picture>
-                        <source srcset="img/references/eco@2.webp 1x,
-										img/references/eco@2.webp 2x" type="image/webp">
-                        <source srcset="img/references/eco@2.png 1x,
-										img/references/eco@2.png 2x" type="image/png">
-                        <img class="img-fluid img-ref" src="img/references/eco@2.png" alt="Mobilní aplikace Centrum.cz" />
-                    </picture>
-                    <h3 class="ref-title">Optimalizace webů, aplikací, SEO, marketing</h3><br />
-                    <div>
-                        <span class="fw-450">Ukázka projektu =></span>
-                        <a href="https://play.google.com/store/apps/details?id=com.nanooqit.economiaemail&hl=sk" target="new"><span class="float-right ref-grey-icon"><img class="svg-grey" src="img/svg/android_grey.svg" /></span></a> <br /><br />
-                        Na optimalizace rychlosti je třeba myslet z mnoha důvodů - SEO, spokojenost uživatele, konverze webu a optimalizace dat na mobilech.<br /><br />
-                        <a href="https://developers.google.com/speed/pagespeed/insights/" target="new"><button class=" order">Test rychlosti mého webu</button></a>
-                    </div>
-                </div>
-                <div class="col-md-12 col-lg-4 mt-50">
-                    <picture>
-                        <source srcset="img/references/cajovna@2.webp 1x,
-										img/references/cajovna@2.webp 2x" type="image/webp">
-                        <source srcset="img/references/cajovna@2.jpg 1x,
-										img/references/cajovna@2.jpg 2x" type="image/jpeg">
-                        <img class="img-fluid img-ref" src="img/references/cajovna@2.jpg" alt="Rozvoj eshopu a webu pro Čajovnu Setkání - Praha" />
-                    </picture>
-                    <h3 class="ref-title">Inovace a UI / UX transformace</h3><br />
-                    <div>
-                        <span class="fw-450">Ukázka projektu => </span>
-                        <a href="https://www.cajovnasetkani.cz/" target="new"><span class="float-right ref-grey-icon"><img class="svg-grey" src="img/svg/web_grey.svg" /></span></a> <br /><br />
-                        Každý web, nebo aplikace by měly splňovat uživatelské standardy. Ke každému projektu přistupujeme individuálně, testujeme a přinášíme vlastní nápady a inovace.<br /><br />
-                        <a href="https://www.onlinetoro.sk/online-workshop-na-90-minut/" target="new"><button class="order">Test použitelnosti mého webu</button></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- section dont -->
-    <section class="dont mt-40" id="dont">
-        <div class="container-fluid pl-md-5">
-            <div class="row">
-                <div class="order-1 order-lg-1 col-lg-7 mt-40 pr-md-5">
-                    <h1 class="purple fw-500 banner-title">Spoluprací s námi získáte</h1>
-                    <p class="mt-40">
-                        IT firem je na trhu nespočet. My však chceme přinášet produkty, které nevytváří každá a ledajaká IT firma.<br /><br />
-                        Klademe důraz na to, abychom mohli každému projektu věnovat dostatek času a udělat ho na trhu unikátním a odlišným.
-                    </p>
-                </div>
-                <div class="order-3 order-lg-2 col-lg-7 mt-40">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <ul class="list-unstyled list-dont">
-                                <li class="fw-450">+ Úvodní analýzu a brainstorming</li>
-                                <li class="fw-450">+ Dlouhodobý plán a strategii</li>
-                                <li class="fw-450">+ Real-time přehled budgetu</li>
-                                <li class="fw-450">+ Vzdělávání a inovativní přístupy</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6">
-                            <ul class="list-unstyled list-dont">
-                                <li class="fw-450">+ Rychlou, agilní realizaci</li>
-                                <li class="fw-450">+ Unikátní custom design</li>
-                                <li class="fw-450">+ Otevřené, přátelské jednání</li>
-                                <li class="fw-450">+ Dlouhodobého IT parťáka</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="order-2 order-lg-3 col-lg-5 d-lg-flex p-0 justify-content-end">
-                    <img src="img/svg/coding.svg" alt="Nevyvíjíme nad CRM řešeními" class="img-fluid auto-banner coding-banner" />
                 </div>
             </div>
         </div>
