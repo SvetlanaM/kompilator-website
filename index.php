@@ -50,7 +50,7 @@
         <div class="container-fluid pl-md-5 pr-md-5">
             <div class="row no-gutters">
                 <div class="col-lg pr-lg-5">
-                    <h1 class="purple fw-500 banner-title">Překládáme Vaše podnikatelské potřeby do úspěšných produktů</h1>
+                    <h1 class="purple fw-500 banner-title">Překládáme vaše podnikatelské potřeby do úspěšných produktů</h1>
                     <p class="mt-40"><span class="fw-450">Kompilátor nápadů</span> - vytváříme digitální produkty, které jsou zde pro uživatele a zároveň vykouzlí úsměv na tváři i marketingovému a obchodnímu oddělení. <br /><br />
                         <div class="ca-buttons">
                             <a href="tel:+420725423538"><button class="order">Zkušební spolupráce :)</button></a>
@@ -105,7 +105,7 @@
                                 <li class="fw-450">+ Tvorba analytického, byznys a technického zadání</li>
                                 <li class="fw-450">+ Analýza konkurence a strategie vývoje</li>
                                 <li class="fw-450">+ Tvorba designu a uživatelské testování</li>
-                                <li class="fw-450">+ Vývoj produktu a jeho inovace společne ako jeden tým</li>
+                                <li class="fw-450">+ Vývoj produktu a jeho inovace společně jako jeden tým</li>
                             </ul>
                     </div>
                 </div>
@@ -115,7 +115,7 @@
                     <p class="fw-450 text-uppercase">NEVYHOZENÉ PENÍZE</p>
                     <p>Jistě znáte příběhy o tom, jak se něco vyvíjelo měsíce/roky, až se nakonec zjistilo, že chceme něco úplně jiného? Projekt se nikdy ani nedokončil? S námi podobným problémům předejdete.</p>
                     <br />
-                    <a href="https://kompilator.cz/files/case_study.pdf" target="new"><button class="order">Ukázka spolupráce</button></a>
+                    <a href="https://kompilator.cz/files/cajovna.pdf" target="new"><button class="order">Ukázka spolupráce</button></a>
                 </div>
             </div>
         </div>
