@@ -28,7 +28,7 @@
     <meta name="title" content="Kompilátor - Ceník">
     <meta name=" description" content="Naše sazba se pohybuje v rozmezí 850 - 1500 Kč / Hod. Nabízíme 3 typy balíčků - design box, analytics box, product box.">
     <meta name="author" content="Kompilátor s. r. o.">
-    <meta name="format-detection" content="telephone=yes">
+    <meta name="format-detection" content="telephone=no">
     <meta name="seznam-wmt" content="7EXe6O8iBq0WvVggTh3fhgBa0M5VlTs1" />
     <meta name="keywords" content="cena, kvalita, balíky, produkty">
 </head>
@@ -40,7 +40,7 @@
 
     <!-- banner -->
     <section id="banner" class="banner">
-        <div class="container-fluid pl-md-5 pr-md-5">
+        <div class="container-fluid max-element pl-md-5 pr-md-5">
             <div class="row no-gutters">
                 <div class="col-lg pr-lg-5">
                     <h1 class="purple fw-500 banner-title">Ceník</h1>
@@ -57,7 +57,7 @@
 
     <!-- pricing table section -->
     <section id="pricing-table" class="pricing-table">
-        <div class="container-fluid pr-md-5 pl-md-5">
+        <div class="container-fluid max-element pr-md-5 pl-md-5">
             <div class="row">
                 <div class="col-lg">
                     <h1 class="purple fw-500 banner-title">Vyberte si jeden z našich balíčků</h1>
@@ -140,7 +140,7 @@
 
     <!-- estimations section -->
     <section id="estimations" class="estimations mt-120">
-        <div class="container-fluid pr-md-5 pl-md-5">
+        <div class="container-fluid max-element pr-md-5 pl-md-5">
             <div class="row">
                 <div class="order-2 order-lg-1 col-lg-4 mr-auto d-lg-flex justify-content-start p-0 girl">
                     <img src="img/svg/wizard.svg" class="wizard-img img-fluid img-banner auto-banner" alt="Předbežná cena za vývoj webu nebo aplikace" />
@@ -175,7 +175,7 @@
 
     <!-- pricing type section -->
     <section class="start mt-40" id="start">
-        <div class="container-fluid pr-md-5 pl-md-5">
+        <div class="container-fluid max-element pr-md-5 pl-md-5">
             <div class="row">
                 <div class="col-lg-12 start-title">
                     <h1 class="purple fw-500 banner-title">Vyberte si režim, který vám vyhovuje nejvíce</h1>
@@ -203,7 +203,7 @@
 
     <!-- sales section -->
     <section class="dont mt-40" id="dont">
-        <div class="container-fluid pl-md-5">
+        <div class="container-fluid max-element pl-md-5">
             <div class="row">
                 <div class="col-lg-12 mt-40 pr-md-5">
                     <h1 class="purple fw-500 banner-title">IT slevy</h1>
@@ -264,7 +264,7 @@
 
     <!-- section why invest -->
     <section id="why-invest" class="why-invest mt-80">
-        <div class="container-fluid pr-md-5 pl-md-5">
+        <div class="container-fluid max-element pr-md-5 pl-md-5">
             <div class="row">
                 <div class="col-lg-12 no-gutters">
                     <h2 class="col-md-12 fw-500 service-subtitle-block d-flex text-uppercase mb-4">PROČ INVESTOVAT?</h2>

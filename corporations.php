@@ -29,7 +29,7 @@
     <meta name="title" content="Kompilátor - Zrychlíme Váš náskok před konkurencí">
     <meta name="description" content="Pomáháme s datovou transformací firmy, nastavením priorit, agilitou a inovacemi. Vynikejte před konkurencí s námi.">
     <meta name="author" content="Kompilátor s. r. o.">
-    <meta name="format-detection" content="telephone=yes">
+    <meta name="format-detection" content="telephone=no">
     <meta name="seznam-wmt" content="7EXe6O8iBq0WvVggTh3fhgBa0M5VlTs1" />
     <meta name="keywords" content="korporace, priority, agilita, produkt, deadline, inovace, optimalizace">
 
@@ -41,7 +41,7 @@
     <?php include "menu.html" ?>
 
     <!-- banner -->
-    <section id="banner" class="banner">
+    <section id="banner" class="banner max-element">
         <div class="container-fluid pl-md-5 pr-md-5">
             <div class="row no-gutters">
                 <div class="col-lg pr-lg-5">
@@ -70,7 +70,7 @@
 
     <!-- problems section -->
     <section id="problems" class="problems">
-        <div class="container-fluid pr-md-5 pl-md-5">
+        <div class="container-fluid max-element pr-md-5 pl-md-5">
             <div class="row">
                 <div class="col-lg-12 mr-auto pr-md-5">
                     <h1 class="purple fw-500 banner-title">Pomáháme, vzděláváme a šetříme čas i náklady</h1>
@@ -107,7 +107,7 @@
 
     <!-- learn with us section -->
     <section class="start mt-40" id="start">
-        <div class="container-fluid pr-md-5 pl-md-5">
+        <div class="container-fluid max-element pr-md-5 pl-md-5">
             <div class="row">
                 <div class="col-lg-12 start-title">
                     <h1 class="purple fw-500 banner-title">Tvořte a naučte se s námi</h1>
@@ -135,7 +135,7 @@
 
     <!-- section how to -->
     <section class="how-to mt-40" id="how-to">
-        <div class="container-fluid pl-md-5 pr-md-5">
+        <div class="container-fluid max-element pl-md-5 pr-md-5">
             <div class="row no-gutters">
                 <div class="col-lg-12 how-to-title">
                     <h1 class="purple fw-500 banner-title">Inteligentně, bezpečně a postupnými kroky</h1>
@@ -159,7 +159,7 @@
 
     <!-- analyst section -->
     <section id="analyst" class="analyst mt-120">
-        <div class="container-fluid pr-md-5 pl-md-5">
+        <div class="container-fluid max-element pr-md-5 pl-md-5">
             <div class="row">
                 <div class="col-lg-4 mr-auto d-lg-flex justify-content-start p-0 girl order-2 order-lg-1">
                     <img src="img/svg/analyst.svg" alt="IT analytik alebo Byznys analytik jdou ruku v ruce" class="wizard-img img-fluid img-banner auto-banner" />
@@ -186,7 +186,7 @@
 
     <!-- section references -->
     <section id="project-references" class="project-references">
-        <div class="container-fluid pr-md-5 pl-md-5">
+        <div class="container-fluid max-element pr-md-5 pl-md-5">
             <div class="row">
                 <div class="col-md-12">
                     <h1 class="purple fw-500 banner-title">Ukázky naší práce, kdy jsme klientům pomohli s</h1>
@@ -239,7 +239,7 @@
 
     <!-- section workshop -->
     <section id="workshop" class="workshop">
-        <div class="container-fluid pr-md-5 pl-md-5">
+        <div class="container-fluid max-element pr-md-5 pl-md-5">
             <div class="row">
                 <div class="col-md-12 col-lg-8">
                     <a type="button" role="button" class="btn p-0 btn-reservate text-uppercase" href="https://forms.gle/zDCrXjETzfTFcrxA8" target="new">Objednat workshop</a>

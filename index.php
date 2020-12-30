@@ -32,7 +32,7 @@
     <meta name="description" content="Měníme nápady na reálné digitální produkty. Už žádné nedorozumění mezi IT a byznysem, všichni pracujeme jako jeden tým.">
     <meta name="author" content="Kompilátor s. r. o.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="format-detection" content="telephone=yes">
+    <meta name="format-detection" content="telephone=no">
     <meta name="seznam-wmt" content="7EXe6O8iBq0WvVggTh3fhgBa0M5VlTs1" />
     <meta name="keywords" content="web, aplikace, rebrand, redesign, produkt, proč?, design">
     <meta name="application-name" content="Kompilator.cz">
@@ -47,7 +47,7 @@
 
     <!-- banner -->
     <section id="banner" class="banner">
-        <div class="container-fluid pl-md-5 pr-md-5">
+        <div class="container-fluid max-element pl-md-5 pr-md-5">
             <div class="row no-gutters">
                 <div class="col-lg pr-lg-5">
                     <h1 class="purple fw-500 banner-title">Překládáme vaše podnikatelské potřeby do úspěšných produktů</h1>
@@ -67,7 +67,7 @@
 
     <!-- references section -->
     <section class="references" id="references">
-        <div class="container-fluid pl-md-5 pr-md-5">
+        <div class="container-fluid max-element pl-md-5 pr-md-5">
             <div class="d-none d-lg-flex justify-content-between">
                 <div class="mr-5">
                     <img src="img/logos/chuf.svg" class="img-fluid" alt="Chuf.com - Vysokozdvižné vozíky" />
@@ -92,20 +92,20 @@
     </section>
 
     <section id="problems" class="problems">
-        <div class=" container-fluid pr-md-5 pl-md-5">
+        <div class=" container-fluid max-element pr-md-5 pl-md-5">
             <div class="row">
                 <div class="col-md-12 col-lg-6">
                     <div>
                         <p class="fw-450 text-uppercase">
-                            co vlastně nabízíme a proč</p>
-                        <p>Po letech práce v IT jsme se rozhodli, že nechceme primárně nabízet "pouze" vývoj mobilních či webových aplikací.<br /><br />Pokud však hledáte partnera, který vám pomůže s komplexnějším řešením, jste tady správně. Vynikáme v těchto oblastech:
+                            co vlastně nabízíme a kdy využít naše služby</p>
+                        <p>Po letech práce v IT jsme se rozhodli, že nechceme primárně nabízet "pouze" vývoj mobilních, či webových aplikací.<br /><br />Pokud hledáte partnera, který vám pomůže s komplexnějším řešením, jste tady správně. Napište nám, pokud potřebujete:
                             <ul class="list-unstyled list-dont">
-                                <li class="fw-450">+ Analýza požadavků klienta a uživatelů</li>
-                                <li class="fw-450">+ Datová analýza na vstupu a během vývoje</li>
-                                <li class="fw-450">+ Tvorba analytického, byznys a technického zadání</li>
-                                <li class="fw-450">+ Analýza konkurence a strategie vývoje</li>
-                                <li class="fw-450">+ Tvorba designu a uživatelské testování</li>
-                                <li class="fw-450">+ Vývoj produktu a jeho inovace společně jako jeden tým</li>
+                                <li class="fw-450">+ Navrhnout celý projekt po technické a byznys stránce</li>
+                                <li class="fw-450">+ Vytvořit custom design včetně uživatelského testování</li>
+                                <li class="fw-450">+ Pochopit data firmy a umět s nimi efektivně pracovat</li>
+                                <li class="fw-450">+ Zanalyzovat trh, konkurenci a vyniknout</li>
+                                <li class="fw-450">+ Vyvinout webovou nebo mobilní aplikaci</li>
+                                <li class="fw-450">+ Optimalizovat rychlost webu, aplikace a odladit slabé stránky</li>
                             </ul>
                     </div>
                 </div>
@@ -123,7 +123,7 @@
 
     <!-- section start -->
     <section class="start mt-40" id="start">
-        <div class="container-fluid pr-md-5 pl-md-5">
+        <div class="container-fluid max-element pr-md-5 pl-md-5">
             <div class="row">
                 <div class="col-lg-12 start-title">
                     <h1 class="purple fw-500 banner-title">Začněte ve 3 jednoduchých krocích</h1>
@@ -149,11 +149,49 @@
         </div>
     </section>
 
+    <section class="dont mt-40" id="dont">
+        <div class="container-fluid max-element pl-md-5">
+            <div class="row">
+                <div class="order-1 order-lg-1 col-lg-7 mt-40 pr-md-5">
+                    <h1 class="purple fw-500 banner-title">Jak vypadá workshop?</h1>
+                    <p class="mt-40">
+                        Prvním a nejdůležitějším krokem je <span class="fw-450">setkat se</span> na společném workshopu, poslechnout si všechny nápady týmu a brainstormingovat nad nimi. <br /><br />
+                        <span class="fw-450">Brainstorming v týmu</span> je důležitý. Žádný nápad není špatný a všechny by měly být sepsány a zanalyzovány.
+                    </p>
+                </div>
+                <div class="order-3 order-lg-2 col-lg-7 mt-40">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="list-unstyled list-dont">
+                                <li class="fw-450">+ Definování problému</li>
+                                <li class="fw-450">+ Kladení si otázky PROČ</li>
+                                <li class="fw-450">+ Definování user rolí</li>
+                                <li class="fw-450">+ Definování funkcí</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="list-unstyled list-dont">
+                                <li class="fw-450">+ Brainstorming nad funkcemi</li>
+                                <li class="fw-450">+ Cíle firmy, očekávání z produktu</li>
+                                <li class="fw-450">+ Empatická analýza</li>
+                                <li class="fw-450">+ Stávající potřeby vs. nové potřeby</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-2 order-lg-3 col-lg-5 d-lg-flex p-0 justify-content-end">
+                    <img src="img/svg/coding.svg" alt="Nevyvíjíme nad CRM řešeními" class="img-fluid auto-banner coding-banner" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <!-- slider section -->
     <section id="slider" class="d-none d-md-block">
         <div class="container-fluid pl-md-5 pr-md-5">
             <div id="carousel-fade" class="carousel slide carousel-fade mt-40" data-interval="false" data-ride="carousel" data-pause="hover">
-                <div class="carousel-inner">
+                <div class="max-element carousel-inner">
 
                     <div class="carousel-item active">
                         <div class="d-block w-100 slide-box slide-box2"></div>
@@ -262,7 +300,7 @@
 
     <!-- education section -->
     <section class="education mt-60" id="education">
-        <div class="container-fluid">
+        <div class="container-fluid max-element">
             <div class="row">
                 <div class="order-2 order-lg-1 col-lg-4 d-lg-flex justify-content-start p-0">
                     <img src="img/svg/educations.svg" alt="Tvořte, vzdělávejte se s námi" class="img-fluid auto-banner" />

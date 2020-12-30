@@ -29,7 +29,7 @@
     <meta name="title" content="Případová studie - Mobilní aplikace Od Tater k Dunaji">
     <meta name=" description" content="Postup při vývoji a návrhu mobilní aplikace pro běžecké štafetové závody na Slovensku.">
     <meta name="author" content="Kompilátor s. r. o.">
-    <meta name="format-detection" content="telephone=yes">
+    <meta name="format-detection" content="telephone=no">
     <meta name="seznam-wmt" content="7EXe6O8iBq0WvVggTh3fhgBa0M5VlTs1" />
     <meta name="keywords" content="studie, mobilní aplikace, od tatier k dunaju, gps, tracking, real-time">
 </head>
@@ -41,7 +41,7 @@
 
     <!-- section banner -->
     <section id="banner" class="banner">
-        <div class="container-fluid pl-md-5 pr-md-5">
+        <div class="container-fluid max-element pl-md-5 pr-md-5">
             <div class="row no-gutters">
                 <div class="col-md-12">
                     <h1 class="purple fw-500 banner-title">Ještě o kilometr lepší zážitek ze závodů</h1>
@@ -61,7 +61,7 @@
 
     <!-- section problem -->
     <section id="section-problem" class="section-problem">
-        <div class="container-fluid pr-md-5 pl-md-5">
+        <div class="container-fluid max-element pr-md-5 pl-md-5">
             <div class="row section-problem-main">
                 <div class="col-lg-12">
                     <p class="case-study-title fw-450">1. Vznik nápadu a potřeby klienta
@@ -110,7 +110,7 @@
 
     <!-- section idea -->
     <section class="section-idea no-gutters" id="section-idea">
-        <div class="container-fluid pr-md-5 pl-md-5">
+        <div class="container-fluid max-element pr-md-5 pl-md-5">
             <div class="row">
                 <div class="col-lg-6 idea-bg">
                 </div>
@@ -127,7 +127,7 @@
 
     <!-- section analyse -->
     <section class="section-analyse" id="section-analyse">
-        <div class="container-fluid pl-md-5">
+        <div class="container-fluid max-element pl-md-5">
             <div class="row">
                 <div class="col-lg-12">
                     <p class="case-study-title fw-450">3. Analýza požadavků a vydefinování cílových skupin</p>
@@ -162,7 +162,7 @@
 
     <!-- section options -->
     <section id="section-options" class="section-options">
-        <div class="container-fluid pr-md-5 pl-md-5">
+        <div class="container-fluid max-element pr-md-5 pl-md-5">
             <div class="row section-box d-flex">
                 <div class="col-lg-6 idea-box">
                     <p class="case-study-title fw-450">4. Možnosti realizace a hlavní cíle projektu</p>
@@ -204,7 +204,7 @@
 
     <!-- section data -->
     <section id="section-data" class="section-data">
-        <div class="container-fluid pr-md-5 pl-md-5">
+        <div class="container-fluid max-element pr-md-5 pl-md-5">
             <div class="row">
                 <div class="col-md-12">
                     <p class="case-study-title fw-450">6. Datová analýza a vyhodnocení jako vstupní podklad</p>
@@ -231,7 +231,7 @@
 
     <!-- section case study -->
     <section id="section-case-study" class="section-case-study">
-        <div class="container-fluid pr-md-5 pl-md-5">
+        <div class="container-fluid max-element pr-md-5 pl-md-5">
             <div class="row">
                 <div class="col-md-12 idea-box">
                     <p class="case-study-title fw-450">7. Tvorba UI/UX a designu aplikace</p>
@@ -347,7 +347,7 @@
 
     <!-- section result -->
     <section id="section-result" class="section-result">
-        <div class="container-fluid pr-md-5 pl-md-5">
+        <div class="container-fluid max-element pr-md-5 pl-md-5">
             <div class="row">
                 <div class="col-md-12">
                     <p class="case-study-title fw-450">8. Vyhodnocení a feedback</p>
@@ -384,7 +384,7 @@
 
     <!-- section plus -->
     <section id="section-plus" class="section-plus">
-        <div class="container-fluid pr-md-5 pl-md-5">
+        <div class="container-fluid max-element pr-md-5 pl-md-5">
             <div class="row">
                 <div class="col-lg-6">
                     <p class="case-study-title fw-450">9. Přínosy pro ogranizátora a běžce</p>
