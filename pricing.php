@@ -45,7 +45,7 @@
                 <div class="col-lg pr-lg-5">
                     <h1 class="purple fw-500 banner-title">Ceník</h1>
                     <p class="mt-40">Ceny v IT nejsou <span class="fw-450">fixní</span>, jako když si kupujete dům, či rohlík v obchodě. Finální cena vždy závisí na mnoha faktorech, které spolu dohodneme na startu spolupráce. Držíme se kréda "raději ubrat z funkcionality, než vyvíjet nekvalitně za málo peněz."
-                        <br /><br />Naše sazba se pohybuje v rozmezí <span class="fw-450 orange">850 - 1500 Kč/Hod.</span>
+                        <br /><br />Naše sazba se pohybuje v rozmezí <span class="fw-450 orange">1000 - 1750 Kč/Hod.</span>
                     </p>
                 </div>
                 <div class="col-lg d-lg-flex justify-content-end p-0 d-none">
@@ -85,7 +85,7 @@
                                 </ul>
                             </p>
                             <div class="price">
-                                880-1500 Kč/Hod
+                                1000-1100 Kč/Hod
                             </div>
                         </div>
                     </div>
@@ -107,7 +107,7 @@
                                 </ul>
                             </p>
                             <div class="price">
-                                860-1400 Kč/Hod
+                                1200-1500 Kč/Hod
                             </div>
                         </div>
                     </div>
@@ -129,7 +129,7 @@
                                 </ul>
                             </p>
                             <div class="price">
-                                850-1200 Kč/Hod
+                                1600-1750 Kč/Hod
                             </div>
                         </div>
                     </div>
