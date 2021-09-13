@@ -23,10 +23,10 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="https://kompilator.cz/pricing.php">
     <meta property="twitter:title" content="Kompilátor - Ceník">
-    <meta property=" twitter:description" content="Naše sazba se pohybuje v rozmezí 850 - 1500 Kč / Hod. Nabízíme 3 typy balíčků - design box, analytics box, product box.">
+    <meta property=" twitter:description" content="Naše sazba se pohybuje v rozmezí 1000 - 1750 Kč / Hod. Nabízíme 3 typy balíčků - design box, analytics box, product box.">
     <meta property="twitter:image" content="https://www.kompilator.cz/img/meta_pricing.jpg">
     <meta name="title" content="Kompilátor - Ceník">
-    <meta name=" description" content="Naše sazba se pohybuje v rozmezí 850 - 1500 Kč / Hod. Nabízíme 3 typy balíčků - design box, analytics box, product box.">
+    <meta name=" description" content="Naše sazba se pohybuje v rozmezí 1000 - 1750 Kč / Hod. Nabízíme 3 typy balíčků - design box, analytics box, product box.">
     <meta name="author" content="Kompilátor s. r. o.">
     <meta name="format-detection" content="telephone=no">
     <meta name="seznam-wmt" content="7EXe6O8iBq0WvVggTh3fhgBa0M5VlTs1" />
